@@ -1,0 +1,10 @@
+{
+  "name": "C-ov-N",
+  "description": "Thee C-ov-N website",
+  "version": "0.0.1",
+  "scripts": {
+    "build": "cp src/* dist/"
+  },
+  "author": "Nia Ain <niaskotl@gmail.com>",
+  "license": "CC BY-SA 4.0"
+}
