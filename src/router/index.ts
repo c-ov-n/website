@@ -17,7 +17,7 @@ const router = createRouter({
     {
       path: "/anq/trees",
       name: "anq-trees",
-      component: () => import("../views/anq/ANQTreesView.vue"),
+      component: () => import("../views/ANQTreesView.vue"),
     },
   ],
 });
