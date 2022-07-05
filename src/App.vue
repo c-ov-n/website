@@ -7,23 +7,33 @@ import { RouterLink, RouterView } from "vue-router";
     <div class="wrapper">
       <nav>
         <RouterLink to="/">Home</RouterLink>
-        <RouterLink to="/about">About</RouterLink>
+        <RouterLink to="/anq">ANQ is Not Qabalah</RouterLink>
+        <div class="subnav">
+        <RouterLink to="/anq/trees">The Trees</RouterLink>
+        </div>
       </nav>
     </div>
   </header>
 
-  <RouterView />
+  <div class="content">
+    <RouterView />
+  </div>
 </template>
 
 <style>
 @import "@/assets/base.css";
 
 #app {
-  max-width: 1280px;
-  margin: 0 auto;
   padding: 2rem;
-
   font-weight: normal;
+  width: 100%;
+}
+
+@media (min-width: 1280px) {
+  #app {
+    margin: 0 auto;
+    width: 1280px;
+  }
 }
 
 header {
@@ -31,59 +41,59 @@ header {
   max-height: 100vh;
 }
 
-a,
-.green {
-  text-decoration: none;
-  color: hsla(160, 100%, 37%, 1);
-  transition: 0.4s;
+div.content {
+  flex: 1;
+  margin-top: 1em;
 }
 
-@media (hover: hover) {
-  a:hover {
-    background-color: hsla(160, 100%, 37%, 0.2);
-  }
+a {
+  text-decoration: none;
+  color: #57c;
+  transition: 0.4s;
+  width: 100%;
 }
 
 nav {
   width: 100%;
-  font-size: 12px;
-  text-align: center;
+  font-size: 1rem;
+  text-align: left;
   margin-top: 2rem;
 }
 
 nav a.router-link-exact-active {
   color: var(--color-text);
-}
-
-nav a.router-link-exact-active:hover {
-  background-color: transparent;
+  border-left: 4px solid rgba(120, 120, 180, 0.8);
 }
 
 nav a {
   display: inline-block;
   padding: 0 1rem;
-  border-left: 1px solid var(--color-border);
+  border-left: 2px solid rgba(120, 120, 180, 0.8);
 }
 
-nav a:first-of-type {
-  border: 0;
+nav a:hover {
+  background-color: #dde;
+}
+
+nav .subnav > a {
+  padding-left: 1.8em;
 }
 
 @media (min-width: 1024px) {
   body {
     display: flex;
-    place-items: center;
+    place-items: start center;
   }
 
   #app {
-    display: grid;
+    display: flex;
     grid-template-columns: 1fr 1fr;
     padding: 0 2rem;
   }
 
   header {
     display: flex;
-    place-items: center;
+    place-items: start;
     padding-right: calc(var(--section-gap) / 2);
   }
 
@@ -98,12 +108,16 @@ nav a:first-of-type {
   }
 
   nav {
-    text-align: left;
+    flex-grow: 0;
     margin-left: -1rem;
     font-size: 1rem;
-
     padding: 1rem 0;
     margin-top: 1rem;
   }
+
+  div.content {
+    flex-grow: 1;
+  }
+
 }
 </style>

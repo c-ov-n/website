@@ -1,0 +1,726 @@
+/* emergence-5x */
+:root {
+  --emergence-5x-non-being-0-font-size: 0.31em;
+  --emergence-5x-non-being-00-font-size: 0.43em;
+  --emergence-5x-non-being-000-font-size: 0.8em;
+  --emergence-5x-non-being-line-thickness: 0.28em;
+  --emergence-5x-path-font-size: calc(var(--emergence-5x-path-width) * 0.65);
+  --emergence-5x-path-shadow: 0 0 0.4vh 0.2vh var(--color-darker);
+  --emergence-5x-path-width: calc(var(--emergence-5x-sphere-diameter) * 0.28);
+  --emergence-5x-sphere-diameter: 13.9vh;
+  --emergence-5x-sphere-name-font-size: calc(var(--emergence-5x-sphere-diameter) * 0.2);
+  --emergence-5x-sphere-number-font-size: calc(var(--emergence-5x-sphere-diameter) * 0.22);
+  --emergence-5x-sphere-shadow: 0 0 0.6vh 0.3vh var(--color-darker);
+  --emergence-5x-sphere-spacing: calc(var(--emergence-5x-sphere-diameter) * 1.8);
+  --emergence-5x-sphere-symbol-font-size: calc(var(--emergence-5x-sphere-diameter) * 0.4);
+  --emergence-5x-top: calc(var(--emergence-5x-sphere-diameter) * 2.75);
+}
+
+#tree-anim.emergence-5x .non-being {
+  display: block;
+  top: var(--emergence-5x-top);
+}
+#tree-anim.emergence-5x.transition-from-emergence-5 .non-being {
+  animation: transition-5x-from-5-non-being var(--transition-duration) ease-in-out;
+}
+@keyframes transition-5x-from-5-non-being {
+  from {
+    top: var(--emergence-5-top);
+  } to {
+    top: var(--emergence-5x-top);
+  }
+}
+
+#tree-anim.emergence-5x .non-being.nothing svg {
+  font-size: var(--emergence-5x-non-being-0-font-size);
+  height: calc(var(--emergence-5x-sphere-spacing) * 3.2);
+  width: calc(var(--emergence-5x-sphere-spacing) * 3.2);
+}
+#tree-anim.emergence-5x.transition-from-emergence-5 .non-being.nothing svg {
+  animation: transition-5x-from-5-nothing-svg var(--transition-duration) ease-in-out;
+}
+@keyframes transition-5x-from-5-nothing-svg {
+  from {
+    font-size: var(--emergence-5-non-being-0-font-size);
+    height: calc(var(--emergence-5-sphere-spacing) * 3.2);
+    width: calc(var(--emergence-5-sphere-spacing) * 3.2);
+  } to {
+    font-size: var(--emergence-5x-non-being-0-font-size);
+    height: calc(var(--emergence-5x-sphere-spacing) * 3.2);
+    width: calc(var(--emergence-5x-sphere-spacing) * 3.2);
+  }
+}
+
+#tree-anim.emergence-5x .non-being.without-limit {
+  border-color: var(--color-light);
+  border-style: solid;
+  border-width: var(--emergence-5x-non-being-line-thickness);
+  height: calc(var(--emergence-5x-sphere-spacing) * 2);
+  width: calc(var(--emergence-5x-sphere-spacing) * 2);
+}
+#tree-anim.emergence-5x.transition-from-emergence-5 .non-being.without-limit {
+  animation: transition-5x-from-5-without-limit var(--transition-duration) ease-in-out;
+}
+@keyframes transition-5x-from-5-without-limit {
+  from {
+    border-width: var(--emergence-5-non-being-line-thickness);
+    height: calc(var(--emergence-5-sphere-spacing) * 2);
+    top: var(--emergence-5-top);
+    width: calc(var(--emergence-5-sphere-spacing) * 2);
+  } to {
+    border-width: var(--emergence-5x-non-being-line-thickness);
+    height: calc(var(--emergence-5x-sphere-spacing) * 2);
+    top: var(--emergence-5x-top);
+    width: calc(var(--emergence-5x-sphere-spacing) * 2);
+  }
+}
+
+#tree-anim.emergence-5x .non-being.without-limit svg {
+  font-size: var(--emergence-5x-non-being-00-font-size);
+  height: calc(var(--emergence-5x-sphere-spacing) * 2.25);
+  width: calc(var(--emergence-5x-sphere-spacing) * 2.25);
+}
+#tree-anim.emergence-5x.transition-from-emergence-5 .non-being.without-limit svg {
+  animation: transition-5x-from-5-without-limit-svg var(--transition-duration) ease-in-out;
+}
+@keyframes transition-5x-from-5-without-limit-svg {
+  from {
+    font-size: var(--emergence-5-non-being-00-font-size);
+    height: calc(var(--emergence-5-sphere-spacing) * 2.25);
+    width: calc(var(--emergence-5-sphere-spacing) * 2.25);
+  } to {
+    font-size: var(--emergence-5x-non-being-00-font-size);
+    height: calc(var(--emergence-5x-sphere-spacing) * 2.25);
+    width: calc(var(--emergence-5x-sphere-spacing) * 2.25);
+  }
+}
+
+#tree-anim.emergence-5x .non-being.all-possibility {
+  border-color: var(--color-light);
+  border-style: solid;
+  border-width: var(--emergence-5x-non-being-line-thickness);
+  height: calc(var(--emergence-5x-sphere-spacing) + var(--emergence-5x-sphere-diameter) * 0.5);
+  width: calc(var(--emergence-5x-sphere-spacing) + var(--emergence-5x-sphere-diameter) * 0.5);
+}
+#tree-anim.emergence-5x.transition-from-emergence-5 .non-being.all-possibility {
+  animation: transition-5x-from-5-all-possibility var(--transition-duration) ease-in-out;
+}
+@keyframes transition-5x-from-5-all-possibility {
+  from {
+    border-width: var(--emergence-5-non-being-line-thickness);
+    height: calc(var(--emergence-5-sphere-spacing) + var(--emergence-5-sphere-diameter) * 0.5);
+    top: var(--emergence-5-top);
+    width: calc(var(--emergence-5-sphere-spacing) + var(--emergence-5-sphere-diameter) * 0.5);
+  } to {
+    border-width: var(--emergence-5x-non-being-line-thickness);
+    height: calc(var(--emergence-5x-sphere-spacing) + var(--emergence-5x-sphere-diameter) * 0.5);
+    top: var(--emergence-5x-top);
+    width: calc(var(--emergence-5x-sphere-spacing) + var(--emergence-5x-sphere-diameter) * 0.5);
+  }
+}
+
+#tree-anim.emergence-5x .non-being.all-possibility svg {
+  font-size: var(--emergence-5x-non-being-000-font-size);
+  height: calc((var(--emergence-5x-sphere-spacing) * 0.91 + var(--emergence-5x-sphere-diameter) * 0.5));
+  width: calc((var(--emergence-5x-sphere-spacing) * 0.91 + var(--emergence-5x-sphere-diameter) * 0.5));
+}
+#tree-anim.emergence-5x.transition-from-emergence-5 .non-being.all-possibility svg {
+  animation: transition-5-from-5-all-possibility-svg var(--transition-duration) ease-in-out;
+}
+@keyframes transition-5-from-5-all-possibility-svg {
+  from {
+    font-size: var(--emergence-5-non-being-000-font-size);
+    height: calc((var(--emergence-5-sphere-spacing) * 0.91 + var(--emergence-5-sphere-diameter) * 0.5));
+    width: calc((var(--emergence-5-sphere-spacing) * 0.91 + var(--emergence-5-sphere-diameter) * 0.5));
+  } to {
+    font-size: var(--emergence-5x-non-being-000-font-size);
+    height: calc((var(--emergence-5x-sphere-spacing) * 0.91 + var(--emergence-5x-sphere-diameter) * 0.5));
+    width: calc((var(--emergence-5x-sphere-spacing) * 0.91 + var(--emergence-5x-sphere-diameter) * 0.5));
+  }
+}
+
+#tree-anim.emergence-5x .non-being-arc-hider {
+  display: block;
+  height: calc(1.5 * var(--emergence-5x-sphere-spacing));
+  top: calc(var(--emergence-5x-top) + 0.8 * var(--emergence-5x-sphere-spacing));
+  width: calc(1.5 * var(--emergence-5x-sphere-spacing));
+}
+
+#tree-anim.emergence-5x .sphere {
+  box-shadow: var(--emergence-5x-sphere-shadow);
+  height: var(--emergence-5x-sphere-diameter);
+  width: var(--emergence-5x-sphere-diameter);
+}
+
+#tree-anim.emergence-5x .sphere .name {
+  font-size: var(--emergence-5x-sphere-name-font-size);
+}
+#tree-anim.emergence-5x.transition-from-emergence-5 .sphere .name {
+  animation: transition-5x-from-5-sphere-name var(--transition-duration) ease-in-out;
+}
+@keyframes transition-5x-from-5-sphere-name {
+  from {
+    font-size: var(--emergence-5-sphere-name-font-size);
+  }
+  to {
+    font-size: var(--emergence-5x-sphere-name-font-size);
+  }
+}
+
+#tree-anim.emergence-5x .sphere .number {
+  font-size: var(--emergence-5x-sphere-number-font-size);
+}
+#tree-anim.emergence-5x.transition-from-emergence-5 .sphere .number {
+  animation: transition-5x-from-5-sphere-number var(--transition-duration) ease-in-out;
+}
+@keyframes transition-5x-from-5-sphere-number {
+  from {
+    font-size: var(--emergence-5-sphere-number-font-size);
+  }
+  to {
+    font-size: var(--emergence-5x-sphere-number-font-size);
+  }
+}
+
+#tree-anim.emergence-5x .sphere .symbol {
+  font-weight: bold;
+  font-size: var(--emergence-5x-sphere-symbol-font-size);
+}
+#tree-anim.emergence-5x.transition-from-emergence-5 .sphere .symbol {
+  animation: transition-5x-from-5-sphere-symbol var(--transition-duration) ease-in-out;
+}
+@keyframes transition-5x-from-5-sphere-symbol {
+  from {
+    font-size: var(--emergence-5-sphere-symbol-font-size);
+  }
+  to {
+    font-size: var(--emergence-5x-sphere-symbol-font-size);
+  }
+}
+
+#tree-anim.emergence-5x .sphere.sphere-1 {
+  display: block;
+  top: var(--emergence-5x-top);
+  left: 50%;
+}
+#tree-anim.emergence-5x.transition-from-emergence-5 .sphere.sphere-1 {
+  animation: transition-5x-from-5-sphere-1 var(--transition-duration) ease-in-out;
+}
+@keyframes transition-5x-from-5-sphere-1 {
+  from {
+    box-shadow: var(--emergence-5-sphere-shadow);
+    box-sizing: border-box;
+    height: var(--emergence-5-sphere-diameter);
+    width: var(--emergence-5-sphere-diameter);
+    top: var(--emergence-5-top);
+  }
+  to {
+    box-shadow: var(--emergence-5x-sphere-shadow);
+    box-sizing: border-box;
+    height: var(--emergence-5x-sphere-diameter);
+    width: var(--emergence-5x-sphere-diameter);
+    top: var(--emergence-5x-top);
+  }
+}
+
+#tree-anim.emergence-5x .sphere.sphere-1 .symbol.chaos {
+  display: block;
+  fill: var(--color-magenta);
+}
+
+#tree-anim.emergence-5x .sphere.sphere-2 {
+  display: block;
+  top: calc(var(--emergence-5x-top) + 0.588 * var(--emergence-5x-sphere-spacing));
+  left: calc(50% + 0.809 * var(--emergence-5x-sphere-spacing));
+}
+#tree-anim.emergence-5x.transition-from-emergence-5 .sphere.sphere-2 {
+  animation: transition-5x-from-5-sphere-2 var(--transition-duration) ease-in-out;
+}
+@keyframes transition-5x-from-5-sphere-2 {
+  from {
+    box-shadow: var(--emergence-5-sphere-shadow);
+    height: var(--emergence-5-sphere-diameter);
+    left: calc(50% + var(--emergence-5-sphere-horizontal-offset));
+    top: calc(var(--emergence-5-top) + var(--emergence-5-sphere-spacing) / 2);
+    width: var(--emergence-5-sphere-diameter);
+  }
+  to {
+    box-shadow: var(--emergence-5x-sphere-shadow);
+    height: var(--emergence-5x-sphere-diameter);
+    left: calc(50% + 0.809 * var(--emergence-5x-sphere-spacing));
+    top: calc(var(--emergence-5x-top) + 0.588 * var(--emergence-5x-sphere-spacing));
+    width: var(--emergence-5x-sphere-diameter);
+  }
+}
+
+#tree-anim.emergence-5x .sphere.sphere-2 .symbol.water {
+  color: var(--color-blue);
+  display: block;
+}
+
+#tree-anim.emergence-5x .sphere.sphere-3 {
+  display: block;
+  top: calc(var(--emergence-5x-top) + 0.588 * var(--emergence-5x-sphere-spacing));
+  left: calc(50% - 0.809 * var(--emergence-5x-sphere-spacing));
+}
+#tree-anim.emergence-5x.transition-from-emergence-5 .sphere.sphere-3 {
+  animation: transition-5x-from-5-sphere-3 var(--transition-duration) ease-in-out;
+}
+@keyframes transition-5x-from-5-sphere-3 {
+  from {
+    box-shadow: var(--emergence-5-sphere-shadow);
+    height: var(--emergence-5-sphere-diameter);
+    left: calc(50% - var(--emergence-5-sphere-horizontal-offset));
+    top: calc(var(--emergence-5-top) + var(--emergence-5-sphere-spacing) / 2);
+    width: var(--emergence-5-sphere-diameter);
+  }
+  to {
+    box-shadow: var(--emergence-5x-sphere-shadow);
+    height: var(--emergence-5x-sphere-diameter);
+    left: calc(50% - 0.809 * var(--emergence-5x-sphere-spacing));
+    top: calc(var(--emergence-5x-top) + 0.588 * var(--emergence-5x-sphere-spacing));
+    width: var(--emergence-5x-sphere-diameter);
+  }
+}
+
+#tree-anim.emergence-5x .sphere.sphere-3 .symbol.air {
+  color: var(--color-yellow);
+  display: block;
+}
+
+#tree-anim.emergence-5x .sphere.sphere-4 {
+  display: block;
+  left: calc(50% - 0.5 * var(--emergence-5x-sphere-spacing));
+  top: calc(var(--emergence-5x-top) + 1.539 * var(--emergence-5x-sphere-spacing));
+}
+#tree-anim.emergence-5x.transition-from-emergence-5 .sphere.sphere-4 {
+  animation: transition-5x-from-5-sphere-4 var(--transition-duration) ease-in-out;
+}
+@keyframes transition-5x-from-5-sphere-4 {
+  from {
+    box-shadow: var(--emergence-5-sphere-shadow);
+    height: var(--emergence-5-sphere-diameter);
+    left: calc(50% + var(--emergence-5-sphere-horizontal-offset));
+    top: calc(var(--emergence-5-top) + var(--emergence-5-sphere-spacing) * 1.5);
+    width: var(--emergence-5-sphere-diameter);
+  }
+  to {
+    box-shadow: var(--emergence-5x-sphere-shadow);
+    height: var(--emergence-5x-sphere-diameter);
+    left: calc(50% - 0.5 * var(--emergence-5x-sphere-spacing));
+    top: calc(var(--emergence-5x-top) + 1.539 * var(--emergence-5x-sphere-spacing));
+    width: var(--emergence-5x-sphere-diameter);
+  }
+}
+
+#tree-anim.emergence-5x .sphere.sphere-4 .name.initial {
+  display: block;
+}
+
+#tree-anim.emergence-5x .sphere.sphere-4 .name {
+  display: none;
+}
+
+#tree-anim.emergence-5x .sphere.sphere-4 .symbol.earth {
+  color: var(--color-green);
+  display: block;
+}
+
+#tree-anim.emergence-5x .sphere.sphere-5 {
+  display: block;
+  top: calc(var(--emergence-5x-top) + 1.539 * var(--emergence-5x-sphere-spacing));
+  left: calc(50% + 0.5 * var(--emergence-5x-sphere-spacing));
+}
+#tree-anim.emergence-5x.transition-from-emergence-5 .sphere.sphere-5 {
+  animation: transition-5x-from-5-sphere-5 var(--transition-duration) ease-in-out;
+}
+@keyframes transition-5x-from-5-sphere-5 {
+  from {
+    box-shadow: var(--emergence-5-sphere-shadow);
+    height: var(--emergence-5-sphere-diameter);
+    left: calc(50% - var(--emergence-5-sphere-horizontal-offset));
+    top: calc(var(--emergence-5-top) + var(--emergence-5-sphere-spacing) * 1.5);
+    width: var(--emergence-5-sphere-diameter);
+  }
+  to {
+    box-shadow: var(--emergence-5x-sphere-shadow);
+    height: var(--emergence-5x-sphere-diameter);
+    left: calc(50% + 0.5 * var(--emergence-5x-sphere-spacing));
+    top: calc(var(--emergence-5x-top) + 1.539 * var(--emergence-5x-sphere-spacing));
+    width: var(--emergence-5x-sphere-diameter);
+  }
+}
+
+#tree-anim.emergence-5x .sphere.sphere-5 .name.initial {
+  display: block;
+}
+
+#tree-anim.emergence-5x .sphere.sphere-5 .name {
+  display: none;
+}
+
+#tree-anim.emergence-5x .sphere.sphere-5 .symbol.fire {
+  color: var(--color-red);
+  display: block;
+}
+
+#tree-anim.emergence-5x .path {
+  box-shadow: var(--emergence-5x-path-shadow);
+  font-size: var(--emergence-5x-path-font-size);
+  height: var(--emergence-5x-path-width);
+}
+
+#tree-anim.emergence-5x .path.path-0 {
+  display: block;
+  left: calc(50% + 0.404 * var(--emergence-5x-sphere-spacing));
+  top: calc(var(--emergence-5x-top) + 0.294 * var(--emergence-5x-sphere-spacing));
+  transform: translate(-50%, -50%) rotate(36deg);
+  width: var(--emergence-5x-sphere-spacing);
+}
+#tree-anim.emergence-5x.transition-from-emergence-5 .path.path-0 {
+  animation: transition-5x-from-5-path-0 var(--transition-duration) ease-in-out;
+}
+@keyframes transition-5x-from-5-path-0 {
+  from {
+    box-shadow: var(--emergence-5-path-shadow);
+    font-size: var(--emergence-5-path-font-size);
+    height: var(--emergence-5-path-width);
+    left: calc(50% + var(--emergence-5-sphere-horizontal-offset) / 2);
+    top: calc(var(--emergence-5-top) + var(--emergence-5-sphere-spacing) * 0.25);
+    transform: translate(-50%, -50%) rotate(30deg);
+    width: var(--emergence-5-sphere-spacing);
+  }
+  to {
+    box-shadow: var(--emergence-5x-path-shadow);
+    font-size: var(--emergence-5x-path-font-size);
+    height: var(--emergence-5x-path-width);
+    left: calc(50% + 0.404 * var(--emergence-5x-sphere-spacing));
+    top: calc(var(--emergence-5x-top) + 0.294 * var(--emergence-5x-sphere-spacing));
+    transform: translate(-50%, -50%) rotate(36deg);
+    width: var(--emergence-5x-sphere-spacing);
+  }
+}
+
+#tree-anim.emergence-5x .path.path-0 .number {
+  transform: translate(-50%, -50%) rotate(-36deg);
+}
+#tree-anim.emergence-5x.transition-from-emergence-5 .path.path-0 .number {
+  animation: transition-5x-from-5-path-0-number var(--transition-duration) ease-in-out;
+}
+@keyframes transition-5x-from-5-path-0-number {
+  from {
+    transform: translate(-50%, -50%) rotate(-30deg);
+  }
+  to {
+    transform: translate(-50%, -50%) rotate(-36deg);
+  }
+}
+
+#tree-anim.emergence-5x .path.path-1 {
+  display: block;
+  left: calc(50% - 0.404 * var(--emergence-5x-sphere-spacing));
+  top: calc(var(--emergence-5x-top) + 0.294 * var(--emergence-5x-sphere-spacing));
+  transform: translate(-50%, -50%) rotate(-36deg);
+  width: var(--emergence-5x-sphere-spacing);
+}
+#tree-anim.emergence-5x.transition-from-emergence-5 .path.path-1 {
+  animation: transition-5x-from-5-path-1 var(--transition-duration) ease-in-out;
+}
+@keyframes transition-5x-from-5-path-1 {
+  from {
+    box-shadow: var(--emergence-5-path-shadow);
+    font-size: var(--emergence-5-path-font-size);
+    height: var(--emergence-5-path-width);
+    left: calc(50% - var(--emergence-5-sphere-horizontal-offset) / 2);
+    top: calc(var(--emergence-5-top) + var(--emergence-5-sphere-spacing) * 0.25);
+    transform: translate(-50%, -50%) rotate(-30deg);
+    width: var(--emergence-5-sphere-spacing);
+  }
+  to {
+    box-shadow: var(--emergence-5x-path-shadow);
+    font-size: var(--emergence-5x-path-font-size);
+    height: var(--emergence-5x-path-width);
+    left: calc(50% - 0.404 * var(--emergence-5x-sphere-spacing));
+    top: calc(var(--emergence-5x-top) + 0.294 * var(--emergence-5x-sphere-spacing));
+    transform: translate(-50%, -50%) rotate(-36deg);
+    width: var(--emergence-5x-sphere-spacing);
+  }
+}
+
+#tree-anim.emergence-5x .path.path-1 .number {
+  transform: translate(-50%, -50%) rotate(36deg);
+}
+#tree-anim.emergence-5x.transition-from-emergence-5 .path.path-1 .number {
+  animation: transition-5x-from-5-path-1-number var(--transition-duration) ease-in-out;
+}
+@keyframes transition-5x-from-5-path-1-number {
+  from {
+    transform: translate(-50%, -50%) rotate(30deg);
+  }
+  to {
+    transform: translate(-50%, -50%) rotate(36deg);
+  }
+}
+
+#tree-anim.emergence-5x .path.path-2 {
+  display: block;
+  left: 50%;
+  top: calc(var(--emergence-5x-top) + 0.588 * var(--emergence-5x-sphere-spacing));
+  width: calc(1.618 * var(--emergence-5x-sphere-spacing));
+}
+#tree-anim.emergence-5x.transition-from-emergence-5 .path.path-2 {
+  animation: transition-5x-from-5-path-2 var(--transition-duration) ease-in-out;
+}
+@keyframes transition-5x-from-5-path-2 {
+  from {
+    box-shadow: var(--emergence-5-path-shadow);
+    font-size: var(--emergence-5-path-font-size);
+    height: var(--emergence-5-path-width);
+    top: calc(var(--emergence-5-top) + var(--emergence-5-sphere-spacing) * 0.5);
+    width: calc(var(--emergence-5-sphere-horizontal-offset) * 2);
+  }
+  to {
+    box-shadow: var(--emergence-5x-path-shadow);
+    font-size: var(--emergence-5x-path-font-size);
+    height: var(--emergence-5x-path-width);
+    top: calc(var(--emergence-5x-top) + 0.588 * var(--emergence-5x-sphere-spacing));
+    width: calc(1.618 * var(--emergence-5x-sphere-spacing));
+  }
+}
+
+#tree-anim.emergence-5x .path.path-3 {
+  display: block;
+  left: calc(50% - 0.25 * var(--emergence-5x-sphere-spacing));
+  top: calc(var(--emergence-5x-top) + 0.769 * var(--emergence-5x-sphere-spacing));
+  transform: translate(-50%, -50%) rotate(108deg);
+  width: calc(1.618 * var(--emergence-5x-sphere-spacing));
+}
+#tree-anim.emergence-5x.transition-from-emergence-5 .path.path-3 {
+  animation: transition-5x-from-5-path-3 var(--transition-duration) ease-in-out;
+}
+@keyframes transition-5x-from-5-path-3 {
+  from {
+    box-shadow: var(--emergence-5-path-shadow);
+    font-size: var(--emergence-5-path-font-size);
+    height: var(--emergence-5-path-width);
+    left: calc(50% + var(--emergence-5-sphere-horizontal-offset) / 2);
+    top: calc(var(--emergence-5-top) + var(--emergence-5-sphere-spacing) * 0.75);
+    transform: translate(-50%, -50%) rotate(60deg);
+    width: calc(var(--emergence-5-sphere-spacing) * 1.5);
+  }
+  to {
+    box-shadow: var(--emergence-5x-path-shadow);
+    font-size: var(--emergence-5x-path-font-size);
+    height: var(--emergence-5x-path-width);
+    left: calc(50% - 0.25 * var(--emergence-5x-sphere-spacing));
+    top: calc(var(--emergence-5x-top) + 0.769 * var(--emergence-5x-sphere-spacing));
+    transform: translate(-50%, -50%) rotate(108deg);
+    width: calc(1.618 * var(--emergence-5x-sphere-spacing));
+  }
+}
+
+#tree-anim.emergence-5x .path.path-3 .number {
+  left: 62%;
+  transform: translate(-50%, -50%) rotate(-108deg);
+}
+#tree-anim.emergence-5x.transition-from-emergence-5 .path.path-3 .number {
+  animation: transition-5x-from-5-path-3-number var(--transition-duration) ease-in-out;
+}
+@keyframes transition-5x-from-5-path-3-number {
+  from {
+    left: 65%;
+    transform: translate(-50%, -50%) rotate(-60deg);
+  }
+  to {
+    left: 62%;
+    transform: translate(-50%, -50%) rotate(-108deg);
+  }
+}
+
+#tree-anim.emergence-5x .path.path-4 {
+  display: block;
+  left: calc(50% + 0.155 * var(--emergence-5x-sphere-spacing));
+  top: calc(var(--emergence-5x-top) + 1.063 * var(--emergence-5x-sphere-spacing));
+  transform: translate(-50%, -50%) rotate(-36deg);
+  width: calc(1.618 * var(--emergence-5x-sphere-spacing));
+}
+#tree-anim.emergence-5x.transition-from-emergence-5 .path.path-4 {
+  animation: transition-5x-from-5-path-4 var(--transition-duration) ease-in-out;
+}
+@keyframes transition-5x-from-5-path-4 {
+  from {
+    box-shadow: var(--emergence-5-path-shadow);
+    font-size: var(--emergence-5-path-font-size);
+    height: var(--emergence-5-path-width);
+    left: calc(50% + var(--emergence-5-sphere-horizontal-offset));
+    transform: translate(-50%, -50%) rotate(-90deg);
+    top: calc(var(--emergence-5-top) + var(--emergence-5-sphere-spacing));
+    width: var(--emergence-5-sphere-spacing);
+  }
+  to {
+    box-shadow: var(--emergence-5x-path-shadow);
+    font-size: var(--emergence-5x-path-font-size);
+    height: var(--emergence-5x-path-width);
+    left: calc(50% + 0.155 * var(--emergence-5x-sphere-spacing));
+    top: calc(var(--emergence-5x-top) + 1.063 * var(--emergence-5x-sphere-spacing));
+    transform: translate(-50%, -50%) rotate(-36deg);
+    width: calc(1.618 * var(--emergence-5x-sphere-spacing));
+  }
+}
+
+#tree-anim.emergence-5x .path.path-4 .number {
+  transform: translate(-50%, -50%) rotate(36deg);
+}
+#tree-anim.emergence-5x.transition-from-emergence-5 .path.path-4 .number {
+  animation: transition-5x-from-5-path-4-number var(--transition-duration) ease-in-out;
+}
+@keyframes transition-5x-from-5-path-4-number {
+  from {
+    transform: translate(-50%, -50%) rotate(90deg);
+  }
+  to {
+    transform: translate(-50%, -50%) rotate(36deg);
+  }
+}
+
+#tree-anim.emergence-5x .path.path-5 {
+  display: block;
+  left: calc(50% - 0.155 * var(--emergence-5x-sphere-spacing));
+  top: calc(var(--emergence-5x-top) + 1.063 * var(--emergence-5x-sphere-spacing));
+  transform: translate(-50%, -50%) rotate(36deg);
+  width: calc(1.618 * var(--emergence-5x-sphere-spacing));
+}
+#tree-anim.emergence-5x.transition-from-emergence-5 .path.path-5 {
+  animation: transition-5x-from-5-path-5 var(--transition-duration) ease-in-out;
+}
+@keyframes transition-5x-from-5-path-5 {
+  from {
+    box-shadow: var(--emergence-5-path-shadow);
+    font-size: var(--emergence-5-path-font-size);
+    height: var(--emergence-5-path-width);
+    left: calc(50% - var(--emergence-5-sphere-horizontal-offset));
+    transform: translate(-50%, -50%) rotate(90deg);
+    top: calc(var(--emergence-5-top) + var(--emergence-5-sphere-spacing));
+    width: var(--emergence-5-sphere-spacing);
+  }
+  to {
+    box-shadow: var(--emergence-5x-path-shadow);
+    font-size: var(--emergence-5x-path-font-size);
+    height: var(--emergence-5x-path-width);
+    left: calc(50% - 0.155 * var(--emergence-5x-sphere-spacing));
+    top: calc(var(--emergence-5x-top) + 1.063 * var(--emergence-5x-sphere-spacing));
+    transform: translate(-50%, -50%) rotate(36deg);
+    width: calc(1.618 * var(--emergence-5x-sphere-spacing));
+  }
+}
+
+#tree-anim.emergence-5x .path.path-5 .number {
+  transform: translate(-50%, -50%) rotate(-36deg);
+}
+#tree-anim.emergence-5x.transition-from-emergence-5 .path.path-5 .number {
+  animation: transition-5x-from-5-path-5-number var(--transition-duration) ease-in-out;
+}
+@keyframes transition-5x-from-5-path-5-number {
+  from {
+    transform: translate(-50%, -50%) rotate(-90deg);
+  }
+  to {
+    transform: translate(-50%, -50%) rotate(-36deg);
+  }
+}
+
+#tree-anim.emergence-5x .path.path-6 {
+  display: block;
+  left: calc(50% + 0.25 * var(--emergence-5x-sphere-spacing));
+  top: calc(var(--emergence-5x-top) + 0.769 * var(--emergence-5x-sphere-spacing));
+  transform: translate(-50%, -50%) rotate(72deg);
+  width: calc(1.618 * var(--emergence-5x-sphere-spacing));
+}
+#tree-anim.emergence-5x.transition-from-emergence-5 .path.path-6 {
+  animation: transition-5x-from-5-path-6 var(--transition-duration) ease-in-out;
+}
+@keyframes transition-5x-from-5-path-6 {
+  from {
+    box-shadow: var(--emergence-5-path-shadow);
+    font-size: var(--emergence-5-path-font-size);
+    height: var(--emergence-5-path-width);
+    left: calc(50% - var(--emergence-5-sphere-horizontal-offset) / 2);
+    top: calc(var(--emergence-5-top) + var(--emergence-5-sphere-spacing) * 0.75);
+    transform: translate(-50%, -50%) rotate(120deg);
+    width: calc(var(--emergence-5-sphere-spacing) * 1.5);
+  }
+  to {
+    box-shadow: var(--emergence-5x-path-shadow);
+    font-size: var(--emergence-5x-path-font-size);
+    height: var(--emergence-5x-path-width);
+    left: calc(50% + 0.25 * var(--emergence-5x-sphere-spacing));
+    top: calc(var(--emergence-5x-top) + 0.769 * var(--emergence-5x-sphere-spacing));
+    transform: translate(-50%, -50%) rotate(72deg);
+    width: calc(1.618 * var(--emergence-5x-sphere-spacing));
+  }
+}
+
+#tree-anim.emergence-5x .path.path-6 .number {
+  left: 62%;
+  transform: translate(-50%, -50%) rotate(-72deg);
+}
+#tree-anim.emergence-5x.transition-from-emergence-5 .path.path-6 .number {
+  animation: transition-5x-from-5-path-6-number var(--transition-duration) ease-in-out;
+}
+@keyframes transition-5x-from-5-path-6-number {
+  from {
+    left: 65%;
+    transform: translate(-50%, -50%) rotate(-120deg);
+  }
+  to {
+    left: 62%;
+    transform: translate(-50%, -50%) rotate(-72deg);
+  }
+}
+
+#tree-anim.emergence-5x .path.path-7 {
+  display: block;
+  left: 50%;
+  top: calc(var(--emergence-5x-top) + 1.539 * var(--emergence-5x-sphere-spacing));
+  width: var(--emergence-5x-sphere-spacing);
+}
+#tree-anim.emergence-5x.transition-from-emergence-5 .path.path-7 {
+  animation: transition-5x-from-5-path-7 var(--transition-duration);
+}
+@keyframes transition-5x-from-5-path-7 {
+  0% {
+    animation-timing-function: ease-in;
+    box-shadow: var(--emergence-5-path-shadow);
+    font-size: var(--emergence-5-path-font-size);
+    height: var(--emergence-5-path-width);
+    top: calc(var(--emergence-5-top) + var(--emergence-5-sphere-spacing) * 1.5);
+    width: calc(var(--emergence-5-sphere-horizontal-offset) * 2);
+  }
+  60% {
+    animation-timing-function: ease-out;
+    width: 0;
+  }
+  100% {
+    box-shadow: var(--emergence-5x-path-shadow);
+    font-size: var(--emergence-5x-path-font-size);
+    height: var(--emergence-5x-path-width);
+    top: calc(var(--emergence-5x-top) + 1.539 * var(--emergence-5x-sphere-spacing));
+    width: var(--emergence-5x-sphere-spacing);
+  }
+}
+
+#tree-anim.emergence-5x .text.emergence-5x {
+  display: block;
+}
+
+#tree-anim.emergence-5x.transition-from-emergence-5 .text.emergence-5x {
+  animation: fade-in calc(var(--transition-duration) / 2);
+  animation-delay: calc(var(--transition-duration) / 2);
+  animation-fill-mode: both;
+}
+
+#tree-anim.emergence-5x.transition-from-emergence-5 .text.emergence-5 {
+  animation: fade-out calc(var(--transition-duration) / 2);
+  animation-fill-mode: both;
+  display: block;
+}

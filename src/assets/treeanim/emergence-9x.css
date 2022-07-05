@@ -1,0 +1,595 @@
+/* emergence-9x */
+:root {
+  --emergence-9x-non-being-0-font-size: 0.31em;
+  --emergence-9x-non-being-00-font-size: 0.43em;
+  --emergence-9x-non-being-000-font-size: 0.8em;
+  --emergence-9x-non-being-line-thickness: 0.28em;
+  --emergence-9x-path-font-size: calc(var(--emergence-9x-path-width) * 0.65);
+  --emergence-9x-path-shadow: 0 0 0.4vh 0.2vh var(--color-darker);
+  --emergence-9x-path-width: calc(var(--emergence-9x-sphere-diameter) * 0.28);
+  --emergence-9x-sphere-diameter: 11.4vh;
+  --emergence-9x-sphere-horizontal-offset: calc(var(--emergence-9x-sphere-spacing) * 0.866);
+  --emergence-9x-sphere-name-font-size: calc(var(--emergence-9x-sphere-diameter) * 0.2);
+  --emergence-9x-sphere-number-font-size: calc(var(--emergence-9x-sphere-diameter) * 0.22);
+  --emergence-9x-sphere-shadow: 0 0 0.6vh 0.3vh var(--color-darker);
+  --emergence-9x-sphere-spacing: calc(var(--emergence-9x-sphere-diameter) * 1.8);
+  --emergence-9x-sphere-symbol-font-size: calc(var(--emergence-9x-sphere-diameter) * 0.4);
+  --emergence-9x-top: calc(var(--emergence-9x-sphere-diameter) * 2.4);
+}
+
+#tree-anim.emergence-9x .non-being {
+  display: block;
+  top: var(--emergence-9x-top);
+}
+#tree-anim.emergence-9x.transition-from-emergence-8x .non-being {
+  animation: transition-9x-from-8x-non-being var(--transition-duration) ease-in-out;
+}
+@keyframes transition-9x-from-8x-non-being {
+  from {
+    top: var(--emergence-8x-top);
+  } to {
+    top: var(--emergence-9x-top);
+  }
+}
+
+#tree-anim.emergence-9x .non-being.nothing svg {
+  font-size: var(--emergence-9x-non-being-0-font-size);
+  height: calc(var(--emergence-9x-sphere-spacing) * 3.2);
+  width: calc(var(--emergence-9x-sphere-spacing) * 3.2);
+}
+#tree-anim.emergence-9x.transition-from-emergence-8x .non-being.nothing svg {
+  animation: transition-9x-from-8x-non-being-nothing-svg var(--transition-duration) ease-in-out;
+}
+@keyframes transition-9x-from-8x-non-being-nothing-svg {
+  from {
+    font-size: var(--emergence-8x-non-being-0-font-size);
+    height: calc(var(--emergence-8x-sphere-spacing) * 3.2);
+    width: calc(var(--emergence-8x-sphere-spacing) * 3.2);
+  } to {
+    font-size: var(--emergence-9x-non-being-0-font-size);
+    height: calc(var(--emergence-9x-sphere-spacing) * 3.2);
+    width: calc(var(--emergence-9x-sphere-spacing) * 3.2);
+  }
+}
+
+#tree-anim.emergence-9x .non-being.without-limit {
+  border-color: var(--color-light);
+  border-style: solid;
+  border-width: var(--emergence-9x-non-being-line-thickness);
+  height: calc(var(--emergence-9x-sphere-spacing) * 2);
+  width: calc(var(--emergence-9x-sphere-spacing) * 2);
+}
+#tree-anim.emergence-9x.transition-from-emergence-8x .non-being.without-limit {
+  animation: transition-9x-from-8x-non-being-without-limit var(--transition-duration) ease-in-out;
+}
+@keyframes transition-9x-from-8x-non-being-without-limit {
+  from {
+    border-width: var(--emergence-8x-non-being-line-thickness);
+    height: calc(var(--emergence-8x-sphere-spacing) * 2);
+    top: var(--emergence-8x-top);
+    width: calc(var(--emergence-8x-sphere-spacing) * 2);
+  } to {
+    border-width: var(--emergence-9x-non-being-line-thickness);
+    height: calc(var(--emergence-9x-sphere-spacing) * 2);
+    top: var(--emergence-9x-top);
+    width: calc(var(--emergence-9x-sphere-spacing) * 2);
+  }
+}
+
+#tree-anim.emergence-9x .non-being.without-limit svg {
+  font-size: var(--emergence-9x-non-being-00-font-size);
+  height: calc(var(--emergence-9x-sphere-spacing) * 2.25);
+  width: calc(var(--emergence-9x-sphere-spacing) * 2.25);
+}
+#tree-anim.emergence-9x.transition-from-emergence-8x .non-being.without-limit svg {
+  animation: transition-9x-from-8x-non-being-without-limit-svg var(--transition-duration) ease-in-out;
+}
+@keyframes transition-9x-from-8x-non-being-without-limit-svg {
+  from {
+    font-size: var(--emergence-8x-non-being-00-font-size);
+    height: calc(var(--emergence-8x-sphere-spacing) * 2.25);
+    width: calc(var(--emergence-8x-sphere-spacing) * 2.25);
+  } to {
+    font-size: var(--emergence-9x-non-being-00-font-size);
+    height: calc(var(--emergence-9x-sphere-spacing) * 2.25);
+    width: calc(var(--emergence-9x-sphere-spacing) * 2.25);
+  }
+}
+
+#tree-anim.emergence-9x .non-being.all-possibility {
+  border-color: var(--color-light);
+  border-style: solid;
+  border-width: var(--emergence-9x-non-being-line-thickness);
+  height: calc(var(--emergence-9x-sphere-spacing) + var(--emergence-9x-sphere-diameter) * 0.5);
+  width: calc(var(--emergence-9x-sphere-spacing) + var(--emergence-9x-sphere-diameter) * 0.5);
+}
+#tree-anim.emergence-9x.transition-from-emergence-8x .non-being.all-possibility {
+  animation: transition-9x-from-8x-non-being-all-possibility var(--transition-duration) ease-in-out;
+}
+@keyframes transition-9x-from-8x-non-being-all-possibility {
+  from {
+    border-width: var(--emergence-8x-non-being-line-thickness);
+    height: calc(var(--emergence-8x-sphere-spacing) + var(--emergence-8x-sphere-diameter) * 0.5);
+    top: var(--emergence-8x-top);
+    width: calc(var(--emergence-8x-sphere-spacing) + var(--emergence-8x-sphere-diameter) * 0.5);
+  } to {
+    border-width: var(--emergence-9x-non-being-line-thickness);
+    height: calc(var(--emergence-9x-sphere-spacing) + var(--emergence-9x-sphere-diameter) * 0.5);
+    top: var(--emergence-9x-top);
+    width: calc(var(--emergence-9x-sphere-spacing) + var(--emergence-9x-sphere-diameter) * 0.5);
+  }
+}
+
+#tree-anim.emergence-9x .non-being.all-possibility svg {
+  font-size: var(--emergence-9x-non-being-000-font-size);
+  height: calc((var(--emergence-9x-sphere-spacing) * 0.91 + var(--emergence-9x-sphere-diameter) * 0.5));
+  width: calc((var(--emergence-9x-sphere-spacing) * 0.91 + var(--emergence-9x-sphere-diameter) * 0.5));
+}
+#tree-anim.emergence-9x.transition-from-emergence-8x .non-being.all-possibility svg {
+  animation: transition-9x-from-8x-non-being-all-possibility-svg var(--transition-duration) ease-in-out;
+}
+@keyframes transition-9x-from-8x-non-being-all-possibility-svg {
+  from {
+    font-size: var(--emergence-8x-non-being-000-font-size);
+    height: calc((var(--emergence-8x-sphere-spacing) * 0.91 + var(--emergence-8x-sphere-diameter) * 0.5));
+    width: calc((var(--emergence-8x-sphere-spacing) * 0.91 + var(--emergence-8x-sphere-diameter) * 0.5));
+  } to {
+    font-size: var(--emergence-9x-non-being-000-font-size);
+    height: calc((var(--emergence-9x-sphere-spacing) * 0.91 + var(--emergence-9x-sphere-diameter) * 0.5));
+    width: calc((var(--emergence-9x-sphere-spacing) * 0.91 + var(--emergence-9x-sphere-diameter) * 0.5));
+  }
+}
+
+#tree-anim.emergence-9x .non-being-arc-hider {
+  display: block;
+  height: calc(1.5 * var(--emergence-9x-sphere-spacing));
+  top: calc(var(--emergence-9x-top) + 0.8 * var(--emergence-9x-sphere-spacing));
+  width: calc(1.5 * var(--emergence-9x-sphere-spacing));
+}
+
+#tree-anim.emergence-9x .sphere {
+  box-shadow: var(--emergence-9x-sphere-shadow);
+  box-sizing: border-box;
+  height: var(--emergence-9x-sphere-diameter);
+  width: var(--emergence-9x-sphere-diameter);
+}
+
+#tree-anim.emergence-9x .sphere .name {
+  font-size: var(--emergence-9x-sphere-name-font-size);
+}
+
+#tree-anim.emergence-9x .sphere .number {
+  font-size: var(--emergence-9x-sphere-number-font-size);
+}
+
+#tree-anim.emergence-9x .sphere .symbol {
+  font-weight: bold;
+  font-size: var(--emergence-9x-sphere-symbol-font-size);
+}
+
+#tree-anim.emergence-9x .sphere.sphere-1 {
+  display: block;
+  top: var(--emergence-9x-top);
+  left: 50%;
+}
+
+#tree-anim.emergence-9x .sphere.sphere-1 .symbol.chaos {
+  display: block;
+  fill: var(--color-magenta);
+}
+
+#tree-anim.emergence-9x .sphere.sphere-2 {
+  display: block;
+  top: calc(var(--emergence-9x-top) + var(--emergence-9x-sphere-spacing) / 2);
+  left: calc(50% - var(--emergence-9x-sphere-horizontal-offset));
+}
+
+#tree-anim.emergence-9x .sphere.sphere-2 .symbol.water {
+  color: var(--color-blue);
+  display: block;
+}
+
+
+#tree-anim.emergence-9x .sphere.sphere-3 {
+  display: block;
+  top: calc(var(--emergence-9x-top) + var(--emergence-9x-sphere-spacing) / 2);
+  left: calc(50% + var(--emergence-9x-sphere-horizontal-offset));
+}
+
+#tree-anim.emergence-9x .sphere.sphere-3 .symbol.air {
+  color: var(--color-yellow);
+  display: block;
+}
+
+#tree-anim.emergence-9x .sphere.sphere-4 {
+  display: block;
+  top: calc(var(--emergence-9x-top) + var(--emergence-9x-sphere-spacing) * 1.5);
+  left: calc(50% + var(--emergence-9x-sphere-horizontal-offset));
+}
+
+#tree-anim.emergence-9x .sphere.sphere-4 .symbol.earth {
+  color: var(--color-green);
+  display: block;
+}
+
+#tree-anim.emergence-9x .sphere.sphere-5 {
+  display: block;
+  top: calc(var(--emergence-9x-top) + var(--emergence-9x-sphere-spacing) * 1.5);
+  left: calc(50% - var(--emergence-9x-sphere-horizontal-offset));
+}
+
+#tree-anim.emergence-9x .sphere.sphere-5 .symbol.fire {
+  color: var(--color-red);
+  display: block;
+}
+
+#tree-anim.emergence-9x .sphere.sphere-6 {
+  display: block;
+  top: calc(var(--emergence-9x-top) + var(--emergence-9x-sphere-spacing) * 2);
+  left: 50%;
+}
+
+#tree-anim.emergence-9x .sphere.sphere-6 .symbol.hexagram {
+  display: block;
+  fill: var(--color-cyan);
+}
+
+#tree-anim.emergence-9x .sphere.sphere-7 {
+  display: block;
+  top: calc(var(--emergence-9x-top) + var(--emergence-9x-sphere-spacing) * 2.5);
+  left: calc(50% + var(--emergence-9x-sphere-horizontal-offset));
+}
+
+#tree-anim.emergence-9x .sphere.sphere-8 {
+  display: block;
+  top: calc(var(--emergence-9x-top) + var(--emergence-9x-sphere-spacing) * 2.5);
+  left: calc(50% - var(--emergence-9x-sphere-horizontal-offset));
+}
+
+#tree-anim.emergence-9x .sphere.sphere-9 {
+  display: block;
+  top: calc(var(--emergence-9x-top) + var(--emergence-9x-sphere-spacing) * 3);
+  left: 50%;
+}
+#tree-anim.emergence-9x.transition-from-emergence-8x .sphere.sphere-9 {
+  animation: transition-9x-from-8x-sphere-9 var(--transition-duration) ease-in-out;
+}
+@keyframes transition-9x-from-8x-sphere-9 {
+  from {
+    height: var(--emergence-8x-sphere-diameter);
+    top: calc(var(--emergence-8x-top) + var(--emergence-8x-sphere-spacing) * 2);
+    width: var(--emergence-8x-sphere-diameter);
+  } to {
+    height: var(--emergence-9x-sphere-diameter);
+    top: calc(var(--emergence-9x-top) + var(--emergence-9x-sphere-spacing) * 3);
+    width: var(--emergence-9x-sphere-diameter);
+  }
+}
+
+#tree-anim.emergence-9x .path {
+  box-shadow: var(--emergence-9x-path-shadow);
+  font-size: var(--emergence-9x-path-font-size);
+}
+
+#tree-anim.emergence-9x .path.path-0 {
+  display: block;
+  height: var(--emergence-9x-sphere-spacing);
+  left: calc(50% - var(--emergence-9x-sphere-horizontal-offset) / 2);
+  top: calc(var(--emergence-9x-top) + var(--emergence-9x-sphere-spacing) * 0.25);
+  transform: translate(-50%, -50%) rotate(60deg);
+  width: var(--emergence-9x-path-width);
+}
+
+#tree-anim.emergence-9x .path.path-0 .number {
+  transform: translate(-50%, -50%) rotate(-60deg);
+}
+
+#tree-anim.emergence-9x .path.path-1 {
+  display: block;
+  height: var(--emergence-9x-sphere-spacing);
+  left: calc(50% + var(--emergence-9x-sphere-horizontal-offset) / 2);
+  top: calc(var(--emergence-9x-top) + var(--emergence-9x-sphere-spacing) * 0.25);
+  transform: translate(-50%, -50%) rotate(-60deg);
+  width: var(--emergence-9x-path-width);
+}
+
+#tree-anim.emergence-9x .path.path-1 .number {
+  transform: translate(-50%, -50%) rotate(60deg);
+}
+
+#tree-anim.emergence-9x .path.path-2 {
+  display: block;
+  left: 50%;
+  top: calc(var(--emergence-9x-top) + var(--emergence-9x-sphere-spacing) * 0.5);
+  width: calc(var(--emergence-9x-sphere-horizontal-offset) * 2);
+  height: var(--emergence-9x-path-width);
+}
+
+#tree-anim.emergence-9x .path.path-3 {
+  display: block;
+  height: var(--emergence-9x-sphere-spacing);
+  left: calc(50% + var(--emergence-9x-sphere-horizontal-offset) / 2);
+  top: calc(var(--emergence-9x-top) + var(--emergence-9x-sphere-spacing) * 1.75);
+  transform: translate(-50%, -50%) rotate(240deg);
+  width: var(--emergence-9x-path-width);
+}
+
+#tree-anim.emergence-9x .path.path-3 .number {
+  transform: translate(-50%, -50%) rotate(-240deg);
+}
+
+#tree-anim.emergence-9x .path.path-4 {
+  display: block;
+  height: calc(2 * var(--emergence-9x-sphere-spacing));
+  left: 50%;
+  top: calc(var(--emergence-9x-top) + var(--emergence-9x-sphere-spacing));
+  width: var(--emergence-9x-path-width);
+  transform: translate(-50%, -50%) rotate(-60deg);
+}
+
+#tree-anim.emergence-9x .path.path-4 .number {
+  top: 30%;
+  transform: translate(-50%, -50%) rotate(60deg);
+}
+
+#tree-anim.emergence-9x .path.path-5 {
+  display: block;
+  height: calc(2 * var(--emergence-9x-sphere-spacing));
+  left: 50%;
+  top: calc(var(--emergence-9x-top) + var(--emergence-9x-sphere-spacing));
+  transform: translate(-50%, -50%) rotate(60deg);
+  width: var(--emergence-9x-path-width);
+}
+
+#tree-anim.emergence-9x .path.path-5 .number {
+  top: 30%;
+  transform: translate(-50%, -50%) rotate(-60deg);
+}
+
+#tree-anim.emergence-9x .path.path-6 {
+  display: block;
+  height: var(--emergence-9x-sphere-spacing);
+  left: calc(50% - var(--emergence-9x-sphere-horizontal-offset) / 2);
+  top: calc(var(--emergence-9x-top) + var(--emergence-9x-sphere-spacing) * 1.75);
+  transform: translate(-50%, -50%) rotate(-240deg);
+  width: var(--emergence-9x-path-width);
+}
+#tree-anim.emergence-9x .path.path-6 .number {
+  transform: translate(-50%, -50%) rotate(240deg);
+}
+
+#tree-anim.emergence-9x .path.path-7 {
+  display: block;
+  left: 50%;
+  top: calc(var(--emergence-9x-top) + var(--emergence-9x-sphere-spacing) * 1.5);
+  width: calc(var(--emergence-9x-sphere-horizontal-offset) * 2);
+  height: var(--emergence-9x-path-width);
+}
+
+#tree-anim.emergence-9x .path.path-8 {
+  display: block;
+  height: calc(2 * var(--emergence-9x-sphere-spacing));
+  left: 50%;
+  top: calc(var(--emergence-9x-top) + var(--emergence-9x-sphere-spacing));
+  width: var(--emergence-9x-path-width);
+}
+
+#tree-anim.emergence-9x .path.path-9 {
+  display: block;
+  height: calc(var(--emergence-9x-sphere-spacing) * 1.5);
+  left: calc(50% - var(--emergence-9x-sphere-horizontal-offset) / 2);
+  top: calc(var(--emergence-9x-top) + var(--emergence-9x-sphere-spacing) * 1.25);
+  transform: translate(-50%, -50%) rotate(150deg);
+  width: var(--emergence-9x-path-width);
+}
+
+#tree-anim.emergence-9x .path.path-9 .number {
+  top: 65%;
+  transform: translate(-50%, -50%) rotate(-150deg);
+}
+
+#tree-anim.emergence-9x .path.path-10 {
+  display: block;
+  height: calc(var(--emergence-9x-sphere-spacing) * 1.5);
+  left: calc(50% + var(--emergence-9x-sphere-horizontal-offset) / 2);
+  top: calc(var(--emergence-9x-top) + var(--emergence-9x-sphere-spacing) * 1.25);
+  transform: translate(-50%, -50%) rotate(-150deg);
+  width: var(--emergence-9x-path-width);
+}
+
+#tree-anim.emergence-9x .path.path-10 .number {
+  top: 65%;
+  transform: translate(-50%, -50%) rotate(150deg);
+}
+
+#tree-anim.emergence-9x .path.path-11 {
+  display: block;
+  height: var(--emergence-9x-sphere-spacing);
+  left: calc(50% + var(--emergence-9x-sphere-horizontal-offset) / 2);
+  top: calc(var(--emergence-9x-top) + var(--emergence-9x-sphere-spacing) * 2.25);
+  width: var(--emergence-9x-path-width);
+  transform: translate(-50%, -50%) rotate(-60deg);
+}
+#tree-anim.emergence-9x .path.path-11 .number {
+  transform: translate(-50%, -50%) rotate(60deg);
+}
+
+#tree-anim.emergence-9x .path.path-12 {
+  display: block;
+  height: var(--emergence-9x-sphere-spacing);
+  left: calc(50% + var(--emergence-9x-sphere-horizontal-offset));
+  top: calc(var(--emergence-9x-top) + var(--emergence-9x-sphere-spacing) * 2);
+  width: var(--emergence-9x-path-width);
+}
+
+#tree-anim.emergence-9x .path.path-13 {
+  display: block;
+  height: var(--emergence-9x-sphere-spacing);
+  left: calc(50% - var(--emergence-9x-sphere-horizontal-offset));
+  top: calc(var(--emergence-9x-top) + var(--emergence-9x-sphere-spacing) * 2);
+  width: var(--emergence-9x-path-width);
+}
+
+#tree-anim.emergence-9x .path.path-14 {
+  display: block;
+  height: var(--emergence-9x-sphere-spacing);
+  left: calc(50% - var(--emergence-9x-sphere-horizontal-offset) / 2);
+  top: calc(var(--emergence-9x-top) + var(--emergence-9x-sphere-spacing) * 2.25);
+  transform: translate(-50%, -50%) rotate(60deg);
+  width: var(--emergence-9x-path-width);
+}
+#tree-anim.emergence-9x .path.path-14 .number {
+  transform: translate(-50%, -50%) rotate(-60deg);
+}
+
+#tree-anim.emergence-9x .path.path-15 {
+  display: block;
+  height: var(--emergence-9x-path-width);
+  left: 50%;
+  top: calc(var(--emergence-9x-top) + var(--emergence-9x-sphere-spacing) * 2.5);
+  width: calc(var(--emergence-9x-sphere-horizontal-offset) * 2);
+}
+
+#tree-anim.emergence-9x .path.path-15 .number {
+  left: 32%;
+}
+#tree-anim.emergence-9x.transition-from-emergence-8x .path.path-15 .number {
+  animation: transition-9x-from-8x-path-15-number var(--transition-duration) ease-in-out;
+}
+@keyframes transition-9x-from-8x-path-15-number {
+  from {
+    left: 50%;
+  } to {
+    left: 32%;
+  }
+}
+
+#tree-anim.emergence-9x .path.path-16 {
+  display: block;
+  height: var(--emergence-9x-sphere-spacing);
+  left: 50%;
+  top: calc(var(--emergence-9x-top) + var(--emergence-9x-sphere-spacing) * 2.5);
+  width: var(--emergence-9x-path-width);
+}
+#tree-anim.emergence-9x.transition-from-emergence-8x .path.path-16 {
+  animation: transition-9x-from-8x-path-16 var(--transition-duration) ease-in-out;
+}
+@keyframes transition-9x-from-8x-path-16 {
+  from {
+    box-shadow: var(--emergence-8x-path-shadow);
+    font-size: var(--emergence-8x-path-font-size);
+    height: 0;
+    top: calc(var(--emergence-8x-top) + var(--emergence-8x-sphere-spacing) * 2);
+    width: var(--emergence-8x-path-width);
+  } to {
+    box-shadow: var(--emergence-9x-path-shadow);
+    font-size: var(--emergence-9x-path-font-size);
+    height: var(--emergence-9x-sphere-spacing);
+    top: calc(var(--emergence-9x-top) + var(--emergence-9x-sphere-spacing) * 2.5);
+    width: var(--emergence-9x-path-width);
+  }
+}
+
+#tree-anim.emergence-9x .path.path-17 {
+  display: block;
+  height: var(--emergence-9x-path-width);
+  left: calc(50% + var(--emergence-9x-sphere-horizontal-offset) / 2);
+  top: calc(var(--emergence-9x-top) + var(--emergence-9x-sphere-spacing) * 2.75);
+  width: var(--emergence-9x-sphere-spacing);
+  transform: translate(-50%, -50%) rotate(-30deg);
+}
+#tree-anim.emergence-9x.transition-from-emergence-8x .path.path-17 {
+  animation: transition-9x-from-8x-path-17 var(--transition-duration) ease-in-out;
+}
+@keyframes transition-9x-from-8x-path-17 {
+  from {
+    box-shadow: var(--emergence-8x-path-shadow);
+    font-size: var(--emergence-8x-path-font-size);
+    height: var(--emergence-8x-path-width);
+    left: calc(50% + var(--emergence-8x-sphere-horizontal-offset) / 2);
+    top: calc(var(--emergence-8x-top) + var(--emergence-8x-sphere-spacing) * 2.25);
+    transform: translate(-50%, -50%) rotate(30deg);
+    width: var(--emergence-8x-sphere-spacing);
+  } to {
+    box-shadow: var(--emergence-9x-path-shadow);
+    font-size: var(--emergence-9x-path-font-size);
+    height: var(--emergence-9x-path-width);
+    left: calc(50% + var(--emergence-9x-sphere-horizontal-offset) / 2);
+    top: calc(var(--emergence-9x-top) + var(--emergence-9x-sphere-spacing) * 2.75);
+    transform: translate(-50%, -50%) rotate(-30deg);
+    width: var(--emergence-9x-sphere-spacing);
+  }
+}
+
+#tree-anim.emergence-9x .path.path-17 .number {
+  transform: translate(-50%, -50%) rotate(30deg);
+}
+#tree-anim.emergence-9x.transition-from-emergence-8x .path.path-17 .number {
+  animation: transition-9x-from-8x-path-17-number var(--transition-duration) ease-in-out;
+}
+@keyframes transition-9x-from-8x-path-17-number {
+  from {
+    transform: translate(-50%, -50%) rotate(-30deg);
+  } to {
+    transform: translate(-50%, -50%) rotate(30deg);
+  }
+}
+
+#tree-anim.emergence-9x .path.path-18 {
+  display: block;
+  height: var(--emergence-9x-path-width);
+  left: calc(50% - var(--emergence-9x-sphere-horizontal-offset) / 2);
+  top: calc(var(--emergence-9x-top) + var(--emergence-9x-sphere-spacing) * 2.75);
+  width: var(--emergence-9x-sphere-spacing);
+  transform: translate(-50%, -50%) rotate(30deg);
+}
+#tree-anim.emergence-9x.transition-from-emergence-8x .path.path-18 {
+  animation: transition-9x-from-8x-path-18 var(--transition-duration) ease-in-out;
+}
+@keyframes transition-9x-from-8x-path-18 {
+  from {
+    box-shadow: var(--emergence-8x-path-shadow);
+    font-size: var(--emergence-8x-path-font-size);
+    height: var(--emergence-8x-path-width);
+    left: calc(50% - var(--emergence-8x-sphere-horizontal-offset) / 2);
+    top: calc(var(--emergence-8x-top) + var(--emergence-8x-sphere-spacing) * 2.25);
+    transform: translate(-50%, -50%) rotate(-30deg);
+    width: var(--emergence-8x-sphere-spacing);
+  } to {
+    box-shadow: var(--emergence-9x-path-shadow);
+    font-size: var(--emergence-9x-path-font-size);
+    height: var(--emergence-9x-path-width);
+    left: calc(50% - var(--emergence-9x-sphere-horizontal-offset) / 2);
+    top: calc(var(--emergence-9x-top) + var(--emergence-9x-sphere-spacing) * 2.75);
+    transform: translate(-50%, -50%) rotate(30deg);
+    width: var(--emergence-9x-sphere-spacing);
+  }
+}
+
+#tree-anim.emergence-9x .path.path-18 .number {
+  transform: translate(-50%, -50%) rotate(-30deg);
+}
+#tree-anim.emergence-9x.transition-from-emergence-8x .path.path-18 .number {
+  animation: transition-9x-from-8x-path-18-number var(--transition-duration) ease-in-out;
+}
+@keyframes transition-9x-from-8x-path-18-number {
+  from {
+    transform: translate(-50%, -50%) rotate(30deg);
+  } to {
+    transform: translate(-50%, -50%) rotate(-30deg);
+  }
+}
+
+#tree-anim.emergence-9x .text.emergence-9x {
+  display: block;
+}
+#tree-anim.emergence-9x.transition-from-emergence-8x .text.emergence-9x {
+  animation: fade-in calc(var(--transition-duration) / 2);
+  animation-delay: calc(var(--transition-duration) / 2);
+  animation-fill-mode: both;
+}
+#tree-anim.emergence-9x.transition-from-emergence-8x .text.emergence-8x {
+  animation: fade-out calc(var(--transition-duration) / 2);
+  animation-fill-mode: both;
+  display: block;
+}

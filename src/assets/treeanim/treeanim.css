@@ -1,0 +1,387 @@
+:root {
+  --color-darker: #222;
+  --color-dark: #333;
+  --color-medium: #666;
+  --color-light: #eee;
+  --color-blue: #11b;
+  --color-cyan: #19a;
+  --color-green: #1a1;
+  --color-magenta: #a1a;
+  --color-red: #b11;
+  --color-yellow: #bbaa00;
+  --transition-duration: 1.5s;
+  --path-arrow-start-svg: url(path-arrow-start.svg);	  
+  --path-arrow-end-svg: url(path-arrow-end.svg);	  
+}             
+    	  
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fade-out {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+html, body {
+  background-color: var(--color-medium);
+  margin: 0;
+  padding: 0;
+}
+
+#tree-anim {
+  animation-timing-function: ease-in-out;
+  bottom: 0;
+  box-sizing: border-box;
+  display: none;
+  left: 50%;
+  margin: auto;
+  padding: 0;
+  position: absolute;
+  top: 0;
+  transform: translateX(-50%);
+  width: 161.8vh;
+}
+
+#tree-anim .controls {
+  background-color: var(--color-light);
+  box-sizing: border-box;
+  color: var(--color-dark);
+  font-size: 4vh;
+  line-height: 5.1vh;
+  position: absolute;
+  bottom: 0;
+  margin: 0;
+  padding: 2vh;
+  right: 0;
+  top: 0;
+  width: 100vh;
+  z-index: 100;
+}
+
+#tree-anim .controls .nav {
+  display: grid;
+  font-size: 3.5vh;
+  grid-template-columns: 20% auto 20%;
+}
+
+#tree-anim .controls .nav a.disabled {
+  color: var(--color-medium);
+}
+
+#tree-anim .controls .nav a.next {
+  text-decoration: none;
+  text-align: right;
+}
+
+#tree-anim .controls .nav a.next:after {
+  content: '\f0da';
+  font-family: FontAwesome;
+  font-weight: normal;
+  font-style: normal;
+  margin: 0 0 0 1vh;
+  text-decoration:none;
+}
+
+#tree-anim .controls .nav a.previous {
+  text-decoration: none;
+}
+
+#tree-anim .controls .nav a.previous:before {
+  content: '\f0d9';
+  font-family: FontAwesome;
+  font-weight: normal;
+  font-style: normal;
+  margin: 0 1vh 0 0;
+  text-decoration: none;
+}
+
+#tree-anim .controls .nav .step-select {
+  text-align: center;
+}
+
+#tree-anim .text h1 {
+  margin: 2vh 0;
+  padding: 0;
+  font-size: 4.8vh;
+}
+
+#tree-anim .display {
+  background-color: var(--color-dark);
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  top: 0;
+  width: 61.8vh;
+  z-index: 1;
+}
+
+#tree-anim .display > * {
+  display: none;
+}
+
+#tree-anim .text {
+  display: none;
+  position: absolute;
+  top: 8vh;
+  padding-right: 2vh;
+  box-sizing: border-box;
+}
+
+#tree-anim .non-being {
+  border-radius: 50%;
+  color: var(--color-light);
+  display: none;
+  position: absolute;
+  text-align: center;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#tree-anim .non-being svg {
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#tree-anim .non-being svg path {
+  fill: none;
+}
+
+#tree-anim .non-being svg text {
+  fill: var(--color-light);
+}
+
+#tree-anim .impulse {
+  border-radius: 50%;
+  display: none;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  z-index: 1000;
+}
+
+#tree-anim .non-being-arc-hider {
+  background-color: var(--color-dark);
+  border-radius: 50%;
+  display: none;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+}
+
+#tree-anim .path {
+  background-color: var(--color-light);
+  color: var(--color-dark);
+  display: none;
+  position: absolute;
+  text-align: center;
+  transform: translate(-50%, -50%);
+}
+
+#tree-anim .path .number {
+  font-weight: bold;
+  position: absolute;
+  text-align: center;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  top: 50%;
+}
+
+#tree-anim .path .fools-journey-number {
+  display: none;
+  font-weight: bold;
+  position: absolute;
+  text-align: center;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  top: 50%;
+}
+
+#tree-anim .sphere {
+  background-color: var(--color-light);
+  border-radius: 50%;
+  box-sizing: border-box;
+  color: var(--color-dark);
+  display: none;
+  position: absolute;
+  text-align: center;
+  transform: translate(-50%, -50%);
+}
+
+#tree-anim .sphere .name {
+  position: absolute;
+  left: 50%;
+  top: 45%;
+  transform: translate(-50%, -50%);
+}
+
+#tree-anim .sphere .name.initial {
+  display: none;
+}
+
+#tree-anim .sphere .number {
+  font-weight: bold;
+  position: absolute;
+  left: 50%;
+  top: 20%;
+  transform: translate(-50%, -50%);
+}
+
+#tree-anim .sphere .symbol {
+  display: none;
+  font-weight: bold;
+  position: absolute;
+  left: 50%;
+  top: 74%;
+  transform: translate(-50%, -50%);
+}
+
+#tree-anim .sphere svg.symbol {
+  height: 38%;
+  width: 38%;
+}
+
+#tree-anim .sphere img.symbol.anq-number {
+  height: 38%;
+  width: 38%;
+}
+
+#tree-anim .sphere.sphere-1 {
+  z-index: 145;
+}
+#tree-anim .sphere.sphere-2 {
+  z-index: 135;
+}
+#tree-anim .sphere.sphere-3 {
+  z-index: 125;
+}
+#tree-anim .sphere.sphere-4 {
+  z-index: 115;
+}
+#tree-anim .sphere.sphere-5 {
+  z-index: 105;
+}
+#tree-anim .sphere.sphere-6 {
+  z-index: 95;
+}
+#tree-anim .sphere.sphere-7 {
+  z-index: 85;
+}
+#tree-anim .sphere.sphere-8 {
+  z-index: 75;
+}
+#tree-anim .sphere.sphere-9 {
+  z-index: 65;
+}
+#tree-anim .sphere.sphere-10 {
+  z-index: 55;
+}
+#tree-anim .sphere.sphere-11 {
+  z-index: 45;
+}
+#tree-anim .sphere.sphere-12 {
+  z-index: 35;
+}
+
+#tree-anim .path.path-0 {
+  z-index: 121;
+}
+#tree-anim .path.path-1 {
+  z-index: 120;
+}
+#tree-anim .path.path-2 {
+  z-index: 120;
+}
+#tree-anim .path.path-3 {
+  z-index: 94;
+}
+#tree-anim .path.path-4 {
+  z-index: 90;
+}
+#tree-anim .path.path-5 {
+  z-index: 90;
+}
+#tree-anim .path.path-6 {
+  z-index: 93;
+}
+#tree-anim .path.path-7 {
+  z-index: 100;
+}
+#tree-anim .path.path-8 {
+  z-index: 93;
+}
+#tree-anim .path.path-9 {
+  z-index: 91;
+}
+#tree-anim .path.path-10 {
+  z-index: 91;
+}
+#tree-anim .path.path-11 {
+  z-index: 41;
+}
+#tree-anim .path.path-12 {
+  z-index: 20;
+}
+#tree-anim .path.path-13 {
+  z-index: 20;
+}
+#tree-anim .path.path-14 {
+  z-index: 40;
+}
+#tree-anim .path.path-15 {
+  z-index: 10;
+}
+#tree-anim .path.path-16 {
+  z-index: 20;
+}
+#tree-anim .path.path-17 {
+  z-index: 30;
+}
+#tree-anim .path.path-18 {
+  z-index: 30;
+}
+#tree-anim .path.path-19 {
+  z-index: 40;
+}
+#tree-anim .path.path-20 {
+  z-index: 20;
+}
+#tree-anim .path.path-21 {
+  z-index: 20;
+}
+#tree-anim .path.path-22 {
+  z-index: 39;
+}
+#tree-anim .path.path-23 {
+  z-index: 20;
+}
+#tree-anim .path.path-24 {
+  z-index: 30;
+}
+#tree-anim .path.path-25 {
+  z-index: 15;
+}
+#tree-anim .path.path-26 {
+  z-index: 15;
+}
+#tree-anim .path.path-27 {
+  z-index: 10;
+}
+#tree-anim .path.path-28 {
+  z-index: 10;
+}
+#tree-anim .path.path-29 {
+  z-index: 10;
+}

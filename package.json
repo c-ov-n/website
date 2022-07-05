@@ -1,6 +1,7 @@
 {
   "name": "c-ov-n",
   "author": "Nia Ain <niaskotl@gmail.com>",
+  "description": "Thee C-ov-N Website",
   "license": "CC BY-SA 4.0",
   "version": "0.0.1",
   "scripts": {

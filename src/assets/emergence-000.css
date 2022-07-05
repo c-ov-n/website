@@ -1,0 +1,98 @@
+/* emergence-000 */
+
+#tree-anim.emergence-000 .non-being {
+  display: block;
+  height: 2000vh;
+  width: 2000vh;
+}
+
+#tree-anim.emergence-000 .non-being svg {
+  font-size: 0.018em;
+  height: 2802vh;
+  width: 2802vh;
+}
+
+#tree-anim.emergence-000 .non-being.nothing {
+  top: 1000vh;
+}
+
+#tree-anim.emergence-000 .non-being.without-limit {
+  border: 1vh solid var(--color-light);
+  top: 1031vh;
+}
+
+#tree-anim.emergence-000 .non-being.all-possibility {
+  border: 1vh solid var(--color-light);
+  top: 1064vh;
+}
+
+#tree-anim.emergence-000 .text.emergence-000 {
+  display: block;
+}
+
+#tree-anim.emergence-000.transition-from-emergence-00 .non-being svg {
+  animation: transition-000-from-00-non-being-svg var(--transition-duration);
+}
+
+#tree-anim.emergence-000.transition-from-emergence-00 .non-being.nothing {
+  animation: transition-000-from-00-nothing var(--transition-duration);
+}
+
+#tree-anim.emergence-000.transition-from-emergence-00 .non-being.without-limit {
+  animation: transition-000-from-00-without-limit var(--transition-duration);
+}
+
+#tree-anim.emergence-000.transition-from-emergence-00 .non-being.all-possibility {
+  animation: transition-000-from-00-all-possibility var(--transition-duration);
+}
+
+#tree-anim.emergence-000.transition-from-emergence-00 .text.emergence-000 {
+  animation: fade-in calc(var(--transition-duration) / 2);
+  animation-delay: calc(var(--transition-duration) / 2);
+  animation-fill-mode: both;
+}
+
+#tree-anim.emergence-000.transition-from-emergence-00 .text.emergence-00 {
+  animation: fade-out calc(var(--transition-duration) / 2);
+  animation-fill-mode: both;
+  display: block;
+}
+
+@keyframes transition-000-from-00-non-being-svg {
+  from {
+    height: 2778vh;
+    width: 2778vh;
+  }
+  to {
+    height: 2802vh;
+    width: 2802vh;
+  }
+}
+
+@keyframes transition-000-from-00-nothing {
+  from {
+    top: 1000vh;
+  }
+  to {
+    top: 1000vh;
+  }
+}
+
+@keyframes transition-000-from-00-without-limit {
+  from {
+    top: 1049vh;
+  }
+  to {
+    top: 1031vh;
+  }
+}
+
+
+@keyframes transition-000-from-00-all-possibility {
+  from {
+    top: 1105vh;
+  }
+  to {
+    top: 1064vh;
+  }
+}

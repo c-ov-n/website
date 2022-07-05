@@ -1,0 +1,1452 @@
+/* emergence-12 */
+:root {
+  --emergence-12-non-being-0-font-size: 0.31em;
+  --emergence-12-non-being-00-font-size: 0.43em;
+  --emergence-12-non-being-000-font-size: 0.8em;
+  --emergence-12-non-being-line-thickness: 0.28em;
+  --emergence-12-path-font-size: calc(var(--emergence-12-path-width) * 0.65);
+  --emergence-12-path-shadow: 0 0 0.4vh 0.2vh var(--color-darker);
+  --emergence-12-path-width: calc(var(--emergence-12-sphere-diameter) * 0.28);
+  --emergence-12-sphere-diameter: 9.5vh;
+  --emergence-12-sphere-horizontal-offset: calc(var(--emergence-12-sphere-spacing) * 0.866);
+  --emergence-12-sphere-name-font-size: calc(var(--emergence-12-sphere-diameter) * 0.22);
+  --emergence-12-sphere-number-font-size: calc(var(--emergence-12-sphere-diameter) * 0.22);
+  --emergence-12-sphere-shadow: 0 0 0.6vh 0.3vh var(--color-darker);
+  --emergence-12-sphere-spacing: calc(var(--emergence-12-sphere-diameter) * 1.8);
+  --emergence-12-sphere-symbol-font-size: calc(var(--emergence-12-sphere-diameter) * 0.4);
+  --emergence-12-top: calc(var(--emergence-12-sphere-diameter) * 2.3);
+}
+
+#tree-anim.emergence-12 .non-being {
+  display: block;
+  top: var(--emergence-12-top);
+}
+#tree-anim.emergence-12.transition-from-emergence-11 .non-being {
+  animation: transition-12-from-11-non-being var(--transition-duration) ease;
+}
+@keyframes transition-12-from-11-non-being {
+  from {
+    top: var(--emergence-11-top);
+  } to {
+    top: var(--emergence-12-top);
+  }
+}
+
+#tree-anim.emergence-12 .non-being.nothing svg {
+  font-size: var(--emergence-12-non-being-0-font-size);
+  height: calc(var(--emergence-12-sphere-spacing) * 3.2);
+  width: calc(var(--emergence-12-sphere-spacing) * 3.2);
+}
+#tree-anim.emergence-12.transition-from-emergence-11 .non-being.nothing svg {
+  animation: transition-12-from-11-non-being-nothing-svg var(--transition-duration) ease;
+}
+@keyframes transition-12-from-11-non-being-nothing-svg {
+  from {
+    font-size: var(--emergence-11-non-being-0-font-size);
+    height: calc(var(--emergence-11-sphere-spacing) * 3.2);
+    width: calc(var(--emergence-11-sphere-spacing) * 3.2);
+  } to {
+    font-size: var(--emergence-12-non-being-0-font-size);
+    height: calc(var(--emergence-12-sphere-spacing) * 3.2);
+    width: calc(var(--emergence-12-sphere-spacing) * 3.2);
+  }
+}
+
+#tree-anim.emergence-12 .non-being.without-limit {
+  border-color: var(--color-light);
+  border-style: solid;
+  border-width: var(--emergence-12-non-being-line-thickness);
+  height: calc(var(--emergence-12-sphere-spacing) * 2);
+  width: calc(var(--emergence-12-sphere-spacing) * 2);
+}
+#tree-anim.emergence-12.transition-from-emergence-11 .non-being.without-limit {
+  animation: transition-12-from-11-non-being-without-limit var(--transition-duration) ease;
+}
+@keyframes transition-12-from-11-non-being-without-limit {
+  from {
+    border-width: var(--emergence-11-non-being-line-thickness);
+    height: calc(var(--emergence-11-sphere-spacing) * 2);
+    top: var(--emergence-11-top);
+    width: calc(var(--emergence-11-sphere-spacing) * 2);
+  } to {
+    border-width: var(--emergence-12-non-being-line-thickness);
+    height: calc(var(--emergence-12-sphere-spacing) * 2);
+    top: var(--emergence-12-top);
+    width: calc(var(--emergence-12-sphere-spacing) * 2);
+  }
+}
+
+#tree-anim.emergence-12 .non-being.without-limit svg {
+  font-size: var(--emergence-12-non-being-00-font-size);
+  height: calc(var(--emergence-12-sphere-spacing) * 2.25);
+  width: calc(var(--emergence-12-sphere-spacing) * 2.25);
+}
+#tree-anim.emergence-12.transition-from-emergence-11 .non-being.without-limit svg {
+  animation: transition-12-from-11-non-being-without-limit-svg var(--transition-duration) ease;
+}
+@keyframes transition-12-from-11-non-being-without-limit-svg {
+  from {
+    font-size: var(--emergence-11-non-being-00-font-size);
+    height: calc(var(--emergence-11-sphere-spacing) * 2.25);
+    width: calc(var(--emergence-11-sphere-spacing) * 2.25);
+  } to {
+    font-size: var(--emergence-12-non-being-00-font-size);
+    height: calc(var(--emergence-12-sphere-spacing) * 2.25);
+    width: calc(var(--emergence-12-sphere-spacing) * 2.25);
+  }
+}
+
+#tree-anim.emergence-12 .non-being.all-possibility {
+  border-color: var(--color-light);
+  border-style: solid;
+  border-width: var(--emergence-12-non-being-line-thickness);
+  height: calc(var(--emergence-12-sphere-spacing) + var(--emergence-12-sphere-diameter) * 0.5);
+  width: calc(var(--emergence-12-sphere-spacing) + var(--emergence-12-sphere-diameter) * 0.5);
+}
+#tree-anim.emergence-12.transition-from-emergence-11 .non-being.all-possibility {
+  animation: transition-12-from-11-non-being-all-possibility var(--transition-duration) ease;
+}
+@keyframes transition-12-from-11-non-being-all-possibility {
+  from {
+    border-width: var(--emergence-11-non-being-line-thickness);
+    height: calc(var(--emergence-11-sphere-spacing) + var(--emergence-11-sphere-diameter) * 0.5);
+    top: var(--emergence-11-top);
+    width: calc(var(--emergence-11-sphere-spacing) + var(--emergence-11-sphere-diameter) * 0.5);
+  } to {
+    border-width: var(--emergence-12-non-being-line-thickness);
+    height: calc(var(--emergence-12-sphere-spacing) + var(--emergence-12-sphere-diameter) * 0.5);
+    top: var(--emergence-12-top);
+    width: calc(var(--emergence-12-sphere-spacing) + var(--emergence-12-sphere-diameter) * 0.5);
+  }
+}
+
+#tree-anim.emergence-12 .non-being.all-possibility svg {
+  font-size: var(--emergence-12-non-being-000-font-size);
+  height: calc((var(--emergence-12-sphere-spacing) * 0.91 + var(--emergence-12-sphere-diameter) * 0.5));
+  width: calc((var(--emergence-12-sphere-spacing) * 0.91 + var(--emergence-12-sphere-diameter) * 0.5));
+}
+#tree-anim.emergence-12.transition-from-emergence-11 .non-being.all-possibility svg {
+  animation: transition-12-from-11-non-being-all-possibility-svg var(--transition-duration) ease;
+}
+@keyframes transition-12-from-11-non-being-all-possibility-svg {
+  from {
+    font-size: var(--emergence-11-non-being-000-font-size);
+    height: calc((var(--emergence-11-sphere-spacing) * 0.91 + var(--emergence-11-sphere-diameter) * 0.5));
+    width: calc((var(--emergence-11-sphere-spacing) * 0.91 + var(--emergence-11-sphere-diameter) * 0.5));
+  } to {
+    font-size: var(--emergence-12-non-being-000-font-size);
+    height: calc((var(--emergence-12-sphere-spacing) * 0.91 + var(--emergence-12-sphere-diameter) * 0.5));
+    width: calc((var(--emergence-12-sphere-spacing) * 0.91 + var(--emergence-12-sphere-diameter) * 0.5));
+  }
+}
+
+#tree-anim.emergence-12 .non-being-arc-hider {
+  display: block;
+  height: calc(1.5 * var(--emergence-12-sphere-spacing));
+  top: calc(var(--emergence-12-top) + 0.8 * var(--emergence-12-sphere-spacing));
+  width: calc(1.5 * var(--emergence-12-sphere-spacing));
+}
+#tree-anim.emergence-12.transition-from-emergence-11 .non-being-arc-hider {
+  animation: transition-12-from-11-non-being-arc-hider var(--transition-duration) ease;
+}
+@keyframes transition-12-from-11-non-being-arc-hider {
+  from {
+    height: calc(1.5 * var(--emergence-11-sphere-spacing));
+    top: calc(var(--emergence-11-top) + 0.8 * var(--emergence-11-sphere-spacing));
+    width: calc(1.5 * var(--emergence-11-sphere-spacing));
+  } to {
+    height: calc(1.5 * var(--emergence-12-sphere-spacing));
+    top: calc(var(--emergence-12-top) + 0.8 * var(--emergence-12-sphere-spacing));
+    width: calc(1.5 * var(--emergence-12-sphere-spacing));
+  }
+}
+
+#tree-anim.emergence-12 .sphere {
+  box-shadow: var(--emergence-12-sphere-shadow);
+  box-sizing: border-box;
+  height: var(--emergence-12-sphere-diameter);
+  width: var(--emergence-12-sphere-diameter);
+}
+
+#tree-anim.emergence-12 .sphere .name {
+  font-size: var(--emergence-12-sphere-name-font-size);
+}
+#tree-anim.emergence-12.transition-from-emergence-11 .sphere .name {
+  animation: transition-12-from-11-sphere-name var(--transition-duration) ease;
+}
+@keyframes transition-12-from-11-sphere-name {
+  from {
+    font-size: var(--emergence-11-sphere-name-font-size);
+  } to {
+    font-size: var(--emergence-12-sphere-name-font-size);
+  }
+}
+
+#tree-anim.emergence-12 .sphere .number {
+  font-size: var(--emergence-12-sphere-number-font-size);
+}
+#tree-anim.emergence-12.transition-from-emergence-11 .sphere .number {
+  animation: transition-12-from-11-sphere-number var(--transition-duration) ease;
+}
+@keyframes transition-12-from-11-sphere-number {
+  from {
+    font-size: var(--emergence-11-sphere-number-font-size);
+  } to {
+    font-size: var(--emergence-12-sphere-number-font-size);
+  }
+}
+
+#tree-anim.emergence-12 .sphere .symbol {
+  font-weight: bold;
+  font-size: var(--emergence-12-sphere-symbol-font-size);
+}
+#tree-anim.emergence-12.transition-from-emergence-11 .sphere .symbol {
+  animation: transition-12-from-11-sphere-symbol var(--transition-duration) ease;
+}
+@keyframes transition-12-from-11-sphere-symbol {
+  from {
+    font-size: var(--emergence-11-sphere-symbol-font-size);
+  } to {
+    font-size: var(--emergence-12-sphere-symbol-font-size);
+  }
+}
+
+#tree-anim.emergence-12 .sphere.sphere-1 {
+  display: block;
+  top: var(--emergence-12-top);
+  left: 50%;
+}
+#tree-anim.emergence-12.transition-from-emergence-11 .sphere.sphere-1 {
+  animation: transition-12-from-11-sphere-1 var(--transition-duration) ease;
+}
+@keyframes transition-12-from-11-sphere-1 {
+  from {
+    height: var(--emergence-11-sphere-diameter);
+    top: var(--emergence-11-top);
+    width: var(--emergence-11-sphere-diameter);
+  } to {
+    height: var(--emergence-12-sphere-diameter);
+    top: var(--emergence-12-top);
+    width: var(--emergence-12-sphere-diameter);
+  }
+}
+#tree-anim.emergence-12 .sphere.sphere-1 .symbol.chaos {
+  display: block;
+  fill: var(--color-magenta);
+}
+
+#tree-anim.emergence-12 .sphere.sphere-2 {
+  display: block;
+  top: calc(var(--emergence-12-top) + var(--emergence-12-sphere-spacing) / 2);
+  left: calc(50% + var(--emergence-12-sphere-horizontal-offset));
+}
+#tree-anim.emergence-12.transition-from-emergence-11 .sphere.sphere-2 {
+  animation: transition-12-from-11-sphere-2 var(--transition-duration) ease;
+}
+@keyframes transition-12-from-11-sphere-2 {
+  from {
+    height: var(--emergence-11-sphere-diameter);
+    left: calc(50% - var(--emergence-11-sphere-horizontal-offset));
+    top: calc(var(--emergence-11-top) + var(--emergence-11-sphere-spacing) / 2);
+    width: var(--emergence-11-sphere-diameter);
+  } to {
+    height: var(--emergence-12-sphere-diameter);
+    left: calc(50% - var(--emergence-12-sphere-horizontal-offset));
+    top: calc(var(--emergence-12-top) + var(--emergence-12-sphere-spacing) / 2);
+    width: var(--emergence-12-sphere-diameter);
+  }
+}
+#tree-anim.emergence-12 .sphere.sphere-2 .symbol.water {
+  color: var(--color-blue);
+  display: block;
+}
+
+#tree-anim.emergence-12 .sphere.sphere-3 {
+  display: block;
+  top: calc(var(--emergence-12-top) + var(--emergence-12-sphere-spacing) / 2);
+  left: calc(50% - var(--emergence-12-sphere-horizontal-offset));
+}
+#tree-anim.emergence-12.transition-from-emergence-11 .sphere.sphere-3 {
+  animation: transition-12-from-11-sphere-3 var(--transition-duration) ease;
+}
+@keyframes transition-12-from-11-sphere-3 {
+  from {
+    height: var(--emergence-11-sphere-diameter);
+    left: calc(50% + var(--emergence-11-sphere-horizontal-offset));
+    top: calc(var(--emergence-11-top) + var(--emergence-11-sphere-spacing) / 2);
+    width: var(--emergence-11-sphere-diameter);
+  } to {
+    height: var(--emergence-12-sphere-diameter);
+    left: calc(50% + var(--emergence-12-sphere-horizontal-offset));
+    top: calc(var(--emergence-12-top) + var(--emergence-12-sphere-spacing) / 2);
+    width: var(--emergence-12-sphere-diameter);
+  }
+}
+#tree-anim.emergence-12 .sphere.sphere-3 .symbol.air {
+  color: var(--color-yellow);
+  display: block;
+}
+
+#tree-anim.emergence-12 .sphere.sphere-4 {
+  display: block;
+  top: calc(var(--emergence-12-top) + var(--emergence-12-sphere-spacing) * 1.5);
+  left: calc(50% + var(--emergence-12-sphere-horizontal-offset));
+}
+#tree-anim.emergence-12.transition-from-emergence-11 .sphere.sphere-4 {
+  animation: transition-12-from-11-sphere-4 var(--transition-duration) ease;
+}
+@keyframes transition-12-from-11-sphere-4 {
+  from {
+    height: var(--emergence-11-sphere-diameter);
+    left: calc(50% + var(--emergence-11-sphere-horizontal-offset));
+    top: calc(var(--emergence-11-top) + var(--emergence-11-sphere-spacing) * 1.5);
+    width: var(--emergence-11-sphere-diameter);
+  } to {
+    height: var(--emergence-12-sphere-diameter);
+    left: calc(50% + var(--emergence-12-sphere-horizontal-offset));
+    top: calc(var(--emergence-12-top) + var(--emergence-12-sphere-spacing) * 1.5);
+    width: var(--emergence-12-sphere-diameter);
+  }
+}
+#tree-anim.emergence-12 .sphere.sphere-4 .symbol.earth {
+  color: var(--color-green);
+  display: block;
+}
+
+#tree-anim.emergence-12 .sphere.sphere-5 {
+  display: block;
+  top: calc(
+    var(--emergence-12-top) +
+    var(--emergence-12-sphere-spacing) * 1.5
+  );
+  left: calc(50% - var(--emergence-12-sphere-horizontal-offset));
+}
+#tree-anim.emergence-12.transition-from-emergence-11 .sphere.sphere-5 {
+  animation: transition-12-from-11-sphere-5 var(--transition-duration) ease;
+}
+@keyframes transition-12-from-11-sphere-5 {
+  from {
+    height: var(--emergence-11-sphere-diameter);
+    left: calc(50% - var(--emergence-11-sphere-horizontal-offset));
+    top: calc(var(--emergence-11-top) + var(--emergence-11-sphere-spacing) * 1.5);
+    width: var(--emergence-11-sphere-diameter);
+  } to {
+    height: var(--emergence-12-sphere-diameter);
+    left: calc(50% - var(--emergence-12-sphere-horizontal-offset));
+    top: calc(var(--emergence-12-top) + var(--emergence-12-sphere-spacing) * 1.5);
+    width: var(--emergence-12-sphere-diameter);
+  }
+}
+#tree-anim.emergence-12 .sphere.sphere-5 .symbol.fire {
+  color: var(--color-red);
+  display: block;
+}
+
+#tree-anim.emergence-12 .sphere.sphere-6 {
+  display: block;
+  top: calc(var(--emergence-12-top) + var(--emergence-12-sphere-spacing) * 2);
+  left: 50%;
+}
+#tree-anim.emergence-12.transition-from-emergence-11 .sphere.sphere-6 {
+  animation: transition-12-from-11-sphere-6 var(--transition-duration) ease;
+}
+@keyframes transition-12-from-11-sphere-6 {
+  from {
+    height: var(--emergence-11-sphere-diameter);
+    top: calc(var(--emergence-11-top) + var(--emergence-11-sphere-spacing) * 2);
+    width: var(--emergence-11-sphere-diameter);
+  } to {
+    height: var(--emergence-12-sphere-diameter);
+    top: calc(var(--emergence-12-top) + var(--emergence-12-sphere-spacing) * 2);
+    width: var(--emergence-12-sphere-diameter);
+  }
+}
+#tree-anim.emergence-12 .sphere.sphere-6 .symbol.hexagram {
+  display: block;
+  fill: var(--color-cyan);
+}
+
+#tree-anim.emergence-12 .sphere.sphere-7 {
+  display: block;
+  top: calc(var(--emergence-12-top) + var(--emergence-12-sphere-spacing) * 2.5);
+  left: calc(50% + var(--emergence-12-sphere-horizontal-offset));
+}
+#tree-anim.emergence-12.transition-from-emergence-11 .sphere.sphere-7 {
+  animation: transition-12-from-11-sphere-7 var(--transition-duration) ease;
+}
+@keyframes transition-12-from-11-sphere-7 {
+  from {
+    height: var(--emergence-11-sphere-diameter);
+    left: calc(50% + var(--emergence-11-sphere-horizontal-offset));
+    top: calc(var(--emergence-11-top) + var(--emergence-11-sphere-spacing) * 2.5);
+    width: var(--emergence-11-sphere-diameter);
+  } to {
+    height: var(--emergence-12-sphere-diameter);
+    left: calc(50% + var(--emergence-12-sphere-horizontal-offset));
+    top: calc(var(--emergence-12-top) + var(--emergence-12-sphere-spacing) * 2.5);
+    width: var(--emergence-12-sphere-diameter);
+  }
+}
+
+#tree-anim.emergence-12 .sphere.sphere-8 {
+  display: block;
+  top: calc(
+    var(--emergence-12-top) +
+    var(--emergence-12-sphere-spacing) * 2.5
+  );
+  left: calc(50% - var(--emergence-12-sphere-horizontal-offset));
+}
+#tree-anim.emergence-12.transition-from-emergence-11 .sphere.sphere-8 {
+  animation: transition-12-from-11-sphere-8 var(--transition-duration) ease;
+}
+@keyframes transition-12-from-11-sphere-8 {
+  from {
+    height: var(--emergence-11-sphere-diameter);
+    left: calc(50% - var(--emergence-11-sphere-horizontal-offset));
+    top: calc(var(--emergence-11-top) + var(--emergence-11-sphere-spacing) * 2.5);
+    width: var(--emergence-11-sphere-diameter);
+  } to {
+    height: var(--emergence-12-sphere-diameter);
+    left: calc(50% - var(--emergence-12-sphere-horizontal-offset));
+    top: calc(var(--emergence-12-top) + var(--emergence-12-sphere-spacing) * 2.5);
+    width: var(--emergence-12-sphere-diameter);
+  }
+}
+
+#tree-anim.emergence-12 .sphere.sphere-9 {
+  display: block;
+  top: calc(var(--emergence-12-top) + var(--emergence-12-sphere-spacing) * 3);
+  left: 50%;
+}
+#tree-anim.emergence-12.transition-from-emergence-11 .sphere.sphere-9 {
+  animation: transition-12-from-11-sphere-9 var(--transition-duration) ease;
+}
+@keyframes transition-12-from-11-sphere-9 {
+  from {
+    height: var(--emergence-11-sphere-diameter);
+    top: calc(var(--emergence-11-top) + var(--emergence-11-sphere-spacing) * 3);
+    width: var(--emergence-11-sphere-diameter);
+  } to {
+    height: var(--emergence-12-sphere-diameter);
+    top: calc(var(--emergence-12-top) + var(--emergence-12-sphere-spacing) * 3);
+    width: var(--emergence-12-sphere-diameter);
+  }
+}
+
+#tree-anim.emergence-12 .sphere.sphere-10 {
+  display: block;
+  left: calc(50% + var(--emergence-12-sphere-horizontal-offset));
+  top: calc(var(--emergence-12-top) + var(--emergence-12-sphere-spacing) * 3.5);
+}
+#tree-anim.emergence-12.transition-from-emergence-11 .sphere.sphere-10 {
+  animation: transition-12-from-11-sphere-10 var(--transition-duration) ease;
+}
+@keyframes transition-12-from-11-sphere-10 {
+  from {
+    height: var(--emergence-11-sphere-diameter);
+    left: calc(50% + var(--emergence-11-sphere-horizontal-offset));
+    top: calc(var(--emergence-11-top) + var(--emergence-11-sphere-spacing) * 3.5);
+    width: var(--emergence-11-sphere-diameter);
+  } to {
+    height: var(--emergence-12-sphere-diameter);
+    left: calc(50% + var(--emergence-12-sphere-horizontal-offset));
+    top: calc(var(--emergence-12-top) + var(--emergence-12-sphere-spacing) * 3.5);
+    width: var(--emergence-12-sphere-diameter);
+  }
+}
+
+#tree-anim.emergence-12 .sphere.sphere-11 {
+  display: block;
+  left: calc(50% - var(--emergence-12-sphere-horizontal-offset));
+  top: calc(var(--emergence-12-top) + var(--emergence-12-sphere-spacing) * 3.5);
+}
+#tree-anim.emergence-12.transition-from-emergence-11 .sphere.sphere-11 {
+  animation: transition-12-from-11-sphere-11 var(--transition-duration) ease;
+}
+@keyframes transition-12-from-11-sphere-11 {
+  from {
+    height: var(--emergence-11-sphere-diameter);
+    left: calc(50% - var(--emergence-11-sphere-horizontal-offset));
+    top: calc(var(--emergence-11-top) + var(--emergence-11-sphere-spacing) * 3.5);
+    width: var(--emergence-11-sphere-diameter);
+  } to {
+    height: var(--emergence-12-sphere-diameter);
+    left: calc(50% - var(--emergence-12-sphere-horizontal-offset));
+    top: calc(var(--emergence-12-top) + var(--emergence-12-sphere-spacing) * 3.5);
+    width: var(--emergence-12-sphere-diameter);
+  }
+}
+
+#tree-anim.emergence-12 .sphere.sphere-12 {
+  display: block;
+  top: calc(var(--emergence-12-top) + var(--emergence-12-sphere-spacing) * 4);
+  left: 50%;
+}
+#tree-anim.emergence-12.transition-from-emergence-11 .sphere.sphere-12 {
+  animation: transition-12-from-11-sphere-12 var(--transition-duration) ease;
+}
+@keyframes transition-12-from-11-sphere-12 {
+  from {
+    height: var(--emergence-11-sphere-diameter);
+    top: calc(var(--emergence-11-top) + var(--emergence-11-sphere-spacing) * 3);
+    width: var(--emergence-11-sphere-diameter);
+  } to {
+    height: var(--emergence-12-sphere-diameter);
+    top: calc(var(--emergence-12-top) + var(--emergence-12-sphere-spacing) * 4);
+    width: var(--emergence-12-sphere-diameter);
+  }
+}
+
+#tree-anim.emergence-12 .path {
+  box-shadow: var(--emergence-12-path-shadow);
+  font-size: var(--emergence-12-path-font-size);
+  width: var(--emergence-12-path-width);
+}
+
+#tree-anim.emergence-12 .path.path-0 {
+  display: block;
+  height: var(--emergence-12-sphere-spacing);
+  left: calc(50% + var(--emergence-12-sphere-horizontal-offset) / 2);
+  top: calc(var(--emergence-12-top) + var(--emergence-12-sphere-spacing) * 0.25);
+  transform: translate(-50%, -50%) rotate(-60deg);
+}
+#tree-anim.emergence-12.transition-from-emergence-11 .path.path-0 {
+  animation: transition-12-from-11-path-0 var(--transition-duration) ease;
+}
+@keyframes transition-12-from-11-path-0 {
+  from {
+    box-shadow: var(--emergence-11-path-shadow);
+    font-size: var(--emergence-11-path-font-size);
+    height: var(--emergence-11-sphere-spacing);
+    left: calc(50% - var(--emergence-11-sphere-horizontal-offset) / 2);
+    top: calc(var(--emergence-11-top) + var(--emergence-11-sphere-spacing) * 0.25);
+    width: var(--emergence-11-path-width);
+  } to {
+    box-shadow: var(--emergence-12-path-shadow);
+    font-size: var(--emergence-12-path-font-size);
+    height: var(--emergence-12-sphere-spacing);
+    left: calc(50% - var(--emergence-12-sphere-horizontal-offset) / 2);
+    top: calc(var(--emergence-12-top) + var(--emergence-12-sphere-spacing) * 0.25);
+    width: var(--emergence-12-path-width);
+  }
+}
+
+#tree-anim.emergence-12 .path.path-0 .number {
+  transform: translate(-50%, -50%) rotate(60deg);
+}
+
+#tree-anim.emergence-12 .path.path-1 {
+  display: block;
+  height: var(--emergence-12-sphere-spacing);
+  left: calc(50% - var(--emergence-12-sphere-horizontal-offset) / 2);
+  top: calc(var(--emergence-12-top) + var(--emergence-12-sphere-spacing) * 0.25);
+  transform: translate(-50%, -50%) rotate(60deg);
+}
+#tree-anim.emergence-12.transition-from-emergence-11 .path.path-1 {
+  animation: transition-12-from-11-path-1 var(--transition-duration) ease;
+}
+@keyframes transition-12-from-11-path-1 {
+  from {
+    box-shadow: var(--emergence-11-path-shadow);
+    font-size: var(--emergence-11-path-font-size);
+    height: var(--emergence-11-sphere-spacing);
+    left: calc(50% + var(--emergence-11-sphere-horizontal-offset) / 2);
+    top: calc(var(--emergence-11-top) + var(--emergence-11-sphere-spacing) * 0.25);
+    width: var(--emergence-11-path-width);
+  } to {
+    box-shadow: var(--emergence-12-path-shadow);
+    font-size: var(--emergence-12-path-font-size);
+    height: var(--emergence-12-sphere-spacing);
+    left: calc(50% + var(--emergence-12-sphere-horizontal-offset) / 2);
+    top: calc(var(--emergence-12-top) + var(--emergence-12-sphere-spacing) * 0.25);
+    width: var(--emergence-12-path-width);
+  }
+}
+
+#tree-anim.emergence-12 .path.path-1 .number {
+  transform: translate(-50%, -50%) rotate(-60deg);
+}
+
+#tree-anim.emergence-12 .path.path-2 {
+  display: block;
+  height: calc(var(--emergence-12-sphere-horizontal-offset) * 2);
+  left: 50%;
+  top: calc(var(--emergence-12-top) + var(--emergence-12-sphere-spacing) * 0.5);
+  transform: translate(-50%, -50%) rotate(90deg);
+}
+#tree-anim.emergence-12.transition-from-emergence-11 .path.path-2 {
+  animation: transition-12-from-11-path-2 var(--transition-duration) ease;
+}
+@keyframes transition-12-from-11-path-2 {
+  from {
+    box-shadow: var(--emergence-11-path-shadow);
+    font-size: var(--emergence-11-path-font-size);
+    height: calc(var(--emergence-11-sphere-horizontal-offset) * 2);
+    top: calc(var(--emergence-11-top) + var(--emergence-11-sphere-spacing) * 0.5);
+    width: var(--emergence-11-path-width);
+  } to {
+    box-shadow: var(--emergence-12-path-shadow);
+    font-size: var(--emergence-12-path-font-size);
+    height: calc(var(--emergence-12-sphere-horizontal-offset) * 2);
+    top: calc(var(--emergence-12-top) + var(--emergence-12-sphere-spacing) * 0.5);
+    width: var(--emergence-12-path-width);
+  }
+}
+
+#tree-anim.emergence-12 .path.path-2 .number {
+  transform: translate(-50%, -50%) rotate(-90deg);
+}
+
+#tree-anim.emergence-12 .path.path-3 {
+  display: block;
+  height: var(--emergence-12-sphere-spacing);
+  left: calc(50% + var(--emergence-12-sphere-horizontal-offset) / 2);
+  top: calc(var(--emergence-12-top) + var(--emergence-12-sphere-spacing) * 1.75);
+  transform: translate(-50%, -50%) rotate(240deg);
+}
+#tree-anim.emergence-12.transition-from-emergence-11 .path.path-3 {
+  animation: transition-12-from-11-path-3 var(--transition-duration) ease;
+}
+@keyframes transition-12-from-11-path-3 {
+  from {
+    box-shadow: var(--emergence-11-path-shadow);
+    font-size: var(--emergence-11-path-font-size);
+    height: var(--emergence-11-sphere-spacing);
+    left: calc(50% + var(--emergence-11-sphere-horizontal-offset) / 2);
+    top: calc(var(--emergence-11-top) + var(--emergence-11-sphere-spacing) * 1.75);
+    width: var(--emergence-11-path-width);
+  } to {
+    box-shadow: var(--emergence-12-path-shadow);
+    font-size: var(--emergence-12-path-font-size);
+    height: var(--emergence-12-sphere-spacing);
+    left: calc(50% + var(--emergence-12-sphere-horizontal-offset) / 2);
+    top: calc(var(--emergence-12-top) + var(--emergence-12-sphere-spacing) * 1.75);
+    width: var(--emergence-12-path-width);
+  }
+}
+
+#tree-anim.emergence-12 .path.path-3 .number {
+  transform: translate(-50%, -50%) rotate(-240deg);
+}
+
+#tree-anim.emergence-12 .path.path-4 {
+  display: block;
+  height: var(--emergence-12-sphere-spacing);
+  left: calc(50% + var(--emergence-12-sphere-horizontal-offset));
+  top: calc(var(--emergence-12-top) + var(--emergence-12-sphere-spacing));
+}
+#tree-anim.emergence-12.transition-from-emergence-11 .path.path-4 {
+  animation: transition-12-from-11-path-4 var(--transition-duration) ease;
+}
+@keyframes transition-12-from-11-path-4 {
+  from {
+    box-shadow: var(--emergence-11-path-shadow);
+    font-size: var(--emergence-11-path-font-size);
+    height: calc(2 * var(--emergence-11-sphere-spacing));
+    top: calc(var(--emergence-11-top) + var(--emergence-11-sphere-spacing));
+    width: var(--emergence-11-path-width);
+  } to {
+    box-shadow: var(--emergence-12-path-shadow);
+    font-size: var(--emergence-12-path-font-size);
+    height: calc(2 * var(--emergence-12-sphere-spacing));
+    top: calc(var(--emergence-12-top) + var(--emergence-12-sphere-spacing));
+    width: var(--emergence-12-path-width);
+  }
+}
+
+#tree-anim.emergence-12 .path.path-5 {
+  display: block;
+  height: var(--emergence-12-sphere-spacing);
+  left: 50%;
+  left: calc(50% - var(--emergence-12-sphere-horizontal-offset));
+  top: calc(var(--emergence-12-top) + var(--emergence-12-sphere-spacing));
+}
+#tree-anim.emergence-12.transition-from-emergence-11 .path.path-5 {
+  animation: transition-12-from-11-path-5 var(--transition-duration) ease;
+}
+@keyframes transition-12-from-11-path-5 {
+  from {
+    box-shadow: var(--emergence-11-path-shadow);
+    font-size: var(--emergence-11-path-font-size);
+    height: calc(2 * var(--emergence-11-sphere-spacing));
+    top: calc(var(--emergence-11-top) + var(--emergence-11-sphere-spacing));
+    width: var(--emergence-11-path-width);
+  } to {
+    box-shadow: var(--emergence-12-path-shadow);
+    font-size: var(--emergence-12-path-font-size);
+    height: calc(2 * var(--emergence-12-sphere-spacing));
+    top: calc(var(--emergence-12-top) + var(--emergence-12-sphere-spacing));
+    width: var(--emergence-12-path-width);
+  }
+}
+
+#tree-anim.emergence-12 .path.path-6 {
+  display: block;
+  height: var(--emergence-12-sphere-spacing);
+  left: calc(50% - var(--emergence-12-sphere-horizontal-offset) / 2);
+  top: calc(var(--emergence-12-top) + var(--emergence-12-sphere-spacing) * 1.75);
+  transform: translate(-50%, -50%) rotate(-240deg);
+}
+#tree-anim.emergence-12.transition-from-emergence-11 .path.path-6 {
+  animation: transition-12-from-11-path-6 var(--transition-duration) ease;
+}
+@keyframes transition-12-from-11-path-6 {
+  from {
+    box-shadow: var(--emergence-11-path-shadow);
+    font-size: var(--emergence-11-path-font-size);
+    height: var(--emergence-11-sphere-spacing);
+    left: calc(50% - var(--emergence-11-sphere-horizontal-offset) / 2);
+    top: calc(var(--emergence-11-top) + var(--emergence-11-sphere-spacing) * 1.75);
+    width: var(--emergence-11-path-width);
+  } to {
+    box-shadow: var(--emergence-12-path-shadow);
+    font-size: var(--emergence-12-path-font-size);
+    height: var(--emergence-12-sphere-spacing);
+    left: calc(50% - var(--emergence-12-sphere-horizontal-offset) / 2);
+    top: calc(var(--emergence-12-top) + var(--emergence-12-sphere-spacing) * 1.75);
+    width: var(--emergence-12-path-width);
+  }
+}
+
+#tree-anim.emergence-12 .path.path-6 .number {
+  transform: translate(-50%, -50%) rotate(240deg);
+}
+
+#tree-anim.emergence-12 .path.path-7 {
+  display: block;
+  left: 50%;
+  top: calc(var(--emergence-12-top) + var(--emergence-12-sphere-spacing) * 1.5);
+  height: calc(var(--emergence-12-sphere-horizontal-offset) * 2);
+  transform: translate(-50%, -50%) rotate(90deg);
+}
+#tree-anim.emergence-12.transition-from-emergence-11 .path.path-7 {
+  animation: transition-12-from-11-path-7 var(--transition-duration) ease;
+}
+@keyframes transition-12-from-11-path-7 {
+  from {
+    box-shadow: var(--emergence-11-path-shadow);
+    font-size: var(--emergence-11-path-font-size);
+    height: calc(var(--emergence-11-sphere-horizontal-offset) * 2);
+    top: calc(var(--emergence-11-top) + var(--emergence-11-sphere-spacing) * 1.5);
+    width: var(--emergence-11-path-width);
+  } to {
+    box-shadow: var(--emergence-12-path-shadow);
+    font-size: var(--emergence-12-path-font-size);
+    height: calc(var(--emergence-12-sphere-horizontal-offset) * 2);
+    top: calc(var(--emergence-12-top) + var(--emergence-12-sphere-spacing) * 1.5);
+    width: var(--emergence-12-path-width);
+  }
+}
+
+#tree-anim.emergence-12 .path.path-7 .number {
+  transform: translate(-50%, -50%) rotate(-90deg);
+}
+
+#tree-anim.emergence-12 .path.path-8 {
+  display: block;
+  height: calc(2 * var(--emergence-12-sphere-spacing));
+  left: 50%;
+  top: calc(var(--emergence-12-top) + var(--emergence-12-sphere-spacing));
+}
+#tree-anim.emergence-12.transition-from-emergence-11 .path.path-8 {
+  animation: transition-12-from-11-path-8 var(--transition-duration) ease;
+}
+@keyframes transition-12-from-11-path-8 {
+  from {
+    box-shadow: var(--emergence-11-path-shadow);
+    font-size: var(--emergence-11-path-font-size);
+    height: calc(2 * var(--emergence-11-sphere-spacing));
+    top: calc(var(--emergence-11-top) + var(--emergence-11-sphere-spacing));
+    width: var(--emergence-11-path-width);
+  } to {
+    box-shadow: var(--emergence-12-path-shadow);
+    font-size: var(--emergence-12-path-font-size);
+    height: calc(2 * var(--emergence-12-sphere-spacing));
+    top: calc(var(--emergence-12-top) + var(--emergence-12-sphere-spacing));
+    width: var(--emergence-12-path-width);
+  }
+}
+
+#tree-anim.emergence-12 .path.path-9 {
+  display: block;
+  height: calc(var(--emergence-12-sphere-spacing) * 1.5);
+  left: calc(50% + var(--emergence-12-sphere-horizontal-offset) / 2);
+  top: calc(var(--emergence-12-top) + var(--emergence-12-sphere-spacing) * 1.25);
+  transform: translate(-50%, -50%) rotate(-150deg);
+}
+#tree-anim.emergence-12.transition-from-emergence-11 .path.path-9 {
+  animation: transition-12-from-11-path-9 var(--transition-duration) ease;
+}
+@keyframes transition-12-from-11-path-9 {
+  from {
+    box-shadow: var(--emergence-11-path-shadow);
+    font-size: var(--emergence-11-path-font-size);
+    height: calc(var(--emergence-11-sphere-spacing) * 1.5);
+    left: calc(50% - var(--emergence-11-sphere-horizontal-offset) / 2);
+    top: calc(var(--emergence-11-top) + var(--emergence-11-sphere-spacing) * 1.25);
+    width: var(--emergence-11-path-width);
+  } to {
+    box-shadow: var(--emergence-12-path-shadow);
+    font-size: var(--emergence-12-path-font-size);
+    height: calc(var(--emergence-12-sphere-spacing) * 1.5);
+    left: calc(50% - var(--emergence-12-sphere-horizontal-offset) / 2);
+    top: calc(var(--emergence-12-top) + var(--emergence-12-sphere-spacing) * 1.25);
+    width: var(--emergence-12-path-width);
+  }
+}
+
+#tree-anim.emergence-12 .path.path-9 .number {
+  top: 65%;
+  transform: translate(-50%, -50%) rotate(150deg);
+}
+
+#tree-anim.emergence-12 .path.path-10 {
+  display: block;
+  height: calc(var(--emergence-12-sphere-spacing) * 1.5);
+  left: calc(50% - var(--emergence-12-sphere-horizontal-offset) / 2);
+  top: calc(var(--emergence-12-top) + var(--emergence-12-sphere-spacing) * 1.25);
+  transform: translate(-50%, -50%) rotate(150deg);
+}
+#tree-anim.emergence-12.transition-from-emergence-11 .path.path-10 {
+  animation: transition-12-from-11-path-10 var(--transition-duration) ease;
+}
+@keyframes transition-12-from-11-path-10 {
+  from {
+    box-shadow: var(--emergence-11-path-shadow);
+    font-size: var(--emergence-11-path-font-size);
+    height: calc(var(--emergence-11-sphere-spacing) * 1.5);
+    left: calc(50% + var(--emergence-11-sphere-horizontal-offset) / 2);
+    top: calc(var(--emergence-11-top) + var(--emergence-11-sphere-spacing) * 1.25);
+    width: var(--emergence-11-path-width);
+  } to {
+    box-shadow: var(--emergence-12-path-shadow);
+    font-size: var(--emergence-12-path-font-size);
+    height: calc(var(--emergence-12-sphere-spacing) * 1.5);
+    left: calc(50% + var(--emergence-12-sphere-horizontal-offset) / 2);
+    top: calc(var(--emergence-12-top) + var(--emergence-12-sphere-spacing) * 1.25);
+    width: var(--emergence-12-path-width);
+  }
+}
+
+#tree-anim.emergence-12 .path.path-10 .number {
+  top: 65%;
+  transform: translate(-50%, -50%) rotate(-150deg);
+}
+
+#tree-anim.emergence-12 .path.path-11 {
+  display: block;
+  height: var(--emergence-12-sphere-spacing);
+  left: calc(50% + var(--emergence-12-sphere-horizontal-offset) / 2);
+  top: calc(var(--emergence-12-top) + var(--emergence-12-sphere-spacing) * 2.25);
+  transform: translate(-50%, -50%) rotate(-60deg);
+}
+#tree-anim.emergence-12.transition-from-emergence-11 .path.path-11 {
+  animation: transition-12-from-11-path-11 var(--transition-duration) ease;
+}
+@keyframes transition-12-from-11-path-11 {
+  from {
+    box-shadow: var(--emergence-11-path-shadow);
+    font-size: var(--emergence-11-path-font-size);
+    height: var(--emergence-11-sphere-spacing);
+    left: calc(50% + var(--emergence-11-sphere-horizontal-offset) / 2);
+    top: calc(var(--emergence-11-top) + var(--emergence-11-sphere-spacing) * 2.25);
+    width: var(--emergence-11-path-width);
+  } to {
+    box-shadow: var(--emergence-12-path-shadow);
+    font-size: var(--emergence-12-path-font-size);
+    height: var(--emergence-12-sphere-spacing);
+    left: calc(50% + var(--emergence-12-sphere-horizontal-offset) / 2);
+    top: calc(var(--emergence-12-top) + var(--emergence-12-sphere-spacing) * 2.25);
+    width: var(--emergence-12-path-width);
+  }
+}
+
+#tree-anim.emergence-12 .path.path-11 .number {
+  transform: translate(-50%, -50%) rotate(60deg);
+}
+
+#tree-anim.emergence-12 .path.path-12 {
+  display: block;
+  height: var(--emergence-12-sphere-spacing);
+  left: calc(50% + var(--emergence-12-sphere-horizontal-offset));
+  top: calc(var(--emergence-12-top) + var(--emergence-12-sphere-spacing) * 2);
+}
+#tree-anim.emergence-12.transition-from-emergence-11 .path.path-12 {
+  animation: transition-12-from-11-path-12 var(--transition-duration) ease;
+}
+@keyframes transition-12-from-11-path-12 {
+  from {
+    box-shadow: var(--emergence-11-path-shadow);
+    font-size: var(--emergence-11-path-font-size);
+    height: var(--emergence-11-sphere-spacing);
+    left: calc(50% + var(--emergence-11-sphere-horizontal-offset));
+    top: calc(var(--emergence-11-top) + var(--emergence-11-sphere-spacing) * 2);
+    width: var(--emergence-11-path-width);
+  } to {
+    box-shadow: var(--emergence-12-path-shadow);
+    font-size: var(--emergence-12-path-font-size);
+    height: var(--emergence-12-sphere-spacing);
+    left: calc(50% + var(--emergence-12-sphere-horizontal-offset));
+    top: calc(var(--emergence-12-top) + var(--emergence-12-sphere-spacing) * 2);
+    width: var(--emergence-12-path-width);
+  }
+}
+
+#tree-anim.emergence-12 .path.path-13 {
+  display: block;
+  height: var(--emergence-12-sphere-spacing);
+  left: calc(50% - var(--emergence-12-sphere-horizontal-offset));
+  top: calc(var(--emergence-12-top) + var(--emergence-12-sphere-spacing) * 2);
+}
+#tree-anim.emergence-12.transition-from-emergence-11 .path.path-13 {
+  animation: transition-12-from-11-path-13 var(--transition-duration) ease;
+}
+@keyframes transition-12-from-11-path-13 {
+  from {
+    box-shadow: var(--emergence-11-path-shadow);
+    font-size: var(--emergence-11-path-font-size);
+    height: var(--emergence-11-sphere-spacing);
+    left: calc(50% - var(--emergence-11-sphere-horizontal-offset));
+    top: calc(var(--emergence-11-top) + var(--emergence-11-sphere-spacing) * 2);
+    width: var(--emergence-11-path-width);
+  } to {
+    box-shadow: var(--emergence-12-path-shadow);
+    font-size: var(--emergence-12-path-font-size);
+    height: var(--emergence-12-sphere-spacing);
+    left: calc(50% - var(--emergence-12-sphere-horizontal-offset));
+    top: calc(var(--emergence-12-top) + var(--emergence-12-sphere-spacing) * 2);
+    width: var(--emergence-12-path-width);
+  }
+}
+
+#tree-anim.emergence-12 .path.path-14 {
+  display: block;
+  height: var(--emergence-12-sphere-spacing);
+  left: calc(50% - var(--emergence-12-sphere-horizontal-offset) / 2);
+  top: calc(var(--emergence-12-top) + var(--emergence-12-sphere-spacing) * 2.25);
+  transform: translate(-50%, -50%) rotate(60deg);
+}
+#tree-anim.emergence-12.transition-from-emergence-11 .path.path-14 {
+  animation: transition-12-from-11-path-14 var(--transition-duration) ease;
+}
+@keyframes transition-12-from-11-path-14 {
+  from {
+    box-shadow: var(--emergence-11-path-shadow);
+    font-size: var(--emergence-11-path-font-size);
+    height: var(--emergence-11-sphere-spacing);
+    left: calc(50% - var(--emergence-11-sphere-horizontal-offset) / 2);
+    top: calc(var(--emergence-11-top) + var(--emergence-11-sphere-spacing) * 2.25);
+    width: var(--emergence-11-path-width);
+  } to {
+    box-shadow: var(--emergence-12-path-shadow);
+    font-size: var(--emergence-12-path-font-size);
+    height: var(--emergence-12-sphere-spacing);
+    left: calc(50% - var(--emergence-12-sphere-horizontal-offset) / 2);
+    top: calc(var(--emergence-12-top) + var(--emergence-12-sphere-spacing) * 2.25);
+    width: var(--emergence-12-path-width);
+  }
+}
+
+#tree-anim.emergence-12 .path.path-14 .number {
+  transform: translate(-50%, -50%) rotate(-60deg);
+}
+
+#tree-anim.emergence-12 .path.path-15 {
+  display: block;
+  height: calc(var(--emergence-12-sphere-horizontal-offset) * 2);
+  left: 50%;
+  top: calc(var(--emergence-12-top) + var(--emergence-12-sphere-spacing) * 2.5);
+  transform: translate(-50%, -50%) rotate(90deg);
+}
+#tree-anim.emergence-12.transition-from-emergence-11 .path.path-15 {
+  animation: transition-12-from-11-path-15 var(--transition-duration) ease;
+}
+@keyframes transition-12-from-11-path-15 {
+  from {
+    box-shadow: var(--emergence-11-path-shadow);
+    font-size: var(--emergence-11-path-font-size);
+    height: calc(var(--emergence-11-sphere-horizontal-offset) * 2);
+    top: calc(var(--emergence-11-top) + var(--emergence-11-sphere-spacing) * 2.5);
+    width: var(--emergence-11-path-width);
+  } to {
+    box-shadow: var(--emergence-12-path-shadow);
+    font-size: var(--emergence-12-path-font-size);
+    height: calc(var(--emergence-12-sphere-horizontal-offset) * 2);
+    top: calc(var(--emergence-12-top) + var(--emergence-12-sphere-spacing) * 2.5);
+    width: var(--emergence-12-path-width);
+  }
+}
+
+#tree-anim.emergence-12 .path.path-15 .number {
+  top: 68%;
+  transform: translate(-50%, -50%) rotate(-90deg);
+}
+
+#tree-anim.emergence-12 .path.path-16 {
+  display: block;
+  height: var(--emergence-12-sphere-spacing);
+  left: 50%;
+  top: calc(var(--emergence-12-top) + var(--emergence-12-sphere-spacing) * 2.5);
+}
+#tree-anim.emergence-12.transition-from-emergence-11 .path.path-16 {
+  animation: transition-12-from-11-path-16 var(--transition-duration) ease;
+}
+@keyframes transition-12-from-11-path-16 {
+  from {
+    box-shadow: var(--emergence-11-path-shadow);
+    font-size: var(--emergence-11-path-font-size);
+    height: var(--emergence-11-sphere-spacing);
+    top: calc(var(--emergence-11-top) + var(--emergence-11-sphere-spacing) * 2.5);
+    width: var(--emergence-11-path-width);
+  } to {
+    box-shadow: var(--emergence-12-path-shadow);
+    font-size: var(--emergence-12-path-font-size);
+    height: var(--emergence-12-sphere-spacing);
+    top: calc(var(--emergence-12-top) + var(--emergence-12-sphere-spacing) * 2.5);
+    width: var(--emergence-12-path-width);
+  }
+}
+
+#tree-anim.emergence-12 .path.path-17 {
+  display: block;
+  height: var(--emergence-12-sphere-spacing);
+  left: calc(50% + var(--emergence-12-sphere-horizontal-offset) / 2);
+  top: calc(var(--emergence-12-top) + var(--emergence-12-sphere-spacing) * 2.75);
+  transform: translate(-50%, -50%) rotate(60deg);
+}
+#tree-anim.emergence-12.transition-from-emergence-11 .path.path-17 {
+  animation: transition-12-from-11-path-17 var(--transition-duration) ease;
+}
+@keyframes transition-12-from-11-path-17 {
+  from {
+    box-shadow: var(--emergence-11-path-shadow);
+    font-size: var(--emergence-11-path-font-size);
+    height: var(--emergence-11-sphere-spacing);
+    left: calc(50% + var(--emergence-11-sphere-horizontal-offset) / 2);
+    top: calc(var(--emergence-11-top) + var(--emergence-11-sphere-spacing) * 2.75);
+    width: var(--emergence-11-path-width);
+  } to {
+    box-shadow: var(--emergence-12-path-shadow);
+    font-size: var(--emergence-12-path-font-size);
+    height: var(--emergence-12-sphere-spacing);
+    left: calc(50% + var(--emergence-12-sphere-horizontal-offset) / 2);
+    top: calc(var(--emergence-12-top) + var(--emergence-12-sphere-spacing) * 2.75);
+    width: var(--emergence-12-path-width);
+  }
+}
+
+#tree-anim.emergence-12 .path.path-17 .number {
+  transform: translate(-50%, -50%) rotate(-60deg);
+}
+
+#tree-anim.emergence-12 .path.path-18 {
+  display: block;
+  height: var(--emergence-12-sphere-spacing);
+  left: calc(50% - var(--emergence-12-sphere-horizontal-offset) / 2);
+  top: calc(var(--emergence-12-top) + var(--emergence-12-sphere-spacing) * 2.75);
+  transform: translate(-50%, -50%) rotate(-60deg);
+}
+#tree-anim.emergence-12.transition-from-emergence-11 .path.path-18 {
+  animation: transition-12-from-11-path-18 var(--transition-duration) ease;
+}
+@keyframes transition-12-from-11-path-18 {
+  from {
+    box-shadow: var(--emergence-11-path-shadow);
+    font-size: var(--emergence-11-path-font-size);
+    height: var(--emergence-11-sphere-spacing);
+    left: calc(50% - var(--emergence-11-sphere-horizontal-offset) / 2);
+    top: calc(var(--emergence-11-top) + var(--emergence-11-sphere-spacing) * 2.75);
+    width: var(--emergence-11-path-width);
+  } to {
+    box-shadow: var(--emergence-12-path-shadow);
+    font-size: var(--emergence-12-path-font-size);
+    height: var(--emergence-12-sphere-spacing);
+    left: calc(50% - var(--emergence-12-sphere-horizontal-offset) / 2);
+    top: calc(var(--emergence-12-top) + var(--emergence-12-sphere-spacing) * 2.75);
+    width: var(--emergence-12-path-width);
+  }
+}
+
+#tree-anim.emergence-12 .path.path-18 .number {
+  transform: translate(-50%, -50%) rotate(60deg);
+}
+
+#tree-anim.emergence-12 .path.path-19 {
+  display: block;
+  height: var(--emergence-12-sphere-spacing);
+  left: calc(50% + var(--emergence-12-sphere-horizontal-offset) / 2);
+  top: calc(var(--emergence-12-top) + var(--emergence-12-sphere-spacing) * 3.25);
+  transform: translate(-50%, -50%) rotate(-60deg);
+}
+#tree-anim.emergence-12.transition-from-emergence-11 .path.path-19 {
+  animation: transition-12-from-11-path-19 var(--transition-duration) ease;
+}
+@keyframes transition-12-from-11-path-19 {
+  from {
+    box-shadow: var(--emergence-11-path-shadow);
+    font-size: var(--emergence-11-path-font-size);
+    height: var(--emergence-11-sphere-spacing);
+    left: calc(50% + var(--emergence-11-sphere-horizontal-offset) / 2);
+    top: calc(var(--emergence-11-top) + var(--emergence-11-sphere-spacing) * 3.25);
+    width: var(--emergence-11-path-width);
+  } to {
+    box-shadow: var(--emergence-12-path-shadow);
+    font-size: var(--emergence-12-path-font-size);
+    height: var(--emergence-12-sphere-spacing);
+    left: calc(50% + var(--emergence-12-sphere-horizontal-offset) / 2);
+    top: calc(var(--emergence-12-top) + var(--emergence-12-sphere-spacing) * 3.25);
+    width: var(--emergence-12-path-width);
+  }
+}
+
+#tree-anim.emergence-12 .path.path-19 .number {
+  transform: translate(-50%, -50%) rotate(60deg);
+}
+
+#tree-anim.emergence-12 .path.path-20 {
+  display: block;
+  height: var(--emergence-12-sphere-spacing);
+  left: calc(50% + var(--emergence-12-sphere-horizontal-offset));
+  top: calc(var(--emergence-12-top) + var(--emergence-12-sphere-spacing) * 3);
+  transform: translate(-50%, -50%);
+}
+#tree-anim.emergence-12.transition-from-emergence-11 .path.path-20 {
+  animation: transition-12-from-11-path-20 var(--transition-duration) ease;
+}
+@keyframes transition-12-from-11-path-20 {
+  from {
+    box-shadow: var(--emergence-11-path-shadow);
+    font-size: var(--emergence-11-path-font-size);
+    height: var(--emergence-11-sphere-spacing);
+    left: calc(50% + var(--emergence-11-sphere-horizontal-offset));
+    top: calc(var(--emergence-11-top) + var(--emergence-11-sphere-spacing) * 3);
+    width: var(--emergence-11-path-width);
+  } to {
+    box-shadow: var(--emergence-12-path-shadow);
+    font-size: var(--emergence-12-path-font-size);
+    height: var(--emergence-12-sphere-spacing);
+    left: calc(50% + var(--emergence-12-sphere-horizontal-offset));
+    top: calc(var(--emergence-12-top) + var(--emergence-12-sphere-spacing) * 3);
+    width: var(--emergence-12-path-width);
+  }
+}
+
+#tree-anim.emergence-12 .path.path-21 {
+  display: block;
+  height: var(--emergence-12-sphere-spacing);
+  left: calc(50% - var(--emergence-12-sphere-horizontal-offset));
+  top: calc(var(--emergence-12-top) + var(--emergence-12-sphere-spacing) * 3);
+}
+#tree-anim.emergence-12.transition-from-emergence-11 .path.path-21 {
+  animation: transition-12-from-11-path-21 var(--transition-duration) ease;
+}
+@keyframes transition-12-from-11-path-21 {
+  from {
+    box-shadow: var(--emergence-11-path-shadow);
+    font-size: var(--emergence-11-path-font-size);
+    height: var(--emergence-11-sphere-spacing);
+    left: calc(50% - var(--emergence-11-sphere-horizontal-offset));
+    top: calc(var(--emergence-11-top) + var(--emergence-11-sphere-spacing) * 3);
+    width: var(--emergence-11-path-width);
+  } to {
+    box-shadow: var(--emergence-12-path-shadow);
+    font-size: var(--emergence-12-path-font-size);
+    height: var(--emergence-12-sphere-spacing);
+    left: calc(50% - var(--emergence-12-sphere-horizontal-offset));
+    top: calc(var(--emergence-12-top) + var(--emergence-12-sphere-spacing) * 3);
+    width: var(--emergence-12-path-width);
+  }
+}
+
+#tree-anim.emergence-12 .path.path-22 {
+  display: block;
+  height: var(--emergence-12-sphere-spacing);
+  left: calc(50% - var(--emergence-12-sphere-horizontal-offset) / 2);
+  top: calc(var(--emergence-12-top) + var(--emergence-12-sphere-spacing) * 3.25);
+  transform: translate(-50%, -50%) rotate(60deg);
+}
+#tree-anim.emergence-12.transition-from-emergence-11 .path.path-22 {
+  animation: transition-12-from-11-path-22 var(--transition-duration) ease;
+}
+@keyframes transition-12-from-11-path-22 {
+  from {
+    box-shadow: var(--emergence-11-path-shadow);
+    font-size: var(--emergence-11-path-font-size);
+    height: var(--emergence-11-sphere-spacing);
+    left: calc(50% - var(--emergence-11-sphere-horizontal-offset) / 2);
+    top: calc(var(--emergence-11-top) + var(--emergence-11-sphere-spacing) * 3.25);
+    width: var(--emergence-11-path-width);
+  } to {
+    box-shadow: var(--emergence-12-path-shadow);
+    font-size: var(--emergence-12-path-font-size);
+    height: var(--emergence-12-sphere-spacing);
+    left: calc(50% - var(--emergence-12-sphere-horizontal-offset) / 2);
+    top: calc(var(--emergence-12-top) + var(--emergence-12-sphere-spacing) * 3.25);
+    width: var(--emergence-12-path-width);
+  }
+}
+
+#tree-anim.emergence-12 .path.path-22 .number {
+  transform: translate(-50%, -50%) rotate(-60deg);
+}
+
+#tree-anim.emergence-12 .path.path-23 {
+  display: block;
+  height: calc(var(--emergence-12-sphere-horizontal-offset) * 2);
+  left: 50%;
+  top: calc(var(--emergence-12-top) + var(--emergence-12-sphere-spacing) * 3.5);
+  transform: translate(-50%, -50%) rotate(90deg);
+}
+#tree-anim.emergence-12.transition-from-emergence-11 .path.path-23 {
+  animation: transition-12-from-11-path-23 var(--transition-duration) ease;
+}
+@keyframes transition-12-from-11-path-23 {
+  from {
+    box-shadow: var(--emergence-11-path-shadow);
+    font-size: var(--emergence-11-path-font-size);
+    height: calc(var(--emergence-11-sphere-horizontal-offset) * 2);
+    top: calc(var(--emergence-11-top) + var(--emergence-11-sphere-spacing) * 3.5);
+    width: var(--emergence-11-path-width);
+  } to {
+    box-shadow: var(--emergence-12-path-shadow);
+    font-size: var(--emergence-12-path-font-size);
+    height: calc(var(--emergence-12-sphere-horizontal-offset) * 2);
+    top: calc(var(--emergence-12-top) + var(--emergence-12-sphere-spacing) * 3.5);
+    width: var(--emergence-12-path-width);
+  }
+}
+
+#tree-anim.emergence-12 .path.path-23 .number {
+  top: 68%;
+}
+#tree-anim.emergence-12.transition-from-emergence-11 .path.path-23 .number {
+  animation: transition-12-from-11-path-23-number var(--transition-duration) ease;
+}
+@keyframes transition-12-from-11-path-23-number {
+  from {
+    top: 50%;
+  } to {
+    top: 68%;
+  }
+}
+
+#tree-anim.emergence-12 .path.path-23 .number {
+  transform: translate(-50%, -50%) rotate(-90deg);
+}
+
+#tree-anim.emergence-12 .path.path-24 {
+  display: block;
+  height: var(--emergence-12-sphere-spacing);
+  left: 50%;
+  top: calc(var(--emergence-12-top) + var(--emergence-12-sphere-spacing) * 3.5);
+}
+#tree-anim.emergence-12.transition-from-emergence-11 .path.path-24 {
+  animation: transition-12-from-11-path-24 var(--transition-duration) ease;
+}
+@keyframes transition-12-from-11-path-24 {
+  from {
+    box-shadow: var(--emergence-11-path-shadow);
+    font-size: var(--emergence-11-path-font-size);
+    height: 0;
+    top: calc(var(--emergence-11-top) + var(--emergence-11-sphere-spacing) * 3);
+    width: var(--emergence-11-path-width);
+  } to {
+    box-shadow: var(--emergence-12-path-shadow);
+    font-size: var(--emergence-12-path-font-size);
+    height: var(--emergence-12-sphere-spacing);
+    top: calc(var(--emergence-12-top) + var(--emergence-12-sphere-spacing) * 3.5);
+    width: var(--emergence-12-path-width);
+  }
+}
+
+#tree-anim.emergence-12 .path.path-25 {
+  display: block;
+  height: calc(var(--emergence-12-sphere-spacing) * 1.5);
+  left: calc(50% + var(--emergence-12-sphere-horizontal-offset) / 2);
+  top: calc(var(--emergence-12-top) + var(--emergence-12-sphere-spacing) * 3.25);
+  transform: translate(-50%, -50%) rotate(30deg);
+}
+#tree-anim.emergence-12.transition-from-emergence-11 .path.path-25 {
+  animation: transition-12-from-11-path-25 var(--transition-duration) ease;
+}
+@keyframes transition-12-from-11-path-25 {
+  from {
+    box-shadow: var(--emergence-11-path-shadow);
+    font-size: var(--emergence-11-path-font-size);
+    height: var(--emergence-11-sphere-spacing);
+    left: calc(50% + var(--emergence-11-sphere-horizontal-offset) / 2);
+    top: calc(var(--emergence-11-top) + var(--emergence-11-sphere-spacing) * 2.75);
+    transform: translate(-50%, -50%) rotate(60deg);
+    width: var(--emergence-11-path-width);
+  } to {
+    box-shadow: var(--emergence-12-path-shadow);
+    font-size: var(--emergence-12-path-font-size);
+    height: calc(var(--emergence-12-sphere-spacing) * 1.5);
+    left: calc(50% + var(--emergence-12-sphere-horizontal-offset) / 2);
+    top: calc(var(--emergence-12-top) + var(--emergence-12-sphere-spacing) * 3.25);
+    width: var(--emergence-12-path-width);
+    transform: translate(-50%, -50%) rotate(30deg);
+  }
+}
+
+#tree-anim.emergence-12 .path.path-25 .number {
+  top: 28%;
+  transform: translate(-50%, -50%) rotate(-30deg);
+}
+#tree-anim.emergence-12.transition-from-emergence-11 .path.path-25 .number {
+  animation: transition-12-from-11-path-25-number var(--transition-duration) ease;
+}
+@keyframes transition-12-from-11-path-25-number {
+  from {
+    transform: translate(-50%, -50%) rotate(-60deg);
+  } to {
+    transform: translate(-50%, -50%) rotate(-30deg);
+  }
+}
+
+#tree-anim.emergence-12 .path.path-26 {
+  display: block;
+  height: calc(var(--emergence-12-sphere-spacing) * 1.5);
+  left: calc(50% - var(--emergence-12-sphere-horizontal-offset) / 2);
+  top: calc(var(--emergence-12-top) + var(--emergence-12-sphere-spacing) * 3.25);
+  transform: translate(-50%, -50%) rotate(-30deg);
+}
+#tree-anim.emergence-12.transition-from-emergence-11 .path.path-26 {
+  animation: transition-12-from-11-path-26 var(--transition-duration) ease;
+}
+@keyframes transition-12-from-11-path-26 {
+  from {
+    box-shadow: var(--emergence-11-path-shadow);
+    font-size: var(--emergence-11-path-font-size);
+    height: var(--emergence-11-sphere-spacing);
+    left: calc(50% - var(--emergence-11-sphere-horizontal-offset) / 2);
+    top: calc(var(--emergence-11-top) + var(--emergence-11-sphere-spacing) * 2.75);
+    transform: translate(-50%, -50%) rotate(-60deg);
+    width: var(--emergence-11-path-width);
+  } to {
+    box-shadow: var(--emergence-12-path-shadow);
+    font-size: var(--emergence-12-path-font-size);
+    height: calc(var(--emergence-12-sphere-spacing) * 1.5);
+    left: calc(50% - var(--emergence-12-sphere-horizontal-offset) / 2);
+    top: calc(var(--emergence-12-top) + var(--emergence-12-sphere-spacing) * 3.25);
+    width: var(--emergence-12-path-width);
+    transform: translate(-50%, -50%) rotate(-30deg);
+  }
+}
+
+#tree-anim.emergence-12 .path.path-26 .number {
+  top: 28%;
+  transform: translate(-50%, -50%) rotate(30deg);
+}
+#tree-anim.emergence-12.transition-from-emergence-11 .path.path-26 .number {
+  animation: transition-12-from-11-path-26-number var(--transition-duration) ease;
+}
+@keyframes transition-12-from-11-path-26-number {
+  from {
+    transform: translate(-50%, -50%) rotate(60deg);
+  } to {
+    transform: translate(-50%, -50%) rotate(30deg);
+  }
+}
+
+#tree-anim.emergence-12 .path.path-27 {
+  display: block;
+  height: var(--emergence-12-sphere-spacing);
+  left: calc(50% + var(--emergence-12-sphere-horizontal-offset) / 2);
+  top: calc(var(--emergence-12-top) + var(--emergence-12-sphere-spacing) * 3.75);
+  transform: translate(-50%, -50%) rotate(60deg);
+}
+#tree-anim.emergence-12.transition-from-emergence-11 .path.path-27 {
+  animation: transition-12-from-11-path-27 var(--transition-duration) ease;
+}
+@keyframes transition-12-from-11-path-27 {
+  from {
+    box-shadow: var(--emergence-11-path-shadow);
+    font-size: var(--emergence-11-path-font-size);
+    height: var(--emergence-11-sphere-spacing);
+    left: calc(50% + var(--emergence-11-sphere-horizontal-offset) / 2);
+    top: calc(var(--emergence-11-top) + var(--emergence-11-sphere-spacing) * 3.25);
+    transform: translate(-50%, -50%) rotate(120deg);
+    width: var(--emergence-11-path-width);
+  } to {
+    box-shadow: var(--emergence-12-path-shadow);
+    font-size: var(--emergence-12-path-font-size);
+    height: var(--emergence-12-sphere-spacing);
+    left: calc(50% + var(--emergence-12-sphere-horizontal-offset) / 2);
+    top: calc(var(--emergence-12-top) + var(--emergence-12-sphere-spacing) * 3.75);
+    transform: translate(-50%, -50%) rotate(60deg);
+    width: var(--emergence-12-path-width);
+  }
+}
+
+#tree-anim.emergence-12 .path.path-27 .number {
+  transform: translate(-50%, -50%) rotate(-60deg);
+}
+#tree-anim.emergence-12.transition-from-emergence-11 .path.path-27 .number {
+  animation: transition-12-from-11-path-27-number var(--transition-duration) ease;
+}
+@keyframes transition-12-from-11-path-27-number {
+  from {
+    transform: translate(-50%, -50%) rotate(-120deg);
+  } to {
+    transform: translate(-50%, -50%) rotate(-60deg);
+  }
+}
+
+#tree-anim.emergence-12 .path.path-28 {
+  display: block;
+  height: var(--emergence-12-sphere-spacing);
+  left: calc(50% - var(--emergence-12-sphere-horizontal-offset) / 2);
+  top: calc(var(--emergence-12-top) + var(--emergence-12-sphere-spacing) * 3.75);
+  transform: translate(-50%, -50%) rotate(-60deg);
+}
+#tree-anim.emergence-12.transition-from-emergence-11 .path.path-28 {
+  animation: transition-12-from-11-path-28 var(--transition-duration) ease;
+}
+@keyframes transition-12-from-11-path-28 {
+  from {
+    box-shadow: var(--emergence-11-path-shadow);
+    font-size: var(--emergence-11-path-font-size);
+    height: var(--emergence-11-sphere-spacing);
+    left: calc(50% - var(--emergence-11-sphere-horizontal-offset) / 2);
+    top: calc(var(--emergence-11-top) + var(--emergence-11-sphere-spacing) * 3.25);
+    transform: translate(-50%, -50%) rotate(-120deg);
+    width: var(--emergence-11-path-width);
+  } to {
+    box-shadow: var(--emergence-12-path-shadow);
+    font-size: var(--emergence-12-path-font-size);
+    height: var(--emergence-12-sphere-spacing);
+    left: calc(50% - var(--emergence-12-sphere-horizontal-offset) / 2);
+    top: calc(var(--emergence-12-top) + var(--emergence-12-sphere-spacing) * 3.75);
+    transform: translate(-50%, -50%) rotate(-60deg);
+    width: var(--emergence-12-path-width);
+  }
+}
+
+#tree-anim.emergence-12 .path.path-28 .number {
+  transform: translate(-50%, -50%) rotate(60deg);
+}
+#tree-anim.emergence-12.transition-from-emergence-11 .path.path-28 .number {
+  animation: transition-12-from-11-path-28-number var(--transition-duration) ease;
+}
+@keyframes transition-12-from-11-path-28-number {
+  from {
+    transform: translate(-50%, -50%) rotate(120deg);
+  } to {
+    transform: translate(-50%, -50%) rotate(60deg);
+  }
+}
+
+#tree-anim.emergence-12 .text.emergence-12 {
+  display: block;
+}
+#tree-anim.emergence-12.transition-from-emergence-11 .text.emergence-12 {
+  animation: fade-in calc(var(--transition-duration) / 2);
+  animation-delay: calc(var(--transition-duration) / 2);
+  animation-fill-mode: both;
+}
+#tree-anim.emergence-12.transition-from-emergence-11 .text.emergence-11 {
+  animation: fade-out calc(var(--transition-duration) / 2);
+  animation-fill-mode: both;
+  display: block;
+}
