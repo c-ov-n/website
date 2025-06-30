@@ -6,4 +6,5 @@
 ** xref:number.adoc#_sequence_glyphs[Sequence Glyphs]
 ** xref:number.adoc#_pronunciation[Pronunciation]
 * xref:emanation.adoc[]
+** xref:emanation.adoc#_chaos_01_nĕsh_hĭn[Chaos 0⋮1 - nĕsh-hĭn]
 ...
