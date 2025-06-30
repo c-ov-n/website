@@ -54,6 +54,8 @@ Every aspect of being is incomplete, retaining its relation to void while constr
 Each emmanation leaves space for the next emmanation so that the process may continue.
 All connection is made possible by what is left undetermined and reality is never fully manifest.
 
+image::diagrams/2-tree.svg[width=30%]
+
 == 2⋮3 Pattern - ēs-ŭzh
 
 image::sphere-glyphs/sphere-02-03.svg[width=100pt,height=141.4pt]
