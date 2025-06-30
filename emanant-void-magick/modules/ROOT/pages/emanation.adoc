@@ -34,7 +34,9 @@ Experimentation has shown that the placement of paths is usefully thought of as 
 The placement of paths are what seems to be the most stable form.
 Other less stable and higher-energy forms are possible and quite useful.
 
-== Chaos 0⋮1 - nĕsh-hĭn
+== 0⋮1 Chaos - nĕsh-hĭn
+
+image::sphere-glyphs/sphere-00-01.svg[width=100pt,height=141.4pt]
 
 Existence emerges spontaneously and without reason from Void.
 Existence requires no reason.
@@ -43,4 +45,117 @@ This is the fundamental nature of existence.
 It is spontaneous and without purpose or design.
 All possibilities assert themselves into being at once, each becoming a “one”, a unity of existence unto itself while retaining nothing in itself.
 
-== Process 1⋮2 - hĕzh-ēsh
+== 1⋮2 Process - hĕzh-ēsh
+
+image::sphere-glyphs/sphere-01-02.svg[width=100pt,height=141.4pt]
+
+That which asserts itself into being does not exhaust possibility.
+Every aspect of being is incomplete, retaining its relation to void while constraining and permitting that which may follow.
+Each emmanation leaves space for the next emmanation so that the process may continue.
+All connection is made possible by what is left undetermined and reality is never fully manifest.
+
+== 2⋮3 Pattern - ēs-ŭzh
+
+image::sphere-glyphs/sphere-02-03.svg[width=100pt,height=141.4pt]
+
+As the process of manifestation proceeds the shape of the unmanifest spaces influences that which may follow.
+This causes patterns to arise that unify the discrete units of being.
+Though each is completely free and separate, they are also manifest as a unified pattern.
+It is precisely because of incompleteness that these units are able to also become a new unity.
+
+== 3⋮5 Form - ŭm-o͞os
+
+image::sphere-glyphs/sphere-03-05.svg[width=100pt,height=141.4pt]
+
+Within pattern there emerge forms defined by the pattern and yet independent within it.
+For example, 5 & 7 are a twin prime pair as they are both prime with a difference of 2.
+Other twin primes pairs include 11 & 13, 17 & 19, 29 & 31.
+All prime pairs greater than 3 & 5 have the property of having their sum being evenly divisible by 12.
+This form of a “prime pair” is well known in mathematics but primeness, divisibility, and addition were not in any way defined in order to produce this form.
+Number emanates the form of the prime pair.
+Likewise we may take nearly any game and learn its rules rather quickly, but to learn a strategy is an entirely different matter.
+Games like Chess or Go give rise to whole vocabularies for naming forms within them.
+Though the rules teach us how to play, one must become familiar with these forms to play well.
+
+== 4⋮7 Change - ăou-chăz
+
+image::sphere-glyphs/sphere-04-07.svg[width=100pt,height=141.4pt]
+
+Manifestation may stop at Form to make a complete but static world.
+The universe of number is a perfect example of static manifestation.
+Alternately manifestation may remain forever in flux, manifesting and collapsing back into the unmanifest.
+This gives rise to time and change.
+Further manifestation takes on a destructive aspect as forms that were can now also cease to be.
+We move up a level in our analysis to describe types of change and change itself becomes a new type of form.
+The mathematically inclined may find it useful to meditate on the relationship of a mathematical function and its derivative.
+
+== 5⋮11 Self - o͞or-fĕm
+
+image::sphere-glyphs/sphere-05-11.svg[width=100pt,height=141.4pt]
+
+In the flow of change through time forms emerge which influence change in order to sustain themselves.
+These forms are agents of change.
+Like the first cellular organisms self-organizing around volcanic vents on the ocean floor in the chemical soup of the earth’s ancient oceans.
+The basic aspect of these agents is homeostasis.
+These agents direct change to create a dynamic constant.
+As these agents guide change we may now call this activity Will.
+In the fullness of emanation we come to identify one of these agents with the self.
+
+== 6⋮13 Sense - jŏth-tŏi 
+
+image::sphere-glyphs/sphere-06-13.svg[width=100pt,height=141.4pt]
+
+Agents may be blind actors, no more than a self-catalyzing reaction, or the agent may develop the capability of sensing and reacting to its environment.
+Sense is the essential element of the encounter of that which is beyond the self.
+It is the beginning of external self-organization that leads to external manifestation.
+It is an echo of Process yielded through the incompleteness of the agent.
+
+== 7⋮17 Thought - chō-kou
+
+image::sphere-glyphs/sphere-07-17.svg[width=100pt,height=141.4pt]
+
+If what is sensed leaves its mark upon the agent then we find the seed for the emergence of representational systems.
+The agent can now experience itself in time, forming memories, and gains the ability to not just change behavior based on current circumstance but also based on past learning.
+These internal marks can then be sensed and manipulated and so give rise to symbol, language, and communication.
+
+== 8⋮19 Desire - ät-thĕl
+
+image::sphere-glyphs/sphere-08-19.svg[width=100pt,height=141.4pt]
+
+Having formed memory the agent now is able to experience the external as something to be sought after or avoided.
+Want and fear and all the aspects of emotional attachment emerge.
+Desire attaches the agent to the external and so opens a channel for the external to truly manifest.
+It is attachment to the world that makes the world.
+We regard this as a positive development, an overcoming of the limited solipsistic self through desire.
+
+== 9⋮23 Matter - ĕ-pĕp
+
+image::sphere-glyphs/sphere-09-23.svg[width=100pt,height=141.4pt]
+
+Through desire the agent manifests the objectively real.
+The external is truly manifest beyond whatever sense, thoughts, or desires the agent may hold regarding it, so completing the self-overcoming of the agent.
+The objective binds the agent while also making possible the emergence of the next level of agency within objective reality.
+The agent has surrendered its naive omnipotence in its embrace of a new greater level of being in which it only has marginal and indirect power in exchange for a greater state of being.
+
+== 10⋮29 Subject - vŭ-sōb
+
+image::sphere-glyphs/sphere-10-29.svg[width=100pt,height=141.4pt]
+
+The manifestation of objective reality allows the agent to itself become a manifest object.
+By surrendering itself into objectivity and becoming limited the agent is able to enter into a space where it can come into authentic contact with other agents manifest as other subjects.
+Each aspect of the agent obtains and is constrained by a physical correlation.
+For us humans, this is our brains.
+Every thought, sense element, and desire is within our brains and is lost to us with disruption of this fragile tissue.
+
+== 11⋮31 Kia - fĕ-shĕr
+
+image::sphere-glyphs/sphere-11-31.svg[width=100pt,height=141.4pt]
+
+Kia is the void which remains within manifestation.
+In the twelfth tree all has manifested and yet Nothing remains.
+This Nothing is experienced as consciousness, free will, and ecstasy.
+More than that, Kia is the basis of having any experience whatsoever.
+All of the aspects of manifestation through the agent can carry on quite well without any conscious experience or free choice within it.
+In dreamless sleep and in normal waking when on auto-pilot Kia retreats.
+Kia manifests as the absurd, wonder, the presence of the undefined and unknown.
+Kia can arise in quiet contemplation, ecstatic overload, and in many ways that open the fundamental questions of being.
