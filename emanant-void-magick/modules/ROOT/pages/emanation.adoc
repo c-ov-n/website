@@ -54,7 +54,7 @@ Every aspect of being is incomplete, retaining its relation to void while constr
 Each emmanation leaves space for the next emmanation so that the process may continue.
 All connection is made possible by what is left undetermined and reality is never fully manifest.
 
-image::diagrams/2-tree.svg[width=30%]
+image::diagrams/2-tree.svg[width=35%]
 
 == 2⋮3 Pattern - ēs-ŭzh
 
@@ -64,6 +64,8 @@ As the process of manifestation proceeds the shape of the unmanifest spaces infl
 This causes patterns to arise that unify the discrete units of being.
 Though each is completely free and separate, they are also manifest as a unified pattern.
 It is precisely because of incompleteness that these units are able to also become a new unity.
+
+image::diagrams/3-tree.svg[]
 
 == 3⋮5 Form - ŭm-o͞os
 
