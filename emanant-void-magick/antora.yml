@@ -1,0 +1,7 @@
+---
+name: emanant-void-magick
+version: ~
+title: Emanant Void Magick
+nav:
+- modules/ROOT/nav.adoc
+...

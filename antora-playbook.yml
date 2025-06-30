@@ -1,0 +1,17 @@
+---
+site:
+  title: C-ov-N
+  start_page: emanant-void-magick::index.adoc
+content:
+  sources:
+  - url: .
+    branches: HEAD
+    start_path: emanant-void-magick
+ui:
+  bundle:
+    url: https://github.com/c-ov-n/antora-ui/releases/download/v0.1.3/ui-bundle.zip
+    snapshot: true
+asciidoc:
+  attributes:
+    page-pagination: true
+...

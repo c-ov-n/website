@@ -1,0 +1,9 @@
+---
+* xref:introduction.adoc[]
+* xref:void.adoc[]
+* xref:number.adoc[]
+** xref:number.adoc#_factor_glyphs[Factor Glyphs]
+** xref:number.adoc#_sequence_glyphs[Sequence Glyphs]
+** xref:number.adoc#_pronunciation[Pronunciation]
+* xref:emanation.adoc[]
+...

@@ -1,0 +1,341 @@
+= Number
+
+Number is a story of emanation of being from non-being.
+Its sequence from zero towards infinity with each step deepening the complexity of relationships
+parallels the narrative of emanation of being from Void.
+The narrative of emanation is woven around the counting numbers, giving a system of arithmology.
+
+A trouble with number is that too many of us learned numbers as a formative experience of social control of our mind,
+authority telling us to memorize and repeat rather than explore and understand.
+Many of us experience numbers at school as the first place where we are told that we are wrong.
+Numbers and mathematics too often become sheets of tedious work covered in red marks exposing our mistakes.
+
+To recover number as itself it is helpful to have symbols which allow us to experience it anew.
+Dropping the decimal system is a useful tool for this.
+The factor glyphs are built up of the relations of each number to its sequence and prime factorization.
+They visually encode information while making them sufficiently alien to be experienced as they are,
+fundamental units of the deepest mysteries.
+
+There are two sets of glyphs used within this material: factor and sequence.
+For both sets we just name and number zero to thirty-one.
+The systems described or a place system could be used to represent larger numbers,
+but this is unnecessary in the context of the present work.
+
+== Factor Glyphs
+
+The factor glyphs begin with zero and one, a circle and a vertical line.
+These are special cases as these numbers do not take part in factorization.
+Two is a straight horizontal line.
+Three is a curve.
+Four is the first factored number, made of two times two, two straight lines joined.
+Five is a spiral.
+Six is the curve of three joined to the straight line of two.
+Seven and all subsequent primes are formed by taking the glyph of the previous number,
+shifting the final line to a diagonal,
+and making a cross mark.
+When there are multiple such cross marks they are joined in an arc, primarily for aesthetics.
+
+[cols="1,1,1,1,1,1,1,1"]
+|===
+| image:factor-glyphs/0x00.svg[width=20pt,height=28.28pt]
+| image:factor-glyphs/0x01.svg[width=20pt,height=28.28pt]
+| image:factor-glyphs/0x02.svg[width=20pt,height=28.28pt]
+| image:factor-glyphs/0x03.svg[width=20pt,height=28.28pt]
+| image:factor-glyphs/0x04.svg[width=20pt,height=28.28pt]
+| image:factor-glyphs/0x05.svg[width=20pt,height=28.28pt]
+| image:factor-glyphs/0x06.svg[width=20pt,height=28.28pt]
+| image:factor-glyphs/0x07.svg[width=20pt,height=28.28pt]
+
+| image:factor-glyphs/0x08.svg[width=20pt,height=28.28pt]
+| image:factor-glyphs/0x09.svg[width=20pt,height=28.28pt]
+| image:factor-glyphs/0x0a.svg[width=20pt,height=28.28pt]
+| image:factor-glyphs/0x0b.svg[width=20pt,height=28.28pt]
+| image:factor-glyphs/0x0c.svg[width=20pt,height=28.28pt]
+| image:factor-glyphs/0x0d.svg[width=20pt,height=28.28pt]
+| image:factor-glyphs/0x0e.svg[width=20pt,height=28.28pt]
+| image:factor-glyphs/0x0f.svg[width=20pt,height=28.28pt]
+
+| image:factor-glyphs/0x10.svg[width=20pt,height=28.28pt]
+| image:factor-glyphs/0x11.svg[width=20pt,height=28.28pt]
+| image:factor-glyphs/0x12.svg[width=20pt,height=28.28pt]
+| image:factor-glyphs/0x13.svg[width=20pt,height=28.28pt]
+| image:factor-glyphs/0x14.svg[width=20pt,height=28.28pt]
+| image:factor-glyphs/0x15.svg[width=20pt,height=28.28pt]
+| image:factor-glyphs/0x16.svg[width=20pt,height=28.28pt]
+| image:factor-glyphs/0x17.svg[width=20pt,height=28.28pt]
+
+| image:factor-glyphs/0x18.svg[width=20pt,height=28.28pt]
+| image:factor-glyphs/0x19.svg[width=20pt,height=28.28pt]
+| image:factor-glyphs/0x1a.svg[width=20pt,height=28.28pt]
+| image:factor-glyphs/0x1b.svg[width=20pt,height=28.28pt]
+| image:factor-glyphs/0x1c.svg[width=20pt,height=28.28pt]
+| image:factor-glyphs/0x1d.svg[width=20pt,height=28.28pt]
+| image:factor-glyphs/0x1e.svg[width=20pt,height=28.28pt]
+| image:factor-glyphs/0x1f.svg[width=20pt,height=28.28pt]
+|===
+
+The relationships between the numbers are readily apparent because these glyphs are constructed procedurally from the factorization.
+This aids in intuitive association.
+
+image::number-circle.svg[]
+
+== Sequence Glyphs
+
+The sequence glyphs are used to order things which occur in a sequence but which are not necessarily comparable in a sense of magnitude.
+This second set of symbols is particularly useful when numbering paths,
+which will have one number given by its emanation order and a second number given by its sequence in the fool's journey.
+
+The form of the sequence glyphs is formed first by the same initial forms as the factor glyphs.
+Starting at five the pattern emerges of dot, line, arc indicating the base glyph plus one, two or three.
+Twelve is formed as a merging of glyphs for eight and four.
+Twenty is formed from sixteen and four.
+Twenty-four is formed from sixteen and eight.
+Twente-eight is formed from sixteen, eight, and four.
+
+[cols="1,1,1,1,1,1,1,1"]
+|===
+| image:sequence-glyphs/0x00.svg[width=20pt,height=28.28pt]
+| image:sequence-glyphs/0x01.svg[width=20pt,height=28.28pt]
+| image:sequence-glyphs/0x02.svg[width=20pt,height=28.28pt]
+| image:sequence-glyphs/0x03.svg[width=20pt,height=28.28pt]
+| image:sequence-glyphs/0x04.svg[width=20pt,height=28.28pt]
+| image:sequence-glyphs/0x05.svg[width=20pt,height=28.28pt]
+| image:sequence-glyphs/0x06.svg[width=20pt,height=28.28pt]
+| image:sequence-glyphs/0x07.svg[width=20pt,height=28.28pt]
+
+| image:sequence-glyphs/0x08.svg[width=20pt,height=28.28pt]
+| image:sequence-glyphs/0x09.svg[width=20pt,height=28.28pt]
+| image:sequence-glyphs/0x0a.svg[width=20pt,height=28.28pt]
+| image:sequence-glyphs/0x0b.svg[width=20pt,height=28.28pt]
+| image:sequence-glyphs/0x0c.svg[width=20pt,height=28.28pt]
+| image:sequence-glyphs/0x0d.svg[width=20pt,height=28.28pt]
+| image:sequence-glyphs/0x0e.svg[width=20pt,height=28.28pt]
+| image:sequence-glyphs/0x0f.svg[width=20pt,height=28.28pt]
+
+| image:sequence-glyphs/0x10.svg[width=20pt,height=28.28pt]
+| image:sequence-glyphs/0x11.svg[width=20pt,height=28.28pt]
+| image:sequence-glyphs/0x12.svg[width=20pt,height=28.28pt]
+| image:sequence-glyphs/0x13.svg[width=20pt,height=28.28pt]
+| image:sequence-glyphs/0x14.svg[width=20pt,height=28.28pt]
+| image:sequence-glyphs/0x15.svg[width=20pt,height=28.28pt]
+| image:sequence-glyphs/0x16.svg[width=20pt,height=28.28pt]
+| image:sequence-glyphs/0x17.svg[width=20pt,height=28.28pt]
+
+| image:sequence-glyphs/0x18.svg[width=20pt,height=28.28pt]
+| image:sequence-glyphs/0x19.svg[width=20pt,height=28.28pt]
+| image:sequence-glyphs/0x1a.svg[width=20pt,height=28.28pt]
+| image:sequence-glyphs/0x1b.svg[width=20pt,height=28.28pt]
+| image:sequence-glyphs/0x1c.svg[width=20pt,height=28.28pt]
+| image:sequence-glyphs/0x1d.svg[width=20pt,height=28.28pt]
+| image:sequence-glyphs/0x1e.svg[width=20pt,height=28.28pt]
+| image:sequence-glyphs/0x1f.svg[width=20pt,height=28.28pt]
+|===
+
+== Pronunciation
+
+In addition to the glyph sets each number is also given a pronunciation.
+Like the glyphs these pronunciations allow for a fresh encounter with the idea of number.
+The pronunciations are based on the spoken sounds in English ordered systematically
+by a number of rules to bring out the relationships between the numbers.
+The rules themselves are not important other than that they build phonetic associations to help us intuitively identify relationships.
+
+The pronuciations are paired in a cycle where the initial and final sounds
+of each are paired. Zero and sixteen are their own opposite.
+For the mathematically inclined,
+you might note that this pairing follows a two's complement of five-digit binary representation of each number.
+In normal binary notation this matches each number one to fifteen with its negative.
+
+Consonant sounds are arranged in voiced and unvoiced pairs such as the sounds of “d” and “t”.
+These are then paired with primes such that the unvoiced consonant is the initial sound of the prime,
+and the voiced consonant is is asigned as the initial sound of the preceding composite number.
+The ordering of the vowels and remaining consonants is the result of aesthetic choice following much experimentation.
+
+Pronunciation is given in both English pronunciation (enPR) and International Phonetic Alphabet (IPA).
+An exception is the dotted “ṙ”, which is used for the trilled “r” such as in Spanish.
+The modified enPR notation will be used in naming throughout this work.
+Note that enPR uses italic “𝑡ℎ” for the voiced sound as in “they” while “th” is unvoiced as in “with”.
+
+[cols="5,5,5,5,1,5,5,5,5",options="header"]
+|===
+| Decimal
+| Glyph(s)
+| enPR
+| IPA
+|
+| Decimal
+| Glyph(s)
+| enPR
+| IPA
+
+| 0
+| image:factor-glyphs/0x00.svg[width=20pt,height=28.28pt]
+| nĭn
+| /nɪn/
+|
+|
+|
+|
+|
+
+| 1
+| image:factor-glyphs/0x01.svg[width=20pt,height=28.28pt]
+| hĕsh
+| /hɛʃ/
+|
+| 31
+| image:factor-glyphs/0x1f.svg[width=20pt,height=28.28pt] image:sequence-glyphs/0x1f.svg[width=20pt,height=28.28pt]
+| shĕh
+| /ʃɛh/
+
+| 2
+| image:factor-glyphs/0x02.svg[width=20pt,height=28.28pt]
+| ēzh
+| /iʒ/
+|
+| 30
+| image:factor-glyphs/0x1e.svg[width=20pt,height=28.28pt] image:sequence-glyphs/0x1e.svg[width=20pt,height=28.28pt]
+| zhē
+| /ʒi/
+
+| 3
+| image:factor-glyphs/0x03.svg[width=20pt,height=28.28pt]
+| ŭs
+| /ʌs/
+|
+| 29
+| image:factor-glyphs/0x1d.svg[width=20pt,height=28.28pt] image:sequence-glyphs/0x1d.svg[width=20pt,height=28.28pt]
+| sŭ
+| /sʌ/
+
+| 4
+| image:factor-glyphs/0x04.svg[width=20pt,height=28.28pt]
+| ăz
+| /az/
+|
+| 28
+| image:factor-glyphs/0x1c.svg[width=20pt,height=28.28pt] image:sequence-glyphs/0x1c.svg[width=20pt,height=28.28pt]
+| ză
+| /za/
+
+| 5
+| image:factor-glyphs/0x05.svg[width=20pt,height=28.28pt] image:sequence-glyphs/0x05.svg[width=20pt,height=28.28pt]
+| o͞om
+| /um/
+|
+| 27
+| image:factor-glyphs/0x1b.svg[width=20pt,height=28.28pt] image:sequence-glyphs/0x1b.svg[width=20pt,height=28.28pt]
+| mo͞o
+| /mu/
+
+| 6
+| image:factor-glyphs/0x06.svg[width=20pt,height=28.28pt] image:sequence-glyphs/0x06.svg[width=20pt,height=28.28pt]
+| joi
+| /d͡ʒɔɪ/
+|
+| 26
+| image:factor-glyphs/0x1a.svg[width=20pt,height=28.28pt] image:sequence-glyphs/0x1a.svg[width=20pt,height=28.28pt]
+| yōj
+| /joʊd͡ʒ/
+
+| 7
+| image:factor-glyphs/0x07.svg[width=20pt,height=28.28pt] image:sequence-glyphs/0x07.svg[width=20pt,height=28.28pt]
+| chou
+| /t͡ʃaʊ̯/
+|
+| 25
+| image:factor-glyphs/0x19.svg[width=20pt,height=28.28pt] image:sequence-glyphs/0x19.svg[width=20pt,height=28.28pt]
+| wĭch
+| /wɪt͡ʃ/
+
+| 8
+| image:factor-glyphs/0x08.svg[width=20pt,height=28.28pt]
+| äl
+| /ɑl/
+|
+| 24
+| image:factor-glyphs/0x18.svg[width=20pt,height=28.28pt] image:sequence-glyphs/0x18.svg[width=20pt,height=28.28pt]
+| lä
+| /lɑ/
+
+| 9
+| image:factor-glyphs/0x09.svg[width=20pt,height=28.28pt] image:sequence-glyphs/0x09.svg[width=20pt,height=28.28pt]
+| ĕp
+| /ɛp/
+|
+| 23
+| image:factor-glyphs/0x17.svg[width=20pt,height=28.28pt] image:sequence-glyphs/0x17.svg[width=20pt,height=28.28pt]
+| pĕ
+| /pɛ/
+
+| 10
+| image:factor-glyphs/0x0a.svg[width=20pt,height=28.28pt] image:sequence-glyphs/0x0a.svg[width=20pt,height=28.28pt]
+| vōb
+| /voʊb/
+|
+| 22
+| image:factor-glyphs/0x16.svg[width=20pt,height=28.28pt] image:sequence-glyphs/0x16.svg[width=20pt,height=28.28pt]
+| bĕv
+| /bɛv/
+
+| 11
+| image:factor-glyphs/0x0b.svg[width=20pt,height=28.28pt] image:sequence-glyphs/0x0b.svg[width=20pt,height=28.28pt]
+| fĕr
+| /fɛɹ/
+|
+| 21
+| image:factor-glyphs/0x15.svg[width=20pt,height=28.28pt] image:sequence-glyphs/0x15.svg[width=20pt,height=28.28pt]
+| rĭf
+| /ɹɪf/
+
+| 12
+| image:factor-glyphs/0x0c.svg[width=20pt,height=28.28pt] image:sequence-glyphs/0x0c.svg[width=20pt,height=28.28pt]
+| dôṙ
+| /doɾ/
+|
+| 20
+| image:factor-glyphs/0x14.svg[width=20pt,height=28.28pt] image:sequence-glyphs/0x14.svg[width=20pt,height=28.28pt]
+| ṙăd
+| /ɾæd/
+
+| 13
+| image:factor-glyphs/0x0d.svg[width=20pt,height=28.28pt] image:sequence-glyphs/0x0d.svg[width=20pt,height=28.28pt]
+| tŏth
+| /tɑθ/
+|
+| 19
+| image:factor-glyphs/0x13.svg[width=20pt,height=28.28pt] image:sequence-glyphs/0x13.svg[width=20pt,height=28.28pt]
+| thĕt
+| /θɛt/
+
+| 14
+| image:factor-glyphs/0x0e.svg[width=20pt,height=28.28pt] image:sequence-glyphs/0x0e.svg[width=20pt,height=28.28pt]
+| ā𝑡ℎ
+| /eɪð/
+|
+| 18
+| image:factor-glyphs/0x12.svg[width=20pt,height=28.28pt] image:sequence-glyphs/0x12.svg[width=20pt,height=28.28pt]
+| 𝑡ℎā
+| /ðeɪ/
+
+| 15
+| image:factor-glyphs/0x0f.svg[width=20pt,height=28.28pt] image:sequence-glyphs/0x0f.svg[width=20pt,height=28.28pt]
+| ōk
+| /oʊk/
+|
+| 17
+| image:factor-glyphs/0x11.svg[width=20pt,height=28.28pt] image:sequence-glyphs/0x11.svg[width=20pt,height=28.28pt]
+| kō
+| /koʊ/
+
+|
+|
+|
+|
+|
+| 16
+| image:factor-glyphs/0x10.svg[width=20pt,height=28.28pt]
+| gĕg
+| /gɛg/
+|===
+
+In various ways these pronunciations will be mixed and mutated to give systematic names to each path and sphere.
