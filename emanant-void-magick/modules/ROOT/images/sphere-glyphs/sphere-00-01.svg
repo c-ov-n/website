@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="10mm"
+   height="14.14214mm"
+   viewBox="0 0 10 14.142141"
+   version="1.1"
+   id="svg5"
+   sodipodi:docname="sphere-00-01-nesh-heen.svg"
+   inkscape:version="1.3.2 (091e20ef0f, 2023-11-25)"
+   inkscape:export-filename="sphere-00-01-nesh-heen.png"
+   inkscape:export-xdpi="5080"
+   inkscape:export-ydpi="5080"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     width="20mm"
+     inkscape:zoom="14.288428"
+     inkscape:cx="6.9986705"
+     inkscape:cy="26.489968"
+     inkscape:window-width="1920"
+     inkscape:window-height="1131"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1"
+     inkscape:showpageshadow="2"
+     inkscape:deskcolor="#d1d1d1"
+     showguides="true"
+     inkscape:export-bgcolor="#ffffffff">
+    <sodipodi:guide
+       position="0,1"
+       orientation="0,-1"
+       id="guide-top"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="0,13.142141"
+       orientation="0,-1"
+       id="guide-bottom"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="1,0"
+       orientation="1,0"
+       id="guide-left"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="9,0"
+       orientation="1,0"
+       id="guide-right"
+       inkscape:locked="false" />
+  </sodipodi:namedview>
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.777;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
+       d="M 4.9426609,13.154223 4.9437773,1.000454"
+       id="path29425"
+       sodipodi:nodetypes="cc"
+       inkscape:label="stroke" />
+    <circle
+       style="fill:none;stroke:#000000;stroke-width:0.777;stroke-linejoin:round;stroke-dasharray:none"
+       id="path896"
+       inkscape:label="circle"
+       cy="7.0710702"
+       cx="5"
+       r="3.583288" />
+  </g>
+</svg>
