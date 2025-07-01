@@ -95,6 +95,8 @@ Further manifestation takes on a destructive aspect as forms that were can now a
 We move up a level in our analysis to describe types of change and change itself becomes a new type of form.
 The mathematically inclined may find it useful to meditate on the relationship of a mathematical function and its derivative.
 
+image::diagrams/5-tree.svg[]
+
 == 5⋮11 Self - o͞or-fĕm
 
 image::sphere-glyphs/sphere-05-11.svg[width=100pt,height=141.4pt]
