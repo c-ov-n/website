@@ -120,6 +120,8 @@ Sense is the essential element of the encounter of that which is beyond the self
 It is the beginning of external self-organization that leads to external manifestation.
 It is an echo of Process yielded through the incompleteness of the agent.
 
+image::diagrams/7-tree.svg[]
+
 == 7⋮17 Thought - chō-kou
 
 image::sphere-glyphs/sphere-07-17.svg[width=100pt,height=141.4pt]
