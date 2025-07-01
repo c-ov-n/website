@@ -81,6 +81,8 @@ Likewise we may take nearly any game and learn its rules rather quickly, but to 
 Games like Chess or Go give rise to whole vocabularies for naming forms within them.
 Though the rules teach us how to play, one must become familiar with these forms to play well.
 
+image::diagrams/4-tree.svg[]
+
 == 4⋮7 Change - ăou-chăz
 
 image::sphere-glyphs/sphere-04-07.svg[width=100pt,height=141.4pt]
