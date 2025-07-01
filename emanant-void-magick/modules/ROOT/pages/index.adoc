@@ -1,2 +1,13 @@
 = Emanant Void Magick
 
+xref:introduction.adoc[**Introduction**] +
+Introduction and project background.
+
+xref:void.adoc[**Void**] +
+The starting point is nothing.
+
+xref:number.adoc[**Number**] +
+Overview and reference for numbering systems.
+
+xref:emanation.adoc[**Emanation**] +
+Narrative ontology and tree diagrams.
