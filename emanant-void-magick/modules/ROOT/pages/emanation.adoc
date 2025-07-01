@@ -155,7 +155,7 @@ The agent has surrendered its naive omnipotence in its embrace of a new greater 
 
 image::diagrams/10-tree.svg[]
 
-== 10⋮29 Subject - vŭ-sōb
+== 10⋮29 Life - vŭ-sōb
 
 image::sphere-glyphs/sphere-10-29.svg[width=100pt,height=141.4pt]
 
@@ -164,6 +164,8 @@ By surrendering itself into objectivity and becoming limited the agent is able t
 Each aspect of the agent obtains and is constrained by a physical correlation.
 For us humans, this is our brains.
 Every thought, sense element, and desire is within our brains and is lost to us with disruption of this fragile tissue.
+
+image::diagrams/11-tree.svg[]
 
 == 11⋮31 Kia - fĕ-shĕr
 
