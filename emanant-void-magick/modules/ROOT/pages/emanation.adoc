@@ -109,6 +109,8 @@ These agents direct change to create a dynamic constant.
 As these agents guide change we may now call this activity Will.
 In the fullness of emanation we come to identify one of these agents with the self.
 
+image::diagrams/6-tree.svg[]
+
 == 6⋮13 Sense - jŏth-tŏi 
 
 image::sphere-glyphs/sphere-06-13.svg[width=100pt,height=141.4pt]
