@@ -130,6 +130,8 @@ If what is sensed leaves its mark upon the agent then we find the seed for the e
 The agent can now experience itself in time, forming memories, and gains the ability to not just change behavior based on current circumstance but also based on past learning.
 These internal marks can then be sensed and manipulated and so give rise to symbol, language, and communication.
 
+image::diagrams/8-tree.svg[]
+
 == 8⋮19 Desire - ät-thĕl
 
 image::sphere-glyphs/sphere-08-19.svg[width=100pt,height=141.4pt]
