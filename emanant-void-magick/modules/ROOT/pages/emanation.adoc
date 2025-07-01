@@ -142,6 +142,8 @@ Desire attaches the agent to the external and so opens a channel for the externa
 It is attachment to the world that makes the world.
 We regard this as a positive development, an overcoming of the limited solipsistic self through desire.
 
+image::diagrams/9-tree.svg[]
+
 == 9⋮23 Matter - ĕ-pĕp
 
 image::sphere-glyphs/sphere-09-23.svg[width=100pt,height=141.4pt]
