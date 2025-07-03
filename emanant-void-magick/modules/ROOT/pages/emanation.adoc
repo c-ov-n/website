@@ -39,9 +39,11 @@ Experimentation has shown that the placement of paths is usefully thought of as 
 The placement of paths are what seems to be the most stable form.
 Other less stable and higher-energy forms are possible and quite useful.
 
-== 0⋮1 Chaos - nĕsh-hĭn - /nɛʃ.hɪn/
+== 0⋮1 Chaos
 
 image::sphere-glyphs/sphere-00-01.svg[width=100pt,height=141.4pt]
+
+Chaos: nĕsh-hĭn /nɛʃ.hɪn/
 
 Existence emerges spontaneously and without reason from Void.
 Existence requires no reason.
@@ -67,9 +69,11 @@ More of a seed than a tree, we show here a representation of the sphere with its
 
 image::diagrams/1-tree-simple.svg[width=30%]
 
-== 1⋮2 Process - hĕzh-ēsh
+== 1⋮2 Process
 
 image::sphere-glyphs/sphere-01-02.svg[width=100pt,height=141.4pt]
+
+Process: hĕzh-ēsh /hɛʒ.iʃ/
 
 That which asserts itself into being does not exhaust possibility.
 Every aspect of being is incomplete, retaining its relation to void while constraining and permitting that which may follow.
@@ -78,9 +82,11 @@ All connection is made possible by what is left undetermined and reality is neve
 
 image::diagrams/2-tree-simple.svg[width=30%]
 
-== 2⋮3 Pattern - ēs-ŭzh
+== 2⋮3 Pattern
 
 image::sphere-glyphs/sphere-02-03.svg[width=100pt,height=141.4pt]
+
+Pattern: ēs-ŭzh /is.ŭʒ/
 
 As the process of manifestation proceeds the shape of the unmanifest spaces influences that which may follow.
 This causes patterns to arise that unify the discrete units of being.
@@ -89,9 +95,11 @@ It is precisely because of incompleteness that these units are able to also beco
 
 image::diagrams/3-tree-simple.svg[width=60%]
 
-== 3⋮5 Form - ŭm-o͞os
+== 3⋮5 Form
 
 image::sphere-glyphs/sphere-03-05.svg[width=100pt,height=141.4pt]
+
+Form: ŭm-o͞os /ʌm.us/
 
 Within pattern there emerge forms defined by the pattern and yet independent within it.
 For example, 5 & 7 are a twin prime pair as they are both prime with a difference of 2.
@@ -105,9 +113,11 @@ Though the rules teach us how to play, one must become familiar with these forms
 
 image::diagrams/4-tree-simple.svg[width=65%]
 
-== 4⋮7 Change - ăou-chăz
+== 4⋮7 Change
 
 image::sphere-glyphs/sphere-04-07.svg[width=100pt,height=141.4pt]
+
+Change: ăou-chăz /aʊ̯.t͡ʃaz/
 
 Manifestation may stop at Form to make a complete but static world.
 The universe of number is a perfect example of static manifestation.
@@ -119,9 +129,11 @@ The mathematically inclined may find it useful to meditate on the relationship o
 
 image::diagrams/5-tree-simple.svg[width=80%]
 
-== 5⋮11 Self - o͞or-fĕm
+== 5⋮11 Self
 
 image::sphere-glyphs/sphere-05-11.svg[width=100pt,height=141.4pt]
+
+Self: o͞or-fĕm /uɹ.fɛm/
 
 In the flow of change through time forms emerge which influence change in order to sustain themselves.
 These forms are agents of change.
@@ -133,9 +145,11 @@ In the fullness of emanation we come to identify one of these agents with the se
 
 image::diagrams/6-tree-simple.svg[width=85%]
 
-== 6⋮13 Sense - jŏth-tŏi 
+== 6⋮13 Sense
 
 image::sphere-glyphs/sphere-06-13.svg[width=100pt,height=141.4pt]
+
+Sense: jŏth-tŏi /d͡ʒɑθ.tɔɪ/
 
 Agents may be blind actors, no more than a self-catalyzing reaction, or the agent may develop the capability of sensing and reacting to its environment.
 Sense is the essential element of the encounter of that which is beyond the self.
@@ -144,9 +158,11 @@ It is an echo of Process yielded through the incompleteness of the agent.
 
 image::diagrams/7-tree-simple.svg[width=85%]
 
-== 7⋮17 Thought - chō-kou
+== 7⋮17 Thought
 
 image::sphere-glyphs/sphere-07-17.svg[width=100pt,height=141.4pt]
+
+Thought: chō-kou /t͡ʃoʊ.kaʊ̯/
 
 If what is sensed leaves its mark upon the agent then we find the seed for the emergence of representational systems.
 The agent can now experience itself in time, forming memories, and gains the ability to not just change behavior based on current circumstance but also based on past learning.
@@ -154,9 +170,11 @@ These internal marks can then be sensed and manipulated and so give rise to symb
 
 image::diagrams/8-tree-simple.svg[width=85%]
 
-== 8⋮19 Desire - ät-thĕl
+== 8⋮19 Desire
 
 image::sphere-glyphs/sphere-08-19.svg[width=100pt,height=141.4pt]
+
+Desire: ät-thĕl /ɑt.θɛl/
 
 Having formed memory the agent now is able to experience the external as something to be sought after or avoided.
 Want and fear and all the aspects of emotional attachment emerge.
@@ -166,9 +184,11 @@ We regard this as a positive development, an overcoming of the limited solipsist
 
 image::diagrams/9-tree-simple.svg[width=85%]
 
-== 9⋮23 Matter - ĕ-pĕp
+== 9⋮23 Matter
 
 image::sphere-glyphs/sphere-09-23.svg[width=100pt,height=141.4pt]
+
+Matter: ĕ-pĕp /ɛ.pĕp/
 
 Through desire the agent manifests the objectively real.
 The external is truly manifest beyond whatever sense, thoughts, or desires the agent may hold regarding it, so completing the self-overcoming of the agent.
@@ -177,9 +197,11 @@ The agent has surrendered its naive omnipotence in its embrace of a new greater 
 
 image::diagrams/10-tree-simple.svg[width=85%]
 
-== 10⋮29 Life - vŭ-sōb
+== 10⋮29 Life
 
 image::sphere-glyphs/sphere-10-29.svg[width=100pt,height=141.4pt]
+
+Life: vŭ-sōb /vʌ.soʊb/
 
 The manifestation of objective reality allows the agent to itself become a manifest object.
 By surrendering itself into objectivity and becoming limited the agent is able to enter into a space where it can come into authentic contact with other agents manifest as other subjects.
@@ -189,9 +211,11 @@ Every thought, sense element, and desire is within our brains and is lost to us 
 
 image::diagrams/11-tree-simple.svg[width=85%]
 
-== 11⋮31 Kia - fĕ-shĕr
+== 11⋮31 Kia
 
 image::sphere-glyphs/sphere-11-31.svg[width=100pt,height=141.4pt]
+
+Kia: fĕ-shĕr /fɛ.ʃɛɹ/
 
 Kia is the void which remains within manifestation.
 In the twelfth tree all has manifested and yet Nothing remains.
