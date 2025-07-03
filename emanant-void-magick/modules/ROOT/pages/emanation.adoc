@@ -77,8 +77,13 @@ Process: hĕzh-ēsh /hɛʒ.iʃ/
 
 That which asserts itself into being does not exhaust possibility.
 Every aspect of being is incomplete, retaining its relation to void while constraining and permitting that which may follow.
-Each emmanation leaves space for the next emmanation so that the process may continue.
-All connection is made possible by what is left undetermined and reality is never fully manifest.
+Each emmanation leaves space for the next emmanation.
+All connection is made possible by what is left undetermined
+Reality is never fully manifest.
+
+In the tree of hĕzh-ēsh we see the first budding of a sphere and the growth of the first path.
+Paths are numbered by the order in which they appear, starting at zero.
+The glyph of hĕzh-ēsh and its pronunciation is produced in the same manner as explaned above for nĕsh-hĭn.
 
 image::diagrams/2-tree-simple.svg[width=30%]
 
@@ -92,6 +97,10 @@ As the process of manifestation proceeds the shape of the unmanifest spaces infl
 This causes patterns to arise that unify the discrete units of being.
 Though each is completely free and separate, they are also manifest as a unified pattern.
 It is precisely because of incompleteness that these units are able to also become a new unity.
+
+In the tree of ēs-ŭzh we see the first branching of the tree.
+Path 2 ([.inline]##image:factor-glyphs/0x02.svg[]##) is produced directly from the branching spheres while
+path 0 ([.inline]##image:factor-glyphs/0x00.svg[]##) splits to give rise to path 1 ([.inline]##image:factor-glyphs/0x01.svg[]##).
 
 image::diagrams/3-tree-simple.svg[width=60%]
 
