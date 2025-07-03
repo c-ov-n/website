@@ -54,7 +54,7 @@ Every aspect of being is incomplete, retaining its relation to void while constr
 Each emmanation leaves space for the next emmanation so that the process may continue.
 All connection is made possible by what is left undetermined and reality is never fully manifest.
 
-image::diagrams/2-tree.svg[width=35%]
+image::diagrams/2-tree-simple.svg[width=30%]
 
 == 2⋮3 Pattern - ēs-ŭzh
 
@@ -65,7 +65,7 @@ This causes patterns to arise that unify the discrete units of being.
 Though each is completely free and separate, they are also manifest as a unified pattern.
 It is precisely because of incompleteness that these units are able to also become a new unity.
 
-image::diagrams/3-tree.svg[]
+image::diagrams/3-tree-simple.svg[width=60%]
 
 == 3⋮5 Form - ŭm-o͞os
 
@@ -81,7 +81,7 @@ Likewise we may take nearly any game and learn its rules rather quickly, but to 
 Games like Chess or Go give rise to whole vocabularies for naming forms within them.
 Though the rules teach us how to play, one must become familiar with these forms to play well.
 
-image::diagrams/4-tree.svg[]
+image::diagrams/4-tree-simple.svg[width=65%]
 
 == 4⋮7 Change - ăou-chăz
 
@@ -95,7 +95,7 @@ Further manifestation takes on a destructive aspect as forms that were can now a
 We move up a level in our analysis to describe types of change and change itself becomes a new type of form.
 The mathematically inclined may find it useful to meditate on the relationship of a mathematical function and its derivative.
 
-image::diagrams/5-tree.svg[]
+image::diagrams/5-tree-simple.svg[width=80%]
 
 == 5⋮11 Self - o͞or-fĕm
 
@@ -109,7 +109,7 @@ These agents direct change to create a dynamic constant.
 As these agents guide change we may now call this activity Will.
 In the fullness of emanation we come to identify one of these agents with the self.
 
-image::diagrams/6-tree.svg[]
+image::diagrams/6-tree-simple.svg[width=85%]
 
 == 6⋮13 Sense - jŏth-tŏi 
 
@@ -120,7 +120,7 @@ Sense is the essential element of the encounter of that which is beyond the self
 It is the beginning of external self-organization that leads to external manifestation.
 It is an echo of Process yielded through the incompleteness of the agent.
 
-image::diagrams/7-tree.svg[]
+image::diagrams/7-tree-simple.svg[width=85%]
 
 == 7⋮17 Thought - chō-kou
 
@@ -130,7 +130,7 @@ If what is sensed leaves its mark upon the agent then we find the seed for the e
 The agent can now experience itself in time, forming memories, and gains the ability to not just change behavior based on current circumstance but also based on past learning.
 These internal marks can then be sensed and manipulated and so give rise to symbol, language, and communication.
 
-image::diagrams/8-tree.svg[]
+image::diagrams/8-tree-simple.svg[width=85%]
 
 == 8⋮19 Desire - ät-thĕl
 
@@ -142,7 +142,7 @@ Desire attaches the agent to the external and so opens a channel for the externa
 It is attachment to the world that makes the world.
 We regard this as a positive development, an overcoming of the limited solipsistic self through desire.
 
-image::diagrams/9-tree.svg[]
+image::diagrams/9-tree-simple.svg[width=85%]
 
 == 9⋮23 Matter - ĕ-pĕp
 
@@ -153,7 +153,7 @@ The external is truly manifest beyond whatever sense, thoughts, or desires the a
 The objective binds the agent while also making possible the emergence of the next level of agency within objective reality.
 The agent has surrendered its naive omnipotence in its embrace of a new greater level of being in which it only has marginal and indirect power in exchange for a greater state of being.
 
-image::diagrams/10-tree.svg[]
+image::diagrams/10-tree-simple.svg[width=85%]
 
 == 10⋮29 Life - vŭ-sōb
 
@@ -165,7 +165,7 @@ Each aspect of the agent obtains and is constrained by a physical correlation.
 For us humans, this is our brains.
 Every thought, sense element, and desire is within our brains and is lost to us with disruption of this fragile tissue.
 
-image::diagrams/11-tree.svg[]
+image::diagrams/11-tree-simple.svg[width=85%]
 
 == 11⋮31 Kia - fĕ-shĕr
 
@@ -180,4 +180,4 @@ In dreamless sleep and in normal waking when on auto-pilot Kia retreats.
 Kia manifests as the absurd, wonder, the presence of the undefined and unknown.
 Kia can arise in quiet contemplation, ecstatic overload, and in many ways that open the fundamental questions of being.
 
-image::diagrams/12-tree.svg[]
+image::diagrams/12-tree-simple.svg[width=85%]
