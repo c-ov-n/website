@@ -1,7 +1,5 @@
----
-* xref:introduction.adoc[]
-* xref:void.adoc[]
-* xref:number.adoc[]
+* xref:introduction.adoc[Introduction]
+* xref:number.adoc[Number]
 ** xref:number.adoc#_factor_glyphs[Factor Glyphs]
 ** xref:number.adoc#_sequence_glyphs[Sequence Glyphs]
 ** xref:number.adoc#_pronunciation[Pronunciation]
@@ -18,4 +16,5 @@
 ** xref:emanation.adoc#_923_matter[9⋮23 Matter]
 ** xref:emanation.adoc#_1029_life[10⋮29 Life]
 ** xref:emanation.adoc#_1131_kia[11⋮31 Kia]
-...
+* xref:fools-journey.adoc[Fool's Journey]
+* xref:chaos.adoc[Chaos]
