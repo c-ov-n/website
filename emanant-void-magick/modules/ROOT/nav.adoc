@@ -11,7 +11,7 @@
 ** xref:emanation.adoc#_23_pattern[2⋮3 Pattern]
 ** xref:emanation.adoc#_35_form[3⋮5 Form]
 ** xref:emanation.adoc#_47_change[4⋮7 Change]
-** xref:emanation.adoc#_511_self[5⋮11 Self]
+** xref:emanation.adoc#_511_agent[5⋮11 Agent]
 ** xref:emanation.adoc#_613_sense[6⋮13 Sense]
 ** xref:emanation.adoc#_717_thought[7⋮17 Thought]
 ** xref:emanation.adoc#_819_desire[8⋮19 Desire]

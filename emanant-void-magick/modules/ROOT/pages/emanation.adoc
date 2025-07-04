@@ -43,7 +43,7 @@ Other less stable and higher-energy forms are possible and quite useful.
 
 image::sphere-glyphs/sphere-00-01.svg[width=100pt,height=141.4pt]
 
-Chaos: nĕsh-hĭn /nɛʃ.hɪn/
+*Chaos:* nĕsh-hĭn /nɛʃ.hɪn/
 
 Existence emerges spontaneously and without reason from Void.
 Existence requires no reason.
@@ -73,7 +73,7 @@ image::diagrams/1-tree-simple.svg[width=30%]
 
 image::sphere-glyphs/sphere-01-02.svg[width=100pt,height=141.4pt]
 
-Process: hĕzh-ēsh /hɛʒ.iʃ/
+*Process:* hĕzh-ēsh /hɛʒ.iʃ/
 
 That which asserts itself into being does not exhaust possibility.
 Every aspect of being is incomplete, retaining its relation to void while constraining and permitting that which may follow.
@@ -91,12 +91,22 @@ image::diagrams/2-tree-simple.svg[width=30%]
 
 image::sphere-glyphs/sphere-02-03.svg[width=100pt,height=141.4pt]
 
-Pattern: ēs-ŭzh /is.ŭʒ/
+*Pattern:* ēs-ŭzh /is.ŭʒ/
 
 As the process of manifestation proceeds the shape of the unmanifest spaces influences that which may follow.
 This causes patterns to arise that unify the discrete units of being.
 Though each is completely free and separate, they are also manifest as a unified pattern.
 It is precisely because of incompleteness that these units are able to also become a new unity.
+
+All three of these first spheres describe aspects of being so fundamental as to be universal and therefore ineffable.
+First in Chaos ([.inline]##image:sphere-glyphs/sphere-00-01.svg[]##) we have being.
+Next in Process ([.inline]##image:sphere-glyphs/sphere-01-02.svg[]##) we have connections between beings, or put another way, multiplicity.
+Then in Pattern ([.inline]##image:sphere-glyphs/sphere-02-03.svg[]##) we have the connection that makes a new unity from multiplicity.
+All three are subtle and ineffable without any particular instance the mind can grasp.
+
+The sequence of number so far reflects a uniqueness of these first three: 1, 2, 3.
+The next prime is 5 and marks a discontinuity.
+The first particulars will appear.
 
 In the tree of ēs-ŭzh we see the first branching of the tree.
 Path 2 ([.inline]##image:factor-glyphs/0x02.svg[]##) is produced directly from the branching spheres while
@@ -108,41 +118,77 @@ image::diagrams/3-tree-simple.svg[width=60%]
 
 image::sphere-glyphs/sphere-03-05.svg[width=100pt,height=141.4pt]
 
-Form: ŭm-o͞os /ʌm.us/
+*Form:* ŭm-o͞os /ʌm.us/
 
 Within pattern there emerge forms defined by the pattern and yet independent within it.
+This is the first sort of beings.
+
 For example, 5 & 7 are a twin prime pair as they are both prime with a difference of 2.
 Other twin primes pairs include 11 & 13, 17 & 19, 29 & 31.
 All prime pairs greater than 3 & 5 have the property of having their sum being evenly divisible by 12.
-This form of a “prime pair” is well known in mathematics but primeness, divisibility, and addition were not in any way defined in order to produce this form.
-Number emanates the form of the prime pair.
-Likewise we may take nearly any game and learn its rules rather quickly, but to learn a strategy is an entirely different matter.
+This form of a “prime pair” is known in mathematics but primeness, divisibility, and sums were not in any way defined in order to produce this form.
+The pattern of number emanates the form of the prime pair.
+
+As another example, we may take nearly any game and learn its rules rather quickly, but strategy is an entirely different matter.
 Games like Chess or Go give rise to whole vocabularies for naming forms within them.
 Though the rules teach us how to play, one must become familiar with these forms to play well.
 
+This tree is formed by budding Form ([.inline]##image:sphere-glyphs/sphere-03-05.svg[]##)
+from Chaos ([.inline]##image:sphere-glyphs/sphere-00-01.svg[]##) along path 3 ([.inline]##image:factor-glyphs/0x03.svg[]##).
+Paths 4 ([.inline]##image:factor-glyphs/0x04.svg[]##) and 5 ([.inline]##image:factor-glyphs/0x05.svg[]##)
+split from paths 0 ([.inline]##image:factor-glyphs/0x00.svg[]##) and 1 ([.inline]##image:factor-glyphs/0x01.svg[]##).
+
 image::diagrams/4-tree-simple.svg[width=65%]
+
+Take a moment to note the balance of 5 in the tree of ŭm-o͞os.
+The prime of ŭm-o͞os is five.
+The sums of the paths crossing in the middle are also five, as are the sums of the pairs across from each other.
+Many patterns of this sort occur as evolution of the trees continue.
 
 == 4⋮7 Change
 
 image::sphere-glyphs/sphere-04-07.svg[width=100pt,height=141.4pt]
 
-Change: ăou-chăz /aʊ̯.t͡ʃaz/
+*Change:* ăou-chăz /aʊ̯.t͡ʃaz/
 
 Manifestation may stop at Form to make a complete but static world.
 The universe of number is a perfect example of static manifestation.
-Alternately manifestation may remain forever in flux, manifesting and collapsing back into the unmanifest.
-This gives rise to time and change.
-Further manifestation takes on a destructive aspect as forms that were can now also cease to be.
+Alternately manifestation may remain in flux, in constance state of manifesting and dropping back into Void.
+This flux of being is the essence of Change and it is what gives rise to the experience of time.
+
+With Change, manifestation takes on a destructive aspect as forms that come to be now also cease to be.
 We move up a level in our analysis to describe types of change and change itself becomes a new type of form.
 The mathematically inclined may find it useful to meditate on the relationship of a mathematical function and its derivative.
+We may also think of the constant within Change as Will.
+Both are implied in the sphere of [.inline]##image:sphere-glyphs/sphere-04-07.svg[]##.
+
+This tree is formed by branching of Change ([.inline]##image:sphere-glyphs/sphere-04-07.svg[]##) from Form ([.inline]##image:sphere-glyphs/sphere-03-05.svg[]##)
+along path 7 ([.inline]##image:factor-glyphs/0x07.svg[]##).
+Path 6 ([.inline]##image:factor-glyphs/0x06.svg[]##) splits from path 3 ([.inline]##image:factor-glyphs/0x03.svg[]##).
+Path 4 ([.inline]##image:factor-glyphs/0x04.svg[]##) remains connected to Form ([.inline]##image:sphere-glyphs/sphere-03-05.svg[]##)
+while path 5 ([.inline]##image:factor-glyphs/0x05.svg[]##) follows the new sphere of Change ([.inline]##image:sphere-glyphs/sphere-04-07.svg[]##)
 
 image::diagrams/5-tree-simple.svg[width=80%]
 
-== 5⋮11 Self
+We chose to present the tree in this diagram as a pentagram to show its relationship to the traditional elemental pentagram.
+We may take Chaos ([.inline]##image:sphere-glyphs/sphere-00-01.svg[]##) as spirit,
+Process ([.inline]##image:sphere-glyphs/sphere-01-02.svg[]##) as water,
+Pattern ([.inline]##image:sphere-glyphs/sphere-02-03.svg[]##) as air,
+Form ([.inline]##image:sphere-glyphs/sphere-03-05.svg[]##) as earth,
+and Change ([.inline]##image:sphere-glyphs/sphere-04-07.svg[]##) as fire to discover a new formulation for a traditional symbol.
+More will be said on this later.
+
+Note that this is the first tree where not every sphere has a connection to every other sphere.
+This follows a rule constraining the number of paths.
+At each emanation the number of the final paths may not exceed the prime number of the final sphere of the tree.
+In this case the prime of Change ([.inline]##image:sphere-glyphs/sphere-04-07.svg[]##) is 7 ([.inline]##image:factor-glyphs/0x07.svg[]##)
+and so no more paths emerge.
+
+== 5⋮11 Agent
 
 image::sphere-glyphs/sphere-05-11.svg[width=100pt,height=141.4pt]
 
-Self: o͞or-fĕm /uɹ.fɛm/
+*Agent:* o͞or-fĕm /uɹ.fɛm/
 
 In the flow of change through time forms emerge which influence change in order to sustain themselves.
 These forms are agents of change.
@@ -152,13 +198,27 @@ These agents direct change to create a dynamic constant.
 As these agents guide change we may now call this activity Will.
 In the fullness of emanation we come to identify one of these agents with the self.
 
+A great example of an agent is the https://conwaylife.com/wiki/Glider[glider^] in https://conwaylife.com/[Conway's Game of Life^].
+This is a self-replicating pattern in a simple automated world, a sort of self-playing game.
+This is the simplest sort of agent.
+It has no sense of the world or of itself, no facility for planning or wanting.
+Further spheres will build from the agent to develop these facilities.
+
+The tree of o͞or-fĕm is formed by budding of Agent ([.inline]##image:sphere-glyphs/sphere-05-11.svg[]##) from Chaos ([.inline]##image:sphere-glyphs/sphere-00-01.svg[]##)
+forming path 8 ([.inline]##image:factor-glyphs/0x08.svg[]##).
+Paths 9 ([.inline]##image:factor-glyphs/0x09.svg[]##) and 10 ([.inline]##image:factor-glyphs/0x0a.svg[]##)
+split from paths 0 ([.inline]##image:factor-glyphs/0x00.svg[]##) and 1 ([.inline]##image:factor-glyphs/0x01.svg[]##).
+Paths 3 ([.inline]##image:factor-glyphs/0x03.svg[]##) and 6 ([.inline]##image:factor-glyphs/0x06.svg[]##)
+migrate with the new sphere while maintaining their connections to
+Form ([.inline]##image:sphere-glyphs/sphere-03-05.svg[]##) and Change ([.inline]##image:sphere-glyphs/sphere-04-07.svg[]##).
+
 image::diagrams/6-tree-simple.svg[width=85%]
 
 == 6⋮13 Sense
 
 image::sphere-glyphs/sphere-06-13.svg[width=100pt,height=141.4pt]
 
-Sense: jŏth-tŏi /d͡ʒɑθ.tɔɪ/
+*Sense:* jŏth-tŏi /d͡ʒɑθ.tɔɪ/
 
 Agents may be blind actors, no more than a self-catalyzing reaction, or the agent may develop the capability of sensing and reacting to its environment.
 Sense is the essential element of the encounter of that which is beyond the self.
@@ -171,7 +231,7 @@ image::diagrams/7-tree-simple.svg[width=85%]
 
 image::sphere-glyphs/sphere-07-17.svg[width=100pt,height=141.4pt]
 
-Thought: chō-kou /t͡ʃoʊ.kaʊ̯/
+*Thought:* chō-kou /t͡ʃoʊ.kaʊ̯/
 
 If what is sensed leaves its mark upon the agent then we find the seed for the emergence of representational systems.
 The agent can now experience itself in time, forming memories, and gains the ability to not just change behavior based on current circumstance but also based on past learning.
@@ -183,7 +243,7 @@ image::diagrams/8-tree-simple.svg[width=85%]
 
 image::sphere-glyphs/sphere-08-19.svg[width=100pt,height=141.4pt]
 
-Desire: ät-thĕl /ɑt.θɛl/
+*Desire:* ät-thĕl /ɑt.θɛl/
 
 Having formed memory the agent now is able to experience the external as something to be sought after or avoided.
 Want and fear and all the aspects of emotional attachment emerge.
@@ -197,7 +257,7 @@ image::diagrams/9-tree-simple.svg[width=85%]
 
 image::sphere-glyphs/sphere-09-23.svg[width=100pt,height=141.4pt]
 
-Matter: ĕ-pĕp /ɛ.pĕp/
+*Matter:* ĕ-pĕp /ɛ.pĕp/
 
 Through desire the agent manifests the objectively real.
 The external is truly manifest beyond whatever sense, thoughts, or desires the agent may hold regarding it, so completing the self-overcoming of the agent.
@@ -210,7 +270,7 @@ image::diagrams/10-tree-simple.svg[width=85%]
 
 image::sphere-glyphs/sphere-10-29.svg[width=100pt,height=141.4pt]
 
-Life: vŭ-sōb /vʌ.soʊb/
+*Life:* vŭ-sōb /vʌ.soʊb/
 
 The manifestation of objective reality allows the agent to itself become a manifest object.
 By surrendering itself into objectivity and becoming limited the agent is able to enter into a space where it can come into authentic contact with other agents manifest as other subjects.
@@ -224,7 +284,7 @@ image::diagrams/11-tree-simple.svg[width=85%]
 
 image::sphere-glyphs/sphere-11-31.svg[width=100pt,height=141.4pt]
 
-Kia: fĕ-shĕr /fɛ.ʃɛɹ/
+*Kia:* fĕ-shĕr /fɛ.ʃɛɹ/
 
 Kia is the void which remains within manifestation.
 In the twelfth tree all has manifested and yet Nothing remains.
