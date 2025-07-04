@@ -93,19 +93,67 @@ image::diagrams/12-tree-fools-journey.svg[]
 
 | Fool
 | [.inline]##image:sphere-glyphs/sphere-00-01.svg[] → image:sphere-glyphs/sphere-01-02.svg[]##
-| [.inline]##image:factor-glyphs/0x00.svg[]## (0)
+| [.inline]##image:sequence-glyphs/0x00.svg[]## (0)
 | [.inline]##image:factor-glyphs/0x00.svg[]## (0)
 | nĕsh-nĭn-hēzh
 
 | Magus
 | [.inline]##image:sphere-glyphs/sphere-01-02.svg[] → image:sphere-glyphs/sphere-02-03.svg[]##
-| [.inline]##image:factor-glyphs/0x01.svg[]## (1)
+| [.inline]##image:sequence-glyphs/0x01.svg[]## (1)
 | [.inline]##image:factor-glyphs/0x02.svg[]## (2)
 | hĕzh-hĕzh-ēs
 
 | Priestess
 | [.inline]##image:sphere-glyphs/sphere-02-03.svg[] → image:sphere-glyphs/sphere-00-01.svg[]##
-| [.inline]##image:factor-glyphs/0x02.svg[]## (2)
+| [.inline]##image:sequence-glyphs/0x02.svg[]## (2)
 | [.inline]##image:factor-glyphs/0x01.svg[]## (1)
 | ēn-ēsh-ŭsh
+
+| Empress
+| [.inline]##image:sphere-glyphs/sphere-00-01.svg[] → image:sphere-glyphs/sphere-05-11.svg[]##
+| [.inline]##image:sequence-glyphs/0x03.svg[]## (3)
+| [.inline]##image:factor-glyphs/0x08.svg[]## (8)
+| no͞om-ŭl-hĕr
+
+| Emperor
+| [.inline]##image:sphere-glyphs/sphere-05-11.svg[] → image:sphere-glyphs/sphere-03-05.svg[]##
+| [.inline]##image:sequence-glyphs/0x04.svg[]## (4)
+| [.inline]##image:factor-glyphs/0x03.svg[]## (3)
+| ăs-o͞os-fo͞om
+
+| Hierophant
+| [.inline]##image:sphere-glyphs/sphere-03-05.svg[] → image:sphere-glyphs/sphere-01-02.svg[]##
+| [.inline]##image:sequence-glyphs/0x05.svg[]## (5)
+| [.inline]##image:factor-glyphs/0x04.svg[]## (4)
+| ŭs-o͞oz-o͞ozh
+
+| Lovers
+| [.inline]##image:sphere-glyphs/sphere-01-02.svg[] → image:sphere-glyphs/sphere-05-11.svg[]##
+| [.inline]##image:sequence-glyphs/0x06.svg[]## (6)
+| [.inline]##image:factor-glyphs/0x09.svg[]## (9)
+| ho͞om-jĕp-ēr
+
+| Chariot
+| [.inline]##image:sphere-glyphs/sphere-03-05.svg[] → image:sphere-glyphs/sphere-04-07.svg[]##
+| [.inline]##image:sequence-glyphs/0x07.svg[]## (7)
+| [.inline]##image:factor-glyphs/0x06.svg[]## (6)
+| ŭz-choi-o͞o
+
+| Justice
+| [.inline]##image:sphere-glyphs/sphere-04-07.svg[] → image:sphere-glyphs/sphere-02-03.svg[]##
+| [.inline]##image:sequence-glyphs/0x08.svg[]## (8)
+| [.inline]##image:factor-glyphs/0x05.svg[]## (5)
+| ăzh-äm-chŭs
+
+| Hermit
+| [.inline]##image:sphere-glyphs/sphere-02-03.svg[] → image:sphere-glyphs/sphere-05-11.svg[]##
+| [.inline]##image:sequence-glyphs/0x09.svg[]## (9)
+| [.inline]##image:factor-glyphs/0x0a.svg[]## (10)
+| ēm-ĕb-ŭr
+
+| Fortune
+| [.inline]##image:sphere-glyphs/sphere-05-11.svg[] → image:sphere-glyphs/sphere-06-13.svg[]##
+| [.inline]##image:sequence-glyphs/0x0a.svg[]## (10)
+| [.inline]##image:factor-glyphs/0x0b.svg[]## (11)
+| o͞oi-vĕr-fŏth
 |===
