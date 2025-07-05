@@ -92,68 +92,176 @@ image::diagrams/12-tree-fools-journey.svg[]
 | Pronunciation
 
 | Fool
-| [.inline]##image:sphere-glyphs/sphere-00-01.svg[] → image:sphere-glyphs/sphere-01-02.svg[]##
-| [.inline]##image:sequence-glyphs/0x00.svg[]## (0)
-| [.inline]##image:factor-glyphs/0x00.svg[]## (0)
+| [.inline .big]##image:sphere-glyphs/sphere-00-01.svg[] → image:sphere-glyphs/sphere-01-02.svg[]##
+| [.inline .big]##image:sequence-glyphs/0x00.svg[]## (0)
+| [.inline .big]##image:factor-glyphs/0x00.svg[]## (0)
 | nĕsh-nĭn-hēzh
 
 | Magus
-| [.inline]##image:sphere-glyphs/sphere-01-02.svg[] → image:sphere-glyphs/sphere-02-03.svg[]##
-| [.inline]##image:sequence-glyphs/0x01.svg[]## (1)
-| [.inline]##image:factor-glyphs/0x02.svg[]## (2)
+| [.inline .big]##image:sphere-glyphs/sphere-01-02.svg[] → image:sphere-glyphs/sphere-02-03.svg[]##
+| [.inline .big]##image:sequence-glyphs/0x01.svg[]## (1)
+| [.inline .big]##image:factor-glyphs/0x02.svg[]## (2)
 | hĕzh-hĕzh-ēs
 
 | Priestess
-| [.inline]##image:sphere-glyphs/sphere-02-03.svg[] → image:sphere-glyphs/sphere-00-01.svg[]##
-| [.inline]##image:sequence-glyphs/0x02.svg[]## (2)
-| [.inline]##image:factor-glyphs/0x01.svg[]## (1)
+| [.inline .big]##image:sphere-glyphs/sphere-02-03.svg[] → image:sphere-glyphs/sphere-00-01.svg[]##
+| [.inline .big]##image:sequence-glyphs/0x02.svg[]## (2)
+| [.inline .big]##image:factor-glyphs/0x01.svg[]## (1)
 | ēn-ēsh-ŭsh
 
 | Empress
-| [.inline]##image:sphere-glyphs/sphere-00-01.svg[] → image:sphere-glyphs/sphere-05-11.svg[]##
-| [.inline]##image:sequence-glyphs/0x03.svg[]## (3)
-| [.inline]##image:factor-glyphs/0x08.svg[]## (8)
+| [.inline .big]##image:sphere-glyphs/sphere-00-01.svg[] → image:sphere-glyphs/sphere-05-11.svg[]##
+| [.inline .big]##image:sequence-glyphs/0x03.svg[]## (3)
+| [.inline .big]##image:factor-glyphs/0x08.svg[]## (8)
 | no͞om-ŭl-hĕr
 
 | Emperor
-| [.inline]##image:sphere-glyphs/sphere-05-11.svg[] → image:sphere-glyphs/sphere-03-05.svg[]##
-| [.inline]##image:sequence-glyphs/0x04.svg[]## (4)
-| [.inline]##image:factor-glyphs/0x03.svg[]## (3)
+| [.inline .big]##image:sphere-glyphs/sphere-05-11.svg[] → image:sphere-glyphs/sphere-03-05.svg[]##
+| [.inline .big]##image:sequence-glyphs/0x04.svg[]## (4)
+| [.inline .big]##image:factor-glyphs/0x03.svg[]## (3)
 | ăs-o͞os-fo͞om
 
 | Hierophant
-| [.inline]##image:sphere-glyphs/sphere-03-05.svg[] → image:sphere-glyphs/sphere-01-02.svg[]##
-| [.inline]##image:sequence-glyphs/0x05.svg[]## (5)
-| [.inline]##image:factor-glyphs/0x04.svg[]## (4)
+| [.inline .big]##image:sphere-glyphs/sphere-03-05.svg[] → image:sphere-glyphs/sphere-01-02.svg[]##
+| [.inline .big]##image:sequence-glyphs/0x05.svg[]## (5)
+| [.inline .big]##image:factor-glyphs/0x04.svg[]## (4)
 | ŭs-o͞oz-o͞ozh
 
 | Lovers
-| [.inline]##image:sphere-glyphs/sphere-01-02.svg[] → image:sphere-glyphs/sphere-05-11.svg[]##
-| [.inline]##image:sequence-glyphs/0x06.svg[]## (6)
-| [.inline]##image:factor-glyphs/0x09.svg[]## (9)
+| [.inline .big]##image:sphere-glyphs/sphere-01-02.svg[] → image:sphere-glyphs/sphere-05-11.svg[]##
+| [.inline .big]##image:sequence-glyphs/0x06.svg[]## (6)
+| [.inline .big]##image:factor-glyphs/0x09.svg[]## (9)
 | ho͞om-jĕp-ēr
 
 | Chariot
-| [.inline]##image:sphere-glyphs/sphere-03-05.svg[] → image:sphere-glyphs/sphere-04-07.svg[]##
-| [.inline]##image:sequence-glyphs/0x07.svg[]## (7)
-| [.inline]##image:factor-glyphs/0x06.svg[]## (6)
+| [.inline .big]##image:sphere-glyphs/sphere-03-05.svg[] → image:sphere-glyphs/sphere-04-07.svg[]##
+| [.inline .big]##image:sequence-glyphs/0x07.svg[]## (7)
+| [.inline .big]##image:factor-glyphs/0x06.svg[]## (6)
 | ŭz-choi-o͞o
 
 | Justice
-| [.inline]##image:sphere-glyphs/sphere-04-07.svg[] → image:sphere-glyphs/sphere-02-03.svg[]##
-| [.inline]##image:sequence-glyphs/0x08.svg[]## (8)
-| [.inline]##image:factor-glyphs/0x05.svg[]## (5)
+| [.inline .big]##image:sphere-glyphs/sphere-04-07.svg[] → image:sphere-glyphs/sphere-02-03.svg[]##
+| [.inline .big]##image:sequence-glyphs/0x08.svg[]## (8)
+| [.inline .big]##image:factor-glyphs/0x05.svg[]## (5)
 | ăzh-äm-chŭs
 
 | Hermit
-| [.inline]##image:sphere-glyphs/sphere-02-03.svg[] → image:sphere-glyphs/sphere-05-11.svg[]##
-| [.inline]##image:sequence-glyphs/0x09.svg[]## (9)
-| [.inline]##image:factor-glyphs/0x0a.svg[]## (10)
+| [.inline .big]##image:sphere-glyphs/sphere-02-03.svg[] → image:sphere-glyphs/sphere-05-11.svg[]##
+| [.inline .big]##image:sequence-glyphs/0x09.svg[]## (9)
+| [.inline .big]##image:factor-glyphs/0x0a.svg[]## (10)
 | ēm-ĕb-ŭr
 
 | Fortune
-| [.inline]##image:sphere-glyphs/sphere-05-11.svg[] → image:sphere-glyphs/sphere-06-13.svg[]##
-| [.inline]##image:sequence-glyphs/0x0a.svg[]## (10)
-| [.inline]##image:factor-glyphs/0x0b.svg[]## (11)
+| [.inline .big]##image:sphere-glyphs/sphere-05-11.svg[] → image:sphere-glyphs/sphere-06-13.svg[]##
+| [.inline .big]##image:sequence-glyphs/0x0a.svg[]## (10)
+| [.inline .big]##image:factor-glyphs/0x0b.svg[]## (11)
 | o͞oi-vĕr-fŏth
+
+| Strength
+| [.inline .big]##image:sphere-glyphs/sphere-06-13.svg[] → image:sphere-glyphs/sphere-03-05.svg[]##
+| [.inline .big]##image:sequence-glyphs/0x0b.svg[]## (11)
+| [.inline .big]##image:factor-glyphs/0x0c.svg[]## (12)
+| jŭs-fôṙ-to͞om
+
+| Hanged One
+| [.inline .big]##image:sphere-glyphs/sphere-03-05.svg[] → image:sphere-glyphs/sphere-04-07.svg[]##
+| [.inline .big]##image:sequence-glyphs/0x0c.svg[]## (12)
+| [.inline .big]##image:factor-glyphs/0x07.svg[]## (7)
+| ŭz-dou-o͞o
+
+| Death
+| [.inline .big]##image:sphere-glyphs/sphere-04-07.svg[] → image:sphere-glyphs/sphere-07-17.svg[]##
+| [.inline .big]##image:sequence-glyphs/0x0d.svg[]## (13)
+| [.inline .big]##image:factor-glyphs/0x0d.svg[]## (13)
+| ăou-tŏth-chō
+
+| Temperance
+| [.inline .big]##image:sphere-glyphs/sphere-07-17.svg[] → image:sphere-glyphs/sphere-05-11.svg[]##
+| [.inline .big]##image:sequence-glyphs/0x0e.svg[]## (14)
+| [.inline .big]##image:factor-glyphs/0x0e.svg[]## (14)
+| cho͞om-ā𝑡ℎ-kĕr
+
+| Devil
+| [.inline .big]##image:sphere-glyphs/sphere-05-11.svg[] → image:sphere-glyphs/sphere-08-19.svg[]##
+| [.inline .big]##image:sequence-glyphs/0x0f.svg[]## (15)
+| [.inline .big]##image:factor-glyphs/0x10.svg[]## (16)
+| o͞ol-ōg-fĕt
+
+| Tower
+| [.inline .big]##image:sphere-glyphs/sphere-08-19.svg[] → image:sphere-glyphs/sphere-06-13.svg[]##
+| [.inline .big]##image:sequence-glyphs/0x10.svg[]## (16)
+| [.inline .big]##image:factor-glyphs/0x11.svg[]## (17)
+| äoi-gō-thŏth
+
+| Star
+| [.inline .big]##image:sphere-glyphs/sphere-06-13.svg[] → image:sphere-glyphs/sphere-07-17.svg[]##
+| [.inline .big]##image:sequence-glyphs/0x11.svg[]## (17)
+| [.inline .big]##image:factor-glyphs/0x0f.svg[]## (15)
+| jou-kōk-tō
+
+| Moon
+| [.inline .big]##image:sphere-glyphs/sphere-07-17.svg[] → image:sphere-glyphs/sphere-08-19.svg[]##
+| [.inline .big]##image:sequence-glyphs/0x12.svg[]## (18)
+| [.inline .big]##image:factor-glyphs/0x12.svg[]## (18)
+| chäl-𝑡ℎā-kĕt
+
+| Sun
+| [.inline .big]##image:sphere-glyphs/sphere-08-19.svg[] → image:sphere-glyphs/sphere-09-23.svg[]##
+| [.inline .big]##image:sequence-glyphs/0x13.svg[]## (19)
+| [.inline .big]##image:factor-glyphs/0x13.svg[]## (19)
+| äp-thĕt-thĕ
+
+| Judgement
+| [.inline .big]##image:sphere-glyphs/sphere-09-23.svg[] → image:sphere-glyphs/sphere-06-13.svg[]##
+| [.inline .big]##image:sequence-glyphs/0x14.svg[]## (20)
+| [.inline .big]##image:factor-glyphs/0x14.svg[]## (20)
+| ĕi-ā𝑡ℎ-pŏth
+
+| World
+| [.inline .big]##image:sphere-glyphs/sphere-06-13.svg[] → image:sphere-glyphs/sphere-11-31.svg[]##
+| [.inline .big]##image:sequence-glyphs/0x15.svg[]## (21)
+| [.inline .big]##image:factor-glyphs/0x19.svg[]## (25)
+| jĕr-ōt-tĕh
+
+| Lust
+| [.inline .big]##image:sphere-glyphs/sphere-11-31.svg[] → image:sphere-glyphs/sphere-08-19.svg[]##
+| [.inline .big]##image:sequence-glyphs/0x16.svg[]## (22)
+| [.inline .big]##image:factor-glyphs/0x18.svg[]## (24)
+| fäl-bä-shĕt
+
+| Rebel
+| [.inline .big]##image:sphere-glyphs/sphere-08-19.svg[] → image:sphere-glyphs/sphere-10-29.svg[]##
+| [.inline .big]##image:sequence-glyphs/0x17.svg[]## (23)
+| [.inline .big]##image:factor-glyphs/0x16.svg[]## (22)
+| äp-kĕg-thŭ
+
+| Art
+| [.inline .big]##image:sphere-glyphs/sphere-10-29.svg[] → image:sphere-glyphs/sphere-07-17.svg[]##
+| [.inline .big]##image:sequence-glyphs/0x18.svg[]## (24)
+| [.inline .big]##image:factor-glyphs/0x15.svg[]## (21)
+| vou-lĭf-sō
+
+| Aeon
+| [.inline .big]##image:sphere-glyphs/sphere-07-17.svg[] → image:sphere-glyphs/sphere-11-31.svg[]##
+| [.inline .big]##image:sequence-glyphs/0x19.svg[]## (25)
+| [.inline .big]##image:factor-glyphs/0x1a.svg[]## (26)
+| chĕr-wōj-kĕh
+
+| Shadow
+| [.inline .big]##image:sphere-glyphs/sphere-11-31.svg[] → image:sphere-glyphs/sphere-09-23.svg[]##
+| [.inline .big]##image:sequence-glyphs/0x1a.svg[]## (26)
+| [.inline .big]##image:factor-glyphs/0x1b.svg[]## (27)
+| fĕp-yo͞o-shĕ
+
+| Headless One
+| [.inline .big]##image:sphere-glyphs/sphere-09-23.svg[] → image:sphere-glyphs/sphere-10-29.svg[]##
+| [.inline .big]##image:sequence-glyphs/0x1b.svg[]## (27)
+| [.inline .big]##image:factor-glyphs/0x17.svg[]## (23)
+| ĕb-mĕ-pŭ
+
+| Angel
+| [.inline .big]##image:sphere-glyphs/sphere-10-29.svg[] → image:sphere-glyphs/sphere-11-31.svg[]##
+| [.inline .big]##image:sequence-glyphs/0x1c.svg[]## (28)
+| [.inline .big]##image:factor-glyphs/0x1c.svg[]## (28)
+| vĕr-ză-sĕh
 |===
