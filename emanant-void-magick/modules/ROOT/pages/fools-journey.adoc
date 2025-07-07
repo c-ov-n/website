@@ -137,7 +137,7 @@ image::diagrams/12-tree-fools-journey.svg[]
 | [.inline .big]##image:sphere-glyphs/sphere-03-05.svg[] → image:sphere-glyphs/sphere-04-07.svg[]##
 | [.inline .big]##image:sequence-glyphs/0x07.svg[]## (7)
 | [.inline .big]##image:factor-glyphs/0x06.svg[]## (6)
-| ŭz-choi-o͞o
+| ŭz-choi-o͞ow
 
 | Justice
 | [.inline .big]##image:sphere-glyphs/sphere-04-07.svg[] → image:sphere-glyphs/sphere-02-03.svg[]##
@@ -167,7 +167,7 @@ image::diagrams/12-tree-fools-journey.svg[]
 | [.inline .big]##image:sphere-glyphs/sphere-03-05.svg[] → image:sphere-glyphs/sphere-04-07.svg[]##
 | [.inline .big]##image:sequence-glyphs/0x0c.svg[]## (12)
 | [.inline .big]##image:factor-glyphs/0x07.svg[]## (7)
-| ŭz-dou-o͞o
+| ŭz-dou-o͞ow
 
 | Death
 | [.inline .big]##image:sphere-glyphs/sphere-04-07.svg[] → image:sphere-glyphs/sphere-07-17.svg[]##
@@ -191,7 +191,7 @@ image::diagrams/12-tree-fools-journey.svg[]
 | [.inline .big]##image:sphere-glyphs/sphere-08-19.svg[] → image:sphere-glyphs/sphere-06-13.svg[]##
 | [.inline .big]##image:sequence-glyphs/0x10.svg[]## (16)
 | [.inline .big]##image:factor-glyphs/0x11.svg[]## (17)
-| äoi-gō-thŏth
+| äi-gō-thŏth
 
 | Star
 | [.inline .big]##image:sphere-glyphs/sphere-06-13.svg[] → image:sphere-glyphs/sphere-07-17.svg[]##
@@ -215,13 +215,13 @@ image::diagrams/12-tree-fools-journey.svg[]
 | [.inline .big]##image:sphere-glyphs/sphere-09-23.svg[] → image:sphere-glyphs/sphere-06-13.svg[]##
 | [.inline .big]##image:sequence-glyphs/0x14.svg[]## (20)
 | [.inline .big]##image:factor-glyphs/0x14.svg[]## (20)
-| ĕi-ā𝑡ℎ-pŏth
+| ĕi-ṙăd-pŏth
 
 | World
 | [.inline .big]##image:sphere-glyphs/sphere-06-13.svg[] → image:sphere-glyphs/sphere-11-31.svg[]##
 | [.inline .big]##image:sequence-glyphs/0x15.svg[]## (21)
 | [.inline .big]##image:factor-glyphs/0x19.svg[]## (25)
-| jĕr-ōt-tĕh
+| jĕr-rĭch-tĕh
 
 | Lust
 | [.inline .big]##image:sphere-glyphs/sphere-11-31.svg[] → image:sphere-glyphs/sphere-08-19.svg[]##
@@ -233,7 +233,7 @@ image::diagrams/12-tree-fools-journey.svg[]
 | [.inline .big]##image:sphere-glyphs/sphere-08-19.svg[] → image:sphere-glyphs/sphere-10-29.svg[]##
 | [.inline .big]##image:sequence-glyphs/0x17.svg[]## (23)
 | [.inline .big]##image:factor-glyphs/0x16.svg[]## (22)
-| äp-kĕg-thŭ
+| äp-bĕv-thŭ
 
 | Art
 | [.inline .big]##image:sphere-glyphs/sphere-10-29.svg[] → image:sphere-glyphs/sphere-07-17.svg[]##
