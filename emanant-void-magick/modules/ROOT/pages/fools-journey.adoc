@@ -265,3 +265,94 @@ image::diagrams/12-tree-fools-journey.svg[]
 | [.inline .big]##image:factor-glyphs/0x1c.svg[]## (28)
 | vĕr-ză-sĕh
 |===
+
+== The Paths
+
+=== 0 - Fool
+
+=== 1 - Magus
+
+=== 2 - Priestess
+
+=== 3 - Empress
+
+=== 4 - Emperor
+
+=== 5 - Hierophant
+
+=== 6 - Lovers
+
+=== 7 - Chariot
+
+=== 8 - Justice
+
+=== 9 - Hermit
+
+=== 10 - Fortune
+
+=== 11 - Strength
+
+=== 12 - Hanged One
+
+=== 13 - Death
+
+=== 14 - Temperance
+
+=== 15 - Devil
+
+=== 16 - Tower
+
+*Spheres*: [.inline .big]##image:sphere-glyphs/sphere-08-19.svg[] → image:sphere-glyphs/sphere-06-13.svg[]## +
+*Fool's Number*: [.inline .big]##image:sequence-glyphs/0x10.svg[]## (16) +
+*Emanation Number*: [.inline .big]##image:factor-glyphs/0x11.svg[]## (17) +
+*Pronunciation*: äi-gō-thŏth /ɑɪ.goʊ.θɑθ/
+
+Having entered into desire through the Devel we now encounter desire in its immediacy.
+It hits us like a lightning strike.
+Pain is not an abstract desire to avoid; the hurt is real, immediate.
+Likewise desire and want hits us and moves us in spite of ourselves, whether it be experienced as pleasure or pain.
+
+In the ANQ sequence we start with the fool at zero, so even without the emergent number of seventeen there is a sense that this is the seventeenth path in the lunar cycle and associated with the beginning of the waning of the moon.
+
+The tower is associated with the number sixteen in the Fool's Journey.
+In binary sixteen, `10000`, is a mark of completion, echoing zero.
+It the cycle of pronunciation it is the turning point backwards.
+
+Tower is also seventeen, the breaking of the perfection of sixteen to produce the next prime.
+Its position on the tree also echos the Fool, but where the fool is innocent and above consequence the Tower is entirely about consequence.
+
+Regarding these numbers,
+https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Plutarch/Moralia/Isis_and_Osiris*/C.html#ref246[Plutarch wrote in Isis and Osiris]:
+
+[quote,Plutarch, "Isis and Osiris, 42"]
+The Egyptians have a legend that the end of Osiris's life came on the seventeenth of the month,
+on which day it is quite evident to the eye that the period of the full moon is over.
+Because of this the Pythagoreans call this day "the Barrier," and utterly abominate this number.
+For the number seventeen, coming in between the square sixteen and the oblong rectangle eighteen,
+which, as it happens, are the only plane figures that have their perimeters equal their areas,
+bars them off from each other and disjoins them,
+and breaks up the ratio of eight to eight and an eighth by its division into unequal intervals.
+
+=== 17 - Star
+
+=== 18 - Moon
+
+=== 19 - Sun
+
+=== 20 - Judgement
+
+=== 21 - World
+
+=== 22 - Lust
+
+=== 23 - Rebel
+
+=== 24 - Art
+
+=== 25 - Aeon
+
+=== 26 - Shadow
+
+=== 27 - Headless One
+
+=== 28 - Angel
