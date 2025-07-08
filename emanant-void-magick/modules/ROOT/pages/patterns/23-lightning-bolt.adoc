@@ -1,0 +1,19 @@
+= 23 Lightning Bolt
+
+The 23 lightning bolt is discovered by starting at [.inline]##image:sphere-glyphs/sphere-06-13.svg[]## Sense
+and following a chain of emanation numbers that sum to [.inline]##image:factor-glyphs/0x17.svg[]##.
+This chain consists of:
+
+* [.inline]##image:factor-glyphs/0x0a.svg[]## Fortune + [.inline]##image:factor-glyphs/0x0b.svg[]## Strength
+* [.inline]##image:factor-glyphs/0x10.svg[]## Devil + [.inline]##image:factor-glyphs/0x07.svg[]## Hanged One
+* [.inline]##image:factor-glyphs/0x12.svg[]## Moon + [.inline]##image:factor-glyphs/0x05.svg[]## Justice
+* [.inline]##image:factor-glyphs/0x15.svg[]## Art + [.inline]##image:factor-glyphs/0x02.svg[]## Magus
+* [.inline]##image:factor-glyphs/0x17.svg[]## Headless One + [.inline]##image:factor-glyphs/0x00.svg[]## Fool
+
+The lightning bolt reaches from [.inline]##image:sphere-glyphs/sphere-00-01.svg[]## Chaos to
+[.inline]##image:sphere-glyphs/sphere-07-17.svg[]## Matter, whose prime is [.inline]##image:factor-glyphs/0x17.svg[]## 23.
+The emanition of the final path is likewise [.inline]##image:factor-glyphs/0x17.svg[]## 23.
+
+The discovery of this feature was taken as a clear indication of the correctness of the process overall.
+
+image::diagrams/12-tree-23-lightning-bolt.svg[width=85%]

@@ -12,5 +12,7 @@ Narrative ontology and tree diagrams.
 xref:fools-journey.adoc[**Fool's Journey**] +
 Assignment of path names corresponding to the tarot and beyond.
 
-xref:chaos.adoc[**Chaos**] +
-The nothing that is.
+== Spheres
+
+xref:spheres/chaos.adoc[] +
+xref:spheres/form.adoc[]

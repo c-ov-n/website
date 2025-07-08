@@ -1,0 +1,20 @@
+= [.inline]##image:sphere-glyphs/sphere-03-05.svg[]## Form
+
+Rules of a game shape the strategy but do not define the strategy.
+Strategies are discovered by the players.
+Three points define a plane.
+Five points make the simplest star.
+
+This is the essence of Form: the pattern of a system forms nodes, emergent properties.
+There are things which simply appear within complex systems.
+
+A system may be closed, static, such as the universe of number, or it may be dynamic and changing.
+Forms in a dynamic system may be created and destroyed and they may influence the unfolding of the system itself to form self-perpetuating agents.
+
+Each sphere exists within each other.
+In the sphere of (4/7) Change this sphere appears as a unit of change.
+In (8/19) Desire a form is a goal, an intent.
+
+== Star of ŭm-o͞os
+
+image::stars/sphere-03-05-star.svg[width=100%]
