@@ -125,7 +125,7 @@ image::diagrams/12-tree-fools-journey.svg[]
 | [.inline .big]##image:sphere-glyphs/sphere-03-05.svg[] → image:sphere-glyphs/sphere-01-02.svg[]##
 | [.inline .big]##image:sequence-glyphs/0x05.svg[]## (5)
 | [.inline .big]##image:factor-glyphs/0x04.svg[]## (4)
-| ŭs-o͞oz-o͞ozh
+| ŭsh-o͞oz-o͞ozh
 
 | Lovers
 | [.inline .big]##image:sphere-glyphs/sphere-01-02.svg[] → image:sphere-glyphs/sphere-05-11.svg[]##
@@ -134,10 +134,10 @@ image::diagrams/12-tree-fools-journey.svg[]
 | ho͞om-jĕp-ēr
 
 | Chariot
-| [.inline .big]##image:sphere-glyphs/sphere-03-05.svg[] → image:sphere-glyphs/sphere-04-07.svg[]##
+| [.inline .big]##image:sphere-glyphs/sphere-05-11.svg[] → image:sphere-glyphs/sphere-04-07.svg[]##
 | [.inline .big]##image:sequence-glyphs/0x07.svg[]## (7)
 | [.inline .big]##image:factor-glyphs/0x06.svg[]## (6)
-| ŭz-choi-o͞ow
+| o͞oz-choi-fou
 
 | Justice
 | [.inline .big]##image:sphere-glyphs/sphere-04-07.svg[] → image:sphere-glyphs/sphere-02-03.svg[]##
@@ -278,29 +278,84 @@ image::diagrams/12-tree-fools-journey.svg[]
 
 === 4 - Emperor
 
-=== 5 - Hierophant
+=== 5 - [.inline]##image:sequence-glyphs/0x05.svg[5] Hierophant image:factor-glyphs/0x04.svg[4]##
 
-=== 6 - Lovers
+*Spheres*: [.inline .big]##image:sphere-glyphs/sphere-03-05.svg[] → image:sphere-glyphs/sphere-01-02.svg[]## +
+*Fool's Number*: [.inline .big]##image:sequence-glyphs/0x05.svg[]## (5) +
+*Emanation Number*: [.inline .big]##image:factor-glyphs/0x04.svg[]## (4) +
+*Pronunciation*: ŭsh-o͞oz-o͞ozh /ʌʃ.uz.uʒ/
 
-=== 7 - Chariot
+=== 6 - [.inline]##image:sequence-glyphs/0x06.svg[6] Lovers image:factor-glyphs/0x09.svg[9]##
 
-=== 8 - Justice
+*Spheres*: [.inline .big]##image:sphere-glyphs/sphere-01-02.svg[] → image:sphere-glyphs/sphere-05-11.svg[]## +
+*Fool's Number*: [.inline .big]##image:sequence-glyphs/0x06.svg[]## (6) +
+*Emanation Number*: [.inline .big]##image:factor-glyphs/0x09.svg[]## (9) +
+*Pronunciation*: ho͞om-jĕp-ēr /hum.d͡ʒɛp.iɹ/
 
-=== 9 - Hermit
+=== 7 - [.inline]##image:sequence-glyphs/0x07.svg[7] Chariot image:factor-glyphs/0x06.svg[6]##
 
-=== 10 - Fortune
+*Spheres*: [.inline .big]##image:sphere-glyphs/sphere-05-11.svg[] → image:sphere-glyphs/sphere-04-07.svg[]## +
+*Fool's Number*: [.inline .big]##image:sequence-glyphs/0x07.svg[]## (7) +
+*Emanation Number*: [.inline .big]##image:factor-glyphs/0x06.svg[]## (6) +
+*Pronunciation*: o͞oz-choi-fou /uz.t͡ʃɔɪ.faʊ̯/
 
-=== 11 - Strength
+=== 8 - [.inline]##image:sequence-glyphs/0x08.svg[8] Justice image:factor-glyphs/0x05.svg[5]##
 
-=== 12 - Hanged One
+*Spheres*: [.inline .big]##image:sphere-glyphs/sphere-04-07.svg[] → image:sphere-glyphs/sphere-02-03.svg[]## +
+*Fool's Number*: [.inline .big]##image:sequence-glyphs/0x08.svg[]## (8) +
+*Emanation Number*: [.inline .big]##image:factor-glyphs/0x04.svg[]## (5) +
+*Pronunciation*: ăzh-äm-chŭs /aʒ.ɑm.t͡ʃʌs/
 
-=== 13 - Death
+=== 9 - [.inline]##image:sequence-glyphs/0x09.svg[9] Hermit image:factor-glyphs/0x0a.svg[10]##
 
-=== 14 - Temperance
+*Spheres*: [.inline .big]##image:sphere-glyphs/sphere-02-03.svg[] → image:sphere-glyphs/sphere-05-11.svg[]## +
+*Fool's Number*: [.inline .big]##image:sequence-glyphs/0x09.svg[]## (9) +
+*Emanation Number*: [.inline .big]##image:factor-glyphs/0x0a.svg[]## (10) +
+*Pronunciation*: ēm-ĕb-ŭr /im.ɛb.ʌɹ/
 
-=== 15 - Devil
+=== 10 - [.inline]##image:sequence-glyphs/0x0a.svg[10] Fortune image:factor-glyphs/0x0b.svg[11]##
 
-=== 16 - Tower
+*Spheres*: [.inline .big]##image:sphere-glyphs/sphere-05-11.svg[] → image:sphere-glyphs/sphere-06-13.svg[]## +
+*Fool's Number*: [.inline .big]##image:sequence-glyphs/0x0a.svg[]## (10) +
+*Emanation Number*: [.inline .big]##image:factor-glyphs/0x0b.svg[]## (11) +
+*Pronunciation*: o͞oi-vĕr-fŏth /uɪ.vɛɹ.fɑθ/
+
+=== 11 - [.inline]##image:sequence-glyphs/0x0b.svg[11] Strength image:factor-glyphs/0x0c.svg[12]##
+
+*Spheres*: [.inline .big]##image:sphere-glyphs/sphere-06-13.svg[] → image:sphere-glyphs/sphere-03-05.svg[]## +
+*Fool's Number*: [.inline .big]##image:sequence-glyphs/0x0b.svg[]## (11) +
+*Emanation Number*: [.inline .big]##image:factor-glyphs/0x0c.svg[]## (12) +
+*Pronunciation*: jŭs-fôṙ-to͞om /d͡ʒʌs.foɾ.tum/
+
+=== 12 - [.inline]##image:sequence-glyphs/0x0c.svg[12] Hanged One image:factor-glyphs/0x0d.svg[07]##
+
+*Spheres*: [.inline .big]##image:sphere-glyphs/sphere-03-05.svg[] → image:sphere-glyphs/sphere-04-07.svg[]## +
+*Fool's Number*: [.inline .big]##image:sequence-glyphs/0x0c.svg[]## (12) +
+*Emanation Number*: [.inline .big]##image:factor-glyphs/0x07.svg[]## (7) +
+*Pronunciation*: ŭz-dou-o͞ow /ʌz.daʊ̯.uʊ̯/
+
+=== 13 - [.inline]##image:sequence-glyphs/0x0d.svg[13] Death image:factor-glyphs/0x0d.svg[13]##
+
+*Spheres*: [.inline .big]##image:sphere-glyphs/sphere-04-07.svg[] → image:sphere-glyphs/sphere-07-17.svg[]## +
+*Fool's Number*: [.inline .big]##image:sequence-glyphs/0x0d.svg[]## (13) +
+*Emanation Number*: [.inline .big]##image:factor-glyphs/0x0d.svg[]## (13) +
+*Pronunciation*: ăou-tŏth-chō /aʊ̯.tɑθ.t͡ʃoʊ/
+
+=== 14 - [.inline]##image:sequence-glyphs/0x0e.svg[14] Temperance image:factor-glyphs/0x0e.svg[14]##
+
+*Spheres*: [.inline .big]##image:sphere-glyphs/sphere-07-17.svg[] → image:sphere-glyphs/sphere-05-11.svg[]## +
+*Fool's Number*: [.inline .big]##image:sequence-glyphs/0x0e.svg[]## (14) +
+*Emanation Number*: [.inline .big]##image:factor-glyphs/0x0e.svg[]## (14) +
+*Pronunciation*: cho͞om-ā𝑡ℎ-kĕr /t͡ʃum.eɪð.kɛɹ/
+
+=== 15 - [.inline]##image:sequence-glyphs/0x0f.svg[15] Devil image:factor-glyphs/0x10.svg[16]##
+
+*Spheres*: [.inline .big]##image:sphere-glyphs/sphere-05-11.svg[] → image:sphere-glyphs/sphere-08-19.svg[]## +
+*Fool's Number*: [.inline .big]##image:sequence-glyphs/0x0f.svg[]## (15) +
+*Emanation Number*: [.inline .big]##image:factor-glyphs/0x10.svg[]## (16) +
+*Pronunciation*: o͞ol-ōg-fĕt /ul.oʊg.fɛt/
+
+=== 16 - [.inline]##image:sequence-glyphs/0x10.svg[16] Tower image:factor-glyphs/0x11.svg[17]##
 
 *Spheres*: [.inline .big]##image:sphere-glyphs/sphere-08-19.svg[] → image:sphere-glyphs/sphere-06-13.svg[]## +
 *Fool's Number*: [.inline .big]##image:sequence-glyphs/0x10.svg[]## (16) +
