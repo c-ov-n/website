@@ -119,7 +119,7 @@ image::diagrams/12-tree-fools-journey.svg[]
 | [.inline .big]##image:sphere-glyphs/sphere-05-11.svg[] → image:sphere-glyphs/sphere-03-05.svg[]##
 | [.inline .big]##image:sequence-glyphs/0x04.svg[]## (4)
 | [.inline .big]##image:factor-glyphs/0x03.svg[]## (3)
-| ăs-o͞os-fo͞om
+| o͞os-ăs-fo͞om
 
 | Hierophant
 | [.inline .big]##image:sphere-glyphs/sphere-03-05.svg[] → image:sphere-glyphs/sphere-01-02.svg[]##
@@ -272,11 +272,26 @@ image::diagrams/12-tree-fools-journey.svg[]
 
 === 1 - Magus
 
-=== 2 - Priestess
+=== 2 - [.inline]##image:sequence-glyphs/0x02.svg[2] Priestess image:factor-glyphs/0x01.svg[1]##
 
-=== 3 - Empress
+*Spheres*: [.inline .big]##image:sphere-glyphs/sphere-02-03.svg[] → image:sphere-glyphs/sphere-00-01.svg[]## +
+*Fool's Number*: [.inline .big]##image:sequence-glyphs/0x02.svg[]## (2) +
+*Emanation Number*: [.inline .big]##image:factor-glyphs/0x01.svg[]## (1) +
+*Pronunciation*: 
 
-=== 4 - Emperor
+=== 3 - [.inline]##image:sequence-glyphs/0x03.svg[3] Empress image:factor-glyphs/0x08.svg[8]##
+
+*Spheres*: [.inline .big]##image:sphere-glyphs/sphere-00-01.svg[] → image:sphere-glyphs/sphere-05-11.svg[]## +
+*Fool's Number*: [.inline .big]##image:sequence-glyphs/0x03.svg[]## (3) +
+*Emanation Number*: [.inline .big]##image:factor-glyphs/0x08.svg[]## (8) +
+*Pronunciation*: no͞om-ŭl-hĕr /num.ʌl.hɛɹ/
+
+=== 4 - [.inline]##image:sequence-glyphs/0x04.svg[4] Emperor image:factor-glyphs/0x03.svg[3]##
+
+*Spheres*: [.inline .big]##image:sphere-glyphs/sphere-05-11.svg[] → image:sphere-glyphs/sphere-03-05.svg[]## +
+*Fool's Number*: [.inline .big]##image:sequence-glyphs/0x04.svg[]## (4) +
+*Emanation Number*: [.inline .big]##image:factor-glyphs/0x03.svg[]## (3) +
+*Pronunciation*: o͞os-ăs-fo͞om /us.as.fum/
 
 === 5 - [.inline]##image:sequence-glyphs/0x05.svg[5] Hierophant image:factor-glyphs/0x04.svg[4]##
 
