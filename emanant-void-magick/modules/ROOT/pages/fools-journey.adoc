@@ -25,7 +25,7 @@ In the early 20th century another major development in tarot was the development
 Published in 1909 with iconic art of Pamela Colman Smith, it was developed according to symbolism of the Order of the Golden Dawn,
 taking inspiration from Gérard Encausse, Éliphas Lévi, and others.
 This deck actually completely remapped the Qabalistic associations suggested by Gérard Encausse.
-Whereas Encausse associated the first Hewbrew letter, א (aleph) with the trump number one,
+Whereas Encausse associated the first Hebrew letter, א (aleph) with the trump number one,
 the Order of the Golden Dawn associated with the fool, numbered either zero or unnumbered in earlier sets.
 This throws off the associations of all subsequent cards by one letter.
 They also went on to change the ordering of trumps VIII and XI, Justice and Strength,
@@ -42,7 +42,7 @@ Crowley returned Justice and Strength to their original order and renamed them �
 He also switched the Qabalistic attributions of VI Emperor and XVII Star.
 He renamed World to “Universe” and completely replaced Judgement with a new card associated with this system of Thelema and named it “Aeon”.
 
-A final interprative key was added by Eden Gray in the 1950s.
+A final interpretive key was added by Eden Gray in the 1950s.
 Gray introduced the Fool's Journey, an interpretation of the major arcana as a narrative journey of the individual through life.
 From the Fool as the soul before incarnation through life experiences enduring trials and gaining wisdom through finally returning to the Fool.
 This insight brings the major arcana into a thematic unity.
@@ -62,7 +62,7 @@ While emanation shows formation of reality, the Fool's Journey plots a path for 
 
 The key insight of the Fool's Journey is that the tree itself is a map of a journey.
 Like a graph in mathematics, the tree is walked.
-Starting from the firsh sphere we traverse each path only once using a simple method:
+Starting from the first sphere we traverse each path only once using a simple method:
 at each step, traverse the unwalked path with the lowest emanation number.
 
 In addition to other correspondences of the tarot, walking the Fool's Journey gives directionality to each path.
@@ -403,12 +403,13 @@ The Magus knows how things should be and how to work with what they have availab
 *Emanation Number*: [.inline .big]##image:factor-glyphs/0x11.svg[]## (17) +
 *Pronunciation*: äi-gō-thŏth /ɑɪ.goʊ.θɑθ/
 
-Having entered into desire through the Devel we now encounter desire in its immediacy.
+Having entered into desire through the Devil we now encounter desire in its immediacy.
 It hits us like a lightning strike.
 Pain is not an abstract desire to avoid; the hurt is real, immediate.
 Likewise desire and want hits us and moves us in spite of ourselves, whether it be experienced as pleasure or pain.
 
-In the ANQ sequence we start with the fool at zero, so even without the emergent number of seventeen there is a sense that this is the seventeenth path in the lunar cycle and associated with the beginning of the waning of the moon.
+In the sequence we start with the fool at zero,
+so even without the emergent number of seventeen there is a sense that this is the seventeenth path in the lunar cycle and associated with the beginning of the waning of the moon.
 
 The tower is associated with the number sixteen in the Fool's Journey.
 In binary sixteen, `10000`, is a mark of completion, echoing zero.

@@ -1,0 +1,6 @@
+= Pentagram of Desire
+:figure-caption!:
+
+.Structure of twelve sphere tree emphasizing pentagram of desire.
+image::diagrams/12-tree-pentagram.svg[width=100%]
+

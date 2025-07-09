@@ -12,7 +12,7 @@ This chain consists of:
 
 The lightning bolt reaches from [.inline]##image:sphere-glyphs/sphere-00-01.svg[]## Chaos to
 [.inline]##image:sphere-glyphs/sphere-07-17.svg[]## Matter, whose prime is [.inline]##image:factor-glyphs/0x17.svg[]## 23.
-The emanition of the final path is likewise [.inline]##image:factor-glyphs/0x17.svg[]## 23.
+The emanation of the final path is likewise [.inline]##image:factor-glyphs/0x17.svg[]## 23.
 
 The discovery of this feature was taken as a clear indication of the correctness of the process overall.
 

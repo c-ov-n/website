@@ -1,9 +1,14 @@
 = [.inline]##image:sphere-glyphs/sphere-11-31.svg[] Kia##
 :figure-caption!:
 
+== Tree of Kia
+
+.Structure of twelve sphere tree of Kia
+image::diagrams/12-tree.svg[width=100%]
+
 == Flower of Emanation
 
-This figure sumarizes the process of manifestation.
+This figure summarizes the process of manifestation.
 
 .Flower of Emanation
 image::flower-of-emanation.svg[width=100%]
@@ -20,7 +25,7 @@ From 11 we jump to the sequence number of [.inline]##image:sphere-glyphs/sphere-
 Its prime of 31 is represented in the 31 petals of the flower.
 These petals are arranged following the Fibonacci sequence:
 2 → 3 → 5 → 8 → 13.
-The Fibbonacci sequence is known to occur in many natural systems including growth of flower petals,
+The Fibonacci sequence is known to occur in many natural systems including growth of flower petals,
 making it particularly suited for reflecting the intricacy and delicacy of manifestation.
 
 == The Labyrinth

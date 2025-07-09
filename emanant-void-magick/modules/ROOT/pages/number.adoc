@@ -90,7 +90,7 @@ Starting at five the pattern emerges of dot, line, arc indicating the base glyph
 Twelve is formed as a merging of glyphs for eight and four.
 Twenty is formed from sixteen and four.
 Twenty-four is formed from sixteen and eight.
-Twente-eight is formed from sixteen, eight, and four.
+Twenty-eight is formed from sixteen, eight, and four.
 
 [cols="1,1,1,1,1,1,1,1"]
 |===
@@ -139,7 +139,7 @@ The pronunciations are based on the spoken sounds in English ordered systematica
 by a number of rules to bring out the relationships between the numbers.
 The rules themselves are not important other than that they build phonetic associations to help us intuitively identify relationships.
 
-The pronuciations are paired in a cycle where the initial and final sounds
+The pronunciations are paired in a cycle where the initial and final sounds
 of each are paired. Zero and sixteen are their own opposite.
 For the mathematically inclined,
 you might note that this pairing follows a two's complement of five-digit binary representation of each number.
@@ -147,7 +147,7 @@ In normal binary notation this matches each number one to fifteen with its negat
 
 Consonant sounds are arranged in voiced and unvoiced pairs such as the sounds of “d” and “t”.
 These are then paired with primes such that the unvoiced consonant is the initial sound of the prime,
-and the voiced consonant is is asigned as the initial sound of the preceding composite number.
+and the voiced consonant is is assigned as the initial sound of the preceding composite number.
 The ordering of the vowels and remaining consonants is the result of aesthetic choice following much experimentation.
 
 Pronunciation is given in both English pronunciation (enPR) and International Phonetic Alphabet (IPA).

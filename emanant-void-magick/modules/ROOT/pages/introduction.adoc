@@ -1,11 +1,11 @@
 = Introduction
 
 Emanant Void Magick is a toolkit for thinking about and manipulating reality.
-It provides an open framework of concepts and associations which you are encouranged to freely adapt and build upon.
+It provides an open framework of concepts and associations which you are encouraged to freely adapt and build upon.
 This framework evolves in layers of increasing complexity, each of which may be applied usefully on its own.
 We encourage you to explore the philosophical and practical aspects in parallel as the concepts are best understood through application.
 
-At the heart Emanant Void Magick is an esoteric narrative onotology which describes the process by which being emanates from void to give rise to subjective and objective reality.
+At the heart Emanant Void Magick is an esoteric narrative ontology which describes the process by which being emanates from void to give rise to subjective and objective reality.
 This narrative evolves and grows like a tree, budding spheres connected by paths, concepts and their associations.
 We encourage you to work slowly through this material, considering in each layer of emanation as whole unto itself.
 

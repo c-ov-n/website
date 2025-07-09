@@ -28,3 +28,4 @@
 ** xref:spheres/kia.adoc[(11⋮31) Kia]
 * Patterns
 ** xref:patterns/23-lightning-bolt.adoc[23 Lightning Bolt]
+** xref:patterns/pentagram-of-desire.adoc[Pentagram of Desire]
