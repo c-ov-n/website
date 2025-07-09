@@ -76,6 +76,11 @@ The first interesting walkable tree occurs with the tree of Sense, jŏth-tŏi.
 The next occurs with the tree of Desire, ät-thĕl.
 The final is the tree of Kia, fĕ-shĕr.
 
+The twenty-nine paths of the tree also correspond to the twenty-nine days of the lunar cycle from new moon with
+[.inline]##image:sequence-glyphs/0x00.svg[] Fool image:factor-glyphs/0x00.svg[]## through the full moon of
+[.inline]##image:sequence-glyphs/0x0f.svg[] Devil image:factor-glyphs/0x10.svg[]## to the completion of the cycle with
+[.inline]##image:sequence-glyphs/0x1c.svg[] Angel image:factor-glyphs/0x1c.svg[]##.
+
 We will look into the last in detail as it contains the paths of the others.
 
 == Map of the Journey

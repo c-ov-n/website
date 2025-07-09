@@ -10,13 +10,13 @@ image::flower-of-emanation.svg[width=100%]
 
 In the center of the flower is a point, representing [.inline]##image:sphere-glyphs/sphere-00-01.svg[]## Chaos.
 Crossing the point is a line, representing [.inline]##image:sphere-glyphs/sphere-01-02.svg[]## Process.
-This line also divides a triangle, representing [.inline]##image:sphere-glyphs/sphere-02-03.svg[]##.
+This line also divides a triangle, representing [.inline]##image:sphere-glyphs/sphere-02-03.svg[]## Pattern.
 These give the progression 0 → 1 → 2 → 3, the numbers of the first triad.
-With [.inline]##image:sphere-glyphs/sphere-03-05.svg[]## we move from its sequence, 3,
+With [.inline]##image:sphere-glyphs/sphere-03-05.svg[]## Form we move from its sequence, 3,
 to its prime, 5.
-Then we jump to [.inline]##image:sphere-glyphs/sphere-05-11.svg[]## with its sequence number, 5,
+Then we jump to [.inline]##image:sphere-glyphs/sphere-05-11.svg[]## Agent with its sequence number, 5,
 and its prime, 11, which brings us to the 11 pointed star.
-From 11 we jump to the sequence number of [.inline]##image:sphere-glyphs/sphere-11-31.svg[]##.
+From 11 we jump to the sequence number of [.inline]##image:sphere-glyphs/sphere-11-31.svg[]## Kia.
 Its prime of 31 is represented in the 31 petals of the flower.
 These petals are arranged following the Fibonacci sequence:
 2 → 3 → 5 → 8 → 13.

@@ -14,7 +14,7 @@
 ** xref:emanation.adoc#_717_thought[7⋮17 Thought]
 ** xref:emanation.adoc#_819_desire[8⋮19 Desire]
 ** xref:emanation.adoc#_923_matter[9⋮23 Matter]
-** xref:emanation.adoc#_1029_life[10⋮29 Life]
+** xref:emanation.adoc#_1029_soul[10⋮29 Soul]
 ** xref:emanation.adoc#_1131_kia[11⋮31 Kia]
 * xref:fools-journey.adoc[Fool's Journey]
 ** xref:fools-journey.adoc#_history_of_tarot[History of Tarot]
@@ -24,6 +24,7 @@
 * Spheres
 ** xref:spheres/chaos.adoc[(0⋮1) Chaos]
 ** xref:spheres/form.adoc[(3⋮5) Form]
+** xref:spheres/soul.adoc[(10⋮29) Soul]
 ** xref:spheres/kia.adoc[(11⋮31) Kia]
 * Patterns
 ** xref:patterns/23-lightning-bolt.adoc[23 Lightning Bolt]

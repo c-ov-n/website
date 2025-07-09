@@ -14,5 +14,7 @@ Assignment of path names corresponding to the tarot and beyond.
 
 == Spheres
 
-xref:spheres/chaos.adoc[] +
-xref:spheres/form.adoc[]
+[.inline]##xref:spheres/chaos.adoc[image:sphere-glyphs/sphere-00-01.svg[] Chaos]## +
+[.inline]##xref:spheres/form.adoc[image:sphere-glyphs/sphere-03-05.svg[] Form]## +
+[.inline]##xref:spheres/soul.adoc[image:sphere-glyphs/sphere-10-29.svg[] Soul]## +
+[.inline]##xref:spheres/kia.adoc[image:sphere-glyphs/sphere-11-31.svg[] Kia]##

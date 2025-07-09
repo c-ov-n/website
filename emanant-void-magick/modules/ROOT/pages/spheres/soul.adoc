@@ -1,0 +1,6 @@
+= [.inline]##image:sphere-glyphs/sphere-10-29.svg[] Soul##
+:figure-caption!:
+
+== Star of vŭ-sōb
+
+image::stars/sphere-10-29-star.svg[width=100%]
