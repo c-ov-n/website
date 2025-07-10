@@ -1,0 +1,7 @@
+= Patterns
+
+xref:patterns/23-lightning-bolt.adoc[**23 Lightning Bolt**] +
+Pattern of wandering sums of twenty-three in the tree.
+
+xref:patterns/pentagram-of-desire.adoc[**Pentagram of Desire**] +
+Symbolism of the pentagram in surrounding the sphere of Desire.

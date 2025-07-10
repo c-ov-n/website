@@ -1,0 +1,9 @@
+= Tarot
+
+Tarot of Emanant Void Magick.
+
+xref:tarot/overview.adoc[**Overview**] +
+Overview of the Tarot of Emanant Void Magick.
+
+xref:tarot/major-arcana.adoc[**Major Arcana**] +
+The twenty-nine trumps of the Major Arcana.

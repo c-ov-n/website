@@ -1,0 +1,64 @@
+= Tarot Overview
+
+== History
+
+Tarot evolved as a card game in Italy in the 15th century.
+Originally known as _trionfi_, “triumphs”, it built on earlier Egyptian card sets by adding what would come to be known as the “trump” cards and later “major arcana”.
+The number of trumps varied in early decks before settling on twenty-two cards ranked in a hierarchy, though not all sets agreed on the cards or ordering.
+
+In the mid 19th century the trumps of the tarot gained an important new meaning and relevance for occult philosophy.
+In 1854-1856 Éliphas Lévi published _Dogme et Rituel de la Haute Magie_ [The Doctrine and Ritual of High Magic]
+in which he associates the twenty-two trumps of the major arcana to the twenty-two letters of Hebrew and so to the Hermetic Qabalah.
+This is further developed in 1889 by Gérard Encausse, writing under the pseudonym “Papus”, in his _Le Tarot des Bohémiens_ [The Tarot of the Bohemians].
+An exemplar of perennialist occult philosophy,
+Lévi and Papus make bold speculative claims about ancient origins of the tarot in their works and lay the groundwork for further occult system building.
+
+This syncretic association made the tarot central to Western occult philosophy.
+It both added significant depth to the interpretation of the trumps as well as providing new names and rich symbolism to the paths of the Qabalistic tree of life.
+Despite the fantastic claims to ancient wisdom lineages made by these influential authors,
+those that followed would completely rework the correspondences into the common form we now find.
+
+In the early 20th century another major development in tarot was the development of the Rider-Waite (aka Waite-Smith) tarot.
+Published in 1909 with iconic art of Pamela Colman Smith, it was developed according to symbolism of the Order of the Golden Dawn,
+taking inspiration from Gérard Encausse, Éliphas Lévi, and others.
+This deck actually completely remapped the Qabalistic associations suggested by Gérard Encausse.
+Whereas Encausse associated the first Hebrew letter, א (aleph) with the trump number one,
+the Order of the Golden Dawn associated with the fool, numbered either zero or unnumbered in earlier sets.
+This throws off the associations of all subsequent cards by one letter.
+They also went on to change the ordering of trumps VIII and XI, Justice and Strength,
+to match astrological significance.
+
+Most modern tarot decks follow the Rider-Waite ordering and symbolism,
+most without reference to the Qabalah and other work of the Order of the Golden Dawn which produced it.
+Other decks retain the original ordering of Justice and Strength, which brings us to the next major development.
+
+Aleister Crowley, a one time member of the Order of the Golden Dawn, would go on to design his own highly influential tarot.
+The _Thoth Tarot_ was developed by Aleister Crowley with artist Lady Frieda Harris and completed in 1943.
+Crowley published a book, _The Book of Thoth_, detailing its associations and with the Qabalah and other occult philosophy.
+Crowley returned Justice and Strength to their original order and renamed them “Adjustment” and “Lust”.
+He also switched the Qabalistic attributions of VI Emperor and XVII Star.
+He renamed World to “Universe” and completely replaced Judgement with a new card associated with this system of Thelema and named it “Aeon”.
+
+A final interpretive key was added by Eden Gray in the 1950s.
+Gray introduced the Fool's Journey, an interpretation of the major arcana as a narrative journey of the individual through life.
+From the Fool as the soul before incarnation through life experiences enduring trials and gaining wisdom through finally returning to the Fool.
+This insight brings the major arcana into a thematic unity.
+
+All this is to show that associations, interpretations, ordering, and even number of the trumps in the major arcana has changed over time.
+In the present work we take inspiration from the work that has gone before while rejecting the perennialist and syncretic aspects of earlier work.
+Instead of claiming authority based on a supposed ancient tradition,
+we trust you to judge for yourself based only on whatever you may find useful,
+and, instead of attempting to map and distort all traditions to fit one master system,
+we provide a flexible framework that you may adapt to your particular use.
+
+== Major Arcana
+
+As discussed in xref:emanation/fools-journey[Emanation], the major arcana are defined by the paths and order of the Fool's Journey.
+
+== Pip Cards
+
+The numbered pip cards consist of twelve cards each, corresponding to the twelve spheres.
+
+== Court Cards
+
+The court cards correspond to faces of the dodecahedron.
