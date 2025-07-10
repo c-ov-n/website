@@ -1,0 +1,10 @@
+= [.inline]##image:sphere-glyphs/sphere-05-11.svg[] Agent##
+:figure-caption!:
+
+== Tree of Agent
+
+image::diagrams/6-tree.svg[width=100%]
+
+== Star of o͞or-fĕm
+
+image::stars/sphere-05-11-star.svg[width=100%]

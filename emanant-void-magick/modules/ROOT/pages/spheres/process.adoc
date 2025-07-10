@@ -1,0 +1,2 @@
+= [.inline]##image:sphere-glyphs/sphere-01-02.svg[] Process##
+:figure-caption!:

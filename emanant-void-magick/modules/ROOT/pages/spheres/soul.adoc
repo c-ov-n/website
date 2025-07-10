@@ -1,6 +1,10 @@
 = [.inline]##image:sphere-glyphs/sphere-10-29.svg[] Soul##
 :figure-caption!:
 
+== Tree of Soul
+
+image::diagrams/11-tree.svg[width=100%]
+
 == Star of vŭ-sōb
 
 image::stars/sphere-10-29-star.svg[width=100%]

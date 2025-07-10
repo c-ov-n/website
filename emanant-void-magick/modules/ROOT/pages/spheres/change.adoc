@@ -1,0 +1,10 @@
+= [.inline]##image:sphere-glyphs/sphere-04-07.svg[] Change##
+:figure-caption!:
+
+== Tree of Change
+
+image::diagrams/5-tree.svg[width=100%]
+
+== Star of ăou-chăz
+
+image::stars/sphere-04-07-star.svg[width=100%]

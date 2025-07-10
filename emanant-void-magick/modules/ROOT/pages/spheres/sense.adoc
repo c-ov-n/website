@@ -1,0 +1,10 @@
+= [.inline]##image:sphere-glyphs/sphere-06-13.svg[] Sense##
+:figure-caption!:
+
+== Tree of Sense
+
+image::diagrams/7-tree.svg[width=100%]
+
+== Star of vŭ-sōb
+
+image::stars/sphere-06-13-star.svg[width=100%]

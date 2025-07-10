@@ -1,0 +1,2 @@
+= [.inline]##image:sphere-glyphs/sphere-02-03.svg[] Pattern##
+:figure-caption!:

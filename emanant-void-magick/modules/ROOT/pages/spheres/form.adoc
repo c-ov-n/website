@@ -15,6 +15,10 @@ Each sphere exists within each other.
 In the sphere of (4/7) Change this sphere appears as a unit of change.
 In (8/19) Desire a form is a goal, an intent.
 
+== Tree of Form
+
+image::diagrams/4-tree.svg[width=100%]
+
 == Star of ŭm-o͞os
 
 image::stars/sphere-03-05-star.svg[width=100%]

@@ -1,0 +1,10 @@
+= [.inline]##image:sphere-glyphs/sphere-08-19.svg[] Desire##
+:figure-caption!:
+
+== Tree of Desire
+
+image::diagrams/9-tree.svg[width=100%]
+
+== Star of vŭ-sōb
+
+image::stars/sphere-08-19-star.svg[width=100%]

@@ -1,0 +1,10 @@
+= [.inline]##image:sphere-glyphs/sphere-07-17.svg[] Thought##
+:figure-caption!:
+
+== Tree of Thought
+
+image::diagrams/8-tree.svg[width=100%]
+
+== Star of vŭ-sōb
+
+image::stars/sphere-07-17-star.svg[width=100%]
