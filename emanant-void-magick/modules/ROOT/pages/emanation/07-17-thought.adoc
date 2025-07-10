@@ -1,0 +1,11 @@
+== 7⋮17 Thought
+
+image::sphere-glyphs/sphere-07-17.svg[width=100pt,height=141.4pt]
+
+*Thought:* chō-kou /t͡ʃoʊ.kaʊ̯/
+
+If what is sensed leaves its mark upon the agent then we find the seed for the emergence of representational systems.
+The agent can now experience itself in time, forming memories, and gains the ability to not just change behavior based on current circumstance but also based on past learning.
+These internal marks can then be sensed and manipulated and so give rise to symbol, language, and communication.
+
+image::diagrams/8-tree-simple.svg[width=85%]

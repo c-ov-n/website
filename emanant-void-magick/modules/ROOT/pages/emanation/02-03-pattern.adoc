@@ -1,0 +1,26 @@
+= 2⋮3 Pattern
+
+image::sphere-glyphs/sphere-02-03.svg[width=100pt,height=141.4pt]
+
+*Pattern:* ēs-ŭzh /is.ŭʒ/
+
+As the process of manifestation proceeds the shape of the unmanifest spaces influences that which may follow.
+This causes patterns to arise that unify the discrete units of being.
+Though each is completely free and separate, they are also manifest as a unified pattern.
+It is precisely because of incompleteness that these units are able to also become a new unity.
+
+All three of these first spheres describe aspects of being so fundamental as to be universal and therefore ineffable.
+First in Chaos ([.inline]##image:sphere-glyphs/sphere-00-01.svg[]##) we have being.
+Next in Process ([.inline]##image:sphere-glyphs/sphere-01-02.svg[]##) we have connections between beings, or put another way, multiplicity.
+Then in Pattern ([.inline]##image:sphere-glyphs/sphere-02-03.svg[]##) we have the connection that makes a new unity from multiplicity.
+All three are subtle and ineffable without any particular instance the mind can grasp.
+
+The sequence of number so far reflects a uniqueness of these first three: 1, 2, 3.
+The next prime is 5 and marks a discontinuity.
+The first particulars will appear.
+
+In the tree of ēs-ŭzh we see the first branching of the tree.
+Path 2 ([.inline]##image:factor-glyphs/0x02.svg[]##) is produced directly from the branching spheres while
+path 0 ([.inline]##image:factor-glyphs/0x00.svg[]##) splits to give rise to path 1 ([.inline]##image:factor-glyphs/0x01.svg[]##).
+
+image::diagrams/3-tree-simple.svg[width=60%]

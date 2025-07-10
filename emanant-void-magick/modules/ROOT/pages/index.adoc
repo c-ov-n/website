@@ -6,7 +6,7 @@ Introduction and project background.
 xref:number.adoc[**Number**] +
 Overview and reference for numbering systems.
 
-xref:emanation.adoc[**Emanation**] +
+xref:emanation/index.adoc[**Emanation**] +
 Narrative ontology and tree diagrams.
 
 xref:spheres/index.adoc[**Spheres**] +

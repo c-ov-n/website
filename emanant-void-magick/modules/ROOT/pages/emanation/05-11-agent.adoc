@@ -1,0 +1,29 @@
+= 5⋮11 Agent
+
+image::sphere-glyphs/sphere-05-11.svg[width=100pt,height=141.4pt]
+
+*Agent:* o͞or-fĕm /uɹ.fɛm/
+
+In the flow of change through time forms emerge which influence change in order to sustain themselves.
+These forms are agents of change.
+Like the first cellular organisms self-organizing around volcanic vents on the ocean floor in the chemical soup of the earth’s ancient oceans.
+The basic aspect of these agents is homeostasis.
+These agents direct change to create a dynamic constant.
+As these agents guide change we may now call this activity Will.
+In the fullness of emanation we come to identify one of these agents with the self.
+
+A great example of an agent is the https://conwaylife.com/wiki/Glider[glider^] in https://conwaylife.com/[Conway's Game of Life^].
+This is a self-replicating pattern in a simple automated world, a sort of self-playing game.
+This is the simplest sort of agent.
+It has no sense of the world or of itself, no facility for planning or wanting.
+Further spheres will build from the agent to develop these facilities.
+
+The tree of o͞or-fĕm is formed by budding of Agent ([.inline]##image:sphere-glyphs/sphere-05-11.svg[]##) from Chaos ([.inline]##image:sphere-glyphs/sphere-00-01.svg[]##)
+forming path 8 ([.inline]##image:factor-glyphs/0x08.svg[]##).
+Paths 9 ([.inline]##image:factor-glyphs/0x09.svg[]##) and 10 ([.inline]##image:factor-glyphs/0x0a.svg[]##)
+split from paths 0 ([.inline]##image:factor-glyphs/0x00.svg[]##) and 1 ([.inline]##image:factor-glyphs/0x01.svg[]##).
+Paths 3 ([.inline]##image:factor-glyphs/0x03.svg[]##) and 6 ([.inline]##image:factor-glyphs/0x06.svg[]##)
+migrate with the new sphere while maintaining their connections to
+Form ([.inline]##image:sphere-glyphs/sphere-03-05.svg[]##) and Change ([.inline]##image:sphere-glyphs/sphere-04-07.svg[]##).
+
+image::diagrams/6-tree-simple.svg[width=85%]

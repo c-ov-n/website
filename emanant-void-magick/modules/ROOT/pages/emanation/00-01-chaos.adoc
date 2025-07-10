@@ -1,0 +1,29 @@
+= 0⋮1 Chaos
+
+image::sphere-glyphs/sphere-00-01.svg[width=100pt,height=141.4pt]
+
+*Chaos:* nĕsh-hĭn /nɛʃ.hɪn/
+
+Existence emerges spontaneously and without reason from Void.
+Existence requires no reason.
+As the Void has no quality whatsoever it is in no way restricted, permitting all being to issue forth.
+This is the fundamental nature of existence.
+It is spontaneous and without purpose or design.
+All possibilities assert themselves into being at once, each becoming a “one”, a unity of existence unto itself while retaining nothing in itself.
+
+The union of the zero and one in this first principles resonates with later Platonic philosophical notions of the “unparticipated one”.
+It is the universal concept of being itself.
+Because it is universal it is present in all things that have any sort of being,
+leaving this principle itself without any features.
+The numbers zero and one are particularly suited to descrie this first principle because they both reflect methods of leaving a value unchanged;
+to add nothing or multiply by one.
+
+The glyph of nĕsh-hĭn, as well as its pronunciation, is produced by the combination of its sequence number, and its “prime” number.
+footnote:[One is generally not be considered prime in a similar manner to how zero may be considered to not be a number.]
+[.inline]##image:factor-glyphs/0x00.svg[]## and [.inline]##image:factor-glyphs/0x01.svg[]## combine to form [.inline]##image:sphere-glyphs/sphere-00-01.svg[]##.
+Likewise “nĭn” and “hĕsh” combine to become “nĕsh-hĭn”.
+Similar patterns follow for the glyphs and pronunciation of each sphere.
+
+More of a seed than a tree, we show here a representation of the sphere with its descriptive name, glyph, as well as glyphs for its sequence and prime numbers.
+
+image::diagrams/1-tree-simple.svg[width=30%]

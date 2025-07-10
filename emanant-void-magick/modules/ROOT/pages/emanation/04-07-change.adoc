@@ -1,0 +1,38 @@
+= 4⋮7 Change
+
+image::sphere-glyphs/sphere-04-07.svg[width=100pt,height=141.4pt]
+
+*Change:* ăou-chăz /aʊ̯.t͡ʃaz/
+
+Manifestation may stop at Form to make a complete but static world.
+The universe of number is a perfect example of static manifestation.
+Alternately manifestation may remain in flux, in constance state of manifesting and dropping back into Void.
+This flux of being is the essence of Change and it is what gives rise to the experience of time.
+
+With Change, manifestation takes on a destructive aspect as forms that come to be now also cease to be.
+We move up a level in our analysis to describe types of change and change itself becomes a new type of form.
+The mathematically inclined may find it useful to meditate on the relationship of a mathematical function and its derivative.
+We may also think of the constant within Change as Will.
+Both are implied in the sphere of [.inline]##image:sphere-glyphs/sphere-04-07.svg[]##.
+
+This tree is formed by branching of Change ([.inline]##image:sphere-glyphs/sphere-04-07.svg[]##) from Form ([.inline]##image:sphere-glyphs/sphere-03-05.svg[]##)
+along path 7 ([.inline]##image:factor-glyphs/0x07.svg[]##).
+Path 6 ([.inline]##image:factor-glyphs/0x06.svg[]##) splits from path 3 ([.inline]##image:factor-glyphs/0x03.svg[]##).
+Path 4 ([.inline]##image:factor-glyphs/0x04.svg[]##) remains connected to Form ([.inline]##image:sphere-glyphs/sphere-03-05.svg[]##)
+while path 5 ([.inline]##image:factor-glyphs/0x05.svg[]##) follows the new sphere of Change ([.inline]##image:sphere-glyphs/sphere-04-07.svg[]##)
+
+image::diagrams/5-tree-simple.svg[width=80%]
+
+We chose to present the tree in this diagram as a pentagram to show its relationship to the traditional elemental pentagram.
+We may take Chaos ([.inline]##image:sphere-glyphs/sphere-00-01.svg[]##) as spirit,
+Process ([.inline]##image:sphere-glyphs/sphere-01-02.svg[]##) as water,
+Pattern ([.inline]##image:sphere-glyphs/sphere-02-03.svg[]##) as air,
+Form ([.inline]##image:sphere-glyphs/sphere-03-05.svg[]##) as earth,
+and Change ([.inline]##image:sphere-glyphs/sphere-04-07.svg[]##) as fire to discover a new formulation for a traditional symbol.
+More will be said on this later.
+
+Note that this is the first tree where not every sphere has a connection to every other sphere.
+This follows a rule constraining the number of paths.
+At each emanation the number of the final paths may not exceed the prime number of the final sphere of the tree.
+In this case the prime of Change ([.inline]##image:sphere-glyphs/sphere-04-07.svg[]##) is 7 ([.inline]##image:factor-glyphs/0x07.svg[]##)
+and so no more paths emerge.

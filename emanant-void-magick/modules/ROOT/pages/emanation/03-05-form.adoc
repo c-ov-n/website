@@ -1,0 +1,30 @@
+= 3⋮5 Form
+
+image::sphere-glyphs/sphere-03-05.svg[width=100pt,height=141.4pt]
+
+*Form:* ŭm-o͞os /ʌm.us/
+
+Within pattern there emerge forms defined by the pattern and yet independent within it.
+This is the first sort of beings.
+
+For example, 5 & 7 are a twin prime pair as they are both prime with a difference of 2.
+Other twin primes pairs include 11 & 13, 17 & 19, 29 & 31.
+All prime pairs greater than 3 & 5 have the property of having their sum being evenly divisible by 12.
+This form of a “prime pair” is known in mathematics but primeness, divisibility, and sums were not in any way defined in order to produce this form.
+The pattern of number emanates the form of the prime pair.
+
+As another example, we may take nearly any game and learn its rules rather quickly, but strategy is an entirely different matter.
+Games like Chess or Go give rise to whole vocabularies for naming forms within them.
+Though the rules teach us how to play, one must become familiar with these forms to play well.
+
+This tree is formed by budding Form ([.inline]##image:sphere-glyphs/sphere-03-05.svg[]##)
+from Chaos ([.inline]##image:sphere-glyphs/sphere-00-01.svg[]##) along path 3 ([.inline]##image:factor-glyphs/0x03.svg[]##).
+Paths 4 ([.inline]##image:factor-glyphs/0x04.svg[]##) and 5 ([.inline]##image:factor-glyphs/0x05.svg[]##)
+split from paths 0 ([.inline]##image:factor-glyphs/0x00.svg[]##) and 1 ([.inline]##image:factor-glyphs/0x01.svg[]##).
+
+image::diagrams/4-tree-simple.svg[width=65%]
+
+Take a moment to note the balance of 5 in the tree of ŭm-o͞os.
+The prime of ŭm-o͞os is five.
+The sums of the paths crossing in the middle are also five, as are the sums of the pairs across from each other.
+Many patterns of this sort occur as evolution of the trees continue.
