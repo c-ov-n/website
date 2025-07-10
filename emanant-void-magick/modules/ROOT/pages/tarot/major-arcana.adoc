@@ -169,74 +169,74 @@ and breaks up the ratio of eight to eight and an eighth by its division into une
 *Spheres*: [.inline .big]##image:sphere-glyphs/sphere-07-17.svg[] → image:sphere-glyphs/sphere-08-19.svg[]## +
 *Fool's Number*: [.inline .big]##image:sequence-glyphs/0x12.svg[]## (18) +
 *Emanation Number*: [.inline .big]##image:factor-glyphs/0x12.svg[]## (18) +
-*Pronunciation*: chäl-𝑡ℎā-kĕt
+*Pronunciation*: chäl-𝑡ℎā-kĕt /t͡ʃɑl.ðeɪ.kɛt/
 
 == 19 🞂 [.inline]##image:sequence-glyphs/0x13.svg[19] Sun image:factor-glyphs/0x13.svg[19]##
 
 *Spheres*: [.inline .big]##image:sphere-glyphs/sphere-08-19.svg[] → image:sphere-glyphs/sphere-09-23.svg[]## +
 *Fool's Number*: [.inline .big]##image:sequence-glyphs/0x13.svg[]## (19) +
 *Emanation Number*: [.inline .big]##image:factor-glyphs/0x13.svg[]## (19) +
-*Pronunciation*: äp-thĕt-thĕ
+*Pronunciation*: äp-thĕt-thĕ /ɑp.θɛt.θɛ/
 
 == 20 🞂 [.inline]##image:sequence-glyphs/0x14.svg[20] Judgement image:factor-glyphs/0x14.svg[20]##
 
 *Spheres*: [.inline .big]##image:sphere-glyphs/sphere-09-23.svg[] → image:sphere-glyphs/sphere-06-13.svg[]## +
 *Fool's Number*: [.inline .big]##image:sequence-glyphs/0x14.svg[]## (20) +
 *Emanation Number*: [.inline .big]##image:factor-glyphs/0x14.svg[]## (20) +
-*Pronunciation*: ĕi-ṙăd-pŏth
+*Pronunciation*: ĕi-ṙăd-pŏth /ɛɪ.ɾæd.pɑθ/
 
 == 21 🞂 [.inline]##image:sequence-glyphs/0x15.svg[21] World image:factor-glyphs/0x19.svg[25]##
 
 *Spheres*: [.inline .big]##image:sphere-glyphs/sphere-06-13.svg[] → image:sphere-glyphs/sphere-11-31.svg[]## +
 *Fool's Number*: [.inline .big]##image:sequence-glyphs/0x15.svg[]## (21) +
 *Emanation Number*: [.inline .big]##image:factor-glyphs/0x19.svg[]## (25) +
-*Pronunciation*: jĕr-rĭch-tĕh
+*Pronunciation*: jĕr-rĭch-tĕh /d͡ʒɛɹ.ɹɪt͡ʃ.tɛh/
 
 == 22 🞂 [.inline]##image:sequence-glyphs/0x16.svg[22] Lust image:factor-glyphs/0x18.svg[24]##
 
 *Spheres*: [.inline .big]##image:sphere-glyphs/sphere-11-31.svg[] → image:sphere-glyphs/sphere-08-19.svg[]## +
 *Fool's Number*: [.inline .big]##image:sequence-glyphs/0x16.svg[]## (22) +
 *Emanation Number*: [.inline .big]##image:factor-glyphs/0x18.svg[]## (24) +
-*Pronunciation*: fäl-bä-shĕt
+*Pronunciation*: fäl-bä-shĕt /fɑl.bɑ.ʃɛt/
 
 == 23 🞂 [.inline]##image:sequence-glyphs/0x17.svg[23] Rebel image:factor-glyphs/0x16.svg[22]##
 
 *Spheres*: [.inline .big]##image:sphere-glyphs/sphere-08-19.svg[] → image:sphere-glyphs/sphere-10-29.svg[]## +
 *Fool's Number*: [.inline .big]##image:sequence-glyphs/0x17.svg[]## (23) +
 *Emanation Number*: [.inline .big]##image:factor-glyphs/0x16.svg[]## (22) +
-*Pronunciation*: äp-bĕv-thŭ
+*Pronunciation*: äb-pĕv-thŭ /ɑb.pɛv.θʌ/
 
 == 24 🞂 [.inline]##image:sequence-glyphs/0x18.svg[24] Art image:factor-glyphs/0x15.svg[21]##
 
 *Spheres*: [.inline .big]##image:sphere-glyphs/sphere-10-29.svg[] → image:sphere-glyphs/sphere-07-17.svg[]## +
 *Fool's Number*: [.inline .big]##image:sequence-glyphs/0x18.svg[]## (24) +
 *Emanation Number*: [.inline .big]##image:factor-glyphs/0x15.svg[]## (21) +
-*Pronunciation*: vou-lĭf-sō
+*Pronunciation*: vou-lĭf-sō /vaʊ̯.lɪf.soʊ/
 
 == 25 🞂 [.inline]##image:sequence-glyphs/0x19.svg[25] Aeon image:factor-glyphs/0x1a.svg[26]##
 
 *Spheres*: [.inline .big]##image:sphere-glyphs/sphere-07-17.svg[] → image:sphere-glyphs/sphere-11-31.svg[]## +
 *Fool's Number*: [.inline .big]##image:sequence-glyphs/0x19.svg[]## (25) +
 *Emanation Number*: [.inline .big]##image:factor-glyphs/0x1a.svg[]## (26) +
-*Pronunciation*: chĕr-wōj-kĕh
+*Pronunciation*: chĕr-wōj-kĕh /t͡ʃɛɹ.woʊd͡ʒ.kɛh/
 
 == 26 🞂 [.inline]##image:sequence-glyphs/0x1a.svg[26] Shadow image:factor-glyphs/0x1b.svg[27]##
 
 *Spheres*: [.inline .big]##image:sphere-glyphs/sphere-11-31.svg[] → image:sphere-glyphs/sphere-09-23.svg[]## +
 *Fool's Number*: [.inline .big]##image:sequence-glyphs/0x1a.svg[]## (26) +
 *Emanation Number*: [.inline .big]##image:factor-glyphs/0x1b.svg[]## (27) +
-*Pronunciation*: fĕp-yo͞o-shĕ
+*Pronunciation*: fĕp-yo͞o-shĕ /fɛp.ju.ʃɛ/
 
 == 27 🞂 [.inline]##image:sequence-glyphs/0x1b.svg[27] Headless One image:factor-glyphs/0x1a.svg[26]##
 
 *Spheres*: [.inline .big]##image:sphere-glyphs/sphere-09-23.svg[] → image:sphere-glyphs/sphere-10-29.svg[]## +
 *Fool's Number*: [.inline .big]##image:sequence-glyphs/0x1b.svg[]## (27) +
 *Emanation Number*: [.inline .big]##image:factor-glyphs/0x17.svg[]## (23) +
-*Pronunciation*: ĕb-mĕ-pŭ
+*Pronunciation*: ĕb-mĕ-pŭ /ɛb.mɛ.pʌ/
 
 == 28 🞂 [.inline]##image:sequence-glyphs/0x1c.svg[28] Angel image:factor-glyphs/0x1c.svg[28]##
 
 *Spheres*: [.inline .big]##image:sphere-glyphs/sphere-10-29.svg[] → image:sphere-glyphs/sphere-11-31.svg[]## +
 *Fool's Number*: [.inline .big]##image:sequence-glyphs/0x1c.svg[]## (28) +
 *Emanation Number*: [.inline .big]##image:factor-glyphs/0x1c.svg[]## (28) +
-*Pronunciation*: vĕr-ză-sĕh
+*Pronunciation*: vĕr-ză-sĕh /vɛɹ.za.sɛh/

@@ -186,7 +186,7 @@ image::diagrams/12-tree-fools-journey.svg[]
 | [.inline .big]##image:sphere-glyphs/sphere-08-19.svg[] → image:sphere-glyphs/sphere-10-29.svg[]##
 | [.inline .big]##image:sequence-glyphs/0x17.svg[]## (23)
 | [.inline .big]##image:factor-glyphs/0x16.svg[]## (22)
-| äp-bĕv-thŭ
+| äb-pĕv-thŭ
 
 | Art
 | [.inline .big]##image:sphere-glyphs/sphere-10-29.svg[] → image:sphere-glyphs/sphere-07-17.svg[]##
