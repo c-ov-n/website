@@ -1,4 +1,4 @@
-== 7⋮17 Thought
+= 7⋮17 Thought
 
 image::sphere-glyphs/sphere-07-17.svg[width=100pt,height=141.4pt]
 
