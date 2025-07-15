@@ -39,41 +39,42 @@ Experimentation has shown that the placement of paths is usefully thought of as 
 The placement of paths are what seems to be the most stable form.
 Other less stable and higher-energy forms are possible and quite useful.
 
+Each layer of emanation is named for the sphere which emerges:
 
-[.inline]##xref:emanation/00-01-chaos.adoc[image:sphere-glyphs/sphere-00-01.svg[] **Chaos**]## +
+0⋮1 - [.inline]##xref:emanation/00-01-chaos.adoc[image:sphere-glyphs/sphere-00-01.svg[] **Chaos**]## +
 The first step into being requires no reason or cause.
 
-[.inline]##xref:emanation/01-02-process.adoc[image:sphere-glyphs/sphere-01-02.svg[] **Process**]## +
+1⋮2 - [.inline]##xref:emanation/01-02-process.adoc[image:sphere-glyphs/sphere-01-02.svg[] **Process**]## +
 The process of being is open and never finished.
 
-[.inline]##xref:emanation/02-03-pattern.adoc[image:sphere-glyphs/sphere-02-03.svg[] **Pattern**]## +
+2⋮3 - [.inline]##xref:emanation/02-03-pattern.adoc[image:sphere-glyphs/sphere-02-03.svg[] **Pattern**]## +
 Everything in being is unified by the pattern which holds it.
 
-[.inline]##xref:emanation/03-05-form.adoc[image:sphere-glyphs/sphere-03-05.svg[] **Form**]## +
+3⋮5 - [.inline]##xref:emanation/03-05-form.adoc[image:sphere-glyphs/sphere-03-05.svg[] **Form**]## +
 Within pattern occur independent forms.
 
-[.inline]##xref:emanation/04-07-change.adoc[image:sphere-glyphs/sphere-04-07.svg[] **Change**]## +
+4⋮7 - [.inline]##xref:emanation/04-07-change.adoc[image:sphere-glyphs/sphere-04-07.svg[] **Change**]## +
 Forms are created and destroyed in the flow of time.
 
-[.inline]##xref:emanation/05-11-agent.adoc[image:sphere-glyphs/sphere-05-11.svg[] **Agent**]## +
+5⋮11 - [.inline]##xref:emanation/05-11-agent.adoc[image:sphere-glyphs/sphere-05-11.svg[] **Agent**]## +
 Agents direct the flow of change, allowing us to speak of will and intent.
 
-[.inline]##xref:emanation/06-13-sense.adoc[image:sphere-glyphs/sphere-06-13.svg[] **Sense**]## +
+6⋮13 - [.inline]##xref:emanation/06-13-sense.adoc[image:sphere-glyphs/sphere-06-13.svg[] **Sense**]## +
 Sense emerges as the experience of the other, the uncontrolled.
 
-[.inline]##xref:emanation/07-17-thought.adoc[image:sphere-glyphs/sphere-07-17.svg[] **Thought**]## +
+7⋮17 - [.inline]##xref:emanation/07-17-thought.adoc[image:sphere-glyphs/sphere-07-17.svg[] **Thought**]## +
 Memory forms along with symbolic thought.
 
-[.inline]##xref:emanation/08-19-desire.adoc[image:sphere-glyphs/sphere-08-19.svg[] **Desire**]## +
+8⋮19 - [.inline]##xref:emanation/08-19-desire.adoc[image:sphere-glyphs/sphere-08-19.svg[] **Desire**]## +
 Thought gives rise to desire, wanting something different from what is.
 
-[.inline]##xref:emanation/09-23-matter.adoc[image:sphere-glyphs/sphere-09-23.svg[] **Matter**]## +
+9⋮23 - [.inline]##xref:emanation/09-23-matter.adoc[image:sphere-glyphs/sphere-09-23.svg[] **Matter**]## +
 Desire manifests objective reality.
 
-[.inline]##xref:emanation/10-29-soul.adoc[image:sphere-glyphs/sphere-10-29.svg[] **Soul**]## +
+10⋮29 - [.inline]##xref:emanation/10-29-soul.adoc[image:sphere-glyphs/sphere-10-29.svg[] **Soul**]## +
 Through interplay with objective matter the self becomes encoded and stabilized.
 
-[.inline]##xref:emanation/11-31-kia.adoc[image:sphere-glyphs/sphere-11-31.svg[] **Kia**]## +
+11⋮31 - [.inline]##xref:emanation/11-31-kia.adoc[image:sphere-glyphs/sphere-11-31.svg[] **Kia**]## +
 Pure, free, unformed void remains as spirit.
 
 xref:emanation/fools-journey.adoc[**Fool's Journey**] +

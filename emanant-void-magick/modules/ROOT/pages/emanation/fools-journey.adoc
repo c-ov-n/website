@@ -54,7 +54,7 @@ image::diagrams/12-tree-fools-journey.svg[]
 | [.inline .big]##image:sphere-glyphs/sphere-01-02.svg[] → image:sphere-glyphs/sphere-02-03.svg[]##
 | [.inline .big]##image:sequence-glyphs/0x01.svg[]## (1)
 | [.inline .big]##image:factor-glyphs/0x02.svg[]## (2)
-| hēzh-hĕzh-ēs
+| hēzh-hēzh-ēs
 
 | Priestess
 | [.inline .big]##image:sphere-glyphs/sphere-02-03.svg[] → image:sphere-glyphs/sphere-00-01.svg[]##

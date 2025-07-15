@@ -1,6 +1,10 @@
 = Pentagram of Desire
 :figure-caption!:
 
+Just as the initial six spheres gave us a formula for the pentagram,
+so the final six may give us a formula for an averse pentagram.
+While the initial pentagram was empty, this one has Desire at its center.
+
 .Structure of twelve sphere tree emphasizing pentagram of desire.
 image::diagrams/12-tree-pentagram.svg[width=100%]
 
