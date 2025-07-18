@@ -9,7 +9,7 @@ content:
     start_path: emanant-void-magick
 ui:
   bundle:
-    url: https://github.com/c-ov-n/antora-ui/releases/download/v0.1.8/ui-bundle.zip
+    url: https://github.com/c-ov-n/antora-ui/releases/download/v0.1.9/ui-bundle.zip
     snapshot: true
 asciidoc:
   attributes:
