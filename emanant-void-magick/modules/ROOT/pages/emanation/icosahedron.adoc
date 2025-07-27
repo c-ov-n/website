@@ -1,0 +1,9 @@
+= The Icosahedron
+
+image::diagrams/12-tree-icosahedron-formation.svg[]
+
+image::diagrams/12-tree-icosahedron-flat.svg[]
+
+image::diagrams/12-tree-icosahedron-top.svg[]
+
+image::diagrams/12-tree-icosahedron-bottom.svg[]

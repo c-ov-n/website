@@ -17,6 +17,7 @@
 ** xref:emanation/10-29-soul.adoc[10⋮29 Soul]
 ** xref:emanation/11-31-kia.adoc[11⋮31 Kia]
 ** xref:emanation/fools-journey.adoc[The Fool's Journey]
+** xref:emanation/icosahedron.adoc[The Icosahedron]
 * xref:spheres/index.adoc[Spheres]
 ** xref:spheres/chaos.adoc[(0⋮1) Chaos]
 ** xref:spheres/process.adoc[(1⋮2) Process]

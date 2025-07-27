@@ -79,3 +79,6 @@ Pure, free, unformed void remains as spirit.
 
 xref:emanation/fools-journey.adoc[**Fool's Journey**] +
 Explanation of the sequential path number and naming.
+
+xref:emanation/icosahedron.adoc[**The Icosahedron**] +
+Folding of the tree of emanation to produce the icosahedron.
