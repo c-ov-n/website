@@ -5,13 +5,14 @@ image::sphere-glyphs/sphere-03-05.svg[width=100pt,height=141.4pt]
 *Form:* ŭm-o͞os /ʌm.us/
 
 Within pattern there emerge forms defined by the pattern and yet independent within it.
-This is the first sort of beings.
+These are the first sort of beings which may be described as being and having properties of any sort.
 
-For example, 5 & 7 are a twin prime pair as they are both prime with a difference of 2.
-Other twin primes pairs include 11 & 13, 17 & 19, 29 & 31.
-All prime pairs greater than 3 & 5 have the property of having their sum being evenly divisible by 12.
-This form of a “prime pair” is known in mathematics but primeness, divisibility, and sums were not in any way defined in order to produce this form.
-The pattern of number emanates the form of the prime pair.
+A simple sort of form is number.
+Five is a number which has the property of being the first non-sequential prime.
+Together with seven it forms the first twin prime pair, seven being prime and two more than five.
+The next twin prime pair is eleven and thirteen, followed by seventeen and nineteen, hen twenty-nine and thirty-one.
+The sum of all twin prime pairs is divisible by twelve.
+All of these properties are found in what they describe, individual units, forms, in an infinite series.
 
 As another example, we may take nearly any game and learn its rules rather quickly, but strategy is an entirely different matter.
 Games like Chess or Go give rise to whole vocabularies for naming forms within them.
