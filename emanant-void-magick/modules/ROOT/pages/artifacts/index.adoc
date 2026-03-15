@@ -1,0 +1,9 @@
+= Artifacts
+
+Artifacts found in the trees of emanation and their interpretations.
+
+xref:artifacts/23-lightning-bolt.adoc[**23 Lightning Bolt**] +
+Pattern of wandering sums of twenty-three in the tree.
+
+xref:artifacts/pentagram-of-desire.adoc[**Pentagram of Desire**] +
+Symbolism of the pentagram surrounding the sphere of Desire.

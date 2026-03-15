@@ -7,3 +7,6 @@ Overview of the Tarot of Emanant Void Magick.
 
 xref:tarot/major-arcana.adoc[**Major Arcana**] +
 The twenty-nine trumps of the Major Arcana.
+
+xref:tarot/disks.adoc[**Disks**] +
+Cards of the suit of Disks.

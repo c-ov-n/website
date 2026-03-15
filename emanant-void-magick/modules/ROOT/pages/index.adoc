@@ -15,5 +15,5 @@ Discussion of the meaning of each sphere of emanation.
 xref:tarot/index.adoc[**Tarot**] +
 Tarot of Emanant Void Magick.
 
-xref:patterns/index.adoc[**Patterns**] +
-Patterns in the trees and interpretations.
+xref:artifacts/index.adoc[**Artifacts**] +
+Artifacts found in the trees of emanation and their interpretations.

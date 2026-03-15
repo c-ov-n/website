@@ -1,11 +1,34 @@
 = Major Arcana
 
+The cards of Major Arcana relate first to the twenty-nine paths of the tree of void emanation
+and secondly to their position on the icosahedron.
+The tree of void emanation and its folding into the icosahedron are described
+xref:emanation/icosahedron.adoc[here] and xref:emanation/fools-journey.adoc[here].
+The Emanation Number of each card is the order in which the sphere appears in
+xref:emanation/index.adoc[the process of emanation].
+The Fool's number of each card is the order the path is traversed in the
+xref:emanation/fools-journey.adoc[Fool's Journey].
+
+The icosahedral formation reveals harmonies among the paths as each of the thirty edges correspond to the twenty-nine paths with [.inline]##image:sequence-glyphs/0x0f.svg[15] Devil image:factor-glyphs/0x10.svg[16]## being split into twin aspect [.inline]##image:sequence-glyphs/0x1d.svg[29] Devil image:factor-glyphs/0x1f.svg[31]##.
+This echoes the splitting of the path of Unveiling from Sun.
+As Sun corresponds to day Unveiling is to the night sky.
+So it is fitting that Devil sits opposite divided between associations of earthly passions and rebellion against established order.
+
+The icosahedral formation also defines the court cards in its twenty sides.
+Of each of the four suits there are Queen, King, Knight, Prince, and Princess.
+As each path is an edge each is associated with two court cards.
+The exception is Devil, which which is associated with three court cards due to its twin nature.
+
+Each of the Major Arcana is described below along with its associated spheres, numbering, pronunciation, opposite path, and court cards.
+
 == 0 🞂 [.inline]##image:sequence-glyphs/0x00.svg[0] Fool image:factor-glyphs/0x00.svg[0]##
 
 *Spheres*: [.inline .big]##image:sphere-glyphs/sphere-00-01.svg[] → image:sphere-glyphs/sphere-01-02.svg[]## +
 *Fool's Number*: [.inline .big]##image:sequence-glyphs/0x00.svg[]## (0) +
 *Emanation Number*: [.inline .big]##image:factor-glyphs/0x00.svg[]## (0) +
-*Pronunciation*: nĕsh-nĭn-hēzh /nɛʃ.nɪn.hiʒ/
+*Pronunciation*: nĕsh-nĭn-hēzh /nɛʃ.nɪn.hiʒ/ +
+*Opposite Path*: [.inline]##image:sequence-glyphs/0x12.svg[18] Moon image:factor-glyphs/0x12.svg[18]## +
+*Court Cards*: Queen of Cups, King of Disks
 
 The Fool is the first step on the path.
 It is the blind choice to be without knowledge of what will be.
@@ -15,7 +38,9 @@ It is the blind choice to be without knowledge of what will be.
 *Spheres*: [.inline .big]##image:sphere-glyphs/sphere-01-02.svg[] → image:sphere-glyphs/sphere-02-03.svg[]## +
 *Fool's Number*: [.inline .big]##image:sequence-glyphs/0x01.svg[]## (1) +
 *Emanation Number*: [.inline .big]##image:factor-glyphs/0x02.svg[]## (2) +
-*Pronunciation*: hēzh-hēzh-ēs /hiʒ.hiʒ.is/
+*Pronunciation*: hēzh-hēzh-ēs /hiʒ.hiʒ.is/ +
+*Opposite Path*: [.inline]##image:sequence-glyphs/0x12.svg[17] Star image:factor-glyphs/0x12.svg[15]## +
+*Court Cards*: Knight of Cups, Knight of Disks
 
 The Magus is mastery.
 It may seem odd that this comes immediately after the Fool,
@@ -30,105 +55,135 @@ The Magus knows how things should be and how to work with what they have availab
 *Spheres*: [.inline .big]##image:sphere-glyphs/sphere-02-03.svg[] → image:sphere-glyphs/sphere-00-01.svg[]## +
 *Fool's Number*: [.inline .big]##image:sequence-glyphs/0x02.svg[]## (2) +
 *Emanation Number*: [.inline .big]##image:factor-glyphs/0x01.svg[]## (1) +
-*Pronunciation*: ēn-ēsh-ŭsh /in.iʃ.ʌʃ/
+*Pronunciation*: ēn-ēsh-ŭsh /in.iʃ.ʌʃ/ +
+*Opposite Path*: [.inline]##image:sequence-glyphs/0x10.svg[16] Tower image:factor-glyphs/0x11.svg[17]## +
+*Court Cards*: Queen of Swords, King of Swords
 
 == 3 🞂 [.inline]##image:sequence-glyphs/0x03.svg[3] Empress image:factor-glyphs/0x08.svg[8]##
 
 *Spheres*: [.inline .big]##image:sphere-glyphs/sphere-00-01.svg[] → image:sphere-glyphs/sphere-05-11.svg[]## +
 *Fool's Number*: [.inline .big]##image:sequence-glyphs/0x03.svg[]## (3) +
 *Emanation Number*: [.inline .big]##image:factor-glyphs/0x08.svg[]## (8) +
-*Pronunciation*: no͞om-ŭl-hĕr /num.ʌl.hɛɹ/
+*Pronunciation*: no͞om-ŭl-hĕr /num.ʌl.hɛɹ/ +
+*Opposite Path*: [.inline]##image:sequence-glyphs/0x16.svg[22] Lust image:factor-glyphs/0x18.svg[24]## +
+*Court Cards*: Queen of Swords, Queen of Cups
 
 == 4 🞂 [.inline]##image:sequence-glyphs/0x04.svg[4] Emperor image:factor-glyphs/0x03.svg[3]##
 
 *Spheres*: [.inline .big]##image:sphere-glyphs/sphere-05-11.svg[] → image:sphere-glyphs/sphere-03-05.svg[]## +
 *Fool's Number*: [.inline .big]##image:sequence-glyphs/0x04.svg[]## (4) +
 *Emanation Number*: [.inline .big]##image:factor-glyphs/0x03.svg[]## (3) +
-*Pronunciation*: o͞os-ăs-fo͞om /us.as.fum/
+*Pronunciation*: o͞os-ăs-fo͞om /us.as.fum/ +
+*Opposite Path*: [.inline]##image:sequence-glyphs/0x1c.svg[28] Daimon image:factor-glyphs/0x1c.svg[28]## +
+*Court Cards*: Queen of Wands, King of Cups
 
 == 5 🞂 [.inline]##image:sequence-glyphs/0x05.svg[5] Hierophant image:factor-glyphs/0x04.svg[4]##
 
 *Spheres*: [.inline .big]##image:sphere-glyphs/sphere-03-05.svg[] → image:sphere-glyphs/sphere-01-02.svg[]## +
 *Fool's Number*: [.inline .big]##image:sequence-glyphs/0x05.svg[]## (5) +
 *Emanation Number*: [.inline .big]##image:factor-glyphs/0x04.svg[]## (4) +
-*Pronunciation*: ŭsh-o͞oz-o͞ozh /ʌʃ.uz.uʒ/
+*Pronunciation*: ŭsh-o͞oz-o͞ozh /ʌʃ.uz.uʒ/ +
+*Opposite Path*: [.inline]##image:sequence-glyphs/0x18.svg[24] Art image:factor-glyphs/0x15.svg[21]## +
+*Court Cards*: King of Cups, Knight of Cups
 
 == 6 🞂 [.inline]##image:sequence-glyphs/0x06.svg[6] Lovers image:factor-glyphs/0x09.svg[9]##
 
 *Spheres*: [.inline .big]##image:sphere-glyphs/sphere-01-02.svg[] → image:sphere-glyphs/sphere-05-11.svg[]## +
 *Fool's Number*: [.inline .big]##image:sequence-glyphs/0x06.svg[]## (6) +
 *Emanation Number*: [.inline .big]##image:factor-glyphs/0x09.svg[]## (9) +
-*Pronunciation*: ho͞om-jĕp-ēr /hum.d͡ʒɛp.iɹ/
+*Pronunciation*: ho͞om-jĕp-ēr /hum.d͡ʒɛp.iɹ/ +
+*Opposite Path*: [.inline]##image:sequence-glyphs/0x19.svg[25] Aeon image:factor-glyphs/0x1a.svg[26]## +
+*Court Cards*: Queen of Cups, King of Cups
 
 == 7 🞂 [.inline]##image:sequence-glyphs/0x07.svg[7] Chariot image:factor-glyphs/0x06.svg[6]##
 
 *Spheres*: [.inline .big]##image:sphere-glyphs/sphere-05-11.svg[] → image:sphere-glyphs/sphere-04-07.svg[]## +
 *Fool's Number*: [.inline .big]##image:sequence-glyphs/0x07.svg[]## (7) +
 *Emanation Number*: [.inline .big]##image:factor-glyphs/0x06.svg[]## (6) +
-*Pronunciation*: o͞oz-choi-fou /uz.t͡ʃɔɪ.faʊ̯/
+*Pronunciation*: o͞oz-choi-fou /uz.t͡ʃɔɪ.faʊ̯/ +
+*Opposite Path*: [.inline]##image:sequence-glyphs/0x1a.svg[26] Shadow image:factor-glyphs/0x1b.svg[27]## +
+*Court Cards*: Queen of Wands, King of Wands
 
 == 8 🞂 [.inline]##image:sequence-glyphs/0x08.svg[8] Justice image:factor-glyphs/0x05.svg[5]##
 
 *Spheres*: [.inline .big]##image:sphere-glyphs/sphere-04-07.svg[] → image:sphere-glyphs/sphere-02-03.svg[]## +
 *Fool's Number*: [.inline .big]##image:sequence-glyphs/0x08.svg[]## (8) +
 *Emanation Number*: [.inline .big]##image:factor-glyphs/0x04.svg[]## (5) +
-*Pronunciation*: ăzh-äm-chŭs /aʒ.ɑm.t͡ʃʌs/
+*Pronunciation*: ăzh-äm-chŭs /aʒ.ɑm.t͡ʃʌs/ +
+*Opposite Path*: [.inline]##image:sequence-glyphs/0x14.svg[20] Judgement image:factor-glyphs/0x14.svg[20]## +
+*Court Cards*: King of Wands, Knight of Wands
 
 == 9 🞂 [.inline]##image:sequence-glyphs/0x09.svg[9] Hermit image:factor-glyphs/0x0a.svg[10]##
 
 *Spheres*: [.inline .big]##image:sphere-glyphs/sphere-02-03.svg[] → image:sphere-glyphs/sphere-05-11.svg[]## +
 *Fool's Number*: [.inline .big]##image:sequence-glyphs/0x09.svg[]## (9) +
 *Emanation Number*: [.inline .big]##image:factor-glyphs/0x0a.svg[]## (10) +
-*Pronunciation*: ēm-ĕb-ŭr /im.ɛb.ʌɹ/
+*Pronunciation*: ēm-ĕb-ŭr /im.ɛb.ʌɹ/ +
+*Opposite Path*: [.inline]##image:sequence-glyphs/0x15.svg[21] World image:factor-glyphs/0x19.svg[25]## +
+*Court Cards*: Queen of Swords, King of Wands
 
 == 10 🞂 [.inline]##image:sequence-glyphs/0x0a.svg[10] Fortune image:factor-glyphs/0x0b.svg[11]##
 
 *Spheres*: [.inline .big]##image:sphere-glyphs/sphere-05-11.svg[] → image:sphere-glyphs/sphere-06-13.svg[]## +
 *Fool's Number*: [.inline .big]##image:sequence-glyphs/0x0a.svg[]## (10) +
 *Emanation Number*: [.inline .big]##image:factor-glyphs/0x0b.svg[]## (11) +
-*Pronunciation*: o͞oi-vĕr-fŏth /uɪ.vɛɹ.fɑθ/
+*Pronunciation*: o͞oi-vĕr-fŏth /uɪ.vɛɹ.fɑθ/ +
+*Opposite Path*: [.inline]##image:sequence-glyphs/0x0d.svg[13] Death image:factor-glyphs/0x0d.svg[13]## +
+*Court Cards*: King of Disks, Knight of Disks
 
 == 11 🞂 [.inline]##image:sequence-glyphs/0x0b.svg[11] Strength image:factor-glyphs/0x0c.svg[12]##
 
 *Spheres*: [.inline .big]##image:sphere-glyphs/sphere-06-13.svg[] → image:sphere-glyphs/sphere-03-05.svg[]## +
 *Fool's Number*: [.inline .big]##image:sequence-glyphs/0x0b.svg[]## (11) +
 *Emanation Number*: [.inline .big]##image:factor-glyphs/0x0c.svg[]## (12) +
-*Pronunciation*: jŭs-fôṙ-to͞om /d͡ʒʌs.foɾ.tum/
+*Pronunciation*: jŭs-fôṙ-to͞om /d͡ʒʌs.foɾ.tum/ +
+*Opposite Path*: [.inline]##image:sequence-glyphs/0x0e.svg[14] Temperance image:factor-glyphs/0x0e.svg[14]## +
+*Court Cards*: Knight of Cups, Prince of Cups
 
 == 12 🞂 [.inline]##image:sequence-glyphs/0x0c.svg[12] Hanged One image:factor-glyphs/0x0d.svg[07]##
 
 *Spheres*: [.inline .big]##image:sphere-glyphs/sphere-03-05.svg[] → image:sphere-glyphs/sphere-04-07.svg[]## +
 *Fool's Number*: [.inline .big]##image:sequence-glyphs/0x0c.svg[]## (12) +
 *Emanation Number*: [.inline .big]##image:factor-glyphs/0x07.svg[]## (7) +
-*Pronunciation*: ŭz-dou-o͞ow /ʌz.daʊ̯.uʊ̯/
+*Pronunciation*: ŭz-dou-o͞ow /ʌz.daʊ̯.uʊ̯/ +
+*Opposite Path*: [.inline]##image:sequence-glyphs/0x1b.svg[27] Headless One image:factor-glyphs/0x1a.svg[26]## +
+*Court Cards*: Queen of Wands, Princess of Wands
 
 == 13 🞂 [.inline]##image:sequence-glyphs/0x0d.svg[13] Death image:factor-glyphs/0x0d.svg[13]##
 
 *Spheres*: [.inline .big]##image:sphere-glyphs/sphere-04-07.svg[] → image:sphere-glyphs/sphere-07-17.svg[]## +
 *Fool's Number*: [.inline .big]##image:sequence-glyphs/0x0d.svg[]## (13) +
 *Emanation Number*: [.inline .big]##image:factor-glyphs/0x0d.svg[]## (13) +
-*Pronunciation*: ăou-tŏth-chō /aʊ̯.tɑθ.t͡ʃoʊ/
+*Pronunciation*: ăou-tŏth-chō /aʊ̯.tɑθ.t͡ʃoʊ/ +
+*Opposite Path*: [.inline]##image:sequence-glyphs/0x0a.svg[10] Fortune image:factor-glyphs/0x0b.svg[11]## +
+*Court Cards*: Knight of Wands, Prince of Wands
 
 == 14 🞂 [.inline]##image:sequence-glyphs/0x0e.svg[14] Temperance image:factor-glyphs/0x0e.svg[14]##
 
 *Spheres*: [.inline .big]##image:sphere-glyphs/sphere-07-17.svg[] → image:sphere-glyphs/sphere-05-11.svg[]## +
 *Fool's Number*: [.inline .big]##image:sequence-glyphs/0x0e.svg[]## (14) +
 *Emanation Number*: [.inline .big]##image:factor-glyphs/0x0e.svg[]## (14) +
-*Pronunciation*: cho͞om-ā𝑡ℎ-kĕr /t͡ʃum.eɪð.kɛɹ/
+*Pronunciation*: cho͞om-ā𝑡ℎ-kĕr /t͡ʃum.eɪð.kɛɹ/ +
+*Opposite Path*: [.inline]##image:sequence-glyphs/0x0b.svg[11] Strength image:factor-glyphs/0x0c.svg[12]## +
+*Court Cards*: King of Swords, Knight of Swords
 
 == 15 🞂 [.inline]##image:sequence-glyphs/0x0f.svg[15] Devil image:factor-glyphs/0x10.svg[16]##
 
 *Spheres*: [.inline .big]##image:sphere-glyphs/sphere-05-11.svg[] → image:sphere-glyphs/sphere-08-19.svg[]## +
 *Fool's Number*: [.inline .big]##image:sequence-glyphs/0x0f.svg[]## (15) +
 *Emanation Number*: [.inline .big]##image:factor-glyphs/0x10.svg[]## (16) +
-*Pronunciation*: o͞ol-ōg-fĕt /ul.oʊg.fɛt/
+*Pronunciation*: o͞ol-ōg-fĕt /ul.oʊg.fɛt/ +
+*Opposite Paths*: [.inline]##image:sequence-glyphs/0x13.svg[19] Sun image:factor-glyphs/0x13.svg[19]##, [.inline]##image:sequence-glyphs/0x17.svg[23] Unveiling image:factor-glyphs/0x16.svg[22]## +
+*Court Cards*: Prince of Wands, Prince of Cups, Princess of Wands
 
 == 16 🞂 [.inline]##image:sequence-glyphs/0x10.svg[16] Tower image:factor-glyphs/0x11.svg[17]##
 
 *Spheres*: [.inline .big]##image:sphere-glyphs/sphere-08-19.svg[] → image:sphere-glyphs/sphere-06-13.svg[]## +
 *Fool's Number*: [.inline .big]##image:sequence-glyphs/0x10.svg[]## (16) +
 *Emanation Number*: [.inline .big]##image:factor-glyphs/0x11.svg[]## (17) +
-*Pronunciation*: äi-gō-thŏth /ɑɪ.goʊ.θɑθ/
+*Pronunciation*: äi-gō-thŏth /ɑɪ.goʊ.θɑθ/ +
+*Opposite Path*: [.inline]##image:sequence-glyphs/0x02.svg[2] Priestess image:factor-glyphs/0x01.svg[1]## +
+*Court Cards*: Prince of Cups, Princess of Cups
 
 Having entered into desire through the Devil we now encounter desire in its immediacy.
 It hits us like a lightning strike.
@@ -162,81 +217,110 @@ and breaks up the ratio of eight to eight and an eighth by its division into une
 *Spheres*: [.inline .big]##image:sphere-glyphs/sphere-06-13.svg[] → image:sphere-glyphs/sphere-07-17.svg[]## +
 *Fool's Number*: [.inline .big]##image:sequence-glyphs/0x11.svg[]## (17) +
 *Emanation Number*: [.inline .big]##image:factor-glyphs/0x0f.svg[]## (15) +
-*Pronunciation*: jou-kōk-tō /d͡ʒaʊ̯.koʊk.toʊ/
+*Pronunciation*: jou-kōk-tō /d͡ʒaʊ̯.koʊk.toʊ/ +
+*Opposite Path*: [.inline]##image:sequence-glyphs/0x01.svg[1] Magus image:factor-glyphs/0x02.svg[2]## +
+*Court Cards*: Knight of Wands, Knight of Swords
 
 == 18 🞂 [.inline]##image:sequence-glyphs/0x12.svg[18] Moon image:factor-glyphs/0x12.svg[18]##
 
 *Spheres*: [.inline .big]##image:sphere-glyphs/sphere-07-17.svg[] → image:sphere-glyphs/sphere-08-19.svg[]## +
 *Fool's Number*: [.inline .big]##image:sequence-glyphs/0x12.svg[]## (18) +
 *Emanation Number*: [.inline .big]##image:factor-glyphs/0x12.svg[]## (18) +
-*Pronunciation*: chäl-𝑡ℎā-kĕt /t͡ʃɑl.ðeɪ.kɛt/
+*Pronunciation*: chäl-𝑡ℎā-kĕt /t͡ʃɑl.ðeɪ.kɛt/ +
+*Opposite Path*: [.inline]##image:sequence-glyphs/0x00.svg[0] Fool image:factor-glyphs/0x00.svg[0]## +
+*Court Cards*: Prince of Wands, Princess of Swords
 
 == 19 🞂 [.inline]##image:sequence-glyphs/0x13.svg[19] Sun image:factor-glyphs/0x13.svg[19]##
 
 *Spheres*: [.inline .big]##image:sphere-glyphs/sphere-08-19.svg[] → image:sphere-glyphs/sphere-09-23.svg[]## +
 *Fool's Number*: [.inline .big]##image:sequence-glyphs/0x13.svg[]## (19) +
 *Emanation Number*: [.inline .big]##image:factor-glyphs/0x13.svg[]## (19) +
-*Pronunciation*: äp-thĕt-thĕ /ɑp.θɛt.θɛ/
+*Pronunciation*: äp-thĕt-thĕ /ɑp.θɛt.θɛ/ +
+*Opposite Path*: [.inline]##image:sequence-glyphs/0x0f.svg[15] Devil image:factor-glyphs/0x10.svg[16]## +
+*Court Cards*: Queen of Disks, King of Disks
 
 == 20 🞂 [.inline]##image:sequence-glyphs/0x14.svg[20] Judgement image:factor-glyphs/0x14.svg[20]##
 
 *Spheres*: [.inline .big]##image:sphere-glyphs/sphere-09-23.svg[] → image:sphere-glyphs/sphere-06-13.svg[]## +
 *Fool's Number*: [.inline .big]##image:sequence-glyphs/0x14.svg[]## (20) +
 *Emanation Number*: [.inline .big]##image:factor-glyphs/0x14.svg[]## (20) +
-*Pronunciation*: ĕi-ṙăd-pŏth /ɛɪ.ɾæd.pɑθ/
+*Pronunciation*: ĕi-ṙăd-pŏth /ɛɪ.ɾæd.pɑθ/ +
+*Opposite Path*: [.inline]##image:sequence-glyphs/0x08.svg[8] Justice image:factor-glyphs/0x05.svg[5]## +
+*Court Cards*: Knight of Disks, Prince of Disks
 
 == 21 🞂 [.inline]##image:sequence-glyphs/0x15.svg[21] World image:factor-glyphs/0x19.svg[25]##
 
 *Spheres*: [.inline .big]##image:sphere-glyphs/sphere-06-13.svg[] → image:sphere-glyphs/sphere-11-31.svg[]## +
 *Fool's Number*: [.inline .big]##image:sequence-glyphs/0x15.svg[]## (21) +
 *Emanation Number*: [.inline .big]##image:factor-glyphs/0x19.svg[]## (25) +
-*Pronunciation*: jĕr-rĭch-tĕh /d͡ʒɛɹ.ɹɪt͡ʃ.tɛh/
+*Pronunciation*: jĕr-rĭch-tĕh /d͡ʒɛɹ.ɹɪt͡ʃ.tɛh/ +
+*Opposite Path*: [.inline]##image:sequence-glyphs/0x09.svg[9] Hermit image:factor-glyphs/0x0a.svg[10]## +
+*Court Cards*: Prince of Disks, Princess of Cups
 
 == 22 🞂 [.inline]##image:sequence-glyphs/0x16.svg[22] Lust image:factor-glyphs/0x18.svg[24]##
 
 *Spheres*: [.inline .big]##image:sphere-glyphs/sphere-11-31.svg[] → image:sphere-glyphs/sphere-08-19.svg[]## +
 *Fool's Number*: [.inline .big]##image:sequence-glyphs/0x16.svg[]## (22) +
 *Emanation Number*: [.inline .big]##image:factor-glyphs/0x18.svg[]## (24) +
-*Pronunciation*: fäl-bä-shĕt /fɑl.bɑ.ʃɛt/
+*Pronunciation*: fäl-bä-shĕt /fɑl.bɑ.ʃɛt/ +
+*Opposite Path*: [.inline]##image:sequence-glyphs/0x03.svg[3] Empress image:factor-glyphs/0x08.svg[8]## +
+*Court Cards*: Princess of Swords, Princess of Cups
 
-== 23 🞂 [.inline]##image:sequence-glyphs/0x17.svg[23] Rebel image:factor-glyphs/0x16.svg[22]##
+== 23 🞂 [.inline]##image:sequence-glyphs/0x17.svg[23] Unveiling image:factor-glyphs/0x16.svg[22]##
 
 *Spheres*: [.inline .big]##image:sphere-glyphs/sphere-08-19.svg[] → image:sphere-glyphs/sphere-10-29.svg[]## +
 *Fool's Number*: [.inline .big]##image:sequence-glyphs/0x17.svg[]## (23) +
 *Emanation Number*: [.inline .big]##image:factor-glyphs/0x16.svg[]## (22) +
-*Pronunciation*: äb-pĕv-thŭ /ɑb.pɛv.θʌ/
+*Pronunciation*: äb-pĕv-thŭ /ɑb.pɛv.θʌ/ +
+*Opposite Path*: [.inline]##image:sequence-glyphs/0x1d.svg[29] Devil image:factor-glyphs/0x1f.svg[31]## +
+*Court Cards*: Queen of Disks, King of Swords
 
 == 24 🞂 [.inline]##image:sequence-glyphs/0x18.svg[24] Art image:factor-glyphs/0x15.svg[21]##
 
 *Spheres*: [.inline .big]##image:sphere-glyphs/sphere-10-29.svg[] → image:sphere-glyphs/sphere-07-17.svg[]## +
 *Fool's Number*: [.inline .big]##image:sequence-glyphs/0x18.svg[]## (24) +
 *Emanation Number*: [.inline .big]##image:factor-glyphs/0x15.svg[]## (21) +
-*Pronunciation*: vou-lĭf-sō /vaʊ̯.lɪf.soʊ/
+*Pronunciation*: vou-lĭf-sō /vaʊ̯.lɪf.soʊ/ +
+*Opposite Path*: [.inline]##image:sequence-glyphs/0x05.svg[5] Hierophant image:factor-glyphs/0x04.svg[4]## +
+*Court Cards*: Knight of Swords, Prince of Swords
 
 == 25 🞂 [.inline]##image:sequence-glyphs/0x19.svg[25] Aeon image:factor-glyphs/0x1a.svg[26]##
 
 *Spheres*: [.inline .big]##image:sphere-glyphs/sphere-07-17.svg[] → image:sphere-glyphs/sphere-11-31.svg[]## +
 *Fool's Number*: [.inline .big]##image:sequence-glyphs/0x19.svg[]## (25) +
 *Emanation Number*: [.inline .big]##image:factor-glyphs/0x1a.svg[]## (26) +
-*Pronunciation*: chĕr-wōj-kĕh /t͡ʃɛɹ.woʊd͡ʒ.kɛh/
+*Pronunciation*: chĕr-wōj-kĕh /t͡ʃɛɹ.woʊd͡ʒ.kɛh/ +
+*Opposite Path*: [.inline]##image:sequence-glyphs/0x06.svg[6] Lovers image:factor-glyphs/0x09.svg[9]## +
+*Court Cards*: Prince of Swords, Princess of Swords
 
 == 26 🞂 [.inline]##image:sequence-glyphs/0x1a.svg[26] Shadow image:factor-glyphs/0x1b.svg[27]##
 
 *Spheres*: [.inline .big]##image:sphere-glyphs/sphere-11-31.svg[] → image:sphere-glyphs/sphere-09-23.svg[]## +
 *Fool's Number*: [.inline .big]##image:sequence-glyphs/0x1a.svg[]## (26) +
 *Emanation Number*: [.inline .big]##image:factor-glyphs/0x1b.svg[]## (27) +
-*Pronunciation*: fĕp-yo͞o-shĕ /fɛp.ju.ʃɛ/
+*Pronunciation*: fĕp-yo͞o-shĕ /fɛp.ju.ʃɛ/ +
+*Opposite Path*: [.inline]##image:sequence-glyphs/0x07.svg[7] Chariot image:factor-glyphs/0x06.svg[6]## +
+*Court Cards*: Prince of Disks, Princess of Disks
+
+Shadow is the undefined within and beyond every manifest phenomena.
+It is non-determinism and superposition.
+It is the void from which manifestation arises and collapses back into in the flow of time.
+It is the world soul.
 
 == 27 🞂 [.inline]##image:sequence-glyphs/0x1b.svg[27] Headless One image:factor-glyphs/0x1a.svg[26]##
 
 *Spheres*: [.inline .big]##image:sphere-glyphs/sphere-09-23.svg[] → image:sphere-glyphs/sphere-10-29.svg[]## +
 *Fool's Number*: [.inline .big]##image:sequence-glyphs/0x1b.svg[]## (27) +
 *Emanation Number*: [.inline .big]##image:factor-glyphs/0x17.svg[]## (23) +
-*Pronunciation*: ĕb-mĕ-pŭ /ɛb.mɛ.pʌ/
+*Pronunciation*: ĕb-mĕ-pŭ /ɛb.mɛ.pʌ/ +
+*Opposite Path*: [.inline]##image:sequence-glyphs/0x0c.svg[12] Hanged One image:factor-glyphs/0x0d.svg[07]## +
+*Court Cards*: Queen of Disks, Princess of Disks
 
-== 28 🞂 [.inline]##image:sequence-glyphs/0x1c.svg[28] Angel image:factor-glyphs/0x1c.svg[28]##
+== 28 🞂 [.inline]##image:sequence-glyphs/0x1c.svg[28] Daimon image:factor-glyphs/0x1c.svg[28]##
 
 *Spheres*: [.inline .big]##image:sphere-glyphs/sphere-10-29.svg[] → image:sphere-glyphs/sphere-11-31.svg[]## +
 *Fool's Number*: [.inline .big]##image:sequence-glyphs/0x1c.svg[]## (28) +
 *Emanation Number*: [.inline .big]##image:factor-glyphs/0x1c.svg[]## (28) +
-*Pronunciation*: vĕr-ză-sĕh /vɛɹ.za.sɛh/
+*Pronunciation*: vĕr-ză-sĕh /vɛɹ.za.sɛh/ +
+*Opposite Path*: [.inline]##image:sequence-glyphs/0x04.svg[4] Emperor image:factor-glyphs/0x03.svg[3]## +
+*Court Cards*: Prince of Swords, Princess of Disks

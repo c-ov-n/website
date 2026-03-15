@@ -1,9 +1,9 @@
 = Pentagram of Desire
 :figure-caption!:
 
-Just as the initial six spheres gave us a formula for the pentagram,
-so the final six may give us a formula for an averse pentagram.
-While the initial pentagram was empty, this one has Desire at its center.
+The first five spheres gave us the formula for the elemental pentagram.
+The emanation of the sixth sphere gave us a formula for an averse pentagram with spirit as Agent.
+This is echoed in the final six spheres where spirit is Kia and Desire appears at the center.
 
 .Structure of twelve sphere tree emphasizing pentagram of desire.
 image::diagrams/12-tree-pentagram.svg[width=100%]
