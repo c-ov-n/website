@@ -57,12 +57,14 @@
        id="guide-right"
        inkscape:locked="false" />
   </sodipodi:namedview>
-  <defs
-     id="defs2" />
-  <g
-     inkscape:label="Layer 1"
+  <symbol
+     inkscape:label="9:23 - E Pep"
      inkscape:groupmode="layer"
-     id="layer1">
+     id="sigil"
+     height="14.14214"
+     width="10"
+     viewBox="0 0 10 14.14214"
+  >
     <path
        style="fill:none;stroke:#000000;stroke-width:0.777;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:2;stroke-dasharray:none;stroke-opacity:1"
        d="M 1.187376,12.717478 8.8309306,9.2348866 1.1679586,5.8651941 C 1.203307,5.848325 2.556315,5.6915717 3.3607791,5.4863091 4.0858603,5.2824522 5.3880832,5.1340799 6.0502989,4.4356123 6.4283525,4.0368628 6.6488835,3.4138472 6.5675254,2.870426 6.4849434,2.3188299 6.1217944,1.7027803 5.6002539,1.5051098 4.9743505,1.2678845 4.0284316,1.4139503 3.64501,1.9626021 3.4731185,2.2085678 3.5039061,2.6217944 3.7537175,2.8562435 c 0.2557934,0.2400633 0.8499162,0.153632 0.8499162,0.153632"
@@ -81,5 +83,6 @@
        id="path9685"
        sodipodi:nodetypes="cc"
        inkscape:label="stroke" />
-  </g>
+  </symbol>
+  <use href="#sigil" />
 </svg>

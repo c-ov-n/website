@@ -35,12 +35,14 @@
      inkscape:current-layer="layer1"
      inkscape:showpageshadow="2"
      inkscape:deskcolor="#d1d1d1" />
-  <defs
-     id="defs2" />
-  <g
-     inkscape:label="Layer 1"
+  <symbol
+     inkscape:label="29 - Su"
      inkscape:groupmode="layer"
-     id="layer1">
+     id="sigil"
+     height="14.14214"
+     width="10"
+     viewBox="0 0 10 14.14214"
+  >
     <path
        style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        d="M 0.3554392,0.43568683 C 3.6447179,2.9059762 5.9317528,2.9077085 9.4871929,0.58457482 L 0.52367479,7.6413861 0.53753661,13.628881 9.703799,6.768108"
@@ -51,5 +53,6 @@
        d="M 0.03026961,4.0338588 C 3.8711506,4.015263 8.5398589,9.5664685 8.5816004,14.121073"
        id="path3164"
        sodipodi:nodetypes="cc" />
-  </g>
+  </symbol>
+  <use href="#sigil" />
 </svg>

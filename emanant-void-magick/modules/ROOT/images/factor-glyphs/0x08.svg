@@ -37,14 +37,19 @@
      inkscape:deskcolor="#d1d1d1" />
   <defs
      id="defs2" />
-  <g
-     inkscape:label="Layer 1"
+  <symbol
+     inkscape:label="8 - Al"
      inkscape:groupmode="layer"
-     id="layer1">
+     id="sigil"
+     height="14.14214"
+     width="10"
+     viewBox="0 0 10 14.14214"
+  >
     <path
        style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        d="M 0.03446992,0.51344793 9.5101542,0.50635643 9.5063612,13.625756 0.03298612,13.626074"
        id="path34847"
        sodipodi:nodetypes="cccc" />
-  </g>
+  </symbol>
+  <use href="#sigil" />
 </svg>

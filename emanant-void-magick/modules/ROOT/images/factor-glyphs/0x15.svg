@@ -35,12 +35,14 @@
      inkscape:current-layer="layer1"
      inkscape:showpageshadow="2"
      inkscape:deskcolor="#d1d1d1" />
-  <defs
-     id="defs2" />
-  <g
-     inkscape:label="Layer 1"
+  <symbol
+     inkscape:label="21 - Rif"
      inkscape:groupmode="layer"
-     id="layer1">
+     id="sigil"
+     height="14.14214"
+     width="10"
+     viewBox="0 0 10 14.14214"
+  >
     <path
        style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        d="M 0.45649523,0.38235357 C 2.3136682,3.1481782 6.2482902,5.1246155 9.5021342,0.54559399 L 0.56310229,13.6073 C 2.7734717,10.255491 7.3751952,9.8515446 9.5551973,13.851696"
@@ -51,5 +53,6 @@
        d="M 6.7262004,8.7712608 2.7769918,6.1350381"
        id="path30946"
        sodipodi:nodetypes="cc" />
-  </g>
+  </symbol>
+  <use href="#sigil" />
 </svg>

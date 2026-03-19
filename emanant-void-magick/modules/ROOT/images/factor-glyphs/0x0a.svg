@@ -35,16 +35,19 @@
      inkscape:current-layer="layer1"
      inkscape:showpageshadow="2"
      inkscape:deskcolor="#d1d1d1" />
-  <defs
-     id="defs2" />
-  <g
-     inkscape:label="Layer 1"
+  <symbol
+     inkscape:label="10 - Vobe"
      inkscape:groupmode="layer"
-     id="layer1">
+     id="sigil"
+     height="14.14214"
+     width="10"
+     viewBox="0 0 10 14.14214"
+  >
     <path
        style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        d="M 4.9498378,4.1090359 C 4.9251748,5.1638721 3.6294098,5.4272588 2.8660609,4.8726581 2.1027121,4.3180575 1.6219288,2.7990803 2.7731851,1.5707891 3.9244413,0.34249799 5.8545102,0.33678383 6.938641,0.79718496 8.0227718,1.2575861 9.5391374,2.8544037 9.5139945,5.0318637 9.4888516,7.2093237 8.3280651,8.8801304 6.8796892,9.9069813 5.6399561,10.785911 1.6884319,12.83042 0.5266978,13.626094 l 9.4787292,0.04786"
        id="path34847"
        sodipodi:nodetypes="czzzzscc" />
-  </g>
+  </symbol>
+  <use href="#sigil" />
 </svg>

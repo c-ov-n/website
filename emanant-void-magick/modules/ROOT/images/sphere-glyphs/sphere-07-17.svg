@@ -57,12 +57,14 @@
        id="guide-right"
        inkscape:locked="false" />
   </sodipodi:namedview>
-  <defs
-     id="defs2" />
-  <g
-     inkscape:label="Layer 1"
+  <symbol
+     inkscape:label="7:17 - Cho Kaw"
      inkscape:groupmode="layer"
-     id="layer1">
+     id="sigil"
+     height="14.14214"
+     width="10"
+     viewBox="0 0 10 14.14214"
+  >
     <path
        style="fill:none;stroke:#000000;stroke-width:0.777;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:2;stroke-dasharray:none;stroke-opacity:1"
        d="M 1.2671544,12.861189 8.5966336,5.3370185 8.6107284,1.3861494 1.3863274,1.3788325 1.381744,4.9841724"
@@ -75,5 +77,6 @@
        id="path9627"
        sodipodi:nodetypes="cccssc"
        inkscape:label="stroke" />
-  </g>
+  </symbol>
+  <use href="#sigil" />
 </svg>

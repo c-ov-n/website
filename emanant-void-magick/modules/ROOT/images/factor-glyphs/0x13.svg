@@ -35,12 +35,14 @@
      inkscape:current-layer="layer1"
      inkscape:showpageshadow="2"
      inkscape:deskcolor="#d1d1d1" />
-  <defs
-     id="defs2" />
-  <g
-     inkscape:label="Layer 1"
+  <symbol
+     inkscape:label="19 - Thet"
      inkscape:groupmode="layer"
-     id="layer1">
+     id="sigil"
+     height="14.14214"
+     width="10"
+     viewBox="0 0 10 14.14214"
+  >
     <path
        style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        d="M 0.4592439,0.25092403 C 2.0411784,3.6811312 6.9961256,5.3691879 9.2975757,1.7713535 9.7068272,1.1315746 9.4113344,0.50624347 8.6631115,0.55727484 6.0664041,0.7343792 0.20919412,5.9502184 0.50618169,13.630305 L 9.7841649,9.5142796"
@@ -51,5 +53,6 @@
        d="m 4.8039416,8.681077 2.3418617,5.310058"
        id="path22101"
        sodipodi:nodetypes="cc" />
-  </g>
+  </symbol>
+  <use href="#sigil" />
 </svg>

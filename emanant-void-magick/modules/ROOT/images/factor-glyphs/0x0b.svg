@@ -35,12 +35,14 @@
      inkscape:current-layer="layer1"
      inkscape:showpageshadow="2"
      inkscape:deskcolor="#d1d1d1" />
-  <defs
-     id="defs2" />
-  <g
-     inkscape:label="Layer 1"
+  <symbol
+     inkscape:label="11 - Fear"
      inkscape:groupmode="layer"
-     id="layer1">
+     id="sigil"
+     height="14.14214"
+     width="10"
+     viewBox="0 0 10 14.14214"
+  >
     <path
        style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        d="M 5.1824616,2.9050487 C 5.2390288,3.9833209 4.0974783,4.3573774 3.4966624,3.8884194 2.8958464,3.4194614 2.6221532,2.6718461 3.3664625,1.5399029 4.1107719,0.40795956 5.746372,0.44796002 6.7157099,0.65700308 7.6850478,0.86604614 8.7448584,1.6094631 8.707768,3.2832069 8.6505372,5.8658059 2.4752675,7.7180339 0.55150808,8.018096 l 9.18852152,5.671071"
@@ -51,5 +53,6 @@
        d="M 5.3097349,13.850833 8.0289862,9.9041841"
        id="path1282"
        sodipodi:nodetypes="cc" />
-  </g>
+  </symbol>
+  <use href="#sigil" />
 </svg>

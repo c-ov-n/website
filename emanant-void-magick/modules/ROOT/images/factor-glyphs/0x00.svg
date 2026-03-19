@@ -35,12 +35,14 @@
      inkscape:current-layer="layer1"
      inkscape:showpageshadow="2"
      inkscape:deskcolor="#d1d1d1" />
-  <defs
-     id="defs2" />
-  <g
-     inkscape:label="Layer 1"
+  <symbol
+     inkscape:label="0 - Neen"
      inkscape:groupmode="layer"
-     id="layer1">
+     id="sigil"
+     height="14.14214"
+     width="10"
+     viewBox="0 0 10 14.14214"
+  >
     <ellipse
        style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.21576;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="path34530"
@@ -48,5 +50,6 @@
        cy="7.0000005"
        rx="3.1421196"
        ry="3.1421204" />
-  </g>
+  </symbol>
+  <use href="#sigil" />
 </svg>

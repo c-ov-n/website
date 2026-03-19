@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Emanant Void Magick Tree Animation</title>
+    <script src="treeanim.js"></script>
+    <link rel="stylesheet" href="treeanim.css"/>
+  </head>
+  <body>
+    <div id="tree-anim" class="initial">
+      <a class="nav-button nav-button-previous" href="javascript:void()">&#x25c4;</a>
+      <a class="nav-button nav-button-next" href="javascript:void()">&#x25ba;</a>
+      <svg viewBox="0 0 100 162">
+        <defs>
+          <filter id="sphere-shadow">
+            <feDropShadow dx="0" dy="0" stdDeviation="3" flood-opacity="1" />
+          </filter>
+        </defs>
+        <!-- non-being -->
+        <path class="text-path" id="text-path-nothing" d="m 4,80 c 0.581899,0 45,0 46,0 0.754259,0 45.402174,0 46,0" />
+        <path class="text-path" id="text-path-unlimited"
+          d="m 4,220 c 0.581899,0 45,0 46,0 0.754259,0 45.402174,0 46,0" />
+        <path class="text-path" id="text-path-all-possibility"
+          d="m 4,220 c 0.581899,0 45,0 46,0 0.754259,0 45.402174,0 46,0" />
+        <text class="non-being">
+          <textPath xlink:href="#text-path-nothing" startOffset="50%" text-anchor="middle">
+            0 - nothing
+          </textPath>
+        </text>
+        <text class="non-being">
+          <textPath xlink:href="#text-path-unlimited" startOffset="50%" text-anchor="middle">
+            00 - unlimited
+          </textPath>
+        </text>
+        <text class="non-being">
+          <textPath xlink:href="#text-path-all-possibility" startOffset="50%" text-anchor="middle">
+            000 - all-possibility
+          </textPath>
+        </text>
+        <circle class="non-being" id="circle-unlimited" r="10000" cx="50" cy="10181" />
+        <circle class="non-being" id="circle-all-possibility" r="10000" cx="50" cy="10181" />
+        <!-- spheres definitions -->
+        <symbol class="sphere" id="sphere-0-1" viewBox="0 0 100 162">
+          <circle class="sphere" r="46" cx="50" cy="81" filter="url(#sphere-shadow)"/>
+          <text class="number" dominant-baseline="middle" text-anchor="middle" x="50" y="81">0&#8942;1</text>
+          <text class="name" dominant-baseline="middle" text-anchor="middle" x="50" y="81">Chaos</text>
+          <use class="sigil" height="70.71065" width="50" x="25" y="50" href="../_images/sphere-glyphs/sphere-00-01.svg#sigil"></use>
+        </symbol>
+
+        <symbol class="sphere" id="sphere-1-2" viewBox="0 0 100 162">
+          <circle class="sphere" r="46" cx="50" cy="81" filter="url(#sphere-shadow)"/>
+          <text class="number" dominant-baseline="middle" text-anchor="middle" x="50" y="81">1&#8942;2</text>
+          <text class="name" dominant-baseline="middle" text-anchor="middle" x="50" y="81">Process</text>
+          <use class="sigil" height="70.71065" width="50" x="25" y="50" href="../_images/sphere-glyphs/sphere-01-02.svg#sigil"></use>
+        </symbol>
+
+        <symbol class="sphere" id="sphere-2-3" viewBox="0 0 100 162">
+          <circle class="sphere" r="46" cx="50" cy="81" filter="url(#sphere-shadow)"/>
+          <text class="number" dominant-baseline="middle" text-anchor="middle" x="50" y="81">2&#8942;3</text>
+          <text class="name" dominant-baseline="middle" text-anchor="middle" x="50" y="81">Pattern</text>
+          <use class="sigil" height="70.71065" width="50" x="25" y="50" href="../_images/sphere-glyphs/sphere-02-03.svg#sigil"></use>
+        </symbol>
+        <symbol class="sphere" id="sphere-3-5" viewBox="0 0 100 162">
+          <circle class="sphere" r="46" cx="50" cy="81" filter="url(#sphere-shadow)"/>
+          <text class="number" dominant-baseline="middle" text-anchor="middle" x="50" y="81">3&#8942;5</text>
+          <text class="name" dominant-baseline="middle" text-anchor="middle" x="50" y="81">Form</text>
+          <use class="sigil" height="70.71065" width="50" x="25" y="50" href="../_images/sphere-glyphs/sphere-03-05.svg#sigil"></use>
+        </symbol>
+
+        <symbol class="sphere" id="sphere-4-7" viewBox="0 0 100 162">
+          <circle class="sphere" r="46" cx="50" cy="81" filter="url(#sphere-shadow)"/>
+          <text class="number" dominant-baseline="middle" text-anchor="middle" x="50" y="81">4&#8942;7</text>
+          <text class="name" dominant-baseline="middle" text-anchor="middle" x="50" y="81">Change</text>
+          <use class="sigil" height="70.71065" width="50" x="25" y="50" href="../_images/sphere-glyphs/sphere-04-07.svg#sigil"></use>
+        </symbol>
+
+        <symbol class="sphere" id="sphere-5-11" viewBox="0 0 100 162">
+          <circle class="sphere" r="46" cx="50" cy="81" filter="url(#sphere-shadow)"/>
+          <text class="number" dominant-baseline="middle" text-anchor="middle" x="50" y="81">5&#8942;11</text>
+          <text class="name" dominant-baseline="middle" text-anchor="middle" x="50" y="81">Agent</text>
+          <use class="sigil" height="70.71065" width="50" x="25" y="50" href="../_images/sphere-glyphs/sphere-05-11.svg#sigil"></use>
+        </symbol>
+
+        <symbol class="sphere" id="sphere-6-13" viewBox="0 0 100 162">
+          <circle class="sphere" r="46" cx="50" cy="81" filter="url(#sphere-shadow)"/>
+          <text class="number" dominant-baseline="middle" text-anchor="middle" x="50" y="81">6&#8942;13</text>
+          <text class="name" dominant-baseline="middle" text-anchor="middle" x="50" y="81">Sense</text>
+          <use class="sigil" height="70.71065" width="50" x="25" y="50" href="../_images/sphere-glyphs/sphere-06-13.svg#sigil"></use>
+        </symbol>
+
+        <symbol class="sphere" id="sphere-7-17" viewBox="0 0 100 162">
+          <circle class="sphere" r="46" cx="50" cy="81" filter="url(#sphere-shadow)"/>
+          <text class="number" dominant-baseline="middle" text-anchor="middle" x="50" y="81">7&#8942;17</text>
+          <text class="name" dominant-baseline="middle" text-anchor="middle" x="50" y="81">Thought</text>
+          <use class="sigil" height="70.71065" width="50" x="25" y="50" href="../_images/sphere-glyphs/sphere-07-17.svg#sigil"></use>
+        </symbol>
+
+        <symbol class="sphere" id="sphere-8-19" viewBox="0 0 100 162">
+          <circle class="sphere" r="46" cx="50" cy="81" filter="url(#sphere-shadow)"/>
+          <text class="number" dominant-baseline="middle" text-anchor="middle" x="50" y="81">8&#8942;19</text>
+          <text class="name" dominant-baseline="middle" text-anchor="middle" x="50" y="81">Desire</text>
+          <use class="sigil" height="70.71065" width="50" x="25" y="50" href="../_images/sphere-glyphs/sphere-08-19.svg#sigil"></use>
+        </symbol>
+
+        <symbol class="sphere" id="sphere-9-23" viewBox="0 0 100 162">
+          <circle class="sphere" r="46" cx="50" cy="81" filter="url(#sphere-shadow)"/>
+          <text class="number" dominant-baseline="middle" text-anchor="middle" x="50" y="81">9&#8942;23</text>
+          <text class="name" dominant-baseline="middle" text-anchor="middle" x="50" y="81">Matter</text>
+          <use class="sigil" height="70.71065" width="50" x="25" y="50" href="../_images/sphere-glyphs/sphere-09-23.svg#sigil"></use>
+        </symbol>
+
+        <symbol class="sphere" id="sphere-10-29" viewBox="0 0 100 162">
+          <circle class="sphere" r="46" cx="50" cy="81" filter="url(#sphere-shadow)"/>
+          <text class="number" dominant-baseline="middle" text-anchor="middle" x="50" y="81">10&#8942;29</text>
+          <text class="name" dominant-baseline="middle" text-anchor="middle" x="50" y="81">Soul</text>
+          <use class="sigil" height="70.71065" width="50" x="25" y="50" href="../_images/sphere-glyphs/sphere-10-29.svg#sigil"></use>
+        </symbol>
+
+        <symbol class="sphere" id="sphere-11-31" viewBox="0 0 100 162">
+          <circle class="sphere" r="46" cx="50" cy="81" filter="url(#sphere-shadow)"/>
+          <text class="number" dominant-baseline="middle" text-anchor="middle" x="50" y="81">11&#8942;31</text>
+          <text class="name" dominant-baseline="middle" text-anchor="middle" x="50" y="81">Kia</text>
+          <use class="sigil" height="70.71065" width="50" x="25" y="50" href="../_images/sphere-glyphs/sphere-11-31.svg#sigil"></use>
+        </symbol>
+        <!-- spheres and paths in visual overlap order -->
+        <g class="path" id="path-28-28">
+          <path class="black-stroke" d="m 0,0 l 0,0"/>
+          <path class="white-stroke" d="m 0,0 l 0,0"/>
+          <use class="path-emanation-number" x="0" y="0" height="1" width="1" href="../_images/factor-glyphs/0x1c.svg#sigil" />
+        </g>
+        <g class="path" id="path-26-27">
+          <path class="black-stroke" d="m 0,0 l 0,0"/>
+          <path class="white-stroke" d="m 0,0 l 0,0"/>
+          <use class="path-emanation-number" x="0" y="0" height="1" width="1" href="../_images/factor-glyphs/0x1b.svg#sigil" />
+        </g>
+        <g class="path" id="path-25-26">
+          <path class="black-stroke" d="m 0,0 l 0,0"/>
+          <path class="white-stroke" d="m 0,0 l 0,0"/>
+          <use class="path-emanation-number" x="0" y="0" height="1" width="1" href="../_images/factor-glyphs/0x1a.svg#sigil" />
+        </g>
+        <g class="path" id="path-21-25">
+          <path class="black-stroke" d="m 0,0 l 0,0"/>
+          <path class="white-stroke" d="m 0,0 l 0,0"/>
+          <use class="path-emanation-number" x="0" y="0" height="1" width="1" href="../_images/factor-glyphs/0x19.svg#sigil" />
+        </g>
+        <g class="path" id="path-22-24">
+          <path class="black-stroke" d="m 0,0 l 0,0"/>
+          <path class="white-stroke" d="m 0,0 l 0,0"/>
+          <use class="path-emanation-number" x="0" y="0" height="1" width="1" href="../_images/factor-glyphs/0x18.svg#sigil" />
+        </g>
+        <use class="sphere" id="use-sphere-11-31" href="#sphere-11-31" height="162" width="100" x="0" y="0"/>
+        <g class="path" id="path-27-23">
+          <path class="black-stroke" d="m 0,0 l 0,0"/>
+          <path class="white-stroke" d="m 0,0 l 0,0"/>
+          <use class="path-emanation-number" x="0" y="0" height="1" width="1" href="../_images/factor-glyphs/0x15.svg#sigil" />
+        </g>
+        <g class="path" id="path-23-22">
+          <path class="black-stroke" d="m 0,0 l 0,0"/>
+          <path class="white-stroke" d="m 0,0 l 0,0"/>
+          <use class="path-emanation-number" x="0" y="0" height="1" width="1" href="../_images/factor-glyphs/0x15.svg#sigil" />
+        </g>
+        <g class="path" id="path-24-21">
+          <path class="black-stroke" d="m 0,0 l 0,0"/>
+          <path class="white-stroke" d="m 0,0 l 0,0"/>
+          <use class="path-emanation-number" x="0" y="0" height="1" width="1" href="../_images/factor-glyphs/0x15.svg#sigil" />
+        </g>
+        <g class="path" id="path-20-20">
+          <path class="black-stroke" d="m 0,0 l 0,0"/>
+          <path class="white-stroke" d="m 0,0 l 0,0"/>
+          <use class="path-emanation-number" x="0" y="0" height="1" width="1" href="../_images/factor-glyphs/0x14.svg#sigil" />
+        </g>
+        <g class="path" id="path-19-19">
+          <path class="black-stroke" d="m 0,0 l 0,0"/>
+          <path class="white-stroke" d="m 0,0 l 0,0"/>
+          <use class="path-emanation-number" x="0" y="0" height="1" width="1" href="../_images/factor-glyphs/0x13.svg#sigil" />
+        </g>
+        <g class="path" id="path-18-18">
+          <path class="black-stroke" d="m 0,0 l 0,0"/>
+          <path class="white-stroke" d="m 0,0 l 0,0"/>
+          <use class="path-emanation-number" x="0" y="0" height="1" width="1" href="../_images/factor-glyphs/0x12.svg#sigil" />
+        </g>
+        <g class="path" id="path-16-17">
+          <path class="black-stroke" d="m 0,0 l 0,0"/>
+          <path class="white-stroke" d="m 0,0 l 0,0"/>
+          <use class="path-emanation-number" x="0" y="0" height="1" width="1" href="../_images/factor-glyphs/0x11.svg#sigil" />
+        </g>
+        <g class="path" id="path-15-16">
+          <path class="black-stroke" d="m 0,0 l 0,0"/>
+          <path class="white-stroke" d="m 0,0 l 0,0"/>
+          <use class="path-emanation-number" x="0" y="0" height="1" width="1" href="../_images/factor-glyphs/0x10.svg#sigil" />
+        </g>
+        <use class="sphere" id="use-sphere-10-29" href="#sphere-10-29" height="162" width="100" x="0" y="0"/>
+        <use class="sphere" id="use-sphere-9-23" href="#sphere-9-23" height="162" width="100" x="0" y="0"/>
+        <use class="sphere" id="use-sphere-8-19" href="#sphere-8-19" height="162" width="100" x="0" y="0"/>
+        <g class="path" id="path-17-15">
+          <path class="black-stroke" d="m 0,0 l 0,0"/>
+          <path class="white-stroke" d="m 0,0 l 0,0"/>
+          <use class="path-emanation-number" x="0" y="0" height="1" width="1" href="../_images/factor-glyphs/0x0f.svg#sigil" />
+        </g>
+        <g class="path" id="path-14-14">
+          <path class="black-stroke" d="m 0,0 l 0,0"/>
+          <path class="white-stroke" d="m 0,0 l 0,0"/>
+          <use class="path-emanation-number" x="0" y="0" height="1" width="1" href="../_images/factor-glyphs/0x0e.svg#sigil" />
+        </g>
+        <g class="path" id="path-13-13">
+          <path class="black-stroke" d="m 0,0 l 0,0"/>
+          <path class="white-stroke" d="m 0,0 l 0,0"/>
+          <use class="path-emanation-number" x="0" y="0" height="1" width="1" href="../_images/factor-glyphs/0x0d.svg#sigil" />
+        </g>
+        <g class="path" id="path-11-12">
+          <path class="black-stroke" d="m 0,0 l 0,0"/>
+          <path class="white-stroke" d="m 0,0 l 0,0"/>
+          <use class="path-emanation-number" x="0" y="0" height="1" width="1" href="../_images/factor-glyphs/0x0c.svg#sigil" />
+        </g>
+        <g class="path" id="path-10-11">
+          <path class="black-stroke" d="m 0,0 l 0,0"/>
+          <path class="white-stroke" d="m 0,0 l 0,0"/>
+          <use class="path-emanation-number" x="0" y="0" height="1" width="1" href="../_images/factor-glyphs/0x0b.svg#sigil" />
+        </g>
+        <g class="path" id="path-9-10">
+          <path class="black-stroke" d="m 0,0 l 0,0"/>
+          <path class="white-stroke" d="m 0,0 l 0,0"/>
+          <use class="path-emanation-number" x="0" y="0" height="1" width="1" href="../_images/factor-glyphs/0x0a.svg#sigil" />
+        </g>
+        <g class="path" id="path-8-5">
+          <path class="black-stroke" d="m 0,0 l 0,0"/>
+          <path class="white-stroke" d="m 0,0 l 0,0"/>
+          <use class="path-emanation-number" x="0" y="0" height="1" width="1" href="../_images/factor-glyphs/0x05.svg#sigil" />
+        </g>
+        <g class="path" id="path-7-6">
+          <path class="black-stroke" d="m 0,0 l 0,0"/>
+          <path class="white-stroke" d="m 0,0 l 0,0"/>
+          <use class="path-emanation-number" x="0" y="0" height="1" width="1" href="../_images/factor-glyphs/0x06.svg#sigil" />
+        </g>
+        <g class="path" id="path-6-9">
+          <path class="black-stroke" d="m 0,0 l 0,0"/>
+          <path class="white-stroke" d="m 0,0 l 0,0"/>
+          <use class="path-emanation-number" x="0" y="0" height="1" width="1" href="../_images/factor-glyphs/0x09.svg#sigil" />
+        </g>
+        <g class="path" id="path-5-4">
+          <path class="black-stroke" d="m 0,0 l 0,0"/>
+          <path class="white-stroke" d="m 0,0 l 0,0"/>
+          <use class="path-emanation-number" x="0" y="0" height="1" width="1" href="../_images/factor-glyphs/0x04.svg#sigil" />
+        </g>
+        <g class="path" id="path-4-3">
+          <path class="black-stroke" d="m 0,0 l 0,0"/>
+          <path class="white-stroke" d="m 0,0 l 0,0"/>
+          <use class="path-emanation-number" x="0" y="0" height="1" width="1" href="../_images/factor-glyphs/0x03.svg#sigil" />
+        </g>
+        <g class="path" id="path-3-8">
+          <path class="black-stroke" d="m 0,0 l 0,0"/>
+          <path class="white-stroke" d="m 0,0 l 0,0"/>
+          <use class="path-emanation-number" x="0" y="0" height="1" width="1" href="../_images/factor-glyphs/0x08.svg#sigil" />
+        </g>
+        <use class="sphere" id="use-sphere-7-17" href="#sphere-7-17" height="162" width="100" x="0" y="0"/>
+        <use class="sphere" id="use-sphere-6-13" href="#sphere-6-13" height="162" width="100" x="0" y="0"/>
+        <use class="sphere" id="use-sphere-5-11" href="#sphere-5-11" height="162" width="100" x="0" y="0"/>
+        <g class="path" id="path-12-7">
+          <path class="black-stroke" d="m 0,0 l 0,0"/>
+          <path class="white-stroke" d="m 0,0 l 0,0"/>
+          <use class="path-emanation-number" x="0" y="0" height="1" width="1" href="../_images/factor-glyphs/0x07.svg#sigil" />
+        </g>
+        <use class="sphere" id="use-sphere-4-7" href="#sphere-4-7" height="162" width="100" x="0" y="0"/>
+        <use class="sphere" id="use-sphere-3-5" href="#sphere-3-5" height="162" width="100" x="0" y="0"/>
+        <g class="path" id="path-2-1">
+          <path class="black-stroke" d="m 0,0 l 0,0"/>
+          <path class="white-stroke" d="m 0,0 l 0,0"/>
+          <use class="path-emanation-number" x="0" y="0" height="1" width="1" href="../_images/factor-glyphs/0x01.svg#sigil" />
+        </g>
+        <g class="path" id="path-1-2">
+          <path class="black-stroke" d="m 0,0 l 0,0"/>
+          <path class="white-stroke" d="m 0,0 l 0,0"/>
+          <use class="path-emanation-number" x="0" y="0" height="1" width="1" href="../_images/factor-glyphs/0x02.svg#sigil" />
+        </g>
+        <g class="path" id="path-0-0">
+          <path class="black-stroke" d="m 0,0 l 0,0"/>
+          <path class="white-stroke" d="m 0,0 l 0,0"/>
+          <use class="path-emanation-number" x="0" y="0" height="1" width="1" href="../_images/factor-glyphs/0x00.svg#sigil" />
+        </g>
+        <use class="sphere" id="use-sphere-2-3" href="#sphere-2-3" height="162" width="100" x="0" y="0"/>
+        <use class="sphere" id="use-sphere-1-2" href="#sphere-1-2" height="162" width="100" x="0" y="0"/>
+        <use class="sphere" id="use-sphere-0-1" href="#sphere-0-1" height="162" width="100" x="0" y="0"/>
+
+        <!-- emanation-0 -->
+        <path class="target" id="text-path-nothing-emanation-0" d="m 4,80 c 0.581899,0 45,0 46,0 0.754259,0 45.402174,0 46,0" />
+        <path class="target" id="text-path-unlimited-emanation-0" d="m 4,220 c 0.581899,0 45,0 46,0 0.754259,0 45.402174,0 46,0" />
+        <path class="target" id="text-path-all-possibility-emanation-0" d="m 4,220 c 0.581899,0 45,0 46,0 0.754259,0 45.402174,0 46,0" />
+        <circle class="target" id="circle-unlimited-emanation-0" r="4000" cx="50" cy="4181" />
+        <circle class="target" id="circle-all-possibility-emanation-0" r="4000" cx="50" cy="4181" />
+
+        <!-- emanation-00 -->
+        <path class="target" id="text-path-nothing-emanation-00" d="m 4,55 c 0.581899,0 45,0 46,0 0.754259,0 45.402174,0 46,0" />
+        <path class="target" id="text-path-unlimited-emanation-00" d="m 4,110 c 0.581899,0 45,0 46,0 0.754259,0 45.402174,0 46,0" />
+        <path class="target" id="text-path-all-possibility-emanation-00" d="m 4,220 c 0.581899,0 45,0 46,0 0.754259,0 45.402174,0 46,0" />
+        <circle class="target" id="circle-unlimited-emanation-00" r="1000" cx="50" cy="1081" />
+        <circle class="target" id="circle-all-possibility-emanation-00" r="1000" cx="50" cy="1181" />
+
+        <!-- emanation-000 -->
+        <path class="target" id="text-path-nothing-emanation-000" d="m 4,48 c 0.581899,0 45,0 46,0 0.754259,0 45.402174,0 46,0" />
+        <path class="target" id="text-path-unlimited-emanation-000" d="m 4,84 c 0.581899,0 45,0 46,0 0.754259,0 45.402174,0 46,0" />
+        <path class="target" id="text-path-all-possibility-emanation-000" d="m 4,122 c 0.581899,0 45,0 46,0 0.754259,0 45.402174,0 46,0" />
+        <circle class="target" id="circle-unlimited-emanation-000" r="400" cx="50" cy="461" />
+        <circle class="target" id="circle-all-possibility-emanation-000" r="400" cx="50" cy="501" />
+        <circle id="target-sphere-0-1-emanation-000" class="target" r="16" cx="50" cy="400"  />
+
+        <!-- emanation-0-1 -->
+        <path class="target" id="text-path-nothing-emanation-0-1" d="m 4,80 c 2.4e-6,-25.413119 20.6015267,-46.014523 46.0147987,-46.014523 25.413261,2e-6 46.014797,20.601404 46.014797,46.014523" />
+        <path class="target" id="text-path-unlimited-emanation-0-1" d="m 17.5,80 c 1e-6,-17.928055 14.533647,-32.461615 32.461811,-32.461615 17.928154,10e-7 32.461809,14.53356 32.461809,32.461615" />
+        <path class="target" id="text-path-all-possibility-emanation-0-1" d="m 31.313275,80 c 0,-10.362469 8.400491,-18.762909 18.763022,-18.762909 10.362526,10e-7 18.76302,8.40044 18.76302,18.762909" />
+        <circle class="target" id="circle-unlimited-emanation-0-1" r="43" cx="50" cy="81" />
+        <circle class="target" id="circle-all-possibility-emanation-0-1" r="28.9" cx="50" cy="81" />
+        <circle id="target-sphere-0-1-emanation-0-1" class="target sphere emanation-0-1" r="16" cx="50" cy="81"  />
+        <circle id="target-sphere-1-2-emanation-0-1" class="target" r="14" cx="50" cy="81" />
+
+        <!-- emanation-1-2 -->
+        <path class="target" id="text-path-nothing-emanation-1-2" d="m 4,80 c 2.4e-6,-25.413119 20.6015267,-46.014523 46.0147987,-46.014523 25.413261,2e-6 46.014797,20.601404 46.014797,46.014523" />
+        <path class="target" id="text-path-unlimited-emanation-1-2" d="m 17.5,80 c 1e-6,-17.928055 14.533647,-32.461615 32.461811,-32.461615 17.928154,10e-7 32.461809,14.53356 32.461809,32.461615" />
+        <path class="target" id="text-path-all-possibility-emanation-1-2" d="m 31.313275,80 c 0,-10.362469 8.400491,-18.762909 18.763022,-18.762909 10.362526,10e-7 18.76302,8.40044 18.76302,18.762909" />
+        <circle class="target" id="circle-unlimited-emanation-1-2" r="43" cx="50" cy="81" />
+        <circle class="target" id="circle-all-possibility-emanation-1-2" r="28.9" cx="50" cy="81" />
+        <circle id="target-sphere-0-1-emanation-1-2" class="target sphere emanation-1-2" r="16" cx="50" cy="50" />
+        <circle id="target-sphere-1-2-emanation-1-2" class="target sphere emanation-1-2" r="16" cx="50" cy="112" />
+        <circle id="target-sphere-2-3-emanation-1-2" class="target" r="14" cx="50" cy="112" />
+
+        <!-- emanation-2-3 -->
+        <circle id="target-sphere-0-1-emanation-2-3" class="target sphere emanation-2-3" r="16" cx="50" cy="50" />
+        <circle id="target-sphere-1-2-emanation-2-3" class="target sphere emanation-2-3" r="16" cx="82" cy="98" />
+        <circle id="target-sphere-2-3-emanation-2-3" class="target sphere emanation-2-3" r="16" cx="18" cy="98" />
+        <circle id="target-sphere-3-5-emanation-2-3" class="target" r="14" cx="50" cy="50" />
+
+        <!-- emanation-3-5 -->
+        <circle id="target-sphere-0-1-emanation-3-5" class="target sphere emanation-3-5" r="15" cx="50" cy="43" />
+        <circle id="target-sphere-1-2-emanation-3-5" class="target sphere emanation-3-5" r="15" cx="82" cy="81" />
+        <circle id="target-sphere-2-3-emanation-3-5" class="target sphere emanation-3-5" r="15" cx="18" cy="81" />
+        <circle id="target-sphere-3-5-emanation-3-5" class="target sphere emanation-3-5" r="15" cx="50" cy="120" />
+        <circle id="target-sphere-4-7-emanation-3-5" class="target" r="13" cx="50" cy="120" />
+
+        <!-- emanation-4-7 -->
+        <circle id="target-sphere-0-1-emanation-4-7" class="target sphere emanation-4-7" r="14" cx="50" cy="48" />
+        <circle id="target-sphere-1-2-emanation-4-7" class="target sphere emanation-4-7" r="14" cx="84" cy="74" />
+        <circle id="target-sphere-2-3-emanation-4-7" class="target sphere emanation-4-7" r="14" cx="16" cy="74" />
+        <circle id="target-sphere-3-5-emanation-4-7" class="target sphere emanation-4-7" r="14" cx="71" cy="113" />
+        <circle id="target-sphere-4-7-emanation-4-7" class="target sphere emanation-4-7" r="14" cx="29" cy="113" />
+        <circle id="target-sphere-5-11-emanation-4-7" class="target" r="12" cx="50" cy="48" />
+
+        <!-- emanation-5-11 -->
+        <circle id="target-sphere-0-1-emanation-5-11" class="target sphere emanation-5-11" r="13" cx="50" cy="37" />
+        <circle id="target-sphere-1-2-emanation-5-11" class="target sphere emanation-5-11" r="13" cx="84" cy="59" />
+        <circle id="target-sphere-2-3-emanation-5-11" class="target sphere emanation-5-11" r="13" cx="16" cy="59" />
+        <circle id="target-sphere-3-5-emanation-5-11" class="target sphere emanation-5-11" r="13" cx="84" cy="103" />
+        <circle id="target-sphere-4-7-emanation-5-11" class="target sphere emanation-5-11" r="13" cx="16" cy="103" />
+        <circle id="target-sphere-5-11-emanation-5-11" class="target sphere emanation-5-11" r="13" cx="50" cy="125" />
+        <circle id="target-sphere-6-13-emanation-5-11" class="target" r="12" cx="50" cy="125" />
+
+        <!-- emanation-6-13 -->
+        <circle id="target-sphere-0-1-emanation-6-13" class="target sphere emanation-6-13" r="13" cx="50" cy="19" />
+        <circle id="target-sphere-1-2-emanation-6-13" class="target sphere emanation-6-13" r="13" cx="84" cy="40" />
+        <circle id="target-sphere-2-3-emanation-6-13" class="target sphere emanation-6-13" r="13" cx="16" cy="40" />
+        <circle id="target-sphere-3-5-emanation-6-13" class="target sphere emanation-6-13" r="13" cx="84" cy="82" />
+        <circle id="target-sphere-4-7-emanation-6-13" class="target sphere emanation-6-13" r="13" cx="16" cy="82" />
+        <circle id="target-sphere-5-11-emanation-6-13" class="target sphere emanation-6-13" r="13" cx="50" cy="104" />
+        <circle id="target-sphere-6-13-emanation-6-13" class="target sphere emanation-6-13" r="13" cx="50" cy="144" />
+        <circle id="target-sphere-7-17-emanation-6-13" class="target" r="12" cx="50" cy="144" />
+
+        <!-- emanation-7-17 -->
+        <circle id="target-sphere-0-1-emanation-7-17" class="target sphere emanation-7-17" r="12.5" cx="50" cy="24" />
+        <circle id="target-sphere-1-2-emanation-7-17" class="target sphere emanation-7-17" r="12.5" cx="84" cy="45" />
+        <circle id="target-sphere-2-3-emanation-7-17" class="target sphere emanation-7-17" r="12.5" cx="16" cy="45" />
+        <circle id="target-sphere-3-5-emanation-7-17" class="target sphere emanation-7-17" r="12.5" cx="84" cy="87" />
+        <circle id="target-sphere-4-7-emanation-7-17" class="target sphere emanation-7-17" r="12.5" cx="16" cy="87" />
+        <circle id="target-sphere-5-11-emanation-7-17" class="target sphere emanation-7-17" r="12.5" cx="50" cy="109" />
+        <circle id="target-sphere-6-13-emanation-7-17" class="target sphere emanation-7-17" r="12.5" cx="84" cy="131" />
+        <circle id="target-sphere-7-17-emanation-7-17" class="target sphere emanation-7-17" r="12.5" cx="16" cy="131" />
+        <circle id="target-sphere-8-19-emanation-7-17" class="target" r="11.5" cx="50" cy="109" />
+
+        <!-- emanation-8-19 -->
+        <circle id="target-sphere-0-1-emanation-8-19" class="target sphere emanation-8-19" r="12.2" cx="50" cy="16" />
+        <circle id="target-sphere-1-2-emanation-8-19" class="target sphere emanation-8-19" r="12.2" cx="83" cy="37" />
+        <circle id="target-sphere-2-3-emanation-8-19" class="target sphere emanation-8-19" r="12.2" cx="17" cy="37" />
+        <circle id="target-sphere-3-5-emanation-8-19" class="target sphere emanation-8-19" r="12.2" cx="83" cy="78" />
+        <circle id="target-sphere-4-7-emanation-8-19" class="target sphere emanation-8-19" r="12.2" cx="17" cy="78" />
+        <circle id="target-sphere-5-11-emanation-8-19" class="target sphere emanation-8-19" r="12.2" cx="50" cy="99" />
+        <circle id="target-sphere-6-13-emanation-8-19" class="target sphere emanation-8-19" r="12.2" cx="83" cy="121" />
+        <circle id="target-sphere-7-17-emanation-8-19" class="target sphere emanation-8-19" r="12.2" cx="17" cy="121" />
+        <circle id="target-sphere-8-19-emanation-8-19" class="target sphere emanation-8-19" r="12.2" cx="50" cy="145" />
+        <circle id="target-sphere-9-23-emanation-8-19" class="target" r="11.2" cx="50" cy="145" />
+
+        <!-- emanation-9-23 -->
+        <circle id="target-sphere-0-1-emanation-9-23" class="target sphere emanation-9-23" r="10" cx="50" cy="16" />
+        <circle id="target-sphere-1-2-emanation-9-23" class="target sphere emanation-9-23" r="10" cx="83" cy="31" />
+        <circle id="target-sphere-2-3-emanation-9-23" class="target sphere emanation-9-23" r="10" cx="17" cy="31" />
+        <circle id="target-sphere-3-5-emanation-9-23" class="target sphere emanation-9-23" r="10" cx="83" cy="62" />
+        <circle id="target-sphere-4-7-emanation-9-23" class="target sphere emanation-9-23" r="10" cx="17" cy="62" />
+        <circle id="target-sphere-5-11-emanation-9-23" class="target sphere emanation-9-23" r="10" cx="50" cy="77" />
+        <circle id="target-sphere-6-13-emanation-9-23" class="target sphere emanation-9-23" r="10" cx="83" cy="94" />
+        <circle id="target-sphere-7-17-emanation-9-23" class="target sphere emanation-9-23" r="10" cx="17" cy="94" />
+        <circle id="target-sphere-8-19-emanation-9-23" class="target sphere emanation-9-23" r="10" cx="50" cy="112" />
+        <circle id="target-sphere-9-23-emanation-9-23" class="target sphere emanation-9-23" r="10" cx="50" cy="145" />
+        <circle id="target-sphere-10-29-emanation-9-23" class="target" r="9" cx="50" cy="145" />
+
+        <!-- emanation-10-29 -->
+        <circle id="target-sphere-0-1-emanation-10-29" class="target sphere emanation-10-29" r="10" cx="50" cy="22" />
+        <circle id="target-sphere-1-2-emanation-10-29" class="target sphere emanation-10-29" r="10" cx="83" cy="37" />
+        <circle id="target-sphere-2-3-emanation-10-29" class="target sphere emanation-10-29" r="10" cx="17" cy="37" />
+        <circle id="target-sphere-3-5-emanation-10-29" class="target sphere emanation-10-29" r="10" cx="83" cy="68" />
+        <circle id="target-sphere-4-7-emanation-10-29" class="target sphere emanation-10-29" r="10" cx="17" cy="68" />
+        <circle id="target-sphere-5-11-emanation-10-29" class="target sphere emanation-10-29" r="10" cx="50" cy="83" />
+        <circle id="target-sphere-6-13-emanation-10-29" class="target sphere emanation-10-29" r="10" cx="83" cy="100" />
+        <circle id="target-sphere-7-17-emanation-10-29" class="target sphere emanation-10-29" r="10" cx="17" cy="100" />
+        <circle id="target-sphere-8-19-emanation-10-29" class="target sphere emanation-10-29" r="10" cx="50" cy="118" />
+        <circle id="target-sphere-9-23-emanation-10-29" class="target sphere emanation-10-29" r="10" cx="83" cy="133" />
+        <circle id="target-sphere-10-29-emanation-10-29" class="target sphere emanation-10-29" r="10" cx="17" cy="133" />
+        <circle id="target-sphere-11-31-emanation-10-29" class="target" r="9" cx="50" cy="118" />
+
+        <!-- emanation-11-31 -->
+        <circle id="target-sphere-0-1-emanation-11-31" class="target sphere emanation-11-31" r="9.8" cx="50" cy="14" />
+        <circle id="target-sphere-1-2-emanation-11-31" class="target sphere emanation-11-31" r="9.8" cx="83" cy="30" />
+        <circle id="target-sphere-2-3-emanation-11-31" class="target sphere emanation-11-31" r="9.8" cx="17" cy="30" />
+        <circle id="target-sphere-3-5-emanation-11-31" class="target sphere emanation-11-31" r="9.8" cx="83" cy="61" />
+        <circle id="target-sphere-4-7-emanation-11-31" class="target sphere emanation-11-31" r="9.8" cx="17" cy="61" />
+        <circle id="target-sphere-5-11-emanation-11-31" class="target sphere emanation-11-31" r="9.8" cx="50" cy="77" />
+        <circle id="target-sphere-6-13-emanation-11-31" class="target sphere emanation-11-31" r="9.8" cx="83" cy="94" />
+        <circle id="target-sphere-7-17-emanation-11-31" class="target sphere emanation-11-31" r="9.8" cx="17" cy="94" />
+        <circle id="target-sphere-8-19-emanation-11-31" class="target sphere emanation-11-31" r="9.8" cx="50" cy="112" />
+        <circle id="target-sphere-9-23-emanation-11-31" class="target sphere emanation-11-31" r="9.8" cx="83" cy="129" />
+        <circle id="target-sphere-10-29-emanation-11-31" class="target sphere emanation-11-31" r="9.8" cx="17" cy="129" />
+        <circle id="target-sphere-11-31-emanation-11-31" class="target sphere emanation-11-31" r="9.8" cx="50" cy="148" />
+      </svg>
+    </div>
+  </body>
+</html>

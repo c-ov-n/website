@@ -57,12 +57,14 @@
        id="guide-right"
        inkscape:locked="false" />
   </sodipodi:namedview>
-  <defs
-     id="defs2" />
-  <g
-     inkscape:label="Layer 1"
+  <symbol
+     inkscape:label="11:31 - Feh Sher"
      inkscape:groupmode="layer"
-     id="layer1">
+     id="sigil"
+     height="14.14214"
+     width="10"
+     viewBox="0 0 10 14.14214"
+  >
     <path
        style="fill:none;stroke:#000000;stroke-width:0.777;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:2;stroke-dasharray:none;stroke-opacity:1"
        d="m 1.2773375,12.744744 7.116914,-5.5926261 c 0,0 -0.8850454,-0.9084822 -1.5856901,-1.1768467 C 6.0799368,5.6961896 5.2308228,5.6045652 4.4746407,5.7968387 3.3007324,6.095327 1.2510424,7.8796467 1.2510424,7.8796467 c 0,0 1.8820325,-1.5305824 2.8351007,-2.1713262 C 5.0168391,5.0826174 5.9443366,4.7250012 6.2990961,3.8232848 6.5207681,3.2598459 6.4572942,2.5000179 6.0895969,2.0189767 5.7513855,1.5765105 5.0915817,1.3305493 4.5387015,1.3975325 3.9717652,1.4662187 3.2828814,1.8415377 3.1465622,2.3961111 3.042474,2.8195625 3.2899655,3.3043334 3.6994777,3.4541507 4.0127123,3.5687456 4.6554301,3.1722078 4.6554301,3.1722078"
@@ -75,5 +77,6 @@
        id="path9627"
        sodipodi:nodetypes="ccccssc"
        inkscape:label="stroke" />
-  </g>
+  </symbol>
+  <use href="#sigil" />
 </svg>

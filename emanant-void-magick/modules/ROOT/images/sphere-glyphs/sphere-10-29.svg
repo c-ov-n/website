@@ -57,12 +57,14 @@
        id="guide-right"
        inkscape:locked="false" />
   </sodipodi:namedview>
-  <defs
-     id="defs2" />
-  <g
-     inkscape:label="Layer 1"
+  <symbol
+     inkscape:label="10:29 - Vu Soab"
      inkscape:groupmode="layer"
-     id="layer1">
+     id="sigil"
+     height="14.14214"
+     width="10"
+     viewBox="0 0 10 14.14214"
+  >
     <path
        style="fill:none;stroke:#000000;stroke-width:0.777;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:2;stroke-dasharray:none;stroke-opacity:1"
        d="M 8.7076262,4.2787067 1.4189867,10.274708 1.3743675,7.5102196 8.7404756,1.3676547 C 6.5894805,2.4070154 3.5257483,3.319627 1.3039121,1.329366"
@@ -75,5 +77,6 @@
        id="path9627"
        sodipodi:nodetypes="ccccc"
        inkscape:label="stroke" />
-  </g>
+  </symbol>
+  <use href="#sigil" />
 </svg>
