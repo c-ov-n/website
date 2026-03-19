@@ -27,8 +27,8 @@ const PATHS = {
     "to": "sphere-2-3"
   },
   "path-2-1": {
-    "from": "sphere-2-3",
-    "to": "sphere-0-1"
+    "from": "sphere-0-1",
+    "to": "sphere-2-3"
   },
   "path-3-8": {
     "from": "sphere-0-1",
@@ -333,6 +333,7 @@ class TreeAnim {
   setSvgPath(pathName, state) {
     const fromName = PATHS[pathName]?.[state]?.from || PATHS[pathName].from;
     const toName = PATHS[pathName]?.[state]?.to || PATHS[pathName].to;
+    const sigilRotate = PATHS[pathName]?.[state]?.sigilRotate || PATHS[pathName].sigilRotate;
     const sigilOffset = PATHS[pathName]?.[state]?.sigilOffset || PATHS[pathName].sigilOffset;
 
     const pathGroup = document.getElementById(pathName);
@@ -362,10 +363,18 @@ class TreeAnim {
     const strokeWidth = parseFloat(window.getComputedStyle(whiteStroke).strokeWidth);
     const sigilHeight = strokeWidth * 0.75;
     const sigilWidth = sigilHeight / 1.41214;
+    const setX = (fromX + toX)/2 + (sigilOffset?.x || 0);
+    const setY = (fromY + toY)/2 + (sigilOffset?.y || 0);
+
+    const angle = sigilRotate != null ? sigilRotate : (
+      fromX === toX ? -90 :
+      Math.atan((fromY - toY) / (fromX - toX)) * 180 / Math.PI
+    );
     sigil.setAttribute("width", sigilWidth);
     sigil.setAttribute("height", sigilHeight);
-    sigil.setAttribute("x", (fromX + toX - sigilWidth)/2 + (sigilOffset?.x || 0));
-    sigil.setAttribute("y", (fromY + toY - sigilHeight)/2 + (sigilOffset?.y || 0));
+    sigil.setAttribute("transform", `rotate(${angle} ${setX} ${setY})`);
+    sigil.setAttribute("x", setX - sigilWidth/2);
+    sigil.setAttribute("y", setY - sigilHeight/2);
   }
 
   setSvgTextPath(state, name) {

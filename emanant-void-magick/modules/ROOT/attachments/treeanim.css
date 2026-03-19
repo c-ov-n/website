@@ -10,14 +10,17 @@
   --color-red: #b11;
   --color-yellow: #bbaa00;
   --transition-duration: 1.5s;
-  --path-arrow-start-svg: url(path-arrow-start.svg);
-  --path-arrow-end-svg: url(path-arrow-end.svg);
 }
 
 html, body {
   background-color: var(--color-medium);
   margin: 0;
   padding: 0;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  min-width: 0;
 }
 
 #tree-anim {
@@ -31,7 +34,16 @@ html, body {
   padding: 0;
   position: absolute;
   top: 0;
-  width: 61.8vh;
+  width: 61.803399vh;
+  min-width: 0;
+}
+
+@media screen and (max-aspect-ratio: 0.61803399) {
+  #tree-anim {
+    width: 100vw;
+    height: 161.803399vw;
+    left: 0;
+  }
 }
 
 #tree-anim svg {
