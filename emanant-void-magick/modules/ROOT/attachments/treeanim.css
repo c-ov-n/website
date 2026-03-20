@@ -10,6 +10,7 @@
   --color-red: #b11;
   --color-yellow: #bbaa00;
   --transition-duration: 1.5s;
+  --nav-button-size: 7vh;
 }
 
 html, body {
@@ -129,200 +130,15 @@ use.sphere {
   transform-origin: 50% 50%;
 }
 
-#tree-anim .impulse {
-  border-radius: 50%;
-  display: none;
-  position: absolute;
-  transform: translate(-50%, -50%);
-  z-index: 1000;
-}
-
-#tree-anim .non-being-arc-hider {
-  background-color: var(--color-dark);
-  border-radius: 50%;
-  display: none;
-  left: 50%;
-  position: absolute;
-  transform: translate(-50%, -50%);
-}
-
-#tree-anim div.sphere {
-  background-color: white;
-  border-radius: 50%;
-  box-sizing: border-box;
-  color: var(--color-dark);
-  display: none;
-  position: absolute;
-  text-align: center;
-  transform: translate(-50%, -50%);
-  transition-property: all;
-  transition-duration: var(--transition-duration);
-}
-
-#tree-anim div.sphere .name {
-  position: absolute;
-  left: 50%;
-  top: 45%;
-  transform: translate(-50%, -50%);
-}
-
-#tree-anim div.sphere .name.initial {
+#tree-anim g.path > text.path-name {
   display: none;
 }
 
-#tree-anim div.sphere .number {
-  font-weight: bold;
-  position: absolute;
-  left: 50%;
-  top: 20%;
-  transform: translate(-50%, -50%);
-}
-
-#tree-anim div.sphere .symbol {
+#tree-anim.show-path-name g.path > use.path-emanation-number {
   display: none;
-  font-weight: bold;
-  position: absolute;
-  left: 50%;
-  top: 74%;
-  transform: translate(-50%, -50%);
 }
-
-#tree-anim div.sphere svg.symbol {
-  height: 38%;
-  width: 38%;
-}
-
-#tree-anim div.sphere img.symbol.anq-number {
-  height: 38%;
-  width: 38%;
-}
-
-#tree-anim .sphere.sphere-1 {
-  z-index: 145;
-}
-#tree-anim .sphere.sphere-2 {
-  z-index: 135;
-}
-#tree-anim .sphere.sphere-3 {
-  z-index: 125;
-}
-#tree-anim .sphere.sphere-4 {
-  z-index: 115;
-}
-#tree-anim .sphere.sphere-5 {
-  z-index: 105;
-}
-#tree-anim .sphere.sphere-6 {
-  z-index: 95;
-}
-#tree-anim .sphere.sphere-7 {
-  z-index: 85;
-}
-#tree-anim .sphere.sphere-8 {
-  z-index: 75;
-}
-#tree-anim .sphere.sphere-9 {
-  z-index: 65;
-}
-#tree-anim .sphere.sphere-10 {
-  z-index: 55;
-}
-#tree-anim .sphere.sphere-11 {
-  z-index: 45;
-}
-#tree-anim .sphere.sphere-12 {
-  z-index: 35;
-}
-
-#tree-anim .path.path-0 {
-  z-index: 121;
-}
-#tree-anim .path.path-1 {
-  z-index: 120;
-}
-#tree-anim .path.path-2 {
-  z-index: 120;
-}
-#tree-anim .path.path-3 {
-  z-index: 94;
-}
-#tree-anim .path.path-4 {
-  z-index: 90;
-}
-#tree-anim .path.path-5 {
-  z-index: 90;
-}
-#tree-anim .path.path-6 {
-  z-index: 93;
-}
-#tree-anim .path.path-7 {
-  z-index: 100;
-}
-#tree-anim .path.path-8 {
-  z-index: 93;
-}
-#tree-anim .path.path-9 {
-  z-index: 91;
-}
-#tree-anim .path.path-10 {
-  z-index: 91;
-}
-#tree-anim .path.path-11 {
-  z-index: 41;
-}
-#tree-anim .path.path-12 {
-  z-index: 20;
-}
-#tree-anim .path.path-13 {
-  z-index: 20;
-}
-#tree-anim .path.path-14 {
-  z-index: 40;
-}
-#tree-anim .path.path-15 {
-  z-index: 10;
-}
-#tree-anim .path.path-16 {
-  z-index: 20;
-}
-#tree-anim .path.path-17 {
-  z-index: 30;
-}
-#tree-anim .path.path-18 {
-  z-index: 30;
-}
-#tree-anim .path.path-19 {
-  z-index: 40;
-}
-#tree-anim .path.path-20 {
-  z-index: 20;
-}
-#tree-anim .path.path-21 {
-  z-index: 20;
-}
-#tree-anim .path.path-22 {
-  z-index: 39;
-}
-#tree-anim .path.path-23 {
-  z-index: 20;
-}
-#tree-anim .path.path-24 {
-  z-index: 30;
-}
-#tree-anim .path.path-25 {
-  z-index: 15;
-}
-#tree-anim .path.path-26 {
-  z-index: 15;
-}
-#tree-anim .path.path-27 {
-  z-index: 10;
-}
-#tree-anim .path.path-28 {
-  z-index: 10;
-}
-#tree-anim .path.path-29 {
-  z-index: 10;
+#tree-anim.show-path-name g.path > text.path-name {
+  display: revert;
 }
 
 #tree-anim .nav-button {
@@ -331,17 +147,14 @@ use.sphere {
 
 #tree-anim.show-nav .nav-button {
   display: block;
-  padding: 0 0.2em 0.4em 0.2em;
-  height: 1em;
-  width: 1em;
-  font-size: 4vh;
-  background-color: #bbb;
-  border-top: 0.1em solid #ddd;
-  border-left: 0.1em solid #ccc;
-  border-bottom: 0.1em solid #666;
-  border-right: 0.1em solid #888;
+  box-sizing: border-box;
+  padding: 0;
+  height: var(--nav-button-size);
+  width: var(--nav-button-size);
+  font-size: calc(var(--nav-button-size) * 0.7);
+  text-align: center;
+  overflow: hide;
   z-index: 1000;
-  color: black;
   text-decoration: none;
 }
 
@@ -349,6 +162,18 @@ use.sphere {
   position: absolute;
   top: 0;
   left: 0;
+}
+
+#tree-anim .nav-button.nav-button-show-path-name {
+  position: absolute;
+  top: 0;
+  left: var(--nav-button-size);
+}
+
+#tree-anim .nav-button.nav-button-show-path-emanation-sigil {
+  position: absolute;
+  top: 0;
+  left: calc(2 * var(--nav-button-size));
 }
 
 #tree-anim .nav-button.nav-button-next {
@@ -551,12 +376,12 @@ use.sphere {
 
 #tree-anim.emanation-2-3 g.path path.black-stroke {
   stroke: black;
-  stroke-width: 8.5;
+  stroke-width: 8;
 }
 
 #tree-anim.emanation-2-3 g.path path.white-stroke {
   stroke: white;
-  stroke-width: 8;
+  stroke-width: 7.5;
 }
 
 #tree-anim.emanation-2-3.transition-from-emanation-1-2 #use-sphere-3-5 {
@@ -579,12 +404,12 @@ use.sphere {
 
 #tree-anim.emanation-3-5 g.path path.black-stroke {
   stroke: black;
-  stroke-width: 8.5;
+  stroke-width: 7.5;
 }
 
 #tree-anim.emanation-3-5 g.path path.white-stroke {
   stroke: white;
-  stroke-width: 8;
+  stroke-width: 7;
 }
 
 #tree-anim.emanation-3-5.transition-from-emanation-2-3 #use-sphere-4-7 {
@@ -608,12 +433,12 @@ use.sphere {
 
 #tree-anim.emanation-4-7 g.path path.black-stroke {
   stroke: black;
-  stroke-width: 7.5;
+  stroke-width: 6.5;
 }
 
 #tree-anim.emanation-4-7 g.path path.white-stroke {
   stroke: white;
-  stroke-width: 7;
+  stroke-width: 6;
 }
 
 #tree-anim.emanation-4-7.transition-from-emanation-3-5 #use-sphere-5-11 {
@@ -671,12 +496,12 @@ use.sphere {
 
 #tree-anim.emanation-6-13 g.path path.black-stroke {
   stroke: black;
-  stroke-width: 7;
+  stroke-width: 6.5;
 }
 
 #tree-anim.emanation-6-13 g.path path.white-stroke {
   stroke: white;
-  stroke-width: 6.5;
+  stroke-width: 6;
 }
 
 #tree-anim.emanation-6-13.transition-from-emanation-5-11 #use-sphere-7-17 {
@@ -704,12 +529,12 @@ use.sphere {
 
 #tree-anim.emanation-7-17 g.path path.black-stroke {
   stroke: black;
-  stroke-width: 7;
+  stroke-width: 6.5;
 }
 
 #tree-anim.emanation-7-17 g.path path.white-stroke {
   stroke: white;
-  stroke-width: 6.5;
+  stroke-width: 6;
 }
 
 #tree-anim.emanation-7-17.transition-from-emanation-6-13 #use-sphere-8-19 {

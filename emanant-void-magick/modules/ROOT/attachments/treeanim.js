@@ -38,21 +38,18 @@ const PATHS = {
     "emanation-2-3": {
       "from": "sphere-0-1",
       "to": "sphere-3-5",
+      "labelFlip": true,
     },
     "emanation-3-5": {
-      "sigilOffset": {
-        "y": 10,
-      },
+      "labelOffset": 0.31,
       "from": "sphere-0-1",
       "to": "sphere-3-5",
+      "labelFlip": true,
     },
     "emanation-4-7": {
-      "sigilOffset": {
-        "x": 2.5,
-        "y": 8,
-      },
       "from": "sphere-0-1",
       "to": "sphere-3-5",
+      "labelOffset": 0.37,
     },
     "from": "sphere-5-11",
     "to": "sphere-3-5"
@@ -63,23 +60,19 @@ const PATHS = {
   },
   "path-6-9": {
     "from": "sphere-1-2",
-    "to": "sphere-5-11"
+    "to": "sphere-5-11",
+    "labelOffset": 0.62,
   },
   "path-7-6": {
     "emanation-3-5": {
-      "sigilOffset": {
-        "y": 10,
-      },
       "from": "sphere-0-1",
       "to": "sphere-4-7",
+      "labelOffset": 0.31,
     },
     "emanation-4-7": {
       "from": "sphere-0-1",
       "to": "sphere-4-7",
-      "sigilOffset": {
-        "x": -2.5,
-        "y": 8,
-      },
+      "labelOffset": 0.37,
     },
     "from": "sphere-5-11",
     "to": "sphere-4-7"
@@ -87,20 +80,33 @@ const PATHS = {
   "path-8-5": {
     "emanation-2-3": {
       "from": "sphere-3-5",
-      "to": "sphere-2-3"
+      "to": "sphere-2-3",
+      "labelFlip": false,
     },
     "emanation-3-5": {
       "from": "sphere-3-5",
-      "to": "sphere-2-3"
+      "to": "sphere-2-3",
+      "labelFlip": false,
+    },
+    "emanation-4-7": {
+      "labelFlip": false,
     },
     "from": "sphere-4-7",
-    "to": "sphere-2-3"
+    "to": "sphere-2-3",
+    "labelFlip": true,
   },
   "path-9-10": {
     "from": "sphere-2-3",
-    "to": "sphere-5-11"
+    "to": "sphere-5-11",
+    "labelOffset": 0.62,
   },
   "path-10-11": {
+    "emanation-5-11": {
+      "labelFlip": true,
+    },
+    "emanation-6-13": {
+      "labelFlip": true,
+    },
     "from": "sphere-5-11",
     "to": "sphere-6-13"
   },
@@ -115,12 +121,15 @@ const PATHS = {
   "path-13-13": {
     "emanation-5-11": {
       "from": "sphere-4-7",
-      "to": "sphere-6-13"
+      "to": "sphere-6-13",
+      "labelFlip": false,
     },
     "emanation-6-13": {
       "from": "sphere-4-7",
-      "to": "sphere-6-13"
+      "to": "sphere-6-13",
+      "labelFlip": false,
     },
+    "labelFlip": true,
     "from": "sphere-4-7",
     "to": "sphere-7-17"
   },
@@ -129,30 +138,32 @@ const PATHS = {
     "to": "sphere-5-11"
   },
   "path-15-16": {
-    "emanation-8-19": {
-      "sigilOffset": {
-        "y": 7,
-      },
-    },
-    "sigilOffset": {
-      "y": 5.2,
-    },
     "from": "sphere-5-11",
     "to": "sphere-8-19"
   },
   "path-16-17": {
     "from": "sphere-8-19",
-    "to": "sphere-6-13"
+    "to": "sphere-6-13",
   },
   "path-17-15": {
+    "emanation-7-17": {
+      "labelOffset": 0.5,
+    },
     "from": "sphere-6-13",
-    "to": "sphere-7-17"
+    "to": "sphere-7-17",
+    "labelOffset": 0.7,
   },
   "path-18-18": {
     "from": "sphere-7-17",
     "to": "sphere-8-19"
   },
   "path-19-19": {
+    "emanation-8-19": {
+      "labelFlip": true,
+    },
+    "emanation-9-23": {
+      "labelFlip": true,
+    },
     "from": "sphere-8-19",
     "to": "sphere-9-23"
   },
@@ -161,17 +172,11 @@ const PATHS = {
     "to": "sphere-6-13"
   },
   "path-21-25": {
-    "sigilOffset": {
-      "x": 6,
-      "y": -9.7,
-    },
+    "labelOffset": 0.7,
     "from": "sphere-6-13",
     "to": "sphere-11-31"
   },
   "path-22-24": {
-    "sigilOffset": {
-      "y": 5.2,
-    },
     "from": "sphere-11-31",
     "to": "sphere-8-19"
   },
@@ -182,20 +187,20 @@ const PATHS = {
   "path-24-21": {
     "emanation-8-19": {
       "from": "sphere-9-23",
-      "to": "sphere-7-17"
+      "to": "sphere-7-17",
+      "labelFlip": false,
     },
     "emanation-9-23": {
       "from": "sphere-9-23",
-      "to": "sphere-7-17"
+      "to": "sphere-7-17",
+      "labelFlip": false,
     },
     "from": "sphere-10-29",
-    "to": "sphere-7-17"
+    "to": "sphere-7-17",
+    "labelFlip": true,
   },
   "path-25-26": {
-    "sigilOffset": {
-      "x": -6,
-      "y": -9.7,
-    },
+    "labelOffset": 0.7,
     "from": "sphere-7-17",
     "to": "sphere-11-31"
   },
@@ -204,8 +209,12 @@ const PATHS = {
     "to": "sphere-9-23"
   },
   "path-27-23": {
+    "emanation-10-29": {
+      "labelOffset": 0.5
+    },
     "from": "sphere-9-23",
-    "to": "sphere-10-29"
+    "to": "sphere-10-29",
+    "labelOffset": 0.7,
   },
   "path-28-28": {
     "from": "sphere-10-29",
@@ -222,17 +231,28 @@ class TreeAnim {
     this.animateTo = null
     this.nextLink = document.getElementsByClassName('nav-button-next')[0];
     this.previousLink = document.getElementsByClassName('nav-button-previous')[0];
+    this.showPathNameLink =  document.getElementsByClassName('nav-button-show-path-name')[0];
+    this.showPathEmanationSigilLink =  document.getElementsByClassName('nav-button-show-path-emanation-sigil')[0];
     this.showNav = false;
 
     window.onhashchange = () => {
-      var hashParams = new URLSearchParams(window.location.hash.substring(1));
-      this.startTransition(hashParams.get("s"), TRANSITION_DURATION);
+      const hashParams = new URLSearchParams(window.location.hash.substring(1));
+      this.pathLabelMode = hashParams.get("pl") || "emanation-sigil";
+      const newState = hashParams.get("s");
+      if (this.state != newState) {
+        this.startTransition(hashParams.get("s"), TRANSITION_DURATION);
+      } else {
+        this.setClassName();
+      }
+      this.setButtonsDisabled();
     };
     if (window.location.hash) {
       var hashParams = new URLSearchParams(window.location.hash.substring(1));
+      this.pathLabelMode = hashParams.get("pl") || "emanation-sigil";
       this.setState(hashParams.get("s"));
+      this.setButtonsDisabled();
     } else {
-      window.location.hash = 's=emanation-0';
+      window.location.hash = 's=emanation-0&pl=emanation-sigil';
     }
 
     this.previousLink.onclick = (event) => {
@@ -248,6 +268,42 @@ class TreeAnim {
       	this.transitionToNext();
       }
     }
+
+    this.showPathNameLink.onclick = (event) => {
+      this.setPathNameMode("name");
+    }
+    this.showPathEmanationSigilLink.onclick = (event) => {
+      this.setPathNameMode("emanation-sigil");
+    }
+  }
+
+  setButtonsDisabled() {
+    if (this.animating === true) {
+      this.nextLink.disabled = true;
+      this.previousLink.disabled = true;
+    } else if(this.state === STEPS[0]) {
+      this.previousLink.disabled = true;
+      this.nextLink.disabled = false;
+    } else if(this.state === STEPS[STEPS.length - 1]) {
+      this.previousLink.disabled = false;
+      this.nextLink.disabled = true;
+    } else {
+      this.previousLink.disabled = false;
+      this.nextLink.disabled = false;
+    }
+    if (this.pathLabelMode === 'name') {
+      this.showPathNameLink.disabled = true;
+      this.showPathEmanationSigilLink.disabled = false;
+    } else {
+      this.showPathNameLink.disabled = false;
+      this.showPathEmanationSigilLink.disabled = true;
+    }
+  }
+
+  setPathNameMode(value) {
+    var hashParams = new URLSearchParams(window.location.hash.substring(1));
+    hashParams.set("pl", value);
+    window.location.hash = hashParams.toString();
   }
 
   transitionToPrevious() {
@@ -274,7 +330,7 @@ class TreeAnim {
 
   setClassName() {
     var hashParams = new URLSearchParams(window.location.hash.substring(1));
-    var classes = [];
+    var classes = [`show-path-${this.pathLabelMode}`];
     if (this.animating) {
       classes.push(this.animateTo);
       classes.push("transition");
@@ -303,6 +359,7 @@ class TreeAnim {
     this.setClassName();
     this.setSvgSpheres(this.state);
     this.setSvgPaths(this.state);
+    this.setButtonsDisabled();
   }
 
   setSvg(state) {
@@ -333,8 +390,8 @@ class TreeAnim {
   setSvgPath(pathName, state) {
     const fromName = PATHS[pathName]?.[state]?.from || PATHS[pathName].from;
     const toName = PATHS[pathName]?.[state]?.to || PATHS[pathName].to;
-    const sigilRotate = PATHS[pathName]?.[state]?.sigilRotate || PATHS[pathName].sigilRotate;
-    const sigilOffset = PATHS[pathName]?.[state]?.sigilOffset || PATHS[pathName].sigilOffset;
+    const labelFlip = PATHS[pathName]?.[state]?.labelFlip ?? PATHS[pathName].labelFlip ?? false;
+    const labelOffset = PATHS[pathName]?.[state]?.labelOffset ?? PATHS[pathName].labelOffset ?? 0.5;
 
     const pathGroup = document.getElementById(pathName);
     if (!pathGroup) { return }
@@ -357,16 +414,17 @@ class TreeAnim {
     const toY = parseFloat(toTarget.getAttribute("cy"));
     const blackStroke = pathGroup.querySelector('path.black-stroke');
     const whiteStroke = pathGroup.querySelector('path.white-stroke');
+    const nameText = pathGroup.querySelector('text.path-name');
     const sigil = pathGroup.querySelector('use.path-emanation-number');
     blackStroke.setAttribute("d", `M ${fromX},${fromY} L ${toX},${toY}`);
     whiteStroke.setAttribute("d", `M ${fromX},${fromY} L ${toX},${toY}`);
     const strokeWidth = parseFloat(window.getComputedStyle(whiteStroke).strokeWidth);
     const sigilHeight = strokeWidth * 0.75;
     const sigilWidth = sigilHeight / 1.41214;
-    const setX = (fromX + toX)/2 + (sigilOffset?.x || 0);
-    const setY = (fromY + toY)/2 + (sigilOffset?.y || 0);
+    const setX = (fromX * labelOffset) + (toX * (1-labelOffset));
+    const setY = (fromY * labelOffset) + (toY * (1-labelOffset));
 
-    const angle = sigilRotate != null ? sigilRotate : (
+    const angle = (labelFlip ? 180 : 0) + (
       fromX === toX ? -90 :
       Math.atan((fromY - toY) / (fromX - toX)) * 180 / Math.PI
     );
@@ -375,6 +433,10 @@ class TreeAnim {
     sigil.setAttribute("transform", `rotate(${angle} ${setX} ${setY})`);
     sigil.setAttribute("x", setX - sigilWidth/2);
     sigil.setAttribute("y", setY - sigilHeight/2);
+    if (nameText) {
+      nameText.style.transformOrigin = `${setX}% ${setY/1.62}%`;
+      nameText.style.transform = `rotate(${angle}deg) scale(${strokeWidth * 0.03}) translate(${setX-50}%, ${setY/1.62-50}%)`;
+    }
   }
 
   setSvgTextPath(state, name) {
