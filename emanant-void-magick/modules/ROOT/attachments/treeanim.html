@@ -4,14 +4,47 @@
     <title>Emanant Void Magick Tree Animation</title>
     <script src="treeanim.js"></script>
     <link rel="stylesheet" href="treeanim.css"/>
+<meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
   <body>
     <div id="tree-anim" class="initial">
-      <button class="nav-button nav-button-previous">&#x25c4;</button>
-      <button class="nav-button nav-button-next">&#x25ba;</button>
-      <button class="nav-button nav-button-show-path-name">N</button>
-      <button class="nav-button nav-button-show-path-emanation-sigil" disabled="disabled">E</button>
-      <svg viewBox="0 0 100 162">
+      <button class="nav" id="nav-button-previous">
+        <svg viewbox="0 0 100 100" style="width: 100%; height: 100%">
+          <title>Previous</title>
+          <polygon points="70,22 25,50 70,78"/>
+        </svg>
+      </button>
+      <button class="nav" id="nav-button-next">
+        <svg viewbox="0 0 100 100" style="width: 100%; height: 100%">
+          <title>Next</title>
+          <polygon points="30,22 75,50 30,78"/>
+        </svg>
+      </button>
+      <button id="options-menu-toggle">
+        <svg viewbox="0 0 100 100" style="width: 100%; height: 100%">
+          <title>Options menu toggle</title>
+          <rect x="15" y="21" width="70" height="7"></rect>
+          <rect x="15" y="46" width="70" height="7"></rect>
+          <rect x="15" y="71" width="70" height="7"></rect>
+        </svg>
+      </button>
+      <div id="options-menu-layer">
+        <div id="options-menu">
+          <label for="pathLabelModeSelect">Paths:</label>
+          <select name="pathLabelModeSelect" id="path-label-mode-select">
+            <option value="emanation-sigil">Emanation number sigils</option>
+            <option value="emanation-number">Emanation decimal numbers</option>
+            <option value="fools-sigil">Fool's journey number sigils</option>
+            <option value="fools-number">Fool's journey decimal numbers</option>
+            <option value="both-sigils">Both number sigils</option>
+            <option value="both-numbers">Both decimal numbers</option>
+            <option value="name">Major arcana association</option>
+            <option value="full-sigil">Major arcana with sigil numbers</option>
+            <option value="full-decimal">Major arcana with decimal numbers</option>
+          </select>
+        </div>
+      </div>
+      <svg class="diagram" viewBox="0 0 100 162">
         <defs>
           <filter id="sphere-shadow">
             <feDropShadow dx="0" dy="0" stdDeviation="3" flood-opacity="1" />
@@ -128,36 +161,54 @@
           <path class="black-stroke" d="m 0,0 l 0,0"/>
           <path class="white-stroke" d="m 0,0 l 0,0"/>
           <use class="path-emanation-number" x="50" y="81" height="1" width="1" href="../_images/factor-glyphs/0x1c.svg#sigil" />
+          <use class="path-fools-number" x="50" y="81" height="1" width="1" href="../_images/sequence-glyphs/0x1c.svg#sigil" />
+          <text class="path-emanation-number" dominant-baseline="central" text-anchor="middle" x="50" y="81">28</text>
+          <text class="path-fools-number" dominant-baseline="central" text-anchor="middle" x="50" y="81">28</text>
           <text class="path-name" dominant-baseline="central" text-anchor="middle" x="50" y="81">Daimon</text>
         </g>
         <g class="path" id="path-26-27">
           <path class="black-stroke" d="m 0,0 l 0,0"/>
           <path class="white-stroke" d="m 0,0 l 0,0"/>
           <use class="path-emanation-number" x="50" y="81" height="1" width="1" href="../_images/factor-glyphs/0x1b.svg#sigil" />
+          <use class="path-fools-number" x="50" y="81" height="1" width="1" href="../_images/sequence-glyphs/0x1a.svg#sigil" />
+          <text class="path-emanation-number" dominant-baseline="central" text-anchor="middle" x="50" y="81">27</text>
+          <text class="path-fools-number" dominant-baseline="central" text-anchor="middle" x="50" y="81">26</text>
           <text class="path-name" dominant-baseline="central" text-anchor="middle" x="50" y="81">Shadow</text>
         </g>
         <g class="path" id="path-25-26">
           <path class="black-stroke" d="m 0,0 l 0,0"/>
           <path class="white-stroke" d="m 0,0 l 0,0"/>
           <use class="path-emanation-number" x="50" y="81" height="1" width="1" href="../_images/factor-glyphs/0x1a.svg#sigil" />
+          <use class="path-fools-number" x="50" y="81" height="1" width="1" href="../_images/sequence-glyphs/0x19.svg#sigil" />
+          <text class="path-emanation-number" dominant-baseline="central" text-anchor="middle" x="50" y="81">26</text>
+          <text class="path-fools-number" dominant-baseline="central" text-anchor="middle" x="50" y="81">25</text>
           <text class="path-name" dominant-baseline="central" text-anchor="middle" x="50" y="81">Aeon</text>
         </g>
         <g class="path" id="path-21-25">
           <path class="black-stroke" d="m 0,0 l 0,0"/>
           <path class="white-stroke" d="m 0,0 l 0,0"/>
           <use class="path-emanation-number" x="50" y="81" height="1" width="1" href="../_images/factor-glyphs/0x19.svg#sigil" />
+          <use class="path-fools-number" x="50" y="81" height="1" width="1" href="../_images/sequence-glyphs/0x15.svg#sigil" />
+          <text class="path-emanation-number" dominant-baseline="central" text-anchor="middle" x="50" y="81">25</text>
+          <text class="path-fools-number" dominant-baseline="central" text-anchor="middle" x="50" y="81">21</text>
           <text class="path-name" dominant-baseline="central" text-anchor="middle" x="50" y="81">World</text>
         </g>
         <g class="path" id="path-27-23">
           <path class="black-stroke" d="m 0,0 l 0,0"/>
           <path class="white-stroke" d="m 0,0 l 0,0"/>
           <use class="path-emanation-number" x="50" y="81" height="1" width="1" href="../_images/factor-glyphs/0x17.svg#sigil" />
-          <text class="path-name" dominant-baseline="central" text-anchor="middle" x="50" y="81">Headless One</text>
+          <use class="path-fools-number" x="50" y="81" height="1" width="1" href="../_images/sequence-glyphs/0x1b.svg#sigil" />
+          <text class="path-emanation-number" dominant-baseline="central" text-anchor="middle" x="50" y="81">23</text>
+          <text class="path-fools-number" dominant-baseline="central" text-anchor="middle" x="50" y="81">27</text>
+          <text class="path-name" dominant-baseline="central" text-anchor="middle" x="50" y="81">Ac&#233;phale</text>
         </g>
         <g class="path" id="path-22-24">
           <path class="black-stroke" d="m 0,0 l 0,0"/>
           <path class="white-stroke" d="m 0,0 l 0,0"/>
           <use class="path-emanation-number" x="50" y="81" height="1" width="1" href="../_images/factor-glyphs/0x18.svg#sigil" />
+          <use class="path-fools-number" x="50" y="81" height="1" width="1" href="../_images/sequence-glyphs/0x16.svg#sigil" />
+          <text class="path-emanation-number" dominant-baseline="central" text-anchor="middle" x="50" y="81">24</text>
+          <text class="path-fools-number" dominant-baseline="central" text-anchor="middle" x="50" y="81">22</text>
           <text class="path-name" dominant-baseline="central" text-anchor="middle" x="50" y="81">Lust</text>
         </g>
         <use class="sphere" id="use-sphere-11-31" href="#sphere-11-31" height="162" width="100" x="0" y="0"/>
@@ -165,24 +216,36 @@
           <path class="black-stroke" d="m 0,0 l 0,0"/>
           <path class="white-stroke" d="m 0,0 l 0,0"/>
           <use class="path-emanation-number" x="50" y="81" height="1" width="1" href="../_images/factor-glyphs/0x16.svg#sigil" />
+          <use class="path-fools-number" x="50" y="81" height="1" width="1" href="../_images/sequence-glyphs/0x17.svg#sigil" />
+          <text class="path-emanation-number" dominant-baseline="central" text-anchor="middle" x="50" y="81">22</text>
+          <text class="path-fools-number" dominant-baseline="central" text-anchor="middle" x="50" y="81">23</text>
           <text class="path-name" dominant-baseline="central" text-anchor="middle" x="50" y="81">Unveiling</text>
         </g>
         <g class="path" id="path-24-21">
           <path class="black-stroke" d="m 0,0 l 0,0"/>
           <path class="white-stroke" d="m 0,0 l 0,0"/>
           <use class="path-emanation-number" x="50" y="81" height="1" width="1" href="../_images/factor-glyphs/0x15.svg#sigil" />
+          <use class="path-fools-number" x="50" y="81" height="1" width="1" href="../_images/sequence-glyphs/0x18.svg#sigil" />
+          <text class="path-emanation-number" dominant-baseline="central" text-anchor="middle" x="50" y="81">21</text>
+          <text class="path-fools-number" dominant-baseline="central" text-anchor="middle" x="50" y="81">24</text>
           <text class="path-name" dominant-baseline="central" text-anchor="middle" x="50" y="81">Art</text>
         </g>
         <g class="path" id="path-20-20">
           <path class="black-stroke" d="m 0,0 l 0,0"/>
           <path class="white-stroke" d="m 0,0 l 0,0"/>
           <use class="path-emanation-number" x="50" y="81" height="1" width="1" href="../_images/factor-glyphs/0x14.svg#sigil" />
+          <use class="path-fools-number" x="50" y="81" height="1" width="1" href="../_images/sequence-glyphs/0x14.svg#sigil" />
+          <text class="path-emanation-number" dominant-baseline="central" text-anchor="middle" x="50" y="81">20</text>
+          <text class="path-fools-number" dominant-baseline="central" text-anchor="middle" x="50" y="81">20</text>
           <text class="path-name" dominant-baseline="central" text-anchor="middle" x="50" y="81">Judgement</text>
         </g>
         <g class="path" id="path-19-19">
           <path class="black-stroke" d="m 0,0 l 0,0"/>
           <path class="white-stroke" d="m 0,0 l 0,0"/>
           <use class="path-emanation-number" x="50" y="81" height="1" width="1" href="../_images/factor-glyphs/0x13.svg#sigil" />
+          <use class="path-fools-number" x="50" y="81" height="1" width="1" href="../_images/sequence-glyphs/0x13.svg#sigil" />
+          <text class="path-emanation-number" dominant-baseline="central" text-anchor="middle" x="50" y="81">19</text>
+          <text class="path-fools-number" dominant-baseline="central" text-anchor="middle" x="50" y="81">19</text>
           <text class="path-name" dominant-baseline="central" text-anchor="middle" x="50" y="81">Sun</text>
         </g>
         <use class="sphere" id="use-sphere-10-29" href="#sphere-10-29" height="162" width="100" x="0" y="0"/>
@@ -191,24 +254,36 @@
           <path class="black-stroke" d="m 0,0 l 0,0"/>
           <path class="white-stroke" d="m 0,0 l 0,0"/>
           <use class="path-emanation-number" x="50" y="81" height="1" width="1" href="../_images/factor-glyphs/0x0f.svg#sigil" />
+          <use class="path-fools-number" x="50" y="81" height="1" width="1" href="../_images/sequence-glyphs/0x11.svg#sigil" />
           <text class="path-name" dominant-baseline="central" text-anchor="middle" x="50" y="81">Star</text>
+          <text class="path-emanation-number" dominant-baseline="central" text-anchor="middle" x="50" y="81">15</text>
+          <text class="path-fools-number" dominant-baseline="central" text-anchor="middle" x="50" y="81">17</text>
         </g>
         <g class="path" id="path-18-18">
           <path class="black-stroke" d="m 0,0 l 0,0"/>
           <path class="white-stroke" d="m 0,0 l 0,0"/>
           <use class="path-emanation-number" x="50" y="81" height="1" width="1" href="../_images/factor-glyphs/0x12.svg#sigil" />
+          <use class="path-fools-number" x="50" y="81" height="1" width="1" href="../_images/sequence-glyphs/0x12.svg#sigil" />
+          <text class="path-emanation-number" dominant-baseline="central" text-anchor="middle" x="50" y="81">18</text>
+          <text class="path-fools-number" dominant-baseline="central" text-anchor="middle" x="50" y="81">18</text>
           <text class="path-name" dominant-baseline="central" text-anchor="middle" x="50" y="81">Moon</text>
         </g>
         <g class="path" id="path-16-17">
           <path class="black-stroke" d="m 0,0 l 0,0"/>
           <path class="white-stroke" d="m 0,0 l 0,0"/>
           <use class="path-emanation-number" x="50" y="81" height="1" width="1" href="../_images/factor-glyphs/0x11.svg#sigil" />
+          <use class="path-fools-number" x="50" y="81" height="1" width="1" href="../_images/sequence-glyphs/0x10.svg#sigil" />
+          <text class="path-emanation-number" dominant-baseline="central" text-anchor="middle" x="50" y="81">17</text>
+          <text class="path-fools-number" dominant-baseline="central" text-anchor="middle" x="50" y="81">16</text>
           <text class="path-name" dominant-baseline="central" text-anchor="middle" x="50" y="81">Tower</text>
         </g>
         <g class="path" id="path-15-16">
           <path class="black-stroke" d="m 0,0 l 0,0"/>
           <path class="white-stroke" d="m 0,0 l 0,0"/>
           <use class="path-emanation-number" x="50" y="81" height="1" width="1" href="../_images/factor-glyphs/0x10.svg#sigil" />
+          <use class="path-fools-number" x="50" y="81" height="1" width="1" href="../_images/sequence-glyphs/0x0f.svg#sigil" />
+          <text class="path-emanation-number" dominant-baseline="central" text-anchor="middle" x="50" y="81">16</text>
+          <text class="path-fools-number" dominant-baseline="central" text-anchor="middle" x="50" y="81">15</text>
           <text class="path-name" dominant-baseline="central" text-anchor="middle" x="50" y="81">Devil</text>
         </g>
         <use class="sphere" id="use-sphere-8-19" href="#sphere-8-19" height="162" width="100" x="0" y="0"/>
@@ -216,66 +291,99 @@
           <path class="black-stroke" d="m 0,0 l 0,0"/>
           <path class="white-stroke" d="m 0,0 l 0,0"/>
           <use class="path-emanation-number" x="50" y="81" height="1" width="1" href="../_images/factor-glyphs/0x0e.svg#sigil" />
+          <use class="path-fools-number" x="50" y="81" height="1" width="1" href="../_images/sequence-glyphs/0x0e.svg#sigil" />
+          <text class="path-emanation-number" dominant-baseline="central" text-anchor="middle" x="50" y="81">14</text>
+          <text class="path-fools-number" dominant-baseline="central" text-anchor="middle" x="50" y="81">14</text>
           <text class="path-name" dominant-baseline="central" text-anchor="middle" x="50" y="81">Temperance</text>
         </g>
         <g class="path" id="path-13-13">
           <path class="black-stroke" d="m 0,0 l 0,0"/>
           <path class="white-stroke" d="m 0,0 l 0,0"/>
           <use class="path-emanation-number" x="50" y="81" height="1" width="1" href="../_images/factor-glyphs/0x0d.svg#sigil" />
+          <use class="path-fools-number" x="50" y="81" height="1" width="1" href="../_images/sequence-glyphs/0x0d.svg#sigil" />
+          <text class="path-emanation-number" dominant-baseline="central" text-anchor="middle" x="50" y="81">13</text>
+          <text class="path-fools-number" dominant-baseline="central" text-anchor="middle" x="50" y="81">13</text>
           <text class="path-name" dominant-baseline="central" text-anchor="middle" x="50" y="81">Death</text>
         </g>
         <g class="path" id="path-11-12">
           <path class="black-stroke" d="m 0,0 l 0,0"/>
           <path class="white-stroke" d="m 0,0 l 0,0"/>
           <use class="path-emanation-number" x="50" y="81" height="1" width="1" href="../_images/factor-glyphs/0x0c.svg#sigil" />
+          <use class="path-fools-number" x="50" y="81" height="1" width="1" href="../_images/sequence-glyphs/0x0b.svg#sigil" />
+          <text class="path-emanation-number" dominant-baseline="central" text-anchor="middle" x="50" y="81">12</text>
+          <text class="path-fools-number" dominant-baseline="central" text-anchor="middle" x="50" y="81">11</text>
           <text class="path-name" dominant-baseline="central" text-anchor="middle" x="50" y="81">Strength</text>
         </g>
         <g class="path" id="path-10-11">
           <path class="black-stroke" d="m 0,0 l 0,0"/>
           <path class="white-stroke" d="m 0,0 l 0,0"/>
           <use class="path-emanation-number" x="50" y="81" height="1" width="1" href="../_images/factor-glyphs/0x0b.svg#sigil" />
+          <use class="path-fools-number" x="50" y="81" height="1" width="1" href="../_images/sequence-glyphs/0x0a.svg#sigil" />
+          <text class="path-emanation-number" dominant-baseline="central" text-anchor="middle" x="50" y="81">11</text>
+          <text class="path-fools-number" dominant-baseline="central" text-anchor="middle" x="50" y="81">10</text>
           <text class="path-name" dominant-baseline="central" text-anchor="middle" x="50" y="81">Fortune</text>
         </g>
         <g class="path" id="path-9-10">
           <path class="black-stroke" d="m 0,0 l 0,0"/>
           <path class="white-stroke" d="m 0,0 l 0,0"/>
           <use class="path-emanation-number" x="50" y="81" height="1" width="1" href="../_images/factor-glyphs/0x0a.svg#sigil" />
+          <use class="path-fools-number" x="50" y="81" height="1" width="1" href="../_images/sequence-glyphs/0x09.svg#sigil" />
+          <text class="path-emanation-number" dominant-baseline="central" text-anchor="middle" x="50" y="81">10</text>
+          <text class="path-fools-number" dominant-baseline="central" text-anchor="middle" x="50" y="81">9</text>
           <text class="path-name" dominant-baseline="central" text-anchor="middle" x="50" y="81">Hermit</text>
         </g>
         <g class="path" id="path-8-5">
           <path class="black-stroke" d="m 0,0 l 0,0"/>
           <path class="white-stroke" d="m 0,0 l 0,0"/>
           <use class="path-emanation-number" x="50" y="81" height="1" width="1" href="../_images/factor-glyphs/0x05.svg#sigil" />
+          <use class="path-fools-number" x="50" y="81" height="1" width="1" href="../_images/sequence-glyphs/0x08.svg#sigil" />
+          <text class="path-emanation-number" dominant-baseline="central" text-anchor="middle" x="50" y="81">5</text>
+          <text class="path-fools-number" dominant-baseline="central" text-anchor="middle" x="50" y="81">8</text>
           <text class="path-name" dominant-baseline="central" text-anchor="middle" x="50" y="81">Justice</text>
         </g>
         <g class="path" id="path-7-6">
           <path class="black-stroke" d="m 0,0 l 0,0"/>
           <path class="white-stroke" d="m 0,0 l 0,0"/>
           <use class="path-emanation-number" x="50" y="81" height="1" width="1" href="../_images/factor-glyphs/0x06.svg#sigil" />
+          <use class="path-fools-number" x="50" y="81" height="1" width="1" href="../_images/sequence-glyphs/0x07.svg#sigil" />
+          <text class="path-emanation-number" dominant-baseline="central" text-anchor="middle" x="50" y="81">6</text>
+          <text class="path-fools-number" dominant-baseline="central" text-anchor="middle" x="50" y="81">7</text>
           <text class="path-name" dominant-baseline="central" text-anchor="middle" x="50" y="81">Chariot</text>
         </g>
         <g class="path" id="path-6-9">
           <path class="black-stroke" d="m 0,0 l 0,0"/>
           <path class="white-stroke" d="m 0,0 l 0,0"/>
           <use class="path-emanation-number" x="50" y="81" height="1" width="1" href="../_images/factor-glyphs/0x09.svg#sigil" />
+          <use class="path-fools-number" x="50" y="81" height="1" width="1" href="../_images/sequence-glyphs/0x06.svg#sigil" />
+          <text class="path-emanation-number" dominant-baseline="central" text-anchor="middle" x="50" y="81">9</text>
+          <text class="path-fools-number" dominant-baseline="central" text-anchor="middle" x="50" y="81">6</text>
           <text class="path-name" dominant-baseline="central" text-anchor="middle" x="50" y="81">Lovers</text>
         </g>
         <g class="path" id="path-5-4">
           <path class="black-stroke" d="m 0,0 l 0,0"/>
           <path class="white-stroke" d="m 0,0 l 0,0"/>
           <use class="path-emanation-number" x="50" y="81" height="1" width="1" href="../_images/factor-glyphs/0x04.svg#sigil" />
+          <use class="path-fools-number" x="50" y="81" height="1" width="1" href="../_images/sequence-glyphs/0x05.svg#sigil" />
+          <text class="path-emanation-number" dominant-baseline="central" text-anchor="middle" x="50" y="81">4</text>
+          <text class="path-fools-number" dominant-baseline="central" text-anchor="middle" x="50" y="81">5</text>
           <text class="path-name" dominant-baseline="central" text-anchor="middle" x="50" y="81">Hierophant</text>
         </g>
         <g class="path" id="path-4-3">
           <path class="black-stroke" d="m 0,0 l 0,0"/>
           <path class="white-stroke" d="m 0,0 l 0,0"/>
           <use class="path-emanation-number" x="50" y="81" height="1" width="1" href="../_images/factor-glyphs/0x03.svg#sigil" />
+          <use class="path-fools-number" x="50" y="81" height="1" width="1" href="../_images/sequence-glyphs/0x04.svg#sigil" />
+          <text class="path-emanation-number" dominant-baseline="central" text-anchor="middle" x="50" y="81">3</text>
+          <text class="path-fools-number" dominant-baseline="central" text-anchor="middle" x="50" y="81">4</text>
           <text class="path-name" dominant-baseline="central" text-anchor="middle" x="50" y="81">Emperor</text>
         </g>
         <g class="path" id="path-3-8">
           <path class="black-stroke" d="m 0,0 l 0,0"/>
           <path class="white-stroke" d="m 0,0 l 0,0"/>
           <use class="path-emanation-number" x="50" y="81" height="1" width="1" href="../_images/factor-glyphs/0x08.svg#sigil" />
+          <use class="path-fools-number" x="50" y="81" height="1" width="1" href="../_images/sequence-glyphs/0x03.svg#sigil" />
+          <text class="path-emanation-number" dominant-baseline="central" text-anchor="middle" x="50" y="81">8</text>
+          <text class="path-fools-number" dominant-baseline="central" text-anchor="middle" x="50" y="81">3</text>
           <text class="path-name" dominant-baseline="central" text-anchor="middle" x="50" y="81">Empress</text>
         </g>
         <use class="sphere" id="use-sphere-7-17" href="#sphere-7-17" height="162" width="100" x="0" y="0"/>
@@ -285,6 +393,9 @@
           <path class="black-stroke" d="m 0,0 l 0,0"/>
           <path class="white-stroke" d="m 0,0 l 0,0"/>
           <use class="path-emanation-number" x="50" y="81" height="1" width="1" href="../_images/factor-glyphs/0x07.svg#sigil" />
+          <use class="path-fools-number" x="50" y="81" height="1" width="1" href="../_images/sequence-glyphs/0x0c.svg#sigil" />
+          <text class="path-emanation-number" dominant-baseline="central" text-anchor="middle" x="50" y="81">7</text>
+          <text class="path-fools-number" dominant-baseline="central" text-anchor="middle" x="50" y="81">12</text>
           <text class="path-name" dominant-baseline="central" text-anchor="middle" x="50" y="81">Hanged One</text>
         </g>
         <use class="sphere" id="use-sphere-4-7" href="#sphere-4-7" height="162" width="100" x="0" y="0"/>
@@ -293,18 +404,27 @@
           <path class="black-stroke" d="m 0,0 l 0,0"/>
           <path class="white-stroke" d="m 0,0 l 0,0"/>
           <use class="path-emanation-number" x="50" y="81" height="1" width="1" href="../_images/factor-glyphs/0x01.svg#sigil" />
+          <use class="path-fools-number" x="50" y="81" height="1" width="1" href="../_images/sequence-glyphs/0x02.svg#sigil" />
+          <text class="path-emanation-number" dominant-baseline="central" text-anchor="middle" x="50" y="81">1</text>
+          <text class="path-fools-number" dominant-baseline="central" text-anchor="middle" x="50" y="81">2</text>
           <text class="path-name" dominant-baseline="central" text-anchor="middle" x="50" y="81">Priestess</text>
         </g>
         <g class="path" id="path-1-2">
           <path class="black-stroke" d="m 0,0 l 0,0"/>
           <path class="white-stroke" d="m 0,0 l 0,0"/>
           <use class="path-emanation-number" x="50" y="81" height="1" width="1" href="../_images/factor-glyphs/0x02.svg#sigil" />
+          <use class="path-fools-number" x="50" y="81" height="1" width="1" href="../_images/sequence-glyphs/0x01.svg#sigil" />
+          <text class="path-emanation-number" dominant-baseline="central" text-anchor="middle" x="50" y="81">2</text>
+          <text class="path-fools-number" dominant-baseline="central" text-anchor="middle" x="50" y="81">1</text>
           <text class="path-name" dominant-baseline="central" text-anchor="middle" x="50" y="81">Magus</text>
         </g>
         <g class="path" id="path-0-0">
           <path class="black-stroke" d="m 0,0 l 0,0"/>
           <path class="white-stroke" d="m 0,0 l 0,0"/>
           <use class="path-emanation-number" x="50" y="81" height="1" width="1" href="../_images/factor-glyphs/0x00.svg#sigil" />
+          <use class="path-fools-number" x="50" y="81" height="1" width="1" href="../_images/sequence-glyphs/0x00.svg#sigil" />
+          <text class="path-emanation-number" dominant-baseline="central" text-anchor="middle" x="50" y="81">0</text>
+          <text class="path-fools-number" dominant-baseline="central" text-anchor="middle" x="50" y="81">0</text>
           <text class="path-name" dominant-baseline="central" text-anchor="middle" x="50" y="81">Fool</text>
         </g>
         <use class="sphere" id="use-sphere-2-3" href="#sphere-2-3" height="162" width="100" x="0" y="0"/>
@@ -383,78 +503,78 @@
         <circle id="target-sphere-6-13-emanation-5-11" class="target" r="11" cx="50" cy="125" />
 
         <!-- emanation-6-13 -->
-        <circle id="target-sphere-0-1-emanation-6-13" class="target sphere emanation-6-13" r="12" cx="50" cy="19" />
-        <circle id="target-sphere-1-2-emanation-6-13" class="target sphere emanation-6-13" r="12" cx="84" cy="40" />
-        <circle id="target-sphere-2-3-emanation-6-13" class="target sphere emanation-6-13" r="12" cx="16" cy="40" />
-        <circle id="target-sphere-3-5-emanation-6-13" class="target sphere emanation-6-13" r="12" cx="84" cy="82" />
-        <circle id="target-sphere-4-7-emanation-6-13" class="target sphere emanation-6-13" r="12" cx="16" cy="82" />
-        <circle id="target-sphere-5-11-emanation-6-13" class="target sphere emanation-6-13" r="12" cx="50" cy="104" />
-        <circle id="target-sphere-6-13-emanation-6-13" class="target sphere emanation-6-13" r="12" cx="50" cy="144" />
-        <circle id="target-sphere-7-17-emanation-6-13" class="target" r="11" cx="49.9" cy="144" />
+        <circle id="target-sphere-0-1-emanation-6-13" class="target sphere emanation-6-13" r="11.5" cx="50" cy="19" />
+        <circle id="target-sphere-1-2-emanation-6-13" class="target sphere emanation-6-13" r="11.5" cx="84" cy="40" />
+        <circle id="target-sphere-2-3-emanation-6-13" class="target sphere emanation-6-13" r="11.5" cx="16" cy="40" />
+        <circle id="target-sphere-3-5-emanation-6-13" class="target sphere emanation-6-13" r="11.5" cx="84" cy="82" />
+        <circle id="target-sphere-4-7-emanation-6-13" class="target sphere emanation-6-13" r="11.5" cx="16" cy="82" />
+        <circle id="target-sphere-5-11-emanation-6-13" class="target sphere emanation-6-13" r="11.5" cx="50" cy="104" />
+        <circle id="target-sphere-6-13-emanation-6-13" class="target sphere emanation-6-13" r="11.5" cx="50" cy="144" />
+        <circle id="target-sphere-7-17-emanation-6-13" class="target" r="10.5" cx="49.9" cy="144" />
 
         <!-- emanation-7-17 -->
         <circle id="target-sphere-0-1-emanation-7-17" class="target sphere emanation-7-17" r="11.2" cx="50" cy="24" />
-        <circle id="target-sphere-1-2-emanation-7-17" class="target sphere emanation-7-17" r="11.2" cx="84" cy="45" />
-        <circle id="target-sphere-2-3-emanation-7-17" class="target sphere emanation-7-17" r="11.2" cx="16" cy="45" />
-        <circle id="target-sphere-3-5-emanation-7-17" class="target sphere emanation-7-17" r="11.2" cx="84" cy="87" />
-        <circle id="target-sphere-4-7-emanation-7-17" class="target sphere emanation-7-17" r="11.2" cx="16" cy="87" />
-        <circle id="target-sphere-5-11-emanation-7-17" class="target sphere emanation-7-17" r="11.2" cx="50" cy="109" />
-        <circle id="target-sphere-6-13-emanation-7-17" class="target sphere emanation-7-17" r="11.2" cx="84" cy="131" />
-        <circle id="target-sphere-7-17-emanation-7-17" class="target sphere emanation-7-17" r="11.2" cx="16" cy="131" />
-        <circle id="target-sphere-8-19-emanation-7-17" class="target" r="10" cx="50" cy="109" />
+        <circle id="target-sphere-1-2-emanation-7-17" class="target sphere emanation-7-17" r="11.2" cx="85" cy="46" />
+        <circle id="target-sphere-2-3-emanation-7-17" class="target sphere emanation-7-17" r="11.2" cx="16" cy="46" />
+        <circle id="target-sphere-3-5-emanation-7-17" class="target sphere emanation-7-17" r="11.2" cx="85" cy="90" />
+        <circle id="target-sphere-4-7-emanation-7-17" class="target sphere emanation-7-17" r="11.2" cx="15" cy="90" />
+        <circle id="target-sphere-5-11-emanation-7-17" class="target sphere emanation-7-17" r="11.2" cx="50" cy="112" />
+        <circle id="target-sphere-6-13-emanation-7-17" class="target sphere emanation-7-17" r="11.2" cx="85" cy="134" />
+        <circle id="target-sphere-7-17-emanation-7-17" class="target sphere emanation-7-17" r="11.2" cx="15" cy="134" />
+        <circle id="target-sphere-8-19-emanation-7-17" class="target" r="10" cx="50" cy="112" />
 
         <!-- emanation-8-19 -->
-        <circle id="target-sphere-0-1-emanation-8-19" class="target sphere emanation-8-19" r="11" cx="50" cy="16" />
-        <circle id="target-sphere-1-2-emanation-8-19" class="target sphere emanation-8-19" r="11" cx="83" cy="37" />
-        <circle id="target-sphere-2-3-emanation-8-19" class="target sphere emanation-8-19" r="11" cx="17" cy="37" />
-        <circle id="target-sphere-3-5-emanation-8-19" class="target sphere emanation-8-19" r="11" cx="83" cy="78" />
-        <circle id="target-sphere-4-7-emanation-8-19" class="target sphere emanation-8-19" r="11" cx="17" cy="78" />
-        <circle id="target-sphere-5-11-emanation-8-19" class="target sphere emanation-8-19" r="11" cx="50" cy="99" />
-        <circle id="target-sphere-6-13-emanation-8-19" class="target sphere emanation-8-19" r="11" cx="83" cy="121" />
-        <circle id="target-sphere-7-17-emanation-8-19" class="target sphere emanation-8-19" r="11" cx="17" cy="121" />
-        <circle id="target-sphere-8-19-emanation-8-19" class="target sphere emanation-8-19" r="11" cx="50" cy="143" />
-        <circle id="target-sphere-9-23-emanation-8-19" class="target" r="10" cx="50" cy="143" />
+        <circle id="target-sphere-0-1-emanation-8-19" class="target sphere emanation-8-19" r="10.7" cx="50" cy="16" />
+        <circle id="target-sphere-1-2-emanation-8-19" class="target sphere emanation-8-19" r="10.7" cx="84" cy="37" />
+        <circle id="target-sphere-2-3-emanation-8-19" class="target sphere emanation-8-19" r="10.7" cx="16" cy="37" />
+        <circle id="target-sphere-3-5-emanation-8-19" class="target sphere emanation-8-19" r="10.7" cx="84" cy="79" />
+        <circle id="target-sphere-4-7-emanation-8-19" class="target sphere emanation-8-19" r="10.7" cx="16" cy="79" />
+        <circle id="target-sphere-5-11-emanation-8-19" class="target sphere emanation-8-19" r="10.7" cx="50" cy="100" />
+        <circle id="target-sphere-6-13-emanation-8-19" class="target sphere emanation-8-19" r="10.7" cx="84" cy="121" />
+        <circle id="target-sphere-7-17-emanation-8-19" class="target sphere emanation-8-19" r="10.7" cx="16" cy="121" />
+        <circle id="target-sphere-8-19-emanation-8-19" class="target sphere emanation-8-19" r="10.7" cx="50" cy="142" />
+        <circle id="target-sphere-9-23-emanation-8-19" class="target" r="9.7" cx="50" cy="142" />
 
         <!-- emanation-9-23 -->
-        <circle id="target-sphere-0-1-emanation-9-23" class="target sphere emanation-9-23" r="10" cx="50" cy="16" />
-        <circle id="target-sphere-1-2-emanation-9-23" class="target sphere emanation-9-23" r="10" cx="83" cy="31" />
-        <circle id="target-sphere-2-3-emanation-9-23" class="target sphere emanation-9-23" r="10" cx="17" cy="31" />
-        <circle id="target-sphere-3-5-emanation-9-23" class="target sphere emanation-9-23" r="10" cx="83" cy="62" />
-        <circle id="target-sphere-4-7-emanation-9-23" class="target sphere emanation-9-23" r="10" cx="17" cy="62" />
-        <circle id="target-sphere-5-11-emanation-9-23" class="target sphere emanation-9-23" r="10" cx="50" cy="77" />
-        <circle id="target-sphere-6-13-emanation-9-23" class="target sphere emanation-9-23" r="10" cx="83" cy="94" />
-        <circle id="target-sphere-7-17-emanation-9-23" class="target sphere emanation-9-23" r="10" cx="17" cy="94" />
-        <circle id="target-sphere-8-19-emanation-9-23" class="target sphere emanation-9-23" r="10" cx="50" cy="112" />
-        <circle id="target-sphere-9-23-emanation-9-23" class="target sphere emanation-9-23" r="10" cx="50" cy="145" />
-        <circle id="target-sphere-10-29-emanation-9-23" class="target" r="9" cx="49.9" cy="145" />
+        <circle id="target-sphere-0-1-emanation-9-23" class="target sphere emanation-9-23" r="9.6" cx="50" cy="13" />
+        <circle id="target-sphere-1-2-emanation-9-23" class="target sphere emanation-9-23" r="9.6" cx="83" cy="30" />
+        <circle id="target-sphere-2-3-emanation-9-23" class="target sphere emanation-9-23" r="9.6" cx="17" cy="30" />
+        <circle id="target-sphere-3-5-emanation-9-23" class="target sphere emanation-9-23" r="9.6" cx="83" cy="64" />
+        <circle id="target-sphere-4-7-emanation-9-23" class="target sphere emanation-9-23" r="9.6" cx="17" cy="64" />
+        <circle id="target-sphere-5-11-emanation-9-23" class="target sphere emanation-9-23" r="9.6" cx="50" cy="81" />
+        <circle id="target-sphere-6-13-emanation-9-23" class="target sphere emanation-9-23" r="9.6" cx="83" cy="98" />
+        <circle id="target-sphere-7-17-emanation-9-23" class="target sphere emanation-9-23" r="9.6" cx="17" cy="98" />
+        <circle id="target-sphere-8-19-emanation-9-23" class="target sphere emanation-9-23" r="9.6" cx="50" cy="115" />
+        <circle id="target-sphere-9-23-emanation-9-23" class="target sphere emanation-9-23" r="9.6" cx="50" cy="149" />
+        <circle id="target-sphere-10-29-emanation-9-23" class="target" r="8.7" cx="49.9" cy="149" />
 
         <!-- emanation-10-29 -->
-        <circle id="target-sphere-0-1-emanation-10-29" class="target sphere emanation-10-29" r="10" cx="50" cy="22" />
-        <circle id="target-sphere-1-2-emanation-10-29" class="target sphere emanation-10-29" r="10" cx="83" cy="37" />
-        <circle id="target-sphere-2-3-emanation-10-29" class="target sphere emanation-10-29" r="10" cx="17" cy="37" />
-        <circle id="target-sphere-3-5-emanation-10-29" class="target sphere emanation-10-29" r="10" cx="83" cy="69" />
-        <circle id="target-sphere-4-7-emanation-10-29" class="target sphere emanation-10-29" r="10" cx="17" cy="69" />
-        <circle id="target-sphere-5-11-emanation-10-29" class="target sphere emanation-10-29" r="10" cx="50" cy="84" />
-        <circle id="target-sphere-6-13-emanation-10-29" class="target sphere emanation-10-29" r="10" cx="83" cy="102" />
-        <circle id="target-sphere-7-17-emanation-10-29" class="target sphere emanation-10-29" r="10" cx="17" cy="102" />
-        <circle id="target-sphere-8-19-emanation-10-29" class="target sphere emanation-10-29" r="10" cx="50" cy="120" />
-        <circle id="target-sphere-9-23-emanation-10-29" class="target sphere emanation-10-29" r="10" cx="83" cy="136" />
-        <circle id="target-sphere-10-29-emanation-10-29" class="target sphere emanation-10-29" r="10" cx="17" cy="136" />
-        <circle id="target-sphere-11-31-emanation-10-29" class="target" r="9" cx="50" cy="120" />
+        <circle id="target-sphere-0-1-emanation-10-29" class="target sphere emanation-10-29" r="9.6" cx="50" cy="20" />
+        <circle id="target-sphere-1-2-emanation-10-29" class="target sphere emanation-10-29" r="9.6" cx="83" cy="37" />
+        <circle id="target-sphere-2-3-emanation-10-29" class="target sphere emanation-10-29" r="9.6" cx="17" cy="37" />
+        <circle id="target-sphere-3-5-emanation-10-29" class="target sphere emanation-10-29" r="9.6" cx="83" cy="71" />
+        <circle id="target-sphere-4-7-emanation-10-29" class="target sphere emanation-10-29" r="9.6" cx="17" cy="71" />
+        <circle id="target-sphere-5-11-emanation-10-29" class="target sphere emanation-10-29" r="9.6" cx="50" cy="88" />
+        <circle id="target-sphere-6-13-emanation-10-29" class="target sphere emanation-10-29" r="9.6" cx="83" cy="105" />
+        <circle id="target-sphere-7-17-emanation-10-29" class="target sphere emanation-10-29" r="9.6" cx="17" cy="105" />
+        <circle id="target-sphere-8-19-emanation-10-29" class="target sphere emanation-10-29" r="9.6" cx="50" cy="122" />
+        <circle id="target-sphere-9-23-emanation-10-29" class="target sphere emanation-10-29" r="9.6" cx="83" cy="139" />
+        <circle id="target-sphere-10-29-emanation-10-29" class="target sphere emanation-10-29" r="9.6" cx="17" cy="139" />
+        <circle id="target-sphere-11-31-emanation-10-29" class="target" r="8.7" cx="50" cy="122" />
 
         <!-- emanation-11-31 -->
-        <circle id="target-sphere-0-1-emanation-11-31" class="target sphere emanation-11-31" r="9.8" cx="50" cy="14" />
-        <circle id="target-sphere-1-2-emanation-11-31" class="target sphere emanation-11-31" r="9.8" cx="83" cy="30" />
-        <circle id="target-sphere-2-3-emanation-11-31" class="target sphere emanation-11-31" r="9.8" cx="17" cy="30" />
-        <circle id="target-sphere-3-5-emanation-11-31" class="target sphere emanation-11-31" r="9.8" cx="83" cy="62" />
-        <circle id="target-sphere-4-7-emanation-11-31" class="target sphere emanation-11-31" r="9.8" cx="17" cy="62" />
-        <circle id="target-sphere-5-11-emanation-11-31" class="target sphere emanation-11-31" r="9.8" cx="50" cy="78" />
-        <circle id="target-sphere-6-13-emanation-11-31" class="target sphere emanation-11-31" r="9.8" cx="83" cy="96" />
-        <circle id="target-sphere-7-17-emanation-11-31" class="target sphere emanation-11-31" r="9.8" cx="17" cy="96" />
-        <circle id="target-sphere-8-19-emanation-11-31" class="target sphere emanation-11-31" r="9.8" cx="50" cy="113" />
-        <circle id="target-sphere-9-23-emanation-11-31" class="target sphere emanation-11-31" r="9.8" cx="83" cy="131" />
-        <circle id="target-sphere-10-29-emanation-11-31" class="target sphere emanation-11-31" r="9.8" cx="17" cy="131" />
-        <circle id="target-sphere-11-31-emanation-11-31" class="target sphere emanation-11-31" r="9.8" cx="50" cy="149" />
+        <circle id="target-sphere-0-1-emanation-11-31" class="target sphere emanation-11-31" r="9.6" cx="50" cy="13" />
+        <circle id="target-sphere-1-2-emanation-11-31" class="target sphere emanation-11-31" r="9.6" cx="83" cy="30" />
+        <circle id="target-sphere-2-3-emanation-11-31" class="target sphere emanation-11-31" r="9.6" cx="17" cy="30" />
+        <circle id="target-sphere-3-5-emanation-11-31" class="target sphere emanation-11-31" r="9.6" cx="83" cy="64" />
+        <circle id="target-sphere-4-7-emanation-11-31" class="target sphere emanation-11-31" r="9.6" cx="17" cy="64" />
+        <circle id="target-sphere-5-11-emanation-11-31" class="target sphere emanation-11-31" r="9.6" cx="50" cy="81" />
+        <circle id="target-sphere-6-13-emanation-11-31" class="target sphere emanation-11-31" r="9.6" cx="83" cy="98" />
+        <circle id="target-sphere-7-17-emanation-11-31" class="target sphere emanation-11-31" r="9.6" cx="17" cy="98" />
+        <circle id="target-sphere-8-19-emanation-11-31" class="target sphere emanation-11-31" r="9.6" cx="50" cy="115" />
+        <circle id="target-sphere-9-23-emanation-11-31" class="target sphere emanation-11-31" r="9.6" cx="83" cy="132" />
+        <circle id="target-sphere-10-29-emanation-11-31" class="target sphere emanation-11-31" r="9.6" cx="17" cy="132" />
+        <circle id="target-sphere-11-31-emanation-11-31" class="target sphere emanation-11-31" r="9.6" cx="50" cy="149" />
       </svg>
     </div>
   </body>

@@ -19,6 +19,12 @@ const STEPS = [
 
 const PATHS = {
   "path-0-0": {
+    "emanation-0-1": {
+      "labelFlip": true,
+    },
+    "emanation-1-2": {
+      "labelFlip": true,
+    },
     "from": "sphere-0-1",
     "to": "sphere-1-2"
   },
@@ -227,13 +233,15 @@ class TreeAnim {
     this.container = container;
     this.state = 'init'
     this.animating = false;
+    this.optionsMenuOpen = false;
     this.animateFrom = null
     this.animateTo = null
-    this.nextLink = document.getElementsByClassName('nav-button-next')[0];
-    this.previousLink = document.getElementsByClassName('nav-button-previous')[0];
-    this.showPathNameLink =  document.getElementsByClassName('nav-button-show-path-name')[0];
-    this.showPathEmanationSigilLink =  document.getElementsByClassName('nav-button-show-path-emanation-sigil')[0];
-    this.showNav = false;
+    this.optionsMenuToggle = document.getElementById('options-menu-toggle');
+    this.pathLabelModeSelect = document.getElementById('path-label-mode-select');
+    this.nextLink = document.getElementById('nav-button-next');
+    this.previousLink = document.getElementById('nav-button-previous');
+    //this.showPathNameLink =  document.getElementsByClassName('nav-button-show-path-name')[0];
+    //this.showPathEmanationSigilLink =  document.getElementsByClassName('nav-button-show-path-emanation-sigil')[0];
 
     window.onhashchange = () => {
       const hashParams = new URLSearchParams(window.location.hash.substring(1));
@@ -242,7 +250,7 @@ class TreeAnim {
       if (this.state != newState) {
         this.startTransition(hashParams.get("s"), TRANSITION_DURATION);
       } else {
-        this.setClassName();
+        this.setState(newState);
       }
       this.setButtonsDisabled();
     };
@@ -250,30 +258,26 @@ class TreeAnim {
       var hashParams = new URLSearchParams(window.location.hash.substring(1));
       this.pathLabelMode = hashParams.get("pl") || "emanation-sigil";
       this.setState(hashParams.get("s"));
+      this.setSelectedPathLabelMode();
       this.setButtonsDisabled();
     } else {
       window.location.hash = 's=emanation-0&pl=emanation-sigil';
     }
 
+    this.optionsMenuToggle.onclick = (event) => {
+      this.toggleOptionsMenu();
+    }
+
+    this.pathLabelModeSelect.onchange = (event) => {
+      this.setPathLabelMode(this.pathLabelModeSelect.value);
+    }
+
     this.previousLink.onclick = (event) => {
-      event.preventDefault();
-      if (!this.animating) {
-      	this.transitionToPrevious();
-      }
+      this.transitionToPrevious();
     }
 
     this.nextLink.onclick = (event) => {
-      event.preventDefault();
-      if (!this.animating) {
-      	this.transitionToNext();
-      }
-    }
-
-    this.showPathNameLink.onclick = (event) => {
-      this.setPathNameMode("name");
-    }
-    this.showPathEmanationSigilLink.onclick = (event) => {
-      this.setPathNameMode("emanation-sigil");
+      this.transitionToNext();
     }
   }
 
@@ -291,19 +295,17 @@ class TreeAnim {
       this.previousLink.disabled = false;
       this.nextLink.disabled = false;
     }
-    if (this.pathLabelMode === 'name') {
-      this.showPathNameLink.disabled = true;
-      this.showPathEmanationSigilLink.disabled = false;
-    } else {
-      this.showPathNameLink.disabled = false;
-      this.showPathEmanationSigilLink.disabled = true;
-    }
   }
 
-  setPathNameMode(value) {
+  setPathLabelMode(value) {
     var hashParams = new URLSearchParams(window.location.hash.substring(1));
     hashParams.set("pl", value);
     window.location.hash = hashParams.toString();
+  }
+
+  toggleOptionsMenu() {
+    this.optionsMenuOpen = !this.optionsMenuOpen;
+    this.setClassName();
   }
 
   transitionToPrevious() {
@@ -330,7 +332,50 @@ class TreeAnim {
 
   setClassName() {
     var hashParams = new URLSearchParams(window.location.hash.substring(1));
-    var classes = [`show-path-${this.pathLabelMode}`];
+    var classes = [];
+    switch (this.pathLabelMode) {
+      case "emanation-sigil":
+        classes.push("sigil-path-number");
+        classes.push("show-emanation-number");
+        break;
+      case "fools-sigil":
+        classes.push("sigil-path-number");
+        classes.push("show-fools-number");
+        break;
+      case "emanation-number":
+        classes.push("decimal-path-number");
+        classes.push("show-emanation-number");
+        break;
+      case "fools-number":
+        classes.push("decimal-path-number");
+        classes.push("show-fools-number");
+        break;
+      case "both-sigils":
+        classes.push("sigil-path-number");
+        classes.push("show-fools-number");
+        classes.push("show-emanation-number");
+        break;
+      case "both-numbers":
+        classes.push("decimal-path-number");
+        classes.push("show-fools-number");
+        classes.push("show-emanation-number");
+        break;
+      case "name":
+        classes.push("show-path-name");
+        break;
+      case "full-sigil":
+        classes.push("sigil-path-number");
+        classes.push("show-emanation-number");
+        classes.push("show-fools-number");
+        classes.push("show-path-name");
+        break;
+      case "full-decimal":
+        classes.push("decimal-path-number");
+        classes.push("show-emanation-number");
+        classes.push("show-fools-number");
+        classes.push("show-path-name");
+        break;
+    }
     if (this.animating) {
       classes.push(this.animateTo);
       classes.push("transition");
@@ -338,10 +383,16 @@ class TreeAnim {
     } else {
       classes.push(this.state);
     }
-    if (hashParams.get("nav") === "t") {
-      classes.push("show-nav")
+    if (hashParams.get("opt") === "t") {
+      classes.push("show-options");
     }
-    this.container.className = classes.join(" ")
+    if (this.optionsMenuOpen) {
+      classes.push("show-options-menu");
+    }
+    if (hashParams.get("nav") === "t") {
+      classes.push("show-nav");
+    }
+    this.container.className = classes.join(" ");
   }
 
   setState(state) {
@@ -360,6 +411,13 @@ class TreeAnim {
     this.setSvgSpheres(this.state);
     this.setSvgPaths(this.state);
     this.setButtonsDisabled();
+  }
+
+  setSelectedPathLabelMode() {
+    const options = this.pathLabelModeSelect.querySelectorAll('option');
+    options.forEach((option) => {
+      option.selected = option.value === this.pathLabelMode;
+    })
   }
 
   setSvg(state) {
@@ -405,9 +463,17 @@ class TreeAnim {
       || window.getComputedStyle(toSphere).display === "none"
     ) {
       pathGroup.classList.remove("show");
+      pathGroup.classList.remove("hidden");
       return;
     }
-    pathGroup.classList.add("show");
+    const hidden = !fromTarget.classList.contains('sphere') || !toTarget.classList.contains('sphere');
+    if (hidden) {
+      pathGroup.classList.add("hidden");
+      pathGroup.classList.remove("show");
+    } else {
+      pathGroup.classList.add("show");
+      pathGroup.classList.remove("hidden");
+    }
     const fromX = parseFloat(fromTarget.getAttribute("cx"));
     const fromY = parseFloat(fromTarget.getAttribute("cy"));
     const toX = parseFloat(toTarget.getAttribute("cx"));
@@ -415,28 +481,60 @@ class TreeAnim {
     const blackStroke = pathGroup.querySelector('path.black-stroke');
     const whiteStroke = pathGroup.querySelector('path.white-stroke');
     const nameText = pathGroup.querySelector('text.path-name');
-    const sigil = pathGroup.querySelector('use.path-emanation-number');
+    const emanationNumberSigil = pathGroup.querySelector('use.path-emanation-number');
+    const emanationNumberText = pathGroup.querySelector('text.path-emanation-number');
+    const foolsNumberSigil = pathGroup.querySelector('use.path-fools-number');
+    const foolsNumberText = pathGroup.querySelector('text.path-fools-number');
     blackStroke.setAttribute("d", `M ${fromX},${fromY} L ${toX},${toY}`);
     whiteStroke.setAttribute("d", `M ${fromX},${fromY} L ${toX},${toY}`);
     const strokeWidth = parseFloat(window.getComputedStyle(whiteStroke).strokeWidth);
     const sigilHeight = strokeWidth * 0.75;
     const sigilWidth = sigilHeight / 1.41214;
-    const setX = (fromX * labelOffset) + (toX * (1-labelOffset));
-    const setY = (fromY * labelOffset) + (toY * (1-labelOffset));
+    const labelCenterX = (fromX * labelOffset) + (toX * (1-labelOffset));
+    const labelCenterY = (fromY * labelOffset) + (toY * (1-labelOffset));
 
-    const angle = (labelFlip ? 180 : 0) + (
-      fromX === toX ? -90 :
-      Math.atan((fromY - toY) / (fromX - toX)) * 180 / Math.PI
+    const angle = (labelFlip ? Math.PI : 0) + (
+      fromX === toX ? -Math.PI/2 :
+      Math.atan((fromY - toY) / (fromX - toX))
     );
-    sigil.setAttribute("width", sigilWidth);
-    sigil.setAttribute("height", sigilHeight);
-    sigil.setAttribute("transform", `rotate(${angle} ${setX} ${setY})`);
-    sigil.setAttribute("x", setX - sigilWidth/2);
-    sigil.setAttribute("y", setY - sigilHeight/2);
-    if (nameText) {
-      nameText.style.transformOrigin = `${setX}% ${setY/1.62}%`;
-      nameText.style.transform = `rotate(${angle}deg) scale(${strokeWidth * 0.03}) translate(${setX-50}%, ${setY/1.62-50}%)`;
-    }
+
+    const emanationNumberX = (
+      this.pathLabelMode.startsWith('full-') ? labelCenterX + Math.cos(angle) * 1.9 * strokeWidth:
+      this.pathLabelMode.startsWith('both-') ? labelCenterX + Math.cos(angle) * 0.8 * strokeWidth:
+      labelCenterX
+    );
+    const emanationNumberY = (
+      this.pathLabelMode.startsWith('full-') ? labelCenterY + Math.sin(angle) * 1.9 * strokeWidth:
+      this.pathLabelMode.startsWith('both-') ? labelCenterY + Math.sin(angle) * 0.8 * strokeWidth:
+      labelCenterY
+    );
+    const foolsNumberX = (
+      this.pathLabelMode.startsWith('full-') ? labelCenterX - Math.cos(angle) * 1.9 * strokeWidth:
+      this.pathLabelMode.startsWith('both-') ? labelCenterX - Math.cos(angle) * 0.8 * strokeWidth:
+      labelCenterX
+    );
+    const foolsNumberY = (
+      this.pathLabelMode.startsWith('full-') ? labelCenterY - Math.sin(angle) * 1.9 * strokeWidth:
+      this.pathLabelMode.startsWith('both-') ? labelCenterY - Math.sin(angle) * 0.8 * strokeWidth:
+      labelCenterY
+    );
+
+    emanationNumberSigil.setAttribute("width", sigilWidth);
+    emanationNumberSigil.setAttribute("height", sigilHeight);
+    emanationNumberSigil.setAttribute("transform", `rotate(${angle / Math.PI * 180} ${emanationNumberX} ${emanationNumberY})`);
+    emanationNumberSigil.setAttribute("x", emanationNumberX - sigilWidth/2);
+    emanationNumberSigil.setAttribute("y", emanationNumberY - sigilHeight/2);
+    foolsNumberSigil.setAttribute("width", sigilWidth);
+    foolsNumberSigil.setAttribute("height", sigilHeight);
+    foolsNumberSigil.setAttribute("transform", `rotate(${angle / Math.PI * 180} ${foolsNumberX} ${foolsNumberY})`);
+    foolsNumberSigil.setAttribute("x", foolsNumberX - sigilWidth/2);
+    foolsNumberSigil.setAttribute("y", foolsNumberY - sigilHeight/2);
+    emanationNumberText.style.transformOrigin = `${emanationNumberX}% ${emanationNumberY/1.62}%`;
+    emanationNumberText.style.transform = `rotate(${angle}rad) scale(${strokeWidth * 0.04}) translate(${emanationNumberX-50}%, ${emanationNumberY/1.62-50}%)`;
+    foolsNumberText.style.transformOrigin = `${foolsNumberX}% ${foolsNumberY/1.62}%`;
+    foolsNumberText.style.transform = `rotate(${angle}rad) scale(${strokeWidth * 0.04}) translate(${foolsNumberX-50}%, ${foolsNumberY/1.62-50}%)`;
+    nameText.style.transformOrigin = `${labelCenterX}% ${labelCenterY/1.62}%`;
+    nameText.style.transform = `rotate(${angle}rad) scale(${strokeWidth * 0.03}) translate(${labelCenterX-50}%, ${labelCenterY/1.62-50}%)`;
   }
 
   setSvgTextPath(state, name) {
@@ -462,7 +560,7 @@ class TreeAnim {
     const targetX = target.getAttribute("cx");
     const targetY = target.getAttribute("cy");
     const targetR = target.getAttribute("r");
-    const scale = targetR / 50;
+    const scale = this.pathLabelMode.startsWith('full-') ? targetR / 60 : targetR / 50;
     sphere.style.transform = `scale(${scale}) translate(${(targetX-50)/scale}%, ${(targetY-81)/scale*100/162}%)`;
   }
 

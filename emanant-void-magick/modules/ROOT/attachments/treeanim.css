@@ -1,7 +1,9 @@
 :root {
   --color-darker: #222;
   --color-dark: #333;
+  --color-medium-dark: #555;
   --color-medium: #666;
+  --color-medium-light: #999;
   --color-light: #eee;
   --color-blue: #11b;
   --color-cyan: #19a;
@@ -10,7 +12,7 @@
   --color-red: #b11;
   --color-yellow: #bbaa00;
   --transition-duration: 1.5s;
-  --nav-button-size: 7vh;
+  --nav-button-size: 30pt;
 }
 
 html, body {
@@ -62,8 +64,8 @@ html, body {
 
 circle.sphere,
 #tree-anim.transition,
-#tree-anim.transition svg,
-#tree-anim.transition svg * {
+#tree-anim.transition svg.diagram,
+#tree-anim.transition svg.diagram * {
   transition-property: all;
   transition-duration: var(--transition-duration);
 }
@@ -87,6 +89,14 @@ circle.sphere,
 
 #tree-anim svg g.path.show {
   display: revert;
+}
+
+#tree-anim svg g.path.hidden {
+  display: revert;
+}
+
+#tree-anim svg g.path.hidden * {
+  opacity: 0;
 }
 
 #tree-anim svg circle.non-being {
@@ -130,23 +140,32 @@ use.sphere {
   transform-origin: 50% 50%;
 }
 
+#tree-anim g.path > use.path-emanation-number,
+#tree-anim g.path > use.path-fools-number,
+#tree-anim g.path > text.path-emanation-number,
+#tree-anim g.path > text.path-fools-number,
 #tree-anim g.path > text.path-name {
   display: none;
 }
-
-#tree-anim.show-path-name g.path > use.path-emanation-number {
-  display: none;
-}
+#tree-anim.sigil-path-number.show-emanation-number g.path > use.path-emanation-number,
+#tree-anim.sigil-path-number.show-fools-number g.path > use.path-fools-number,
+#tree-anim.decimal-path-number.show-emanation-number g.path > text.path-emanation-number,
+#tree-anim.decimal-path-number.show-fools-number g.path > text.path-fools-number,
 #tree-anim.show-path-name g.path > text.path-name {
   display: revert;
 }
 
-#tree-anim .nav-button {
+#tree-anim .nav {
   display: none;
 }
 
-#tree-anim.show-nav .nav-button {
+#tree-anim.show-nav .nav {
   display: block;
+  position: absolute;
+  z-index: 100;
+}
+
+#tree-anim button {
   box-sizing: border-box;
   padding: 0;
   height: var(--nav-button-size);
@@ -154,33 +173,115 @@ use.sphere {
   font-size: calc(var(--nav-button-size) * 0.7);
   text-align: center;
   overflow: hide;
-  z-index: 1000;
   text-decoration: none;
+  background-color: var(--color-medium);
+  border: 1pt solid var(--color-darker);
+  border-radius: 2pt;
+  fill: var(--color-light);
 }
 
-#tree-anim .nav-button.nav-button-previous {
-  position: absolute;
+#tree-anim button:disabled {
+  background-color: var(--color-medium-dark);
+  fill: var(--color-medium-light);
+}
+
+#tree-anim #nav-button-previous {
   top: 0;
   left: 0;
 }
 
-#tree-anim .nav-button.nav-button-show-path-name {
-  position: absolute;
+#tree-anim.show-options #nav-button-previous {
   top: 0;
   left: var(--nav-button-size);
 }
 
-#tree-anim .nav-button.nav-button-show-path-emanation-sigil {
-  position: absolute;
-  top: 0;
-  left: calc(2 * var(--nav-button-size));
-}
-
-#tree-anim .nav-button.nav-button-next {
-  position: absolute;
+#tree-anim #nav-button-next {
   top: 0;
   right: 0;
 }
+
+#tree-anim #options-menu-toggle {
+  display: none;
+  background-color: var(--color-medium);
+  border: 1pt solid var(--color-darker);
+  border-radius: 2pt;
+  box-sizing: border-box;
+  fill: var(--color-light);
+}
+
+#tree-anim.show-options #options-menu-toggle {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 100;
+}
+
+#tree-anim #options-menu-layer {
+  position: absolute;
+  display: none;
+  top: 0;
+  left: var(--nav-button-size);
+  width: calc(100% - var(--nav-button-size));
+  height: 100%;
+  z-index: 1000;
+}
+
+#tree-anim.show-options-menu #options-menu-layer {
+  display: block;
+}
+
+#tree-anim #options-menu {
+  box-sizing: border-box;
+  background-color: var(--color-light);
+  border: 0.2vh solid var(--color-darker);
+  border-radius: 1vh;
+  font-size: 12pt;
+  float: left;
+  padding: 5pt 3pt;
+}
+#tree-anim #options-menu select {
+  font-size: 12pt;
+}
+
+#tree-anim #options-menu option {
+  font-size: 12pt;
+}
+
+#tree-anim #path-label-mode-select {
+}
+
+
+/* emanation-0 */
+
+#tree-anim.emanation-0 svg circle.non-being {
+  display: revert;
+  opacity: 1;
+}
+
+#tree-anim.initial svg text.non-being {
+  font-size: 0.6em;
+}
+
+#tree-anim.emanation-0 svg text.non-being {
+  font-size: 0.6em;
+  opacity: 1;
+}
+
+
+/* emanation-00 */
+
+#tree-anim.emanation-00 svg circle.non-being {
+  display: revert;
+  opacity: 1;
+}
+
+#tree-anim.emanation-00 svg text.non-being {
+  font-size: 0.55em;
+  opacity: 1;
+}
+
+
 /* emanation-000 */
 
 #tree-anim.emanation-000 svg circle.non-being {
@@ -200,17 +301,8 @@ use.sphere {
 #tree-anim.emanation-000.transition-from-emanation-00 #use-sphere-0-1 {
   display: none;
 }
-/* emanation-00 */
 
-#tree-anim.emanation-00 svg circle.non-being {
-  display: revert;
-  opacity: 1;
-}
 
-#tree-anim.emanation-00 svg text.non-being {
-  font-size: 0.55em;
-  opacity: 1;
-}
 /* emanation-0-1 */
 
 #tree-anim.emanation-0-1 svg circle.non-being {
@@ -246,89 +338,8 @@ use.sphere {
 #tree-anim svg circle.target.sphere.emanation-0-1 {
   fill: #ffffff;
 }
-/* emanation-0 */
 
-#tree-anim.emanation-0 svg circle.non-being {
-  display: revert;
-  opacity: 1;
-}
 
-#tree-anim.initial svg text.non-being {
-  font-size: 0.6em;
-}
-
-#tree-anim.emanation-0 svg text.non-being {
-  font-size: 0.6em;
-  opacity: 1;
-}
-/* emanation-10-29 */
-
-#tree-anim.emanation-10-29 #use-sphere-0-1,
-#tree-anim.emanation-10-29 #use-sphere-1-2,
-#tree-anim.emanation-10-29 #use-sphere-2-3,
-#tree-anim.emanation-10-29 #use-sphere-3-5,
-#tree-anim.emanation-10-29 #use-sphere-4-7,
-#tree-anim.emanation-10-29 #use-sphere-5-11,
-#tree-anim.emanation-10-29 #use-sphere-6-13,
-#tree-anim.emanation-10-29 #use-sphere-7-17,
-#tree-anim.emanation-10-29 #use-sphere-8-19,
-#tree-anim.emanation-10-29 #use-sphere-9-23,
-#tree-anim.emanation-10-29 #use-sphere-10-29,
-#tree-anim.emanation-10-29 #use-sphere-11-31 {
-  display: revert;
-}
-
-#tree-anim.emanation-10-29 g.path path.black-stroke {
-  stroke: black;
-  stroke-width: 5.8;
-}
-
-#tree-anim.emanation-10-29 g.path path.white-stroke {
-  stroke: white;
-  stroke-width: 5.3;
-}
-
-#tree-anim.emanation-10-29.transition-from-emanation-9-23 #use-sphere-11-31 {
-  display: none;
-}
-
-/* Included to visualize sphere targets */
-#tree-anim svg circle.target.sphere.emanation-10-29 {
-  /*display: revert;*/
-  fill: #ff0000;
-}
-/* emanation-11-31 */
-
-#tree-anim.emanation-11-31 #use-sphere-0-1,
-#tree-anim.emanation-11-31 #use-sphere-1-2,
-#tree-anim.emanation-11-31 #use-sphere-2-3,
-#tree-anim.emanation-11-31 #use-sphere-3-5,
-#tree-anim.emanation-11-31 #use-sphere-4-7,
-#tree-anim.emanation-11-31 #use-sphere-5-11,
-#tree-anim.emanation-11-31 #use-sphere-6-13,
-#tree-anim.emanation-11-31 #use-sphere-7-17,
-#tree-anim.emanation-11-31 #use-sphere-8-19,
-#tree-anim.emanation-11-31 #use-sphere-9-23,
-#tree-anim.emanation-11-31 #use-sphere-10-29,
-#tree-anim.emanation-11-31 #use-sphere-11-31 {
-  display: revert;
-}
-
-#tree-anim.emanation-11-31 g.path path.black-stroke {
-  stroke: black;
-  stroke-width: 5.5;
-}
-
-#tree-anim.emanation-11-31 g.path path.white-stroke {
-  stroke: white;
-  stroke-width: 5.0;
-}
-
-/* Included to visualize sphere targets */
-#tree-anim svg circle.target.sphere.emanation-11-31 {
-  /*display: revert;*/
-  fill: #ff0000;
-}
 /* emanation-1-2 */
 
 #tree-anim.emanation-1-2 svg circle.non-being {
@@ -365,6 +376,8 @@ use.sphere {
 #tree-anim svg circle.target.sphere.emanation-1-2 {
   fill: #ff0000;
 }
+
+
 /* emanation-2-3 */
 
 #tree-anim.emanation-2-3 #use-sphere-0-1,
@@ -378,11 +391,20 @@ use.sphere {
   stroke: black;
   stroke-width: 8;
 }
-
 #tree-anim.emanation-2-3 g.path path.white-stroke {
   stroke: white;
   stroke-width: 7.5;
 }
+
+#tree-anim.show-emanation-number.show-fools-number.show-path-name.emanation-2-3 g.path path.black-stroke {
+  stroke: black;
+  stroke-width: 7.5;
+}
+#tree-anim.show-emanation-number.show-fools-number.show-path-name.emanation-2-3 g.path path.white-stroke {
+  stroke: white;
+  stroke-width: 7;
+}
+
 
 #tree-anim.emanation-2-3.transition-from-emanation-1-2 #use-sphere-3-5 {
   display: none;
@@ -392,6 +414,8 @@ use.sphere {
 #tree-anim svg circle.target.sphere.emanation-2-3 {
   fill: #ffff00;
 }
+
+
 /* emanation-3-5 */
 
 #tree-anim.emanation-3-5 #use-sphere-0-1,
@@ -406,10 +430,18 @@ use.sphere {
   stroke: black;
   stroke-width: 7.5;
 }
-
 #tree-anim.emanation-3-5 g.path path.white-stroke {
   stroke: white;
   stroke-width: 7;
+}
+
+#tree-anim.show-emanation-number.show-fools-number.show-path-name.emanation-3-5 g.path path.black-stroke {
+  stroke: black;
+  stroke-width: 5.5;
+}
+#tree-anim.show-emanation-number.show-fools-number.show-path-name.emanation-3-5 g.path path.white-stroke {
+  stroke: white;
+  stroke-width: 5;
 }
 
 #tree-anim.emanation-3-5.transition-from-emanation-2-3 #use-sphere-4-7 {
@@ -420,6 +452,8 @@ use.sphere {
 #tree-anim svg circle.target.sphere.emanation-3-5 {
   fill: #00ff00;
 }
+
+
 /* emanation-4-7 */
 
 #tree-anim.emanation-4-7 #use-sphere-0-1,
@@ -435,10 +469,18 @@ use.sphere {
   stroke: black;
   stroke-width: 6.5;
 }
-
 #tree-anim.emanation-4-7 g.path path.white-stroke {
   stroke: white;
   stroke-width: 6;
+}
+
+#tree-anim.show-emanation-number.show-fools-number.show-path-name.emanation-4-7 g.path path.black-stroke {
+  stroke: black;
+  stroke-width: 5.1;
+}
+#tree-anim.show-emanation-number.show-fools-number.show-path-name.emanation-4-7 g.path path.white-stroke {
+  stroke: white;
+  stroke-width: 4.6;
 }
 
 #tree-anim.emanation-4-7.transition-from-emanation-3-5 #use-sphere-5-11 {
@@ -450,6 +492,8 @@ use.sphere {
   /*display: revert;*/
   fill: #00ffff;
 }
+
+
 /* emanation-5-11 */
 
 #tree-anim.emanation-5-11 #use-sphere-0-1,
@@ -466,10 +510,18 @@ use.sphere {
   stroke: black;
   stroke-width: 7;
 }
-
 #tree-anim.emanation-5-11 g.path path.white-stroke {
   stroke: white;
   stroke-width: 6.5;
+}
+
+#tree-anim.show-emanation-number.show-fools-number.show-path-name.emanation-5-11 g.path path.black-stroke {
+  stroke: black;
+  stroke-width: 5;
+}
+#tree-anim.show-emanation-number.show-fools-number.show-path-name.emanation-5-11 g.path path.white-stroke {
+  stroke: white;
+  stroke-width: 4.5;
 }
 
 #tree-anim.emanation-5-11.transition-from-emanation-4-7 #use-sphere-6-13 {
@@ -481,6 +533,8 @@ use.sphere {
   /*display: revert;*/
   fill: #0000ff;
 }
+
+
 /* emanation-6-13 */
 
 #tree-anim.emanation-6-13 #use-sphere-0-1,
@@ -498,10 +552,18 @@ use.sphere {
   stroke: black;
   stroke-width: 6.5;
 }
-
 #tree-anim.emanation-6-13 g.path path.white-stroke {
   stroke: white;
   stroke-width: 6;
+}
+
+#tree-anim.show-emanation-number.show-fools-number.show-path-name.emanation-6-13 g.path path.black-stroke {
+  stroke: black;
+  stroke-width: 5;
+}
+#tree-anim.show-emanation-number.show-fools-number.show-path-name.emanation-6-13 g.path path.white-stroke {
+  stroke: white;
+  stroke-width: 4.5;
 }
 
 #tree-anim.emanation-6-13.transition-from-emanation-5-11 #use-sphere-7-17 {
@@ -513,6 +575,8 @@ use.sphere {
   /*display: revert;*/
   fill: #ff00ff;
 }
+
+
 /* emanation-7-17 */
 
 #tree-anim.emanation-7-17 #use-sphere-0-1,
@@ -531,10 +595,18 @@ use.sphere {
   stroke: black;
   stroke-width: 6.5;
 }
-
 #tree-anim.emanation-7-17 g.path path.white-stroke {
   stroke: white;
   stroke-width: 6;
+}
+
+#tree-anim.show-emanation-number.show-fools-number.show-path-name.emanation-7-17 g.path path.black-stroke {
+  stroke: black;
+  stroke-width: 4.7;
+}
+#tree-anim.show-emanation-number.show-fools-number.show-path-name.emanation-7-17 g.path path.white-stroke {
+  stroke: white;
+  stroke-width: 4.2;
 }
 
 #tree-anim.emanation-7-17.transition-from-emanation-6-13 #use-sphere-8-19 {
@@ -546,6 +618,8 @@ use.sphere {
   /*display: revert;*/
   fill: #ff00ff;
 }
+
+
 /* emanation-8-19 */
 
 #tree-anim.emanation-8-19 #use-sphere-0-1,
@@ -563,12 +637,20 @@ use.sphere {
 
 #tree-anim.emanation-8-19 g.path path.black-stroke {
   stroke: black;
-  stroke-width: 6.5;
+  stroke-width: 6;
 }
 
 #tree-anim.emanation-8-19 g.path path.white-stroke {
   stroke: white;
-  stroke-width: 6;
+  stroke-width: 5.5;
+}
+#tree-anim.show-emanation-number.show-fools-number.show-path-name.emanation-8-19 g.path path.black-stroke {
+  stroke: black;
+  stroke-width: 4.7;
+}
+#tree-anim.show-emanation-number.show-fools-number.show-path-name.emanation-8-19 g.path path.white-stroke {
+  stroke: white;
+  stroke-width: 4.2;
 }
 
 #tree-anim.emanation-8-19.transition-from-emanation-7-17 #use-sphere-9-23 {
@@ -580,6 +662,8 @@ use.sphere {
   /*display: revert;*/
   fill: #ff0000;
 }
+
+
 /* emanation-9-23 */
 
 #tree-anim.emanation-9-23 #use-sphere-0-1,
@@ -598,12 +682,20 @@ use.sphere {
 
 #tree-anim.emanation-9-23 g.path path.black-stroke {
   stroke: black;
-  stroke-width: 5.8;
+  stroke-width: 5.5;
 }
-
 #tree-anim.emanation-9-23 g.path path.white-stroke {
   stroke: white;
-  stroke-width: 5.3;
+  stroke-width: 5;
+}
+
+#tree-anim.show-emanation-number.show-fools-number.show-path-name.emanation-9-23 g.path path.black-stroke {
+  stroke: black;
+  stroke-width: 4.5;
+}
+#tree-anim.show-emanation-number.show-fools-number.show-path-name.emanation-9-23 g.path path.white-stroke {
+  stroke: white;
+  stroke-width: 4.0;
 }
 
 #tree-anim.emanation-9-23.transition-from-emanation-8-19 #use-sphere-10-29 {
@@ -612,6 +704,94 @@ use.sphere {
 
 /* Included to visualize sphere targets */
 #tree-anim svg circle.target.sphere.emanation-9-23 {
+  /*display: revert;*/
+  fill: #ff0000;
+}
+
+
+/* emanation-10-29 */
+
+#tree-anim.emanation-10-29 #use-sphere-0-1,
+#tree-anim.emanation-10-29 #use-sphere-1-2,
+#tree-anim.emanation-10-29 #use-sphere-2-3,
+#tree-anim.emanation-10-29 #use-sphere-3-5,
+#tree-anim.emanation-10-29 #use-sphere-4-7,
+#tree-anim.emanation-10-29 #use-sphere-5-11,
+#tree-anim.emanation-10-29 #use-sphere-6-13,
+#tree-anim.emanation-10-29 #use-sphere-7-17,
+#tree-anim.emanation-10-29 #use-sphere-8-19,
+#tree-anim.emanation-10-29 #use-sphere-9-23,
+#tree-anim.emanation-10-29 #use-sphere-10-29,
+#tree-anim.emanation-10-29 #use-sphere-11-31 {
+  display: revert;
+}
+
+#tree-anim.emanation-10-29 g.path path.black-stroke {
+  stroke: black;
+  stroke-width: 5.5;
+}
+#tree-anim.emanation-10-29 g.path path.white-stroke {
+  stroke: white;
+  stroke-width: 5;
+}
+
+#tree-anim.show-emanation-number.show-fools-number.show-path-name.emanation-10-29 g.path path.black-stroke {
+  stroke: black;
+  stroke-width: 4.5;
+}
+#tree-anim.show-emanation-number.show-fools-number.show-path-name.emanation-10-29 g.path path.white-stroke {
+  stroke: white;
+  stroke-width: 4.0;
+}
+
+#tree-anim.emanation-10-29.transition-from-emanation-9-23 #use-sphere-11-31 {
+  display: none;
+}
+
+/* Included to visualize sphere targets */
+#tree-anim svg circle.target.sphere.emanation-10-29 {
+  /*display: revert;*/
+  fill: #ff0000;
+}
+
+
+/* emanation-11-31 */
+
+#tree-anim.emanation-11-31 #use-sphere-0-1,
+#tree-anim.emanation-11-31 #use-sphere-1-2,
+#tree-anim.emanation-11-31 #use-sphere-2-3,
+#tree-anim.emanation-11-31 #use-sphere-3-5,
+#tree-anim.emanation-11-31 #use-sphere-4-7,
+#tree-anim.emanation-11-31 #use-sphere-5-11,
+#tree-anim.emanation-11-31 #use-sphere-6-13,
+#tree-anim.emanation-11-31 #use-sphere-7-17,
+#tree-anim.emanation-11-31 #use-sphere-8-19,
+#tree-anim.emanation-11-31 #use-sphere-9-23,
+#tree-anim.emanation-11-31 #use-sphere-10-29,
+#tree-anim.emanation-11-31 #use-sphere-11-31 {
+  display: revert;
+}
+
+#tree-anim.emanation-11-31 g.path path.black-stroke {
+  stroke: black;
+  stroke-width: 5.5;
+}
+#tree-anim.emanation-11-31 g.path path.white-stroke {
+  stroke: white;
+  stroke-width: 5.0;
+}
+
+#tree-anim.show-emanation-number.show-fools-number.show-path-name.emanation-11-31 g.path path.black-stroke {
+  stroke: black;
+  stroke-width: 4.5;
+}
+#tree-anim.show-emanation-number.show-fools-number.show-path-name.emanation-11-31 g.path path.white-stroke {
+  stroke: white;
+  stroke-width: 4.0;
+}
+
+/* Included to visualize sphere targets */
+#tree-anim svg circle.target.sphere.emanation-11-31 {
   /*display: revert;*/
   fill: #ff0000;
 }

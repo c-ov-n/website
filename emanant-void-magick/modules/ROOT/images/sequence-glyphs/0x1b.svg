@@ -42,16 +42,19 @@
        id="guide1301"
        inkscape:locked="false" />
   </sodipodi:namedview>
-  <defs
-     id="defs2" />
-  <g
-     inkscape:label="Layer 1"
+  <symbol
+     inkscape:label="27 - Mu"
      inkscape:groupmode="layer"
-     id="layer1">
+     id="sigil"
+     height="14.14214"
+     width="10"
+     viewBox="0 0 10 14.14214"
+  >
     <path
        style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        d="M 9.4946813,3.5784715 9.5231203,0.50988055 0.50917807,0.53172835 0.51640607,4.968844 9.501711,4.988781 9.520475,13.636923 0.49517922,13.631306 C 0.46299131,8.4763748 4.8531405,7.8112393 4.904847,12.396531"
        id="path11306"
        sodipodi:nodetypes="cccccccc" />
-  </g>
+  </symbol>
+  <use href="#sigil" />
 </svg>

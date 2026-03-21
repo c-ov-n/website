@@ -22,8 +22,6 @@ class Emanation {
     this.treeDiagramElement = treeDiagramElement;
     this.nextButton = contentElement.querySelector('.nav > button.next');
     this.previousButton = contentElement.querySelector('.nav > button.previous');
-    this.pathLabelModeSelect = contentElement.querySelector('.nav > select.path-label-mode-select');
-    this.pathLabelMode = "emanation-sigil";
 
     window.onhashchange = () => {
       var hashParams = new URLSearchParams(window.location.hash.substring(1));
@@ -45,11 +43,6 @@ class Emanation {
       event.preventDefault();
       this.showPrevious();
     }
-
-    this.pathLabelModeSelect.onchange = (event) => {
-      this.pathLabelMode = this.pathLabelModeSelect.value;
-      this.setDiagramHash();
-    }
   }
 
   setButtonsDisabled() {
@@ -62,14 +55,16 @@ class Emanation {
   }
 
   setDiagramHash() {
-    var hashParams = new URLSearchParams();
-    hashParams.set("s", this.emanation);
-    hashParams.set("pl", this.pathLabelMode);
     if (this.treeDiagramElement.contentWindow.location == "about:blank") {
+      var hashParams = new URLSearchParams();
+      hashParams.set("s", this.emanation);
+      hashParams.set("opt", "t");
       this.treeDiagramElement.contentWindow.location = `treeanim.html#${hashParams.toString()}`;
-    } else {
-      this.treeDiagramElement.contentWindow.location.hash = hashParams.toString();
+      return
     }
+    var hashParams = new URLSearchParams(this.treeDiagramElement.contentWindow.location.hash.substring(1));
+    hashParams.set("s", this.emanation);
+    this.treeDiagramElement.contentWindow.location.hash = hashParams.toString();
   }
 
   setEmanation(emanation) {

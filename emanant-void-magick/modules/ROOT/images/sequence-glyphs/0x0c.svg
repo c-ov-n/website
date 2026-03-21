@@ -36,16 +36,19 @@
      inkscape:showpageshadow="2"
      inkscape:deskcolor="#d1d1d1"
      showguides="true" />
-  <defs
-     id="defs2" />
-  <g
-     inkscape:label="Layer 1"
+  <symbol
+     inkscape:label="12 - Door"
      inkscape:groupmode="layer"
-     id="layer1">
+     id="sigil"
+     height="14.14214"
+     width="10"
+     viewBox="0 0 10 14.14214"
+  >
     <path
        style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        d="m 0.00390599,0.52825001 9.51676741,-0.0171366 0.01164,4.48008156 -9.00679897,-0.00198 0.006861,9.1425888"
        id="path11306"
        sodipodi:nodetypes="ccccc" />
-  </g>
+  </symbol>
+  <use href="#sigil" />
 </svg>
