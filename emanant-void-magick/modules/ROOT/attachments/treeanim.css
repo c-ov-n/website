@@ -231,6 +231,10 @@ use.sphere {
   display: block;
 }
 
+#tree-anim.show-options-menu #options-menu legend {
+  display: inline;
+}
+
 #tree-anim #options-menu {
   box-sizing: border-box;
   background-color: var(--color-light);

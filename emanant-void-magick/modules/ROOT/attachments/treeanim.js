@@ -19,12 +19,7 @@ const STEPS = [
 
 const PATHS = {
   "path-0-0": {
-    "emanation-0-1": {
-      "labelFlip": true,
-    },
-    "emanation-1-2": {
-      "labelFlip": true,
-    },
+    "labelFlip": true,
     "from": "sphere-0-1",
     "to": "sphere-1-2"
   },
@@ -44,13 +39,11 @@ const PATHS = {
     "emanation-2-3": {
       "from": "sphere-0-1",
       "to": "sphere-3-5",
-      "labelFlip": true,
     },
     "emanation-3-5": {
       "labelOffset": 0.31,
       "from": "sphere-0-1",
       "to": "sphere-3-5",
-      "labelFlip": true,
     },
     "emanation-4-7": {
       "from": "sphere-0-1",
@@ -58,7 +51,8 @@ const PATHS = {
       "labelOffset": 0.37,
     },
     "from": "sphere-5-11",
-    "to": "sphere-3-5"
+    "to": "sphere-3-5",
+    "labelFlip": true,
   },
   "path-5-4": {
     "from": "sphere-3-5",
@@ -87,15 +81,10 @@ const PATHS = {
     "emanation-2-3": {
       "from": "sphere-3-5",
       "to": "sphere-2-3",
-      "labelFlip": false,
     },
     "emanation-3-5": {
       "from": "sphere-3-5",
       "to": "sphere-2-3",
-      "labelFlip": false,
-    },
-    "emanation-4-7": {
-      "labelFlip": false,
     },
     "from": "sphere-4-7",
     "to": "sphere-2-3",
@@ -107,45 +96,38 @@ const PATHS = {
     "labelOffset": 0.62,
   },
   "path-10-11": {
-    "emanation-5-11": {
-      "labelFlip": true,
-    },
-    "emanation-6-13": {
-      "labelFlip": true,
-    },
     "from": "sphere-5-11",
-    "to": "sphere-6-13"
+    "to": "sphere-6-13",
+    "labelFlip": true,
   },
   "path-11-12": {
     "from": "sphere-6-13",
-    "to": "sphere-3-5"
+    "to": "sphere-3-5",
   },
   "path-12-7": {
     "from": "sphere-3-5",
-    "to": "sphere-4-7"
+    "to": "sphere-4-7",
   },
   "path-13-13": {
     "emanation-5-11": {
       "from": "sphere-4-7",
       "to": "sphere-6-13",
-      "labelFlip": false,
     },
     "emanation-6-13": {
       "from": "sphere-4-7",
       "to": "sphere-6-13",
-      "labelFlip": false,
     },
     "labelFlip": true,
     "from": "sphere-4-7",
-    "to": "sphere-7-17"
+    "to": "sphere-7-17",
   },
   "path-14-14": {
     "from": "sphere-7-17",
-    "to": "sphere-5-11"
+    "to": "sphere-5-11",
   },
   "path-15-16": {
     "from": "sphere-5-11",
-    "to": "sphere-8-19"
+    "to": "sphere-8-19",
   },
   "path-16-17": {
     "from": "sphere-8-19",
@@ -161,45 +143,38 @@ const PATHS = {
   },
   "path-18-18": {
     "from": "sphere-7-17",
-    "to": "sphere-8-19"
+    "to": "sphere-8-19",
   },
   "path-19-19": {
-    "emanation-8-19": {
-      "labelFlip": true,
-    },
-    "emanation-9-23": {
-      "labelFlip": true,
-    },
     "from": "sphere-8-19",
-    "to": "sphere-9-23"
+    "to": "sphere-9-23",
+    "labelFlip": true,
   },
   "path-20-20": {
     "from": "sphere-9-23",
-    "to": "sphere-6-13"
+    "to": "sphere-6-13",
   },
   "path-21-25": {
     "labelOffset": 0.7,
     "from": "sphere-6-13",
-    "to": "sphere-11-31"
+    "to": "sphere-11-31",
   },
   "path-22-24": {
     "from": "sphere-11-31",
-    "to": "sphere-8-19"
+    "to": "sphere-8-19",
   },
   "path-23-22": {
     "from": "sphere-8-19",
-    "to": "sphere-10-29"
+    "to": "sphere-10-29",
   },
   "path-24-21": {
     "emanation-8-19": {
       "from": "sphere-9-23",
       "to": "sphere-7-17",
-      "labelFlip": false,
     },
     "emanation-9-23": {
       "from": "sphere-9-23",
       "to": "sphere-7-17",
-      "labelFlip": false,
     },
     "from": "sphere-10-29",
     "to": "sphere-7-17",
@@ -212,11 +187,11 @@ const PATHS = {
   },
   "path-26-27": {
     "from": "sphere-11-31",
-    "to": "sphere-9-23"
+    "to": "sphere-9-23",
   },
   "path-27-23": {
     "emanation-10-29": {
-      "labelOffset": 0.5
+      "labelOffset": 0.5,
     },
     "from": "sphere-9-23",
     "to": "sphere-10-29",
@@ -224,7 +199,7 @@ const PATHS = {
   },
   "path-28-28": {
     "from": "sphere-10-29",
-    "to": "sphere-11-31"
+    "to": "sphere-11-31",
   }
 }
 
@@ -240,6 +215,8 @@ class TreeAnim {
     this.optionsMenuToggle = document.getElementById('options-menu-toggle');
     this.pathLabelModeSelect = document.getElementById('path-label-mode-select');
     this.crossTopSpheresSelect = document.getElementById('cross-top-spheres-select');
+    this.facingInSelect = document.getElementById('facing-in-select');
+    this.facingOutSelect = document.getElementById('facing-out-select');
     this.nextLink = document.getElementById('nav-button-next');
     this.previousLink = document.getElementById('nav-button-previous');
     //this.showPathNameLink =  document.getElementsByClassName('nav-button-show-path-name')[0];
@@ -248,10 +225,11 @@ class TreeAnim {
     window.onhashchange = () => {
       const hashParams = new URLSearchParams(window.location.hash.substring(1));
       this.pathLabelMode = hashParams.get("pl") || "emanation-sigil";
-      this.crossPaths = hashParams.get("cp") === "t";
+      const newCrossPaths =  hashParams.get("cp") === "t";
+      const newMirror = hashParams.get("m") === "t";
       const newState = hashParams.get("s");
-      if (this.state != newState) {
-        this.startTransition(hashParams.get("s"), TRANSITION_DURATION);
+      if (this.state != newState || this.crossPaths != newCrossPaths || this.mirror != newMirror) {
+        this.startTransition(newState, newCrossPaths, newMirror, TRANSITION_DURATION);
       } else {
         this.setState(newState);
       }
@@ -261,12 +239,14 @@ class TreeAnim {
       var hashParams = new URLSearchParams(window.location.hash.substring(1));
       this.pathLabelMode = hashParams.get("pl") || "emanation-sigil";
       this.crossPaths = hashParams.get("cp") === "t";
+      this.mirror = hashParams.get("m") === "t";
       this.setState(hashParams.get("s"));
       this.setSelectedPathLabelMode();
       this.setSelectedCrossTopSpheres();
+      this.setSelectedFacing();
       this.setButtonsDisabled();
     } else {
-      window.location.hash = 's=emanation-0&pl=emanation-sigil&opt=t&nav=t&cp=f';
+      window.location.hash = 's=emanation-0&pl=emanation-sigil&opt=t&nav=t&cp=t&m=f';
     }
 
     this.optionsMenuToggle.onclick = (event) => {
@@ -279,6 +259,14 @@ class TreeAnim {
 
     this.crossTopSpheresSelect.onchange = (event) => {
       this.setCrossTopSpheres(this.crossTopSpheresSelect.checked);
+    }
+
+    this.facingInSelect.onchange = (event) => {
+      this.setMirrorFlip(false);
+    }
+
+    this.facingOutSelect.onchange = (event) => {
+      this.setMirrorFlip(true);
     }
 
     this.previousLink.onclick = (event) => {
@@ -309,6 +297,12 @@ class TreeAnim {
   setCrossTopSpheres(value) {
     var hashParams = new URLSearchParams(window.location.hash.substring(1));
     hashParams.set("cp", value ? "t" : "f");
+    window.location.hash = hashParams.toString();
+  }
+
+  setMirrorFlip(value) {
+    var hashParams = new URLSearchParams(window.location.hash.substring(1));
+    hashParams.set("m", value ? "t" : "f");
     window.location.hash = hashParams.toString();
   }
 
@@ -432,6 +426,14 @@ class TreeAnim {
     this.crossTopSpheresSelect.checked = this.crossPaths;
   }
 
+  setSelectedFacing() {
+    if (this.mirror) {
+      this.facingOutSelect.checked = true;
+    } else {
+      this.facingInSelect.checked = true;
+    }
+  }
+
   setSelectedPathLabelMode() {
     const options = this.pathLabelModeSelect.querySelectorAll('option');
     options.forEach((option) => {
@@ -467,14 +469,11 @@ class TreeAnim {
   setSvgPath(pathName, state) {
     const fromName = PATHS[pathName]?.[state]?.from || PATHS[pathName].from;
     const toName = PATHS[pathName]?.[state]?.to || PATHS[pathName].to;
-    const labelFlip = (
-        this.crossPaths && pathName === "path-8-5" ? false :
-	PATHS[pathName]?.[state]?.labelFlip ?? PATHS[pathName].labelFlip ?? false
-    );
+    const labelFlip = PATHS[pathName].labelFlip ?? false;
     const labelOffset = (
-        this.crossPaths && state === "emanation-4-7" ? 0.5 :
-        this.crossPaths && ["path-5-4", "path-8-5"].includes(pathName) ? 0.3 :
-        PATHS[pathName]?.[state]?.labelOffset ?? PATHS[pathName].labelOffset ?? 0.5
+      this.crossPaths && ["emanation-2-3", "emanation-3-5", "emanation-4-7"].includes(state) ? 0.5 :
+      this.crossPaths && ["path-5-4", "path-8-5"].includes(pathName) ? 0.3 :
+      PATHS[pathName]?.[state]?.labelOffset ?? PATHS[pathName].labelOffset ?? 0.5
     );
 
     const pathGroup = document.getElementById(pathName);
@@ -502,12 +501,18 @@ class TreeAnim {
     }
     const fromY = parseFloat(fromTarget.getAttribute("cy"));
     const toY = parseFloat(toTarget.getAttribute("cy"));
-    const fromX = 50 + (parseFloat(fromTarget.getAttribute("cx")) - 50) * (
-	this.crossPaths && ['sphere-1-2', 'sphere-2-3'].includes(fromName) ? -1 : 1
-    );
-    const toX = 50 + (parseFloat(toTarget.getAttribute("cx")) - 50) * (
-	this.crossPaths && ['sphere-1-2', 'sphere-2-3'].includes(toName) ? -1 : 1
-    );
+    var fromX = parseFloat(fromTarget.getAttribute("cx"));
+    var toX = parseFloat(toTarget.getAttribute("cx"));
+    if (this.crossPaths && ['sphere-1-2', 'sphere-2-3'].includes(fromName)) {
+      fromX = 100 - fromX;
+    }
+    if (this.crossPaths && ['sphere-1-2', 'sphere-2-3'].includes(toName)) {
+      toX = 100 - toX;
+    }
+    if (this.mirror) {
+      fromX = 100 - fromX;
+      toX = 100 - toX;
+    }
 
     const blackStroke = pathGroup.querySelector('path.black-stroke');
     const whiteStroke = pathGroup.querySelector('path.white-stroke');
@@ -524,8 +529,8 @@ class TreeAnim {
     const labelCenterX = (fromX * labelOffset) + (toX * (1-labelOffset));
     const labelCenterY = (fromY * labelOffset) + (toY * (1-labelOffset));
 
-    const angle = (labelFlip ? Math.PI : 0) + (
-      fromX === toX ? -Math.PI/2 :
+    const angle = (
+      fromX === toX ? ((this.mirror && labelFlip) || (!this.mirror && !labelFlip) ? -Math.PI/2 : Math.PI/2) :
       Math.atan((fromY - toY) / (fromX - toX))
     );
 
@@ -588,21 +593,25 @@ class TreeAnim {
     }
     const target = document.getElementById(`${sphere.id.replace('use-', 'target-')}-${state}`);
     if (!target) { return; }
-    const targetX = 50 + (target.getAttribute("cx") - 50) * (
-      this.crossPaths &&
-      ['use-sphere-1-2', 'use-sphere-2-3'].includes(sphere.id)
-      ? -1 : 1
-    );
+    var targetX = target.getAttribute("cx");
+    if (this.crossPaths && ['use-sphere-1-2', 'use-sphere-2-3'].includes(sphere.id)) {
+      targetX = 100 - targetX;
+    }
+    if (this.mirror) {
+      targetX = 100 - targetX;
+    }
     const targetY = target.getAttribute("cy");
     const targetR = target.getAttribute("r");
     const scale = this.pathLabelMode.startsWith('full-') ? targetR / 60 : targetR / 50;
     sphere.style.transform = `scale(${scale}) translate(${(targetX-50)/scale}%, ${(targetY-81)/scale*100/162}%)`;
   }
 
-  startTransition(state, time) {
+  startTransition(state, crossPaths, mirror, time) {
     if (this.animating) {
       this.endTransition();
     }
+    this.crossPaths = crossPaths;
+    this.mirror = mirror;
     this.animating = true;
     this.animateFrom = this.state;
     this.animateTo = state;
