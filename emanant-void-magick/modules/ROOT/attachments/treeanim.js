@@ -232,12 +232,14 @@ class TreeAnim {
   constructor(container) {
     this.container = container;
     this.state = 'init'
+    this.crossPaths = false;
     this.animating = false;
     this.optionsMenuOpen = false;
     this.animateFrom = null
     this.animateTo = null
     this.optionsMenuToggle = document.getElementById('options-menu-toggle');
     this.pathLabelModeSelect = document.getElementById('path-label-mode-select');
+    this.crossTopSpheresSelect = document.getElementById('cross-top-spheres-select');
     this.nextLink = document.getElementById('nav-button-next');
     this.previousLink = document.getElementById('nav-button-previous');
     //this.showPathNameLink =  document.getElementsByClassName('nav-button-show-path-name')[0];
@@ -246,6 +248,7 @@ class TreeAnim {
     window.onhashchange = () => {
       const hashParams = new URLSearchParams(window.location.hash.substring(1));
       this.pathLabelMode = hashParams.get("pl") || "emanation-sigil";
+      this.crossPaths = hashParams.get("cp") === "t";
       const newState = hashParams.get("s");
       if (this.state != newState) {
         this.startTransition(hashParams.get("s"), TRANSITION_DURATION);
@@ -257,11 +260,13 @@ class TreeAnim {
     if (window.location.hash) {
       var hashParams = new URLSearchParams(window.location.hash.substring(1));
       this.pathLabelMode = hashParams.get("pl") || "emanation-sigil";
+      this.crossPaths = hashParams.get("cp") === "t";
       this.setState(hashParams.get("s"));
       this.setSelectedPathLabelMode();
+      this.setSelectedCrossTopSpheres();
       this.setButtonsDisabled();
     } else {
-      window.location.hash = 's=emanation-0&pl=emanation-sigil';
+      window.location.hash = 's=emanation-0&pl=emanation-sigil&opt=t&nav=t&cp=f';
     }
 
     this.optionsMenuToggle.onclick = (event) => {
@@ -270,6 +275,10 @@ class TreeAnim {
 
     this.pathLabelModeSelect.onchange = (event) => {
       this.setPathLabelMode(this.pathLabelModeSelect.value);
+    }
+
+    this.crossTopSpheresSelect.onchange = (event) => {
+      this.setCrossTopSpheres(this.crossTopSpheresSelect.checked);
     }
 
     this.previousLink.onclick = (event) => {
@@ -295,6 +304,12 @@ class TreeAnim {
       this.previousLink.disabled = false;
       this.nextLink.disabled = false;
     }
+  }
+
+  setCrossTopSpheres(value) {
+    var hashParams = new URLSearchParams(window.location.hash.substring(1));
+    hashParams.set("cp", value ? "t" : "f");
+    window.location.hash = hashParams.toString();
   }
 
   setPathLabelMode(value) {
@@ -413,6 +428,10 @@ class TreeAnim {
     this.setButtonsDisabled();
   }
 
+  setSelectedCrossTopSpheres() {
+    this.crossTopSpheresSelect.checked = this.crossPaths;
+  }
+
   setSelectedPathLabelMode() {
     const options = this.pathLabelModeSelect.querySelectorAll('option');
     options.forEach((option) => {
@@ -448,8 +467,15 @@ class TreeAnim {
   setSvgPath(pathName, state) {
     const fromName = PATHS[pathName]?.[state]?.from || PATHS[pathName].from;
     const toName = PATHS[pathName]?.[state]?.to || PATHS[pathName].to;
-    const labelFlip = PATHS[pathName]?.[state]?.labelFlip ?? PATHS[pathName].labelFlip ?? false;
-    const labelOffset = PATHS[pathName]?.[state]?.labelOffset ?? PATHS[pathName].labelOffset ?? 0.5;
+    const labelFlip = (
+        this.crossPaths && pathName === "path-8-5" ? false :
+	PATHS[pathName]?.[state]?.labelFlip ?? PATHS[pathName].labelFlip ?? false
+    );
+    const labelOffset = (
+        this.crossPaths && state === "emanation-4-7" ? 0.5 :
+        this.crossPaths && ["path-5-4", "path-8-5"].includes(pathName) ? 0.3 :
+        PATHS[pathName]?.[state]?.labelOffset ?? PATHS[pathName].labelOffset ?? 0.5
+    );
 
     const pathGroup = document.getElementById(pathName);
     if (!pathGroup) { return }
@@ -474,10 +500,15 @@ class TreeAnim {
       pathGroup.classList.add("show");
       pathGroup.classList.remove("hidden");
     }
-    const fromX = parseFloat(fromTarget.getAttribute("cx"));
     const fromY = parseFloat(fromTarget.getAttribute("cy"));
-    const toX = parseFloat(toTarget.getAttribute("cx"));
     const toY = parseFloat(toTarget.getAttribute("cy"));
+    const fromX = 50 + (parseFloat(fromTarget.getAttribute("cx")) - 50) * (
+	this.crossPaths && ['sphere-1-2', 'sphere-2-3'].includes(fromName) ? -1 : 1
+    );
+    const toX = 50 + (parseFloat(toTarget.getAttribute("cx")) - 50) * (
+	this.crossPaths && ['sphere-1-2', 'sphere-2-3'].includes(toName) ? -1 : 1
+    );
+
     const blackStroke = pathGroup.querySelector('path.black-stroke');
     const whiteStroke = pathGroup.querySelector('path.white-stroke');
     const nameText = pathGroup.querySelector('text.path-name');
@@ -557,7 +588,11 @@ class TreeAnim {
     }
     const target = document.getElementById(`${sphere.id.replace('use-', 'target-')}-${state}`);
     if (!target) { return; }
-    const targetX = target.getAttribute("cx");
+    const targetX = 50 + (target.getAttribute("cx") - 50) * (
+      this.crossPaths &&
+      ['use-sphere-1-2', 'use-sphere-2-3'].includes(sphere.id)
+      ? -1 : 1
+    );
     const targetY = target.getAttribute("cy");
     const targetR = target.getAttribute("r");
     const scale = this.pathLabelMode.startsWith('full-') ? targetR / 60 : targetR / 50;
