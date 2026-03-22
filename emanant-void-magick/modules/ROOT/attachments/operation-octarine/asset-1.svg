@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="100mm"
+   height="100mm"
+   viewBox="0 0 100 100"
+   version="1.1"
+   id="svg1"
+   xml:space="preserve"
+   inkscape:version="1.4.3 (0d15f75042, 2025-12-25)"
+   sodipodi:docname="asset-1.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"><defs
+   id="defs1" /><sodipodi:namedview
+   id="namedview1"
+   pagecolor="#ffffff"
+   bordercolor="#000000"
+   borderopacity="0.25"
+   inkscape:showpageshadow="2"
+   inkscape:pageopacity="0.0"
+   inkscape:pagecheckerboard="0"
+   inkscape:deskcolor="#d1d1d1"
+   inkscape:document-units="mm"
+   inkscape:zoom="1.1367284"
+   inkscape:cx="91.050773"
+   inkscape:cy="191.77844"
+   inkscape:window-width="1536"
+   inkscape:window-height="891"
+   inkscape:window-x="0"
+   inkscape:window-y="0"
+   inkscape:window-maximized="1"
+   inkscape:current-layer="svg1" />
+  <symbol
+   id="asset"
+   viewBox="-5 -5 110 110">
+    <style id="style1">
+      path {
+        fill: #000000;
+        fill-rule: evenodd;
+        stroke: none;
+        stroke-width: 0;
+      }
+    </style>
+    <path
+      d="M 29.289321,0 H 70.710678 L 100,29.289321 V 70.710678 L 70.710678,100 H 29.289321 L 0,70.710678 V 29.289321 Z M 79.323039,20.792079 91.431425,50.024309 79.280001,79.311824 50.034596,91.435686 20.774518,79.315765 8.6296378,50.123111 20.773052,20.684841 49.973997,8.5894142 Z"
+      id="path1"
+    />   
+  </symbol>
+  <use
+    href="#asset"
+    height="95"
+    width="95"
+    x="2.5"
+    y="2.5"
+    id="use"
+  />
+</svg>

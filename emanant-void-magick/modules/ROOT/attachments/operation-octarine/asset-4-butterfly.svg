@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="100mm"
+   height="100mm"
+   viewBox="0 0 100 100"
+   version="1.1"
+   id="svg1"
+   xml:space="preserve"
+   inkscape:version="1.4.3 (0d15f75042, 2025-12-25)"
+   sodipodi:docname="asset-4.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"><defs
+   id="defs1" /><sodipodi:namedview
+   id="namedview1"
+   pagecolor="#ffffff"
+   bordercolor="#000000"
+   borderopacity="0.25"
+   inkscape:showpageshadow="2"
+   inkscape:pageopacity="0.0"
+   inkscape:pagecheckerboard="0"
+   inkscape:deskcolor="#d1d1d1"
+   inkscape:document-units="mm"
+   inkscape:zoom="1.1367284"
+   inkscape:cx="134.15694"
+   inkscape:cy="110.84442"
+   inkscape:window-width="1536"
+   inkscape:window-height="891"
+   inkscape:window-x="0"
+   inkscape:window-y="0"
+   inkscape:window-maximized="1"
+   inkscape:current-layer="svg1"
+   showguides="true"><sodipodi:guide
+     position="50,50"
+     orientation="-1,0"
+     id="guide1"
+     inkscape:locked="false"
+     inkscape:label=""
+     inkscape:color="rgb(0,134,229)" /><sodipodi:guide
+     position="50,50"
+     orientation="0,1"
+     id="guide2"
+     inkscape:label=""
+     inkscape:locked="false"
+     inkscape:color="rgb(0,134,229)" /><sodipodi:guide
+     position="50,50"
+     orientation="0.70710678,0.70710678"
+     id="guide3"
+     inkscape:label=""
+     inkscape:locked="false"
+     inkscape:color="rgb(0,134,229)" /><sodipodi:guide
+     position="50,50"
+     orientation="-0.70710678,0.70710678"
+     id="guide4"
+     inkscape:label=""
+     inkscape:locked="false"
+     inkscape:color="rgb(0,134,229)" /><sodipodi:guide
+     position="50,50"
+     orientation="0.92387953,0.38268343"
+     id="guide5"
+     inkscape:label=""
+     inkscape:locked="false"
+     inkscape:color="rgb(0,134,229)" /><sodipodi:guide
+     position="50,50"
+     orientation="0.38268343,0.92387953"
+     id="guide6"
+     inkscape:label=""
+     inkscape:locked="false"
+     inkscape:color="rgb(0,134,229)" /><sodipodi:guide
+     position="50,50"
+     orientation="-0.38268343,0.92387953"
+     id="guide7"
+     inkscape:label=""
+     inkscape:locked="false"
+     inkscape:color="rgb(0,134,229)" /><sodipodi:guide
+     position="50,50"
+     orientation="-0.92387953,0.38268343"
+     id="guide8"
+     inkscape:label=""
+     inkscape:locked="false"
+     inkscape:color="rgb(0,134,229)" /></sodipodi:namedview>
+  <symbol
+   id="asset"
+   viewBox="-5 -5 110 110">
+    <style
+   id="style1">
+      path {
+        fill: none;
+        stroke: #000000;
+        stroke-width: 1px;
+      }
+    </style>
+    
+<path
+   d="M 0,29.289321 21.863606,21.925109 29.289321,0 50,10.008411 70.710678,0 78.632818,21.368066 100,29.289321 91.025033,50 100,70.710678 79.129228,79.196042 70.710678,100 50,91.016694 29.289321,100 21.325373,78.691916 0,70.710678 10.051612,50 Z M 49.293267,9.6282336 61.517461,19.724158 77.520243,20.872612 79.281162,36.745173 89.797061,49.101654 79.644158,61.6409 78.073046,77.92757 61.841364,79.363455 49.291202,89.564302 36.945636,78.944671 20.959898,77.287486 19.922569,61.306462 9.8339651,49.169831 20.176767,37.110221 21.422489,21.330215 37.238929,20.046007 Z M 37.86886,20.956669 1.034973,-0.822405 11.123832,16.323229 11.212082,-16.53422 0.907585,0.792167 1.427139,0.07582 -3.760457,19.851048 19.959528,-4.032187 0.142263,1.054215 0.856385,1.020013 -16.997296,11.837071 17.241957,11.097749 -0.743439,0.934634 -0.174953,1.28827 -20.508384,-3.534303 4.103523,19.847285 -1.212835,0.109031 -1.040727,0.754199 L 49.710967,64.26865 38.56997,80.698042 37.591301,79.865228 36.199373,79.690812 39.924618,60.083831 20.616425,63.63946 20.532004,62.192634 19.62376,61.138963 35.963738,50.204723 19.947405,39.04646 l 0.827999,-1.050475 0.162577,-1.349843 19.210576,3.772231 -3.707098,-19.326492 z"
+   id="path1"
+   />
+    
+  </symbol>
+  <use
+   href="#asset"
+   height="95"
+   width="95"
+   x="2.5"
+   y="2.5"
+   id="use" />
+</svg>
