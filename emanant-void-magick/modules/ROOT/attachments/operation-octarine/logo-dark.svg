@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="134mm"
+   height="100mm"
+   viewBox="0 0 134 100"
+   version="1.1"
+   id="svg1"
+   xml:space="preserve"
+   inkscape:version="1.4.3 (0d15f75042, 2025-12-25)"
+   sodipodi:docname="logo.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"><defs
+   id="defs1" /><sodipodi:namedview
+   id="namedview1"
+   pagecolor="#ffffff"
+   bordercolor="#000000"
+   borderopacity="0.25"
+   inkscape:showpageshadow="2"
+   inkscape:pageopacity="0.0"
+   inkscape:pagecheckerboard="0"
+   inkscape:deskcolor="#d1d1d1"
+   inkscape:document-units="mm"
+   inkscape:zoom="1.1367284"
+   inkscape:cx="215.97068"
+   inkscape:cy="224.32799"
+   inkscape:window-width="1536"
+   inkscape:window-height="891"
+   inkscape:window-x="0"
+   inkscape:window-y="0"
+   inkscape:window-maximized="1"
+   inkscape:current-layer="svg1" />
+  <defs
+   id="defs2">
+   <path
+   d="M 29.289321,0 H 70.710678 L 100,29.289321 V 70.710678 L 70.710678,100 H 29.289321 L 0,70.710678 V 29.289321 Z M 79.323039,20.792079 91.431425,50.024309 79.280001,79.311824 50.034596,91.435686 20.774518,79.315765 8.6296378,50.123111 20.773052,20.684841 49.973997,8.5894142 Z"
+   id="asset-1-path"
+   />   
+   <path
+   d="M 0,29.289321 20.728908,20.703126 29.289321,0 50,8.5827644 70.710678,0 79.331094,20.72798 100,29.289321 91.432361,50 100,70.710678 79.303797,79.283326 70.710678,100 50,91.424022 29.289321,100 20.743476,79.302907 0,70.710678 8.5677758,50 Z m 20.728908,-8.586195 58.574889,58.5802 M 50,8.5827644 V 91.424022 M 79.331094,20.72798 20.743476,79.302907 M 8.5677758,50 H 91.432361"
+   id="asset-2-path" />
+  </defs>
+  <style
+   id="style2">
+    path {
+      fill: #000000;
+      fill-rule: evenodd;
+    }
+  </style>
+  <use
+   href="#asset-1-path"
+   transform="matrix(0.79765633,0.14064833,-0.14064833,0.79765633,13.802191,5.656822)"
+   id="use2" />
+  <use
+   href="#asset-2-path"
+   transform="matrix(0.2128189,0.08191165,-0.08191165,0.2128189,111.41219,1.1297164)"
+   id="use3" />
+  <use
+   href="#asset-2-path"
+   transform="matrix(0.22684592,0.02328777,-0.02328777,0.22684592,96.504817,26.559756)"
+   id="use4" />
+  <use
+   href="#asset-2-path"
+   transform="matrix(0.22629747,-0.02812205,0.02812205,0.22629747,79.178536,8.2383251)"
+   id="use5" />
+</svg>

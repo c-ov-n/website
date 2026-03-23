@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="134mm"
+   height="100mm"
+   viewBox="0 0 134 100"
+   version="1.1"
+   id="svg1"
+   xml:space="preserve"
+   inkscape:version="1.4.3 (0d15f75042, 2025-12-25)"
+   sodipodi:docname="logo.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"><defs
+   id="defs1" /><sodipodi:namedview
+   id="namedview1"
+   pagecolor="#ffffff"
+   bordercolor="#000000"
+   borderopacity="0.25"
+   inkscape:showpageshadow="2"
+   inkscape:pageopacity="0.0"
+   inkscape:pagecheckerboard="0"
+   inkscape:deskcolor="#d1d1d1"
+   inkscape:document-units="mm"
+   inkscape:zoom="1.1367284"
+   inkscape:cx="215.97068"
+   inkscape:cy="224.32799"
+   inkscape:window-width="1536"
+   inkscape:window-height="891"
+   inkscape:window-x="0"
+   inkscape:window-y="0"
+   inkscape:window-maximized="1"
+   inkscape:current-layer="svg1" />
+  <defs
+   id="defs2">
+   <path
+   d="M 29.289321,0 H 70.710678 L 100,29.289321 V 70.710678 L 70.710678,100 H 29.289321 L 0,70.710678 V 29.289321 Z m 0,0 L 100,29.289321 70.710678,100 0,70.710678 Z M 70.710678,0 100,70.710678 29.289321,100 0,29.289321 Z"
+   id="asset-0-path" />
+   <path
+   d="M 0,29.289321 20.728908,20.703126 29.289321,0 50,8.5827644 70.710678,0 79.331094,20.72798 100,29.289321 91.432361,50 100,70.710678 79.303797,79.283326 70.710678,100 50,91.424022 29.289321,100 20.743476,79.302907 0,70.710678 8.5677758,50 Z m 20.728908,-8.586195 58.574889,58.5802 M 50,8.5827644 V 91.424022 M 79.331094,20.72798 20.743476,79.302907 M 8.5677758,50 H 91.432361"
+   id="asset-2-path" />
+  </defs>
+  <style
+   id="style2">
+    path {
+      fill: none;
+      stroke: #000000;
+      stroke-width: 5;
+      vector-effect: non-scaling-stroke;
+    }
+  </style>
+  <use
+   href="#asset-0-path"
+   transform="matrix(0.79765633,0.14064833,-0.14064833,0.79765633,14.733226,5.1913048)"
+   id="use2"
+   style="fill:#00ffff" />
+  <use
+   href="#asset-2-path"
+   transform="matrix(0.2128189,0.08191165,-0.08191165,0.2128189,112.34322,0.66419916)"
+   id="use3" />
+  <use
+   href="#asset-2-path"
+   transform="matrix(0.22684592,0.02328777,-0.02328777,0.22684592,97.435852,26.094239)"
+   id="use4" />
+  <use
+   href="#asset-2-path"
+   transform="matrix(0.22629747,-0.02812205,0.02812205,0.22629747,80.109571,7.7728079)"
+   id="use5" />
+</svg>
