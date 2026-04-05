@@ -4,7 +4,7 @@
     <title>Emanant Void Magick Tree Animation</title>
     <script src="treeanim.js"></script>
     <link rel="stylesheet" href="treeanim.css"/>
-<meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
   <body>
     <div id="tree-anim" class="initial">
@@ -28,6 +28,12 @@
           <rect x="15" y="71" width="70" height="7"></rect>
         </svg>
       </button>
+      <button id="fools-journey-button">
+        <svg viewbox="0 0 100 100" style="width: 100%; height: 100%">
+          <title>Fool's Journey</title>
+          <path d="m 51.206773,16.226919 c -3.342355,-5.7e-5 -6.051884,2.709472 -6.051827,6.051827 -5.7e-5,3.342355 2.709472,6.051884 6.051827,6.051827 3.342355,5.7e-5 6.051884,-2.709472 6.051827,-6.051827 5.7e-5,-3.342355 -2.709472,-6.051884 -6.051827,-6.051827 z m -2.033032,41.18062 -9.453729,14.338191 3.589365,17.589148 M 66.680475,87.030685 54.251573,75.579768 49.456632,57.283246 51.044637,28.750736 m 22.383588,-17.446031 -3.837269,8.714464 3.832499,2.195332 3.758899,-2.661377 -3.797713,-8.559405 -16.141186,10.673865 m -8.819677,6.11386 -28.995336,19.930595 m 3.291704,-2.304193 12.571916,4.902949 7.863414,-15.64631 16.594626,1.833611 7.260339,10.182985 12.282392,-8.386811"/>
+        </svg>
+      </button>
       <div id="options-menu-layer">
         <div id="options-menu">
           <label for="pathLabelModeSelect">Paths:</label>
@@ -36,7 +42,7 @@
             <option value="emanation-decimal">Emanation decimal numbers</option>
             <option value="fools-sigil">Fool's journey number sigils</option>
             <option value="fools-decimal">Fool's journey decimal numbers</option>
-            <option value="both-sigils">Both number sigils</option>
+            <option value="both-sigil">Both number sigils</option>
             <option value="both-decimal">Both decimal numbers</option>
             <option value="name">Major arcana association</option>
             <option value="full-sigil">Major arcana with sigil numbers</option>
@@ -198,6 +204,61 @@
           <use class="icon sigil" height="70.71065" width="50" x="25" y="50" href="../_images/sphere-glyphs/sphere-11-31.svg#sigil"></use>
           <use class="icon element earth" height="70.71065" width="50" x="25" y="50" href="../_images/elements/earth.svg#symbol"></use>
           <use class="icon symbol" height="70.71065" width="50" x="25" y="50" href="../_images/sphere-symbols/flower-11-31.svg#symbol"></use>
+        </symbol>
+
+        <symbol id="fools-journey-marker" viewBox="0 0 100 162">
+          <defs>
+            <linearGradient id="fools-journey-linear-gradient-a" >
+              <stop
+                 style="stop-color:#ffffff;stop-opacity:1;"
+                 offset="0"
+                 id="fools-journey-gradient-center" />
+              <stop
+                 style="stop-color:#000000;stop-opacity:1;"
+                 offset="0.5"
+                 id="fools-journey-gradient-middle" />
+              <stop
+                 style="stop-color:#000000;stop-opacity:0;"
+                 offset="0.9"
+                 id="fools-journey-gradient-outer" />
+            </linearGradient>
+            <linearGradient id="fools-journey-linear-gradient-b" >
+              <stop
+                 style="stop-color:#000000;stop-opacity:1;"
+                 offset="0"
+                 id="fools-journey-gradient-center" />
+              <stop
+                 style="stop-color:#ffffff;stop-opacity:1;"
+                 offset="0.4"
+                 id="fools-journey-gradient-middle" />
+              <stop
+                 style="stop-color:#000000;stop-opacity:0;"
+                 offset="1"
+                 id="fools-journey-gradient-outer" />
+            </linearGradient>
+            <radialGradient
+              xlink:href="#fools-journey-linear-gradient-a"
+              id="fools-journey-radial-gradient-a"
+              cx="50"
+              cy="81"
+              fx="50"
+              fy="81"
+              r="20"
+              gradientUnits="userSpaceOnUse"
+            />
+            <radialGradient
+              xlink:href="#fools-journey-linear-gradient-b"
+              id="fools-journey-radial-gradient-b"
+              cx="50"
+              cy="81"
+              fx="50"
+              fy="81"
+              r="20"
+              gradientUnits="userSpaceOnUse"
+            />
+          </defs>
+          <circle id="fools-journey-marker-a" style="fill:url(#fools-journey-radial-gradient-a)" cx="50" cy="81" r="25"/>
+          <circle id="fools-journey-marker-b" style="fill:url(#fools-journey-radial-gradient-b)" cx="50" cy="81" r="25"/>
         </symbol>
 
         <!-- spheres and paths in visual overlap order -->
@@ -504,7 +565,7 @@
         <circle class="target" id="circle-unlimited-emanation-0-1" r="43" cx="50" cy="81" />
         <circle class="target" id="circle-all-possibility-emanation-0-1" r="28.9" cx="50" cy="81" />
         <circle id="target-sphere-0-1-emanation-0-1" class="target sphere emanation-0-1" r="16" cx="50" cy="81"  />
-        <circle id="target-sphere-1-2-emanation-0-1" class="target" r="14" cx="50" cy="81.1" />
+        <circle id="target-sphere-1-2-emanation-0-1" class="target hidden" r="14" cx="50" cy="81.1" />
 
         <!-- emanation-1-2 -->
         <path class="target" id="text-path-nothing-emanation-1-2" d="m 4,80 c 2.4e-6,-25.413119 20.6015267,-46.014523 46.0147987,-46.014523 25.413261,2e-6 46.014797,20.601404 46.014797,46.014523" />
@@ -514,20 +575,20 @@
         <circle class="target" id="circle-all-possibility-emanation-1-2" r="28.9" cx="50" cy="81" />
         <circle id="target-sphere-0-1-emanation-1-2" class="target sphere emanation-1-2" r="16" cx="50" cy="50" />
         <circle id="target-sphere-1-2-emanation-1-2" class="target sphere emanation-1-2" r="16" cx="50" cy="112" />
-        <circle id="target-sphere-2-3-emanation-1-2" class="target" r="14" cx="49.9" cy="112" />
+        <circle id="target-sphere-2-3-emanation-1-2" class="target hidden" r="14" cx="49.9" cy="112" />
 
         <!-- emanation-2-3 -->
         <circle id="target-sphere-0-1-emanation-2-3" class="target sphere emanation-2-3" r="14" cx="50" cy="50" />
         <circle id="target-sphere-1-2-emanation-2-3" class="target sphere emanation-2-3" r="14" cx="82" cy="98" />
         <circle id="target-sphere-2-3-emanation-2-3" class="target sphere emanation-2-3" r="14" cx="18" cy="98" />
-        <circle id="target-sphere-3-5-emanation-2-3" class="target" r="13" cx="50" cy="50.1" />
+        <circle id="target-sphere-3-5-emanation-2-3" class="target hidden" r="13" cx="50" cy="50.1" />
 
         <!-- emanation-3-5 -->
         <circle id="target-sphere-0-1-emanation-3-5" class="target sphere emanation-3-5" r="13" cx="50" cy="45" />
         <circle id="target-sphere-1-2-emanation-3-5" class="target sphere emanation-3-5" r="13" cx="82" cy="81" />
         <circle id="target-sphere-2-3-emanation-3-5" class="target sphere emanation-3-5" r="13" cx="18" cy="81" />
         <circle id="target-sphere-3-5-emanation-3-5" class="target sphere emanation-3-5" r="13" cx="50" cy="118" />
-        <circle id="target-sphere-4-7-emanation-3-5" class="target" r="12" cx="49.9" cy="118" />
+        <circle id="target-sphere-4-7-emanation-3-5" class="target hidden" r="12" cx="49.9" cy="118" />
 
         <!-- emanation-4-7 -->
         <circle id="target-sphere-0-1-emanation-4-7" class="target sphere emanation-4-7" r="12" cx="50" cy="50" />
@@ -535,7 +596,7 @@
         <circle id="target-sphere-2-3-emanation-4-7" class="target sphere emanation-4-7" r="12" cx="16" cy="74" />
         <circle id="target-sphere-3-5-emanation-4-7" class="target sphere emanation-4-7" r="12" cx="72" cy="113" />
         <circle id="target-sphere-4-7-emanation-4-7" class="target sphere emanation-4-7" r="12" cx="28" cy="113" />
-        <circle id="target-sphere-5-11-emanation-4-7" class="target" r="11" cx="50" cy="50" />
+        <circle id="target-sphere-5-11-emanation-4-7" class="target hidden" r="11" cx="50" cy="50" />
 
         <!-- emanation-5-11 -->
         <circle id="target-sphere-0-1-emanation-5-11" class="target sphere emanation-5-11" r="12" cx="50" cy="37" />
@@ -544,7 +605,7 @@
         <circle id="target-sphere-3-5-emanation-5-11" class="target sphere emanation-5-11" r="12" cx="84" cy="103" />
         <circle id="target-sphere-4-7-emanation-5-11" class="target sphere emanation-5-11" r="12" cx="16" cy="103" />
         <circle id="target-sphere-5-11-emanation-5-11" class="target sphere emanation-5-11" r="12" cx="50" cy="125" />
-        <circle id="target-sphere-6-13-emanation-5-11" class="target" r="11" cx="50" cy="125" />
+        <circle id="target-sphere-6-13-emanation-5-11" class="target hidden" r="11" cx="50" cy="125" />
 
         <!-- emanation-6-13 -->
         <circle id="target-sphere-0-1-emanation-6-13" class="target sphere emanation-6-13" r="11.5" cx="50" cy="19" />
@@ -554,7 +615,7 @@
         <circle id="target-sphere-4-7-emanation-6-13" class="target sphere emanation-6-13" r="11.5" cx="16" cy="82" />
         <circle id="target-sphere-5-11-emanation-6-13" class="target sphere emanation-6-13" r="11.5" cx="50" cy="104" />
         <circle id="target-sphere-6-13-emanation-6-13" class="target sphere emanation-6-13" r="11.5" cx="50" cy="144" />
-        <circle id="target-sphere-7-17-emanation-6-13" class="target" r="10.5" cx="49.9" cy="144" />
+        <circle id="target-sphere-7-17-emanation-6-13" class="target hidden" r="10.5" cx="49.9" cy="144" />
 
         <!-- emanation-7-17 -->
         <circle id="target-sphere-0-1-emanation-7-17" class="target sphere emanation-7-17" r="11.2" cx="50" cy="24" />
@@ -565,7 +626,7 @@
         <circle id="target-sphere-5-11-emanation-7-17" class="target sphere emanation-7-17" r="11.2" cx="50" cy="112" />
         <circle id="target-sphere-6-13-emanation-7-17" class="target sphere emanation-7-17" r="11.2" cx="85" cy="134" />
         <circle id="target-sphere-7-17-emanation-7-17" class="target sphere emanation-7-17" r="11.2" cx="15" cy="134" />
-        <circle id="target-sphere-8-19-emanation-7-17" class="target" r="10" cx="50" cy="112" />
+        <circle id="target-sphere-8-19-emanation-7-17" class="target hidden" r="10" cx="50" cy="112" />
 
         <!-- emanation-8-19 -->
         <circle id="target-sphere-0-1-emanation-8-19" class="target sphere emanation-8-19" r="10.7" cx="50" cy="16" />
@@ -577,7 +638,7 @@
         <circle id="target-sphere-6-13-emanation-8-19" class="target sphere emanation-8-19" r="10.7" cx="84" cy="121" />
         <circle id="target-sphere-7-17-emanation-8-19" class="target sphere emanation-8-19" r="10.7" cx="16" cy="121" />
         <circle id="target-sphere-8-19-emanation-8-19" class="target sphere emanation-8-19" r="10.7" cx="50" cy="142" />
-        <circle id="target-sphere-9-23-emanation-8-19" class="target" r="9.7" cx="50" cy="142" />
+        <circle id="target-sphere-9-23-emanation-8-19" class="target hidden" r="9.7" cx="50" cy="142" />
 
         <!-- emanation-9-23 -->
         <circle id="target-sphere-0-1-emanation-9-23" class="target sphere emanation-9-23" r="9.6" cx="50" cy="13" />
@@ -590,7 +651,7 @@
         <circle id="target-sphere-7-17-emanation-9-23" class="target sphere emanation-9-23" r="9.6" cx="17" cy="98" />
         <circle id="target-sphere-8-19-emanation-9-23" class="target sphere emanation-9-23" r="9.6" cx="50" cy="115" />
         <circle id="target-sphere-9-23-emanation-9-23" class="target sphere emanation-9-23" r="9.6" cx="50" cy="149" />
-        <circle id="target-sphere-10-29-emanation-9-23" class="target" r="8.7" cx="49.9" cy="149" />
+        <circle id="target-sphere-10-29-emanation-9-23" class="target hidden" r="8.7" cx="49.9" cy="149" />
 
         <!-- emanation-10-29 -->
         <circle id="target-sphere-0-1-emanation-10-29" class="target sphere emanation-10-29" r="9.6" cx="50" cy="20" />
@@ -604,7 +665,7 @@
         <circle id="target-sphere-8-19-emanation-10-29" class="target sphere emanation-10-29" r="9.6" cx="50" cy="122" />
         <circle id="target-sphere-9-23-emanation-10-29" class="target sphere emanation-10-29" r="9.6" cx="83" cy="139" />
         <circle id="target-sphere-10-29-emanation-10-29" class="target sphere emanation-10-29" r="9.6" cx="17" cy="139" />
-        <circle id="target-sphere-11-31-emanation-10-29" class="target" r="8.7" cx="50" cy="122" />
+        <circle id="target-sphere-11-31-emanation-10-29" class="target hidden" r="8.7" cx="50" cy="122" />
 
         <!-- emanation-11-31 -->
         <circle id="target-sphere-0-1-emanation-11-31" class="target sphere emanation-11-31" r="9.6" cx="50" cy="13" />
@@ -619,6 +680,8 @@
         <circle id="target-sphere-9-23-emanation-11-31" class="target sphere emanation-11-31" r="9.6" cx="83" cy="132" />
         <circle id="target-sphere-10-29-emanation-11-31" class="target sphere emanation-11-31" r="9.6" cx="17" cy="132" />
         <circle id="target-sphere-11-31-emanation-11-31" class="target sphere emanation-11-31" r="9.6" cx="50" cy="149" />
+
+        <use id="fools-journey-impulse" x="0" y="0" height="162" width="100" href="#fools-journey-marker" />
       </svg>
     </div>
   </body>

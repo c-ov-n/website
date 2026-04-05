@@ -21,15 +21,15 @@ const PATHS = {
   "path-0-0": {
     "labelFlip": true,
     "from": "sphere-0-1",
-    "to": "sphere-1-2"
+    "to": "sphere-1-2",
   },
   "path-1-2": {
     "from": "sphere-1-2",
-    "to": "sphere-2-3"
+    "to": "sphere-2-3",
   },
   "path-2-1": {
-    "from": "sphere-0-1",
-    "to": "sphere-2-3"
+    "from": "sphere-2-3",
+    "to": "sphere-0-1",
   },
   "path-3-8": {
     "from": "sphere-0-1",
@@ -223,8 +223,11 @@ class TreeAnim {
     this.facingOutSelect = document.getElementById('facing-out-select');
     this.nextLink = document.getElementById('nav-button-next');
     this.previousLink = document.getElementById('nav-button-previous');
-    //this.showPathNameLink =  document.getElementsByClassName('nav-button-show-path-name')[0];
-    //this.showPathEmanationSigilLink =  document.getElementsByClassName('nav-button-show-path-emanation-sigil')[0];
+    this.foolsJourneyButton = document.getElementById('fools-journey-button');
+    this.foolsJourneyImpulse = document.getElementById('fools-journey-impulse');
+    this.foolsJourneyMarker = document.getElementById('fools-journey-marker');
+    this.foolsJourneyStep = null;
+    this.foolsJourneyValue = null;
 
     window.onhashchange = () => {
       const hashParams = new URLSearchParams(window.location.hash.substring(1));
@@ -233,8 +236,15 @@ class TreeAnim {
       const newCrossPaths =  hashParams.get("cp") === "t";
       const newMirror = hashParams.get("m") === "t";
       const newState = hashParams.get("s");
+
       if (this.state !== newState || this.crossPaths !== newCrossPaths || this.mirror !== newMirror || this.sphereIcons !== newSphereIcons) {
         this.startTransition(newState, newCrossPaths, newMirror, newSphereIcons, TRANSITION_DURATION);
+      } else if(this.foolsJourneyValue != hashParams.get("fv")) {
+        this.setState(newState);
+        this.foolsJourneyValue = hashParams.get("fv");
+        if (this.foolsJourneyValue !== "0") {
+          this.startFoolsJourney();
+        }
       } else {
         this.setState(newState);
       }
@@ -254,6 +264,10 @@ class TreeAnim {
       this.setButtonsDisabled();
     } else {
       window.location.hash = 's=emanation-0&pl=emanation-sigil&opt=t&nav=t&cp=t&m=f';
+    }
+
+    this.foolsJourneyButton.onclick = (event) => {
+      this.setShowFoolsJourney();
     }
 
     this.optionsMenuToggle.onclick = (event) => {
@@ -293,39 +307,57 @@ class TreeAnim {
     if (this.animating === true) {
       this.nextLink.disabled = true;
       this.previousLink.disabled = true;
+      this.foolsJourneyButton.disabled = true;
     } else if(this.state === STEPS[0]) {
       this.previousLink.disabled = true;
       this.nextLink.disabled = false;
+      this.foolsJourneyButton.disabled = true;
     } else if(this.state === STEPS[STEPS.length - 1]) {
       this.previousLink.disabled = false;
       this.nextLink.disabled = true;
+      this.foolsJourneyButton.disabled = false;
+    } else if(["emanation-1-2", "emanation-2-3", "emanation-6-13", "emanation-8-19", "emanation-11-31"].includes(this.state)) {
+      this.previousLink.disabled = false;
+      this.nextLink.disabled = false;
+      this.foolsJourneyButton.disabled = false;
     } else {
       this.previousLink.disabled = false;
       this.nextLink.disabled = false;
+      this.foolsJourneyButton.disabled = true;
     }
   }
 
   setCrossTopSpheres(value) {
     var hashParams = new URLSearchParams(window.location.hash.substring(1));
     hashParams.set("cp", value ? "t" : "f");
+    hashParams.delete("fv");
     window.location.hash = hashParams.toString();
   }
 
   setMirrorFlip(value) {
     var hashParams = new URLSearchParams(window.location.hash.substring(1));
     hashParams.set("m", value ? "t" : "f");
+    hashParams.delete("fv");
     window.location.hash = hashParams.toString();
   }
 
   setPathLabelMode(value) {
     var hashParams = new URLSearchParams(window.location.hash.substring(1));
     hashParams.set("pl", value);
+    hashParams.delete("fv");
+    window.location.hash = hashParams.toString();
+  }
+
+  setShowFoolsJourney() {
+    var hashParams = new URLSearchParams(window.location.hash.substring(1));
+    hashParams.set("fv", Date.now().toString());
     window.location.hash = hashParams.toString();
   }
 
   setSphereIcons(value) {
     var hashParams = new URLSearchParams(window.location.hash.substring(1));
     hashParams.set("sphereIcons", value);
+    hashParams.delete("fv");
     window.location.hash = hashParams.toString();
   }
 
@@ -339,6 +371,7 @@ class TreeAnim {
       if (this.state === STEPS[i]) {
         var hashParams = new URLSearchParams(window.location.hash.substring(1));
         hashParams.set("s", STEPS[i-1])
+        hashParams.delete("fv");
         window.location.hash = hashParams.toString();
         break;
       }
@@ -350,6 +383,7 @@ class TreeAnim {
       if (this.state === STEPS[i]) {
         var hashParams = new URLSearchParams(window.location.hash.substring(1));
         hashParams.set("s", STEPS[i+1])
+        hashParams.delete("fv");
         window.location.hash = hashParams.toString();
         break;
       }
@@ -376,7 +410,7 @@ class TreeAnim {
         classes.push("decimal-path-number");
         classes.push("show-fools-number");
         break;
-      case "both-sigils":
+      case "both-sigil":
         classes.push("sigil-path-number");
         classes.push("show-fools-number");
         classes.push("show-emanation-number");
@@ -403,11 +437,19 @@ class TreeAnim {
         break;
     }
     if (this.animating) {
-      classes.push(this.animateTo);
       classes.push("transition");
-      classes.push(`transition-from-${this.animateFrom}`);
+      if (this.foolsJourneyStep !== null) {
+        classes.push(this.state);
+        classes.push("foolsJourney");
+      } else {
+        classes.push(this.animateTo);
+        classes.push(`transition-from-${this.animateFrom}`);
+      }
     } else {
       classes.push(this.state);
+    }
+    if (hashParams.get("fj") === "t") {
+      classes.push("show-fools-journey");
     }
     if (hashParams.get("opt") === "t") {
       classes.push("show-options");
@@ -437,6 +479,7 @@ class TreeAnim {
     this.setSvgSpheres(this.state);
     this.setSvgPaths(this.state);
     this.setButtonsDisabled();
+    this.stopFoolsJourney();
   }
 
   setSelectedCrossTopSpheres() {
@@ -501,10 +544,13 @@ class TreeAnim {
     );
 
     const pathMirrored = (
-	["path-0-0", "path-2-1"].includes(pathName) ?
-        (this.mirrored && !this.crossPaths || !this.mirorred && this.crossPaths) :
-        this.mirrored
+      ["path-0-0", "path-2-1"].includes(pathName) ?
+      (this.mirror && !this.crossPaths || !this.mirror && this.crossPaths) :
+      this.mirror
     )
+    if (pathName === "path-0-0") {
+      console.log(`${pathName} pathMirrored ${pathMirrored} ${this.mirror} ${this.crossPaths}`)
+    }
     const pathGroup = document.getElementById(pathName);
     if (!pathGroup) { return }
 
@@ -634,8 +680,11 @@ class TreeAnim {
     }
     const targetY = target.getAttribute("cy");
     const targetR = target.getAttribute("r");
-    const scale = this.pathLabelMode.startsWith('full-') ? targetR / 60 : targetR / 50;
+    const scale = this.pathLabelMode.startsWith('full-') ? targetR / 58 : targetR / 50;
     useSphere.style.transform = `scale(${scale}) translate(${(targetX-50)/scale}%, ${(targetY-81)/scale*100/162}%)`;
+    if (sphere.id === "sphere-0-1") {
+      this.foolsJourneyImpulse.style.transform = useSphere.style.transform;
+    }
 
     var currentIcon = null;
     ["element", "sigil", "symbol"].forEach((className) => {
@@ -645,9 +694,9 @@ class TreeAnim {
     });
 
     const newIcon = (
-	(this.sphereIcons === "symbol-element") ? (
-          ["sphere-0-1", "sphere-5-11", "sphere-8-19", "sphere-11-31"].includes(sphere.id) ? "symbol" : "element"
-        ) : this.sphereIcons
+      (this.sphereIcons === "symbol-element") ? (
+        ["sphere-0-1", "sphere-5-11", "sphere-8-19", "sphere-11-31"].includes(sphere.id) ? "symbol" : "element"
+      ) : this.sphereIcons
     );
 
     const removeClassNames = [];
@@ -684,6 +733,44 @@ class TreeAnim {
     this.setSvg(state);
     this.animationTimeout = setTimeout(() => this.endTransition(state), time);
     this.state = `transition-from-${this.animateFrom}-to-${this.animateTo}`;
+  }
+
+  startFoolsJourney() {
+    this.animating = true;
+    this.foolsJourneyMarker.style.opacity = 1;
+    this.setFoolsJourneyStep(0)
+    this.setClassName();
+  }
+
+  setFoolsJourneyStep(stepNumber) {
+    this.foolsJourneyStep = stepNumber;
+    const maxStep = (
+      this.state === "emanation-1-2" ? 0 :
+      this.state === "emanation-2-3" ? 2 :
+      this.state === "emanation-6-13" ? 13 :
+      this.state === "emanation-8-19" ? 18 :
+      this.state === "emanation-11-31" ? 28 :
+      -1
+    );
+    if (stepNumber > maxStep) {
+      this.stopFoolsJourney();
+      return;
+    }
+    const pathName = Object.keys(PATHS).find((name) => name.startsWith(`path-${stepNumber}-`));
+    const path = PATHS[pathName];
+    const moveToSphere = document.getElementById(`use-${path.to}`);
+    this.foolsJourneyImpulse.style.transform = moveToSphere.style.transform;
+    this.animationTimeout = setTimeout(() => this.setFoolsJourneyStep(stepNumber+1), 850);
+  }
+
+  stopFoolsJourney() {
+    this.animating = false;
+    this.foolsJourneyStep = null;
+    this.foolsJourneyMarker.style.opacity = 0;
+    this.setClassName();
+    this.setButtonsDisabled();
+    const moveToSphere = document.getElementById("use-sphere-0-1");
+    this.foolsJourneyImpulse.style.transform = moveToSphere.style.transform;
   }
 }
 

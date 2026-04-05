@@ -12,7 +12,7 @@
   --color-red: #b11;
   --color-yellow: #bbaa00;
   --transition-duration: 1.5s;
-  --nav-button-size: 30pt;
+  --nav-button-size: 25pt;
 }
 
 @keyframes fade-in {
@@ -110,6 +110,7 @@ html, body {
 
 #tree-anim svg g.path.hidden {
   display: revert;
+  opacity: 0;
 }
 
 #tree-anim svg g.path.hidden * {
@@ -231,14 +232,24 @@ use.sphere {
 #tree-anim g.path > text.path-emanation-number,
 #tree-anim g.path > text.path-fools-number,
 #tree-anim g.path > text.path-name {
-  display: none;
+  opacity: 0;
+  transition-property: opacity;
+  transition-duration: var(--transition-duration);
 }
+#tree-anim.transition g.path > use.path-emanation-number,
+#tree-anim.transition g.path > use.path-fools-number,
+#tree-anim.transition g.path > text.path-emanation-number,
+#tree-anim.transition g.path > text.path-fools-number,
+#tree-anim.transition g.path > text.path-name {
+  transition-property: all;
+}
+
 #tree-anim.sigil-path-number.show-emanation-number g.path > use.path-emanation-number,
 #tree-anim.sigil-path-number.show-fools-number g.path > use.path-fools-number,
 #tree-anim.decimal-path-number.show-emanation-number g.path > text.path-emanation-number,
 #tree-anim.decimal-path-number.show-fools-number g.path > text.path-fools-number,
 #tree-anim.show-path-name g.path > text.path-name {
-  display: revert;
+  opacity: 1;
 }
 
 #tree-anim .nav {
@@ -286,6 +297,34 @@ use.sphere {
   right: 0;
 }
 
+#tree-anim.show-fools-journey #nav-button-next {
+  top: 0;
+  right: var(--nav-button-size);
+}
+
+#tree-anim #fools-journey-button {
+  display: none;
+  background-color: var(--color-medium);
+  border: 1pt solid var(--color-darker);
+  border-radius: 2pt;
+  box-sizing: border-box;
+  fill: none;
+  stroke: var(--color-light);
+  stroke-width: 5;
+}
+#tree-anim #fools-journey-button:disabled {
+  fill: none;
+  stroke: var(--color-medium-light);
+}
+
+#tree-anim.show-fools-journey #fools-journey-button {
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 100;
+}
+
 #tree-anim #options-menu-toggle {
   display: none;
   background-color: var(--color-medium);
@@ -326,7 +365,7 @@ use.sphere {
   background-color: var(--color-light);
   border: 0.2vh solid var(--color-darker);
   border-radius: 1vh;
-  font-size: 12pt;
+  font-size: 11pt;
   float: left;
   padding: 5pt 3pt;
 }
@@ -884,4 +923,33 @@ use.sphere {
 #tree-anim svg circle.target.sphere.emanation-11-31 {
   /*display: revert;*/
   fill: #ff0000;
+}
+
+#fools-journey-impulse {
+  transform-origin: 50% 50%;
+  transition-property: all;
+}
+#tree-anim.transition #fools-journey-impulse {
+  transition-duration: 0.8s;
+  transition-timing-function: linear;
+}
+
+#fools-journey-marker {
+  opacity: 0;
+}
+
+#fools-journey-marker-a {
+ animation-name: fade-in;
+ animation-duration: 0.7s;
+ animation-iteration-count: infinite;
+ animation-direction: alternate;
+ animation-timing-function: linear;
+}
+
+#fools-journey-marker-b {
+ animation-name: fade-out;
+ animation-duration: 0.7s;
+ animation-iteration-count: infinite;
+ animation-direction: alternate;
+ animation-timing-function: linear;
 }

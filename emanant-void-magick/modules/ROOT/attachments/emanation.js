@@ -29,15 +29,29 @@ const STEPS = [{
 }, {
   "name": "emanation-1-2",
   "treeDiagram": {
-    "cp": "t",
+    "cp": "f",
+    "fv": 0,
+    "m": "f",
     "pl": "emanation-",
+    "s": "emanation-1-2",
+    "sphereIcons": "sigil",
+  }
+}, {
+  "name": "emanation-1-2-fools-journey",
+  "treeDiagram": {
+    "cp": "f",
+    "fj": "t",
+    "fv": 1,
+    "m": "f",
+    "pl": "full-",
     "s": "emanation-1-2",
     "sphereIcons": "sigil",
   }
 }, {
   "name": "emanation-1-2-element",
   "treeDiagram": {
-    "cp": "t",
+    "cp": "f",
+    "m": "f",
     "pl": "emanation-",
     "s": "emanation-1-2",
     "sphereIcons": "element",
@@ -45,17 +59,29 @@ const STEPS = [{
 }, {
   "name": "emanation-2-3",
   "treeDiagram": {
-    "cp": "t",
-    "m": "t",
+    "cp": "f",
+    "fv": 0,
+    "m": "f",
     "pl": "emanation-",
+    "s": "emanation-2-3",
+    "sphereIcons": "sigil",
+  }
+}, {
+  "name": "emanation-2-3-fools-journey",
+  "treeDiagram": {
+    "cp": "f",
+    "fj": "t",
+    "fv": 1,
+    "m": "f",
+    "pl": "full-",
     "s": "emanation-2-3",
     "sphereIcons": "sigil",
   }
 }, {
   "name": "emanation-2-3-element",
   "treeDiagram": {
-    "cp": "t",
-    "m": "t",
+    "cp": "f",
+    "m": "f",
     "pl": "emanation-",
     "s": "emanation-2-3",
     "sphereIcons": "element",
@@ -63,8 +89,8 @@ const STEPS = [{
 },{
   "name": "emanation-3-5",
   "treeDiagram": {
-    "cp": "t",
-    "m": "t",
+    "cp": "f",
+    "m": "f",
     "pl": "emanation-",
     "s": "emanation-3-5",
     "sphereIcons": "sigil",
@@ -72,8 +98,8 @@ const STEPS = [{
 },{
   "name": "emanation-3-5-element",
   "treeDiagram": {
-    "cp": "t",
-    "m": "t",
+    "cp": "f",
+    "m": "f",
     "pl": "emanation-",
     "s": "emanation-3-5",
     "sphereIcons": "element",
@@ -125,6 +151,7 @@ const STEPS = [{
   "name": "emanation-6-13",
   "treeDiagram": {
     "cp": "t",
+    "fv": 0,
     "pl": "emanation-",
     "s": "emanation-6-13",
     "sphereIcons": "sigil",
@@ -133,6 +160,8 @@ const STEPS = [{
   "name": "emanation-6-13-fools-journey",
   "treeDiagram": {
     "cp": "t",
+    "fj": "t",
+    "fv": 1,
     "pl": "full-",
     "s": "emanation-6-13",
     "sphereIcons": "sigil",
@@ -149,6 +178,7 @@ const STEPS = [{
   "name": "emanation-8-19",
   "treeDiagram": {
     "cp": "t",
+    "fv": 0,
     "pl": "emanation-",
     "s": "emanation-8-19",
     "sphereIcons": "sigil",
@@ -157,6 +187,8 @@ const STEPS = [{
   "name": "emanation-8-19-fools-journey",
   "treeDiagram": {
     "cp": "t",
+    "fj": "t",
+    "fv": 1,
     "pl": "full-",
     "s": "emanation-8-19",
     "sphereIcons": "sigil",
@@ -179,6 +211,7 @@ const STEPS = [{
   "name": "emanation-11-31",
   "treeDiagram": {
     "cp": "t",
+    "fv": 0,
     "pl": "emanation-",
     "s": "emanation-11-31",
   }
@@ -186,6 +219,8 @@ const STEPS = [{
   "name": "emanation-11-31-fools-journey",
   "treeDiagram": {
     "cp": "t",
+    "fj": "t",
+    "fv": 1,
     "pl": "full-",
     "s": "emanation-11-31",
   }
@@ -193,6 +228,8 @@ const STEPS = [{
   "name": "emanation-11-31-explore",
   "treeDiagram": {
     "cp": "t",
+    "fj": "t",
+    "fv": 0,
     "pl": "full-",
     "nav": "t",
     "opt": "t",
