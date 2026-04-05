@@ -44,6 +44,10 @@ body {
   padding-right: 1em;
 }
 
+#content .description p img {
+  height: 1em;
+}
+
 #content.emanation-0 .description.emanation-0 {
   display: block;
 }
@@ -56,28 +60,55 @@ body {
 #content.emanation-0-1 .description.emanation-0-1 {
   display: block;
 }
+#content.emanation-0-1-element .description.emanation-0-1-element {
+  display: block;
+}
 #content.emanation-1-2 .description.emanation-1-2 {
+  display: block;
+}
+#content.emanation-1-2-element .description.emanation-1-2-element {
   display: block;
 }
 #content.emanation-2-3 .description.emanation-2-3 {
   display: block;
 }
+#content.emanation-2-3-element .description.emanation-2-3-element {
+  display: block;
+}
 #content.emanation-3-5 .description.emanation-3-5 {
+  display: block;
+}
+#content.emanation-3-5-element .description.emanation-3-5-element {
   display: block;
 }
 #content.emanation-4-7 .description.emanation-4-7 {
   display: block;
 }
+#content.emanation-4-7-element .description.emanation-4-7-element {
+  display: block;
+}
 #content.emanation-5-11 .description.emanation-5-11 {
   display: block;
 }
+#content.emanation-5-11-flip .description.emanation-5-11-flip {
+  display: block;
+}
+#content.emanation-5-11-element .description.emanation-5-11-element {
+  display: block;
+}
 #content.emanation-6-13 .description.emanation-6-13 {
+  display: block;
+}
+#content.emanation-6-13-fools-journey .description.emanation-6-13-fools-journey {
   display: block;
 }
 #content.emanation-7-17 .description.emanation-7-17 {
   display: block;
 }
 #content.emanation-8-19 .description.emanation-8-19 {
+  display: block;
+}
+#content.emanation-8-19-fools-journey .description.emanation-8-19-fools-journey {
   display: block;
 }
 #content.emanation-9-23 .description.emanation-9-23 {
@@ -87,5 +118,11 @@ body {
   display: block;
 }
 #content.emanation-11-31 .description.emanation-11-31 {
+  display: block;
+}
+#content.emanation-11-31-fools-journey .description.emanation-11-31-fools-journey {
+  display: block;
+}
+#content.emanation-11-31-explore .description.emanation-11-31-explore {
   display: block;
 }

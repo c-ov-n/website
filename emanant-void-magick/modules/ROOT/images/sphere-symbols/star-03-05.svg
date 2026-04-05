@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="100mm"
+   height="100mm"
+   viewBox="0 0 100 100"
+   version="1.1"
+   id="svg1"
+   xml:space="preserve"
+   inkscape:version="1.4.3 (0d15f75042, 2025-12-25)"
+   sodipodi:docname="star-03-05.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"><sodipodi:namedview
+   id="namedview1"
+   pagecolor="#ffffff"
+   bordercolor="#000000"
+   borderopacity="0.25"
+   inkscape:showpageshadow="2"
+   inkscape:pageopacity="0.0"
+   inkscape:pagecheckerboard="0"
+   inkscape:deskcolor="#d1d1d1"
+   inkscape:document-units="mm"
+   showguides="true"
+   inkscape:zoom="4"
+   inkscape:cx="175.875"
+   inkscape:cy="47.5"
+   inkscape:window-width="1536"
+   inkscape:window-height="891"
+   inkscape:window-x="0"
+   inkscape:window-y="0"
+   inkscape:window-maximized="1"
+   inkscape:current-layer="svg1"><sodipodi:guide
+     position="50,50"
+     orientation="-1,0"
+     id="guide1"
+     inkscape:locked="false"
+     inkscape:label=""
+     inkscape:color="rgb(0,134,229)" /></sodipodi:namedview><defs
+   id="defs1" />
+  <symbol
+   inkscape:label="Star 3-5"
+   inkscape:groupmode="layer"
+   id="symbol"
+   height="100"
+   width="100"
+   viewBox="-5 -5 110 110">
+   <path
+   id="star"
+   d="M 77.806752,93.670012 49.985661,7.3203765 20.988703,94.315092 96.069074,39.930069 4.4054239,40.022881 Z"
+   style="fill: none; stroke: #000000; stroke-width: 5" />
+   <path
+   id="triangle"
+   style="fill:none;stroke:#000000;stroke-width:5;stroke-dasharray:none"
+   d="M 76.336625,24.907822 23.925612,24.656015 49.913046,70.17119 Z" />
+  </symbol>
+  <use
+   href="#symbol"
+   id="use1"
+   height="100"
+   width="100"
+   x="0"
+   y="0"
+   transform="translate(-0.06614583,-1.0583333)" />
+</svg>

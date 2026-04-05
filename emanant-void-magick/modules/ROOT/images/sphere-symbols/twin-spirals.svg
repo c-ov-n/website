@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="100mm"
+   height="100mm"
+   viewBox="0 0 100 100"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4.3 (0d15f75042, 2025-12-25)"
+   sodipodi:docname="twin-spirals.svg"
+   inkscape:export-filename="chaos-covn.png"
+   inkscape:export-xdpi="130.05"
+   inkscape:export-ydpi="130.05"
+   xml:space="preserve"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"><defs
+   id="defs1" /><sodipodi:namedview
+   id="namedview1"
+   pagecolor="#ffffff"
+   bordercolor="#000000"
+   borderopacity="0.25"
+   inkscape:showpageshadow="2"
+   inkscape:pageopacity="0.0"
+   inkscape:pagecheckerboard="0"
+   inkscape:deskcolor="#d1d1d1"
+   inkscape:document-units="mm"
+   inkscape:zoom="1"
+   inkscape:cx="193.49999"
+   inkscape:cy="300.99999"
+   inkscape:window-width="1536"
+   inkscape:window-height="891"
+   inkscape:window-x="0"
+   inkscape:window-y="0"
+   inkscape:window-maximized="1"
+   inkscape:current-layer="svg1"
+   inkscape:export-bgcolor="#a5a5a5ff"
+   showguides="true"><sodipodi:guide
+     position="50,50"
+     orientation="0,1"
+     id="guide1"
+     inkscape:locked="false"
+     inkscape:label=""
+     inkscape:color="rgb(0,134,229)" /><sodipodi:guide
+     position="50,50"
+     orientation="-1,0"
+     id="guide2"
+     inkscape:locked="false"
+     inkscape:label=""
+     inkscape:color="rgb(0,134,229)" /></sodipodi:namedview>
+  <symbol
+   inkscape:label="Chaos Star"
+   inkscape:groupmode="layer"
+   id="symbol"
+   height="100"
+   width="100"
+   viewBox="0 0 100 100">
+  <path
+   id="spiral"
+   d="m 50.013938,49.98694 c 0.02339,0.03836 0.0041,0.0044 -0.0035,-0.0012 -0.01063,-0.0079 0.0059,-0.02494 0.01363,-0.02943 0.0539,-0.03131 0.112696,0.03261 0.13051,0.0768 0.07731,0.191809 -0.128548,0.36636 -0.29133,0.412474 -0.53142,0.150546 -0.963637,-0.392951 -1.054739,-0.854915 -0.245699,-1.245909 0.95271,-2.42053 2.055692,-2.566511 2.59217,-0.343078 5.244727,2.327034 5.481434,4.65071 0.570456,5.599984 -5.22703,9.422482 -9.862046,9.642582 C 36.821445,61.77626 28.809746,54.305589 28.704448,44.973373 28.520244,28.64792 55.201548,25.240562 54.928626,15.459428 54.755817,9.2662167 51.609924,8.3877077 50.548966,4.79703 50.202536,3.6245789 50.092642,1.5730594 50.320617,-0.01659664 c -9e-5,-0.049835 -0.754083,-0.06905114 -0.819792,-0.0025466 -0.361217,1.53121575 -0.295604,3.19080995 -0.0049,4.92336245 0.654283,3.8994619 3.717631,5.4103838 3.057002,10.3784758 -0.572013,4.301673 -8.134724,5.84394 -19.75574,13.86261 -6.120697,4.22337 -10.059401,10.596197 -8.925519,18.992099 1.237779,9.165213 8.755869,18.508946 22.204632,17.917667 10.075074,-0.442953 14.461287,-7.542394 14.274391,-14.127461 -0.07061,-2.488033 -1.478262,-5.142538 -3.498089,-6.597046 -1.610465,-1.159721 -4.126615,-1.425487 -6.060006,-0.977658 -1.54361,0.357545 -2.997777,1.333079 -3.681116,2.762631 -0.558241,1.167845 -0.644582,4.092608 2.338001,4.195629 1.342976,0.04639 1.467328,-1.628413 0.872045,-1.646421 -0.186768,-0.0057 -0.299904,0.0825 -0.342857,0.264356 -0.0052,0.02198 0.03527,0.05784 0.03527,0.05784 z"
+   sodipodi:nodetypes="sssssssssssscsssssssssssssss" />
+  <use
+   id="use-spiral"
+   href="#spiral"
+   transform="rotate(180,50,50)"
+   style="display:inline" />
+  </symbol>
+  <style
+   id="style1">
+    path {
+      fill: #000000;
+    }
+  </style>
+  <use
+   href="#symbol"
+   id="use1"
+   style="display:inline" />
+</svg>

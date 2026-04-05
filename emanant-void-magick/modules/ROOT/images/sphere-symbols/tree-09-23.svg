@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="100mm"
+   height="100mm"
+   viewBox="0 0 100 100"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4.3 (0d15f75042, 2025-12-25)"
+   sodipodi:docname="noodling-on-9-23-tree.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showguides="true"
+     inkscape:zoom="0.80378836"
+     inkscape:cx="177.90753"
+     inkscape:cy="195.32505"
+     inkscape:window-width="1536"
+     inkscape:window-height="891"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g33">
+    <sodipodi:guide
+       position="50,50"
+       orientation="0,1"
+       id="guide4"
+       inkscape:locked="false"
+       inkscape:label=""
+       inkscape:color="rgb(0,134,229)" />
+  </sodipodi:namedview>
+  <symbol
+   inkscape:label="Tree 9-23"
+   inkscape:groupmode="layer"
+   id="symbol"
+   height="100"
+   width="100"
+   viewBox="0 0 100 100">
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       style="font-variation-settings:normal;display:none;opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3.1;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:fill markers stroke;stop-color:#000000;stop-opacity:1"
+       d="m 50.033901,56.617308 0.329168,-15.306423 -6.08965,0.98751 -3.78546,5.431313 -0.32917,7.241747 4.937556,7.90009 h 9.710525 l 5.925069,-7.077162 0.658339,-8.393846 -3.950044,-6.418823 -7.241749,-5.925066 -10.533451,1.810436 -6.747994,9.381357 0.164584,13.166815 8.887602,12.343889 L 58.26316,71.923732 70.277878,60.731939 71.759145,45.754684 64.188228,32.258698 50.033901,24.358609 33.575381,29.296164 21.396076,44.273419 22.383587,65.504908 38.842105,80.15299"
+       id="path2" />
+    <path
+       style="font-variation-settings:normal;display:none;opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3.1;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:fill markers stroke;stop-color:#000000;stop-opacity:1"
+       d="m 50.437158,47.772444 -0.211455,7.537349 6.729329,-4.031863 -2.871766,-8.949576 -9.097434,0.290089 -4.229655,9.21647 5.555163,9.462211 10.315867,-0.03758 7.86098,-7.302867 -0.322512,-13.189373 -8.661201,-7.904501 -13.592159,0.363615 -9.03467,11.220827 1.008425,15.172706 8.903078,10.240271 17.483771,6.09264 13.949268,-12.839965 3.013878,-18.675755 -9.185717,-15.734702 -18.01468,-6.736217 -17.596606,6.28866 -9.742249,16.299268 2.692035,19.434045 15.34411,12.769707"
+       id="path3"
+       sodipodi:nodetypes="cccccccccccccccccccccccc" />
+    <circle
+       style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.0882526;stroke-linecap:square;stroke-miterlimit:3.1;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke"
+       id="path6"
+       cx="50"
+       cy="91"
+       inkscape:label="circle"
+       r="6" />
+    <use
+       x="0"
+       y="0"
+       xlink:href="#path6"
+       id="use27"
+       transform="translate(0,-69.057919)" />
+    <use
+       x="0"
+       y="0"
+       xlink:href="#path6"
+       id="use29"
+       transform="translate(0,-20)" />
+    <g
+       id="g33">
+      <path
+         style="font-variation-settings:normal;opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3.1;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:fill markers stroke;stop-color:#000000;stop-opacity:1"
+         d="M 50.252175,89.023956 49.961255,3.4562494 M 49.467499,22.218961 37.623644,10.161099 M 50.296705,71.222208 33.928141,56.377039 M 3.6444647,56.212454 16.695695,66.685351 16.559986,83.341346 M 2.0764878,75.60584 33.8624,56.29135 16.470019,19.251068 M 7.9115888,36.038759 25.131101,36.697531 33.171545,22.612744"
+         id="path16"
+         sodipodi:nodetypes="ccccccccccccccc" />
+      <use
+         x="0"
+         y="0"
+         xlink:href="#path6"
+         id="use26"
+         transform="translate(-33.227031,-24.67306)"
+         inkscape:label="use6" />
+      <use
+         x="0"
+         y="0"
+         xlink:href="#path6"
+         id="use28"
+         transform="translate(-25.004162,-54.195768)" />
+      <use
+         x="0"
+         y="0"
+         xlink:href="#path6"
+         id="use31"
+         transform="translate(-16,-35)" />
+    </g>
+    <use
+       x="0"
+       y="0"
+       xlink:href="#g33"
+       id="use34"
+       transform="matrix(-1,0,0,1,100.12786,-0.1645852)" />
+  </g>
+  </symbol>
+  <use
+   href="#symbol"
+   id="use1"
+   height="100"
+   width="100"
+   x="0"
+   y="0" />
+</svg>

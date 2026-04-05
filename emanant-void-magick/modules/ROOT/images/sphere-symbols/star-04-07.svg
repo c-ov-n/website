@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="100mm"
+   height="100mm"
+   viewBox="0 0 100 100"
+   version="1.1"
+   id="svg1"
+   xml:space="preserve"
+   inkscape:version="1.4.3 (0d15f75042, 2025-12-25)"
+   sodipodi:docname="star-04-07.svg"
+   inkscape:export-filename="sphere-04-07-star.png"
+   inkscape:export-xdpi="161.3647"
+   inkscape:export-ydpi="161.3647"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"><sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showguides="true"
+     inkscape:zoom="1.4142136"
+     inkscape:cx="182.08"
+     inkscape:cy="181.72644"
+     inkscape:window-width="1536"
+     inkscape:window-height="891"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg1"
+     inkscape:export-bgcolor="#ffffffff"><sodipodi:guide
+       position="50,50"
+       orientation="0,1"
+       id="guide3"
+       inkscape:locked="false"
+       inkscape:label=""
+       inkscape:color="rgb(0,134,229)" /><sodipodi:guide
+       position="50,50"
+       orientation="-1,0"
+       id="guide4"
+       inkscape:locked="false"
+       inkscape:label=""
+       inkscape:color="rgb(0,134,229)" /></sodipodi:namedview><defs
+     id="defs1" />
+  <symbol
+   inkscape:label="Star 4-7"
+   inkscape:groupmode="layer"
+   id="symbol"
+   height="100"
+   width="100"
+   viewBox="0 0 100 100">
+   <path id="heptagram"
+    d="M 50.416642,96.427904 2.7146347,37.495147 70.988006,4.1986293 88.254887,78.099124 12.315953,78.507504 28.858305,4.3477968 97.37254,37.020052 Z"
+    style="fill:none;stroke:#000000;stroke-width:4.5"
+    sodipodi:nodetypes="cccccccc" />
+   <path id="square"
+    style="fill:none;stroke:#000000;stroke-width:4.5"
+    d="M 50.011168,18.041795 79.521338,47.525119 50.038009,77.035285 20.527847,47.551956 Z" />
+  </symbol>
+  <use
+   href="#symbol"
+   id="use1"
+   height="100"
+   width="100"
+   x="0"
+   y="0" />
+</svg>

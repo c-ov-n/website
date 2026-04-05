@@ -15,6 +15,24 @@
   --nav-button-size: 30pt;
 }
 
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fade-out {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
 html, body {
   background-color: var(--color-medium);
   margin: 0;
@@ -62,7 +80,6 @@ html, body {
   opacity: 0;
 }
 
-circle.sphere,
 #tree-anim.transition,
 #tree-anim.transition svg.diagram,
 #tree-anim.transition svg.diagram * {
@@ -120,22 +137,91 @@ symbol.sphere > circle.sphere {
 
 symbol.sphere > text.number {
   fill: black;
-  font-size: 1.1em;
-  transform: translate(0, -1.4em);
+  font-size: 1em;
+  transform: translate(0, -1.7em);
 }
 
 symbol.sphere > text.name {
   fill: black;
-  font-size: 1.1em;
-  transform: translate(0, -0.2em);
+  font-size: 1em;
+  transform: translate(0, -0.5em);
 }
 
-symbol.sphere > use.sigil {
+symbol.sphere > use.icon.sigil {
+  opacity: 1;
   height: 3em;
-  transform: translate(0, 1.3em) scale(55%);
+  transform: translate(0, 1.2em) scale(60%);
   transform-origin: 50% 50%;
 }
 
+symbol.sphere > use.icon.symbol {
+  opacity: 0;
+  transform: translate(0, 1.1em) scale(90%);
+  transform-origin: 50% 50%;
+}
+
+symbol.sphere > use.icon.element {
+  opacity: 0;
+  fill: none;
+  stroke-width: 1em;
+  stroke: black;
+  stroke-linecap: square;
+  transform: translate(0, 1.2em) scale(70%);
+  transform-origin: 50% 50%;
+}
+
+symbol.sphere > use.icon.element.fire {
+  stroke: #ee0000;
+}
+
+symbol.sphere > use.icon.element.air {
+  stroke: #cccc00;
+}
+
+symbol.sphere > use.icon.element.water {
+  stroke: #0000dd;
+}
+
+symbol.sphere > use.icon.element.earth {
+  stroke: #00cc00;
+}
+
+symbol.sphere.element > use.icon.sigil,
+symbol.sphere.sigil > use.icon.sigil,
+symbol.sphere.symbol > use.icon.sigil {
+  opacity: 0;
+}
+symbol.sphere.element > use.icon.element {
+  opacity: 1;
+}
+symbol.sphere.fade-in-element > use.icon.element {
+  animation: fade-in var(--transition-duration);
+}
+symbol.sphere.fade-out-element > use.icon.element {
+  animation: fade-out var(--transition-duration);
+}
+symbol.sphere.sigil > use.icon.sigil {
+  opacity: 1;
+}
+symbol.sphere.fade-in-sigil > use.icon.sigil {
+  animation: fade-in var(--transition-duration);
+}
+symbol.sphere.fade-out-sigil > use.icon.sigil {
+  animation: fade-out var(--transition-duration);
+}
+symbol.sphere.symbol > use.icon.symbol {
+  opacity: 1;
+}
+symbol.sphere.fade-in-symbol > use.icon.symbol {
+  animation: fade-in var(--transition-duration);
+}
+symbol.sphere.fade-out-symbol > use.icon.symbol {
+  animation: fade-out var(--transition-duration);
+}
+
+/*
+  animation: fade-out var(--transition-duration);
+*/
 use.sphere {
   transform-origin: 50% 50%;
 }
@@ -402,11 +488,11 @@ use.sphere {
 
 #tree-anim.show-emanation-number.show-fools-number.show-path-name.emanation-2-3 g.path path.black-stroke {
   stroke: black;
-  stroke-width: 7.5;
+  stroke-width: 8;
 }
 #tree-anim.show-emanation-number.show-fools-number.show-path-name.emanation-2-3 g.path path.white-stroke {
   stroke: white;
-  stroke-width: 7;
+  stroke-width: 7.5;
 }
 
 
@@ -441,11 +527,11 @@ use.sphere {
 
 #tree-anim.show-emanation-number.show-fools-number.show-path-name.emanation-3-5 g.path path.black-stroke {
   stroke: black;
-  stroke-width: 5.5;
+  stroke-width: 6.3;
 }
 #tree-anim.show-emanation-number.show-fools-number.show-path-name.emanation-3-5 g.path path.white-stroke {
   stroke: white;
-  stroke-width: 5;
+  stroke-width: 5.8;
 }
 
 #tree-anim.emanation-3-5.transition-from-emanation-2-3 #use-sphere-4-7 {
@@ -480,11 +566,11 @@ use.sphere {
 
 #tree-anim.show-emanation-number.show-fools-number.show-path-name.emanation-4-7 g.path path.black-stroke {
   stroke: black;
-  stroke-width: 5.1;
+  stroke-width: 5.4;
 }
 #tree-anim.show-emanation-number.show-fools-number.show-path-name.emanation-4-7 g.path path.white-stroke {
   stroke: white;
-  stroke-width: 4.6;
+  stroke-width: 4.9;
 }
 
 #tree-anim.emanation-4-7.transition-from-emanation-3-5 #use-sphere-5-11 {
@@ -521,11 +607,11 @@ use.sphere {
 
 #tree-anim.show-emanation-number.show-fools-number.show-path-name.emanation-5-11 g.path path.black-stroke {
   stroke: black;
-  stroke-width: 5;
+  stroke-width: 5.4;
 }
 #tree-anim.show-emanation-number.show-fools-number.show-path-name.emanation-5-11 g.path path.white-stroke {
   stroke: white;
-  stroke-width: 4.5;
+  stroke-width: 4.9;
 }
 
 #tree-anim.emanation-5-11.transition-from-emanation-4-7 #use-sphere-6-13 {
@@ -563,11 +649,11 @@ use.sphere {
 
 #tree-anim.show-emanation-number.show-fools-number.show-path-name.emanation-6-13 g.path path.black-stroke {
   stroke: black;
-  stroke-width: 5;
+  stroke-width: 5.3;
 }
 #tree-anim.show-emanation-number.show-fools-number.show-path-name.emanation-6-13 g.path path.white-stroke {
   stroke: white;
-  stroke-width: 4.5;
+  stroke-width: 4.8;
 }
 
 #tree-anim.emanation-6-13.transition-from-emanation-5-11 #use-sphere-7-17 {
@@ -606,11 +692,11 @@ use.sphere {
 
 #tree-anim.show-emanation-number.show-fools-number.show-path-name.emanation-7-17 g.path path.black-stroke {
   stroke: black;
-  stroke-width: 4.7;
+  stroke-width: 4.9;
 }
 #tree-anim.show-emanation-number.show-fools-number.show-path-name.emanation-7-17 g.path path.white-stroke {
   stroke: white;
-  stroke-width: 4.2;
+  stroke-width: 4.4;
 }
 
 #tree-anim.emanation-7-17.transition-from-emanation-6-13 #use-sphere-8-19 {
@@ -650,11 +736,11 @@ use.sphere {
 }
 #tree-anim.show-emanation-number.show-fools-number.show-path-name.emanation-8-19 g.path path.black-stroke {
   stroke: black;
-  stroke-width: 4.7;
+  stroke-width: 4.8;
 }
 #tree-anim.show-emanation-number.show-fools-number.show-path-name.emanation-8-19 g.path path.white-stroke {
   stroke: white;
-  stroke-width: 4.2;
+  stroke-width: 4.3;
 }
 
 #tree-anim.emanation-8-19.transition-from-emanation-7-17 #use-sphere-9-23 {

@@ -1,20 +1,204 @@
-const STEPS = [
-  "emanation-0",
-  "emanation-00",
-  "emanation-000",
-  "emanation-0-1",
-  "emanation-1-2",
-  "emanation-2-3",
-  "emanation-3-5",
-  "emanation-4-7",
-  "emanation-5-11",
-  "emanation-6-13",
-  "emanation-7-17",
-  "emanation-8-19",
-  "emanation-9-23",
-  "emanation-10-29",
-  "emanation-11-31",
-];
+const STEPS = [{
+  "name": "emanation-0",
+  "treeDiagram": {
+    "s": "emanation-0",
+  }
+}, {
+  "name": "emanation-00",
+  "treeDiagram": {
+    "s": "emanation-00",
+  }
+}, {
+  "name": "emanation-000",
+  "treeDiagram": {
+    "s": "emanation-000",
+    "sphereIcons": "sigil",
+  }
+}, {
+  "name": "emanation-0-1",
+  "treeDiagram": {
+    "s": "emanation-0-1",
+    "sphereIcons": "sigil",
+  }
+}, {
+  "name": "emanation-0-1-element",
+  "treeDiagram": {
+    "s": "emanation-0-1",
+    "sphereIcons": "element",
+  }
+}, {
+  "name": "emanation-1-2",
+  "treeDiagram": {
+    "cp": "t",
+    "pl": "emanation-",
+    "s": "emanation-1-2",
+    "sphereIcons": "sigil",
+  }
+}, {
+  "name": "emanation-1-2-element",
+  "treeDiagram": {
+    "cp": "t",
+    "pl": "emanation-",
+    "s": "emanation-1-2",
+    "sphereIcons": "element",
+  }
+}, {
+  "name": "emanation-2-3",
+  "treeDiagram": {
+    "cp": "t",
+    "m": "t",
+    "pl": "emanation-",
+    "s": "emanation-2-3",
+    "sphereIcons": "sigil",
+  }
+}, {
+  "name": "emanation-2-3-element",
+  "treeDiagram": {
+    "cp": "t",
+    "m": "t",
+    "pl": "emanation-",
+    "s": "emanation-2-3",
+    "sphereIcons": "element",
+  }
+},{
+  "name": "emanation-3-5",
+  "treeDiagram": {
+    "cp": "t",
+    "m": "t",
+    "pl": "emanation-",
+    "s": "emanation-3-5",
+    "sphereIcons": "sigil",
+  }
+},{
+  "name": "emanation-3-5-element",
+  "treeDiagram": {
+    "cp": "t",
+    "m": "t",
+    "pl": "emanation-",
+    "s": "emanation-3-5",
+    "sphereIcons": "element",
+  }
+}, {
+  "name": "emanation-4-7",
+  "treeDiagram": {
+    "cp": "f",
+    "m": "f",
+    "pl": "emanation-",
+    "s": "emanation-4-7",
+    "sphereIcons": "sigil",
+  }
+}, {
+  "name": "emanation-4-7-element",
+  "treeDiagram": {
+    "cp": "t",
+    "m": "t",
+    "pl": "emanation-",
+    "s": "emanation-4-7",
+    "sphereIcons": "symbol-element",
+  }
+}, {
+  "name": "emanation-5-11",
+  "treeDiagram": {
+    "cp": "t",
+    "m": "t",
+    "pl": "emanation-",
+    "s": "emanation-5-11",
+    "sphereIcons": "sigil",
+  }
+}, {
+  "name": "emanation-5-11-flip",
+  "treeDiagram": {
+    "cp": "f",
+    "pl": "emanation-",
+    "s": "emanation-5-11",
+    "sphereIcons": "sigil",
+  }
+}, {
+  "name": "emanation-5-11-element",
+  "treeDiagram": {
+    "cp": "t",
+    "pl": "emanation-",
+    "s": "emanation-5-11",
+    "sphereIcons": "symbol-element",
+  }
+}, {
+  "name": "emanation-6-13",
+  "treeDiagram": {
+    "cp": "t",
+    "pl": "emanation-",
+    "s": "emanation-6-13",
+    "sphereIcons": "sigil",
+  }
+}, {
+  "name": "emanation-6-13-fools-journey",
+  "treeDiagram": {
+    "cp": "t",
+    "pl": "full-",
+    "s": "emanation-6-13",
+    "sphereIcons": "sigil",
+  }
+}, {
+  "name": "emanation-7-17",
+  "treeDiagram": {
+    "cp": "t",
+    "pl": "emanation-",
+    "s": "emanation-7-17",
+    "sphereIcons": "sigil",
+  }
+}, {
+  "name": "emanation-8-19",
+  "treeDiagram": {
+    "cp": "t",
+    "pl": "emanation-",
+    "s": "emanation-8-19",
+    "sphereIcons": "sigil",
+  }
+}, {
+  "name": "emanation-8-19-fools-journey",
+  "treeDiagram": {
+    "cp": "t",
+    "pl": "full-",
+    "s": "emanation-8-19",
+    "sphereIcons": "sigil",
+  }
+}, {
+  "name": "emanation-9-23",
+  "treeDiagram": {
+    "cp": "t",
+    "pl": "emanation-",
+    "s": "emanation-9-23",
+  }
+}, {
+  "name": "emanation-10-29",
+  "treeDiagram": {
+    "cp": "t",
+    "pl": "emanation-",
+    "s": "emanation-10-29",
+  }
+}, {
+  "name": "emanation-11-31",
+  "treeDiagram": {
+    "cp": "t",
+    "pl": "emanation-",
+    "s": "emanation-11-31",
+  }
+}, {
+  "name": "emanation-11-31-fools-journey",
+  "treeDiagram": {
+    "cp": "t",
+    "pl": "full-",
+    "s": "emanation-11-31",
+  }
+}, {
+  "name": "emanation-11-31-explore",
+  "treeDiagram": {
+    "cp": "t",
+    "pl": "full-",
+    "nav": "t",
+    "opt": "t",
+    "s": "emanation-11-31",
+  }
+}];
 
 class Emanation {
   constructor(contentElement, treeDiagramElement) {
@@ -22,16 +206,25 @@ class Emanation {
     this.treeDiagramElement = treeDiagramElement;
     this.nextButton = contentElement.querySelector('.nav > button.next');
     this.previousButton = contentElement.querySelector('.nav > button.previous');
+    this.pathNumberModeSigilSelect = contentElement.querySelector('.nav > input[type="radio"][value="sigil"]');
+    this.pathNumberModeDecimalSelect = contentElement.querySelector('.nav > input[type="radio"][value="decimal"]');
 
     window.onhashchange = () => {
       var hashParams = new URLSearchParams(window.location.hash.substring(1));
-      this.setEmanation(hashParams.get("s"));
+      this.pathNumberMode = hashParams.get("pn") || "sigil";
+      this.setStep(hashParams.get("s"));
     }
     if (window.location.hash) {
-      var hashParams = new URLSearchParams(window.location.hash.substring(1));
-      this.setEmanation(hashParams.get("s") || STEPS[0]);
+      const hashParams = new URLSearchParams(window.location.hash.substring(1));
+      this.pathNumberMode = hashParams.get("pn") || "sigil";
+      if (this.pathNumberMode === "sigil") {
+        this.pathNumberModeSigilSelect.checked = true;
+      } else {
+        this.pathNumberModeDecimalSelect.checked = true;
+      }
+      this.setStep(hashParams.get("s") || STEPS[0].name);
     } else {
-      window.location.hash = `s=${STEPS[0]}`;
+      window.location.hash = `s=${STEPS[0].name}&pn=sigil`;
     }
 
     this.nextButton.onclick = (event) => {
@@ -43,53 +236,69 @@ class Emanation {
       event.preventDefault();
       this.showPrevious();
     }
+
+    this.pathNumberModeDecimalSelect.onchange = (event) => {
+      this.setPathNumberMode("decimal")
+    }
+    this.pathNumberModeSigilSelect.onchange = (event) => {
+      this.setPathNumberMode("sigil")
+    }
   }
 
   setButtonsDisabled() {
-    this.previousButton.disabled = this.emanation === STEPS[0];
-    this.nextButton.disabled = this.emanation === STEPS[STEPS.length - 1];
+    this.previousButton.disabled = this.step === STEPS[0];
+    this.nextButton.disabled = this.step === STEPS[STEPS.length - 1];
   }
 
   setContentClass() {
-    this.contentElement.className = `description ${this.emanation}`;
+    this.contentElement.className = `description ${this.step.name}`;
   }
 
   setDiagramHash() {
-    if (this.treeDiagramElement.contentWindow.location == "about:blank") {
-      var hashParams = new URLSearchParams();
-      hashParams.set("s", this.emanation);
-      hashParams.set("opt", "t");
-      this.treeDiagramElement.contentWindow.location = `treeanim.html#${hashParams.toString()}`;
-      return
+    const hashParams = new URLSearchParams();
+    for (const key in this.step.treeDiagram) {
+      if (key === "pl") {
+        hashParams.set(key, this.step.treeDiagram[key] + this.pathNumberMode);
+      } else {
+        hashParams.set(key, this.step.treeDiagram[key]);
+      }
     }
-    var hashParams = new URLSearchParams(this.treeDiagramElement.contentWindow.location.hash.substring(1));
-    hashParams.set("s", this.emanation);
-    this.treeDiagramElement.contentWindow.location.hash = hashParams.toString();
+    if (this.treeDiagramElement.contentWindow.location == "about:blank") {
+      this.treeDiagramElement.contentWindow.location = `treeanim.html#${hashParams.toString()}`;
+    } else {
+      this.treeDiagramElement.contentWindow.location.hash = hashParams.toString();
+    }
   }
 
-  setEmanation(emanation) {
-    this.emanation = emanation;
+  setPathNumberMode(mode) {
+    var hashParams = new URLSearchParams(window.location.hash.substring(1));
+    hashParams.set("pn", mode);
+    window.location.hash = hashParams.toString();
+  }
+
+  setStep(stepName) {
+    this.step = STEPS.find((step) => step.name === stepName);
     this.setButtonsDisabled();
     this.setDiagramHash();
     this.setContentClass();
   }
 
-  setEmanationInHash(emanation) {
+  setStepInHash(step) {
     var hashParams = new URLSearchParams(window.location.hash.substring(1));
-    hashParams.set("s", emanation);
+    hashParams.set("s", step.name);
     window.location.hash = hashParams.toString();
   }
 
   setNextEmanation() {
-    const n = STEPS.indexOf(this.emanation);
+    const n = STEPS.indexOf(this.step);
     if (n >= STEPS.length - 1) { return }
-    this.setEmanationInHash(STEPS[n+1]);
+    this.setStepInHash(STEPS[n+1]);
   }
 
   setPreviousEmanation() {
-    const n = STEPS.indexOf(this.emanation);
+    const n = STEPS.indexOf(this.step);
     if (n == 0) { return }
-    this.setEmanationInHash(STEPS[n-1]);
+    this.setStepInHash(STEPS[n-1]);
   }
 
   showNext() {

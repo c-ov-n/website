@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="100mm"
+   height="100mm"
+   viewBox="0 0 100 100"
+   version="1.1"
+   id="svg1"
+   xml:space="preserve"
+   inkscape:version="1.4.3 (0d15f75042, 2025-12-25)"
+   sodipodi:docname="fire.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"><defs
+   id="defs1" /><sodipodi:namedview
+   id="namedview1"
+   pagecolor="#ffffff"
+   bordercolor="#000000"
+   borderopacity="0.25"
+   inkscape:showpageshadow="2"
+   inkscape:pageopacity="0.0"
+   inkscape:pagecheckerboard="0"
+   inkscape:deskcolor="#d1d1d1"
+   inkscape:document-units="mm"
+   inkscape:zoom="1.1367284"
+   inkscape:cx="142.95411"
+   inkscape:cy="173.30437"
+   inkscape:window-width="1536"
+   inkscape:window-height="891"
+   inkscape:window-x="0"
+   inkscape:window-y="0"
+   inkscape:window-maximized="1"
+   inkscape:current-layer="svg1" />
+  <symbol id="symbol" viewBox="-15 -15 130 130">
+   <style>
+    path {
+      fill: none;
+      stroke: #00ee00;
+      stroke-width: 8;
+    }
+   </style>
+   <path d="M 0,9.39746 50,100 100,9.39746 Z M 0,50 100,50" />
+  </symbol>
+  <use
+   href="#symbol"
+   height="80"
+   width="80"
+   x="10"
+   y="10"
+   id="use"
+  />
+</svg>

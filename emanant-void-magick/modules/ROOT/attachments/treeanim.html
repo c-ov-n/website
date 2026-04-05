@@ -33,14 +33,22 @@
           <label for="pathLabelModeSelect">Paths:</label>
           <select name="pathLabelModeSelect" id="path-label-mode-select">
             <option value="emanation-sigil">Emanation number sigils</option>
-            <option value="emanation-number">Emanation decimal numbers</option>
+            <option value="emanation-decimal">Emanation decimal numbers</option>
             <option value="fools-sigil">Fool's journey number sigils</option>
-            <option value="fools-number">Fool's journey decimal numbers</option>
+            <option value="fools-decimal">Fool's journey decimal numbers</option>
             <option value="both-sigils">Both number sigils</option>
-            <option value="both-numbers">Both decimal numbers</option>
+            <option value="both-decimal">Both decimal numbers</option>
             <option value="name">Major arcana association</option>
             <option value="full-sigil">Major arcana with sigil numbers</option>
             <option value="full-decimal">Major arcana with decimal numbers</option>
+          </select>
+          <br/>
+          <label for="sphereIconSelect">Sphere Icons:</label>
+          <select name="sphereIconSelect" id="sphere-icon-select">
+            <option value="element">Element</option>
+            <option value="sigil">Sigil</option>
+            <option value="symbol">Symbol</option>
+            <option value="symbol-element">Symbol &amp; Element</option>
           </select>
           <br/>
           <label for="crossTopSpheres">Cross top spheres:</label>
@@ -82,89 +90,116 @@
         </text>
         <circle class="non-being" id="circle-unlimited" r="10000" cx="50" cy="10181" />
         <circle class="non-being" id="circle-all-possibility" r="10000" cx="50" cy="10181" />
+
         <!-- spheres definitions -->
-        <symbol class="sphere" id="sphere-0-1" viewBox="0 0 100 162">
+        <symbol class="sphere sigil" id="sphere-0-1" viewBox="0 0 100 162">
           <circle class="sphere" r="46" cx="50" cy="81" filter="url(#sphere-shadow)"/>
           <text class="number" dominant-baseline="middle" text-anchor="middle" x="50" y="81">0&#8942;1</text>
           <text class="name" dominant-baseline="middle" text-anchor="middle" x="50" y="81">Chaos</text>
-          <use class="sigil" height="70.71065" width="50" x="25" y="50" href="../_images/sphere-glyphs/sphere-00-01.svg#sigil"></use>
+          <use class="icon sigil" height="70.71065" width="50" x="25" y="50" href="../_images/sphere-glyphs/sphere-00-01.svg#sigil"></use>
+          <use class="icon element fire" height="70.71065" width="50" x="25" y="50" href="../_images/elements/fire.svg#symbol"></use>
+          <use class="icon symbol" height="70.71065" width="50" x="25" y="50" href="../_images/sphere-symbols/chaos-star.svg#symbol"></use>
         </symbol>
 
-        <symbol class="sphere" id="sphere-1-2" viewBox="0 0 100 162">
+        <symbol class="sphere sigil" id="sphere-1-2" viewBox="0 0 100 162">
           <circle class="sphere" r="46" cx="50" cy="81" filter="url(#sphere-shadow)"/>
           <text class="number" dominant-baseline="middle" text-anchor="middle" x="50" y="81">1&#8942;2</text>
           <text class="name" dominant-baseline="middle" text-anchor="middle" x="50" y="81">Process</text>
-          <use class="sigil" height="70.71065" width="50" x="25" y="50" href="../_images/sphere-glyphs/sphere-01-02.svg#sigil"></use>
+          <use class="icon sigil" height="70.71065" width="50" x="25" y="50" href="../_images/sphere-glyphs/sphere-01-02.svg#sigil"></use>
+          <use class="icon element water" height="70.71065" width="50" x="25" y="50" href="../_images/elements/water.svg#symbol"></use>
+          <use class="icon symbol" height="70.71065" width="50" x="25" y="50" href="../_images/sphere-symbols/twin-spirals.svg#symbol"></use>
         </symbol>
 
-        <symbol class="sphere" id="sphere-2-3" viewBox="0 0 100 162">
+        <symbol class="sphere sigil" id="sphere-2-3" viewBox="0 0 100 162">
           <circle class="sphere" r="46" cx="50" cy="81" filter="url(#sphere-shadow)"/>
           <text class="number" dominant-baseline="middle" text-anchor="middle" x="50" y="81">2&#8942;3</text>
           <text class="name" dominant-baseline="middle" text-anchor="middle" x="50" y="81">Pattern</text>
-          <use class="sigil" height="70.71065" width="50" x="25" y="50" href="../_images/sphere-glyphs/sphere-02-03.svg#sigil"></use>
+          <use class="icon sigil" height="70.71065" width="50" x="25" y="50" href="../_images/sphere-glyphs/sphere-02-03.svg#sigil"></use>
+          <use class="icon element air" height="70.71065" width="50" x="25" y="50" href="../_images/elements/air.svg#symbol"></use>
+          <use class="icon symbol" height="70.71065" width="50" x="25" y="50" href="../_images/sphere-symbols/koch-curve.svg#symbol"></use>
         </symbol>
-        <symbol class="sphere" id="sphere-3-5" viewBox="0 0 100 162">
+
+        <symbol class="sphere sigil" id="sphere-3-5" viewBox="0 0 100 162">
           <circle class="sphere" r="46" cx="50" cy="81" filter="url(#sphere-shadow)"/>
           <text class="number" dominant-baseline="middle" text-anchor="middle" x="50" y="81">3&#8942;5</text>
           <text class="name" dominant-baseline="middle" text-anchor="middle" x="50" y="81">Form</text>
-          <use class="sigil" height="70.71065" width="50" x="25" y="50" href="../_images/sphere-glyphs/sphere-03-05.svg#sigil"></use>
+          <use class="icon sigil" height="70.71065" width="50" x="25" y="50" href="../_images/sphere-glyphs/sphere-03-05.svg#sigil"></use>
+          <use class="icon element earth" height="70.71065" width="50" x="25" y="50" href="../_images/elements/earth.svg#symbol"></use>
+          <use class="icon symbol" height="70.71065" width="50" x="25" y="50" href="../_images/sphere-symbols/star-03-05.svg#symbol"></use>
         </symbol>
 
-        <symbol class="sphere" id="sphere-4-7" viewBox="0 0 100 162">
+        <symbol class="sphere sigil" id="sphere-4-7" viewBox="0 0 100 162">
           <circle class="sphere" r="46" cx="50" cy="81" filter="url(#sphere-shadow)"/>
           <text class="number" dominant-baseline="middle" text-anchor="middle" x="50" y="81">4&#8942;7</text>
           <text class="name" dominant-baseline="middle" text-anchor="middle" x="50" y="81">Change</text>
-          <use class="sigil" height="70.71065" width="50" x="25" y="50" href="../_images/sphere-glyphs/sphere-04-07.svg#sigil"></use>
+          <use class="icon sigil" height="70.71065" width="50" x="25" y="50" href="../_images/sphere-glyphs/sphere-04-07.svg#sigil"></use>
+          <use class="icon element fire" height="70.71065" width="50" x="25" y="50" href="../_images/elements/fire.svg#symbol"></use>
+          <use class="icon symbol" height="70.71065" width="50" x="25" y="50" href="../_images/sphere-symbols/star-04-07.svg#symbol"></use>
         </symbol>
 
-        <symbol class="sphere" id="sphere-5-11" viewBox="0 0 100 162">
+        <symbol class="sphere sigil" id="sphere-5-11" viewBox="0 0 100 162">
           <circle class="sphere" r="46" cx="50" cy="81" filter="url(#sphere-shadow)"/>
           <text class="number" dominant-baseline="middle" text-anchor="middle" x="50" y="81">5&#8942;11</text>
           <text class="name" dominant-baseline="middle" text-anchor="middle" x="50" y="81">Agent</text>
-          <use class="sigil" height="70.71065" width="50" x="25" y="50" href="../_images/sphere-glyphs/sphere-05-11.svg#sigil"></use>
+          <use class="icon sigil" height="70.71065" width="50" x="25" y="50" href="../_images/sphere-glyphs/sphere-05-11.svg#sigil"></use>
+          <use class="icon element air" height="70.71065" width="50" x="25" y="50" href="../_images/elements/air.svg#symbol"></use>
+          <use class="icon symbol" height="70.71065" width="50" x="25" y="50" href="../_images/sphere-symbols/star-05-11.svg#symbol"></use>
         </symbol>
 
-        <symbol class="sphere" id="sphere-6-13" viewBox="0 0 100 162">
+        <symbol class="sphere sigil" id="sphere-6-13" viewBox="0 0 100 162">
           <circle class="sphere" r="46" cx="50" cy="81" filter="url(#sphere-shadow)"/>
           <text class="number" dominant-baseline="middle" text-anchor="middle" x="50" y="81">6&#8942;13</text>
           <text class="name" dominant-baseline="middle" text-anchor="middle" x="50" y="81">Sense</text>
-          <use class="sigil" height="70.71065" width="50" x="25" y="50" href="../_images/sphere-glyphs/sphere-06-13.svg#sigil"></use>
+          <use class="icon sigil" height="70.71065" width="50" x="25" y="50" href="../_images/sphere-glyphs/sphere-06-13.svg#sigil"></use>
+          <use class="icon element water" height="70.71065" width="50" x="25" y="50" href="../_images/elements/water.svg#symbol"></use>
+          <use class="icon symbol" height="70.71065" width="50" x="25" y="50" href="../_images/sphere-symbols/star-06-13.svg#symbol"></use>
         </symbol>
 
-        <symbol class="sphere" id="sphere-7-17" viewBox="0 0 100 162">
+        <symbol class="sphere sigil" id="sphere-7-17" viewBox="0 0 100 162">
           <circle class="sphere" r="46" cx="50" cy="81" filter="url(#sphere-shadow)"/>
           <text class="number" dominant-baseline="middle" text-anchor="middle" x="50" y="81">7&#8942;17</text>
           <text class="name" dominant-baseline="middle" text-anchor="middle" x="50" y="81">Thought</text>
-          <use class="sigil" height="70.71065" width="50" x="25" y="50" href="../_images/sphere-glyphs/sphere-07-17.svg#sigil"></use>
+          <use class="icon sigil" height="70.71065" width="50" x="25" y="50" href="../_images/sphere-glyphs/sphere-07-17.svg#sigil"></use>
+          <use class="icon element air" height="70.71065" width="50" x="25" y="50" href="../_images/elements/air.svg#symbol"></use>
+          <use class="icon symbol" height="70.71065" width="50" x="25" y="50" href="../_images/sphere-symbols/star-07-17.svg#symbol"></use>
         </symbol>
 
-        <symbol class="sphere" id="sphere-8-19" viewBox="0 0 100 162">
+        <symbol class="sphere sigil" id="sphere-8-19" viewBox="0 0 100 162">
           <circle class="sphere" r="46" cx="50" cy="81" filter="url(#sphere-shadow)"/>
           <text class="number" dominant-baseline="middle" text-anchor="middle" x="50" y="81">8&#8942;19</text>
           <text class="name" dominant-baseline="middle" text-anchor="middle" x="50" y="81">Desire</text>
-          <use class="sigil" height="70.71065" width="50" x="25" y="50" href="../_images/sphere-glyphs/sphere-08-19.svg#sigil"></use>
+          <use class="icon sigil" height="70.71065" width="50" x="25" y="50" href="../_images/sphere-glyphs/sphere-08-19.svg#sigil"></use>
+          <use class="icon element water" height="70.71065" width="50" x="25" y="50" href="../_images/elements/water.svg#symbol"></use>
+          <use class="icon symbol" height="70.71065" width="50" x="25" y="50" href="../_images/sphere-symbols/star-08-19.svg#symbol"></use>
         </symbol>
 
-        <symbol class="sphere" id="sphere-9-23" viewBox="0 0 100 162">
+        <symbol class="sphere sigil" id="sphere-9-23" viewBox="0 0 100 162">
           <circle class="sphere" r="46" cx="50" cy="81" filter="url(#sphere-shadow)"/>
           <text class="number" dominant-baseline="middle" text-anchor="middle" x="50" y="81">9&#8942;23</text>
           <text class="name" dominant-baseline="middle" text-anchor="middle" x="50" y="81">Matter</text>
-          <use class="sigil" height="70.71065" width="50" x="25" y="50" href="../_images/sphere-glyphs/sphere-09-23.svg#sigil"></use>
+          <use class="icon sigil" height="70.71065" width="50" x="25" y="50" href="../_images/sphere-glyphs/sphere-09-23.svg#sigil"></use>
+          <use class="icon element earth" height="70.71065" width="50" x="25" y="50" href="../_images/elements/earth.svg#symbol"></use>
+          <use class="icon symbol" height="70.71065" width="50" x="25" y="50" href="../_images/sphere-symbols/tree-09-23.svg#symbol"></use>
         </symbol>
 
-        <symbol class="sphere" id="sphere-10-29" viewBox="0 0 100 162">
+        <symbol class="sphere sigil" id="sphere-10-29" viewBox="0 0 100 162">
           <circle class="sphere" r="46" cx="50" cy="81" filter="url(#sphere-shadow)"/>
           <text class="number" dominant-baseline="middle" text-anchor="middle" x="50" y="81">10&#8942;29</text>
           <text class="name" dominant-baseline="middle" text-anchor="middle" x="50" y="81">Soul</text>
-          <use class="sigil" height="70.71065" width="50" x="25" y="50" href="../_images/sphere-glyphs/sphere-10-29.svg#sigil"></use>
+          <use class="icon sigil" height="70.71065" width="50" x="25" y="50" href="../_images/sphere-glyphs/sphere-10-29.svg#sigil"></use>
+          <use class="icon element fire" height="70.71065" width="50" x="25" y="50" href="../_images/elements/fire.svg#symbol"></use>
+          <use class="icon symbol" height="70.71065" width="50" x="25" y="50" href="../_images/sphere-symbols/tree-10-29.svg#symbol"></use>
         </symbol>
 
-        <symbol class="sphere" id="sphere-11-31" viewBox="0 0 100 162">
+        <symbol class="sphere sigil" id="sphere-11-31" viewBox="0 0 100 162">
           <circle class="sphere" r="46" cx="50" cy="81" filter="url(#sphere-shadow)"/>
           <text class="number" dominant-baseline="middle" text-anchor="middle" x="50" y="81">11&#8942;31</text>
           <text class="name" dominant-baseline="middle" text-anchor="middle" x="50" y="81">Kia</text>
-          <use class="sigil" height="70.71065" width="50" x="25" y="50" href="../_images/sphere-glyphs/sphere-11-31.svg#sigil"></use>
+          <use class="icon sigil" height="70.71065" width="50" x="25" y="50" href="../_images/sphere-glyphs/sphere-11-31.svg#sigil"></use>
+          <use class="icon element earth" height="70.71065" width="50" x="25" y="50" href="../_images/elements/earth.svg#symbol"></use>
+          <use class="icon symbol" height="70.71065" width="50" x="25" y="50" href="../_images/sphere-symbols/flower-11-31.svg#symbol"></use>
         </symbol>
+
         <!-- spheres and paths in visual overlap order -->
         <g class="path" id="path-28-28">
           <path class="black-stroke" d="m 0,0 l 0,0"/>
@@ -246,7 +281,7 @@
           <use class="path-fools-number" x="50" y="81" height="1" width="1" href="../_images/sequence-glyphs/0x14.svg#sigil" />
           <text class="path-emanation-number" dominant-baseline="central" text-anchor="middle" x="50" y="81">20</text>
           <text class="path-fools-number" dominant-baseline="central" text-anchor="middle" x="50" y="81">20</text>
-          <text class="path-name" dominant-baseline="central" text-anchor="middle" x="50" y="81">Judgement</text>
+          <text class="path-name narrow" dominant-baseline="central" text-anchor="middle" x="50" y="81">Judgement</text>
         </g>
         <g class="path" id="path-19-19">
           <path class="black-stroke" d="m 0,0 l 0,0"/>
@@ -303,7 +338,7 @@
           <use class="path-fools-number" x="50" y="81" height="1" width="1" href="../_images/sequence-glyphs/0x0e.svg#sigil" />
           <text class="path-emanation-number" dominant-baseline="central" text-anchor="middle" x="50" y="81">14</text>
           <text class="path-fools-number" dominant-baseline="central" text-anchor="middle" x="50" y="81">14</text>
-          <text class="path-name" dominant-baseline="central" text-anchor="middle" x="50" y="81">Temperance</text>
+          <text class="path-name narrow" dominant-baseline="central" text-anchor="middle" x="50" y="81">Temperance</text>
         </g>
         <g class="path" id="path-13-13">
           <path class="black-stroke" d="m 0,0 l 0,0"/>
@@ -366,7 +401,7 @@
           <use class="path-fools-number" x="50" y="81" height="1" width="1" href="../_images/sequence-glyphs/0x05.svg#sigil" />
           <text class="path-emanation-number" dominant-baseline="central" text-anchor="middle" x="50" y="81">4</text>
           <text class="path-fools-number" dominant-baseline="central" text-anchor="middle" x="50" y="81">5</text>
-          <text class="path-name" dominant-baseline="central" text-anchor="middle" x="50" y="81">Hierophant</text>
+          <text class="path-name narrow" dominant-baseline="central" text-anchor="middle" x="50" y="81">Hierophant</text>
         </g>
         <g class="path" id="path-9-10">
           <path class="black-stroke" d="m 0,0 l 0,0"/>
@@ -405,7 +440,7 @@
           <use class="path-fools-number" x="50" y="81" height="1" width="1" href="../_images/sequence-glyphs/0x0c.svg#sigil" />
           <text class="path-emanation-number" dominant-baseline="central" text-anchor="middle" x="50" y="81">7</text>
           <text class="path-fools-number" dominant-baseline="central" text-anchor="middle" x="50" y="81">12</text>
-          <text class="path-name" dominant-baseline="central" text-anchor="middle" x="50" y="81">Hanged One</text>
+          <text class="path-name narrow" dominant-baseline="central" text-anchor="middle" x="50" y="81">Hanged One</text>
         </g>
         <use class="sphere" id="use-sphere-4-7" href="#sphere-4-7" height="162" width="100" x="0" y="0"/>
         <use class="sphere" id="use-sphere-3-5" href="#sphere-3-5" height="162" width="100" x="0" y="0"/>
@@ -498,8 +533,8 @@
         <circle id="target-sphere-0-1-emanation-4-7" class="target sphere emanation-4-7" r="12" cx="50" cy="50" />
         <circle id="target-sphere-1-2-emanation-4-7" class="target sphere emanation-4-7" r="12" cx="84" cy="74" />
         <circle id="target-sphere-2-3-emanation-4-7" class="target sphere emanation-4-7" r="12" cx="16" cy="74" />
-        <circle id="target-sphere-3-5-emanation-4-7" class="target sphere emanation-4-7" r="12" cx="71" cy="113" />
-        <circle id="target-sphere-4-7-emanation-4-7" class="target sphere emanation-4-7" r="12" cx="29" cy="113" />
+        <circle id="target-sphere-3-5-emanation-4-7" class="target sphere emanation-4-7" r="12" cx="72" cy="113" />
+        <circle id="target-sphere-4-7-emanation-4-7" class="target sphere emanation-4-7" r="12" cx="28" cy="113" />
         <circle id="target-sphere-5-11-emanation-4-7" class="target" r="11" cx="50" cy="50" />
 
         <!-- emanation-5-11 -->
