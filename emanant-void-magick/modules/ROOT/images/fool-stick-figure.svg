@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="100mm"
+   height="100mm"
+   viewBox="0 0 100 100"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4.3 (0d15f75042, 2025-12-25)"
+   sodipodi:docname="fool-stick-figure.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="1.1367284"
+     inkscape:cx="220.36926"
+     inkscape:cy="204.09449"
+     inkscape:window-width="1536"
+     inkscape:window-height="891"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       id="path1"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1.5;stroke-linecap:square;stroke-miterlimit:3.1;paint-order:fill markers stroke"
+       d="m 51.206773,16.226919 c -3.342355,-5.7e-5 -6.051884,2.709472 -6.051827,6.051827 -5.7e-5,3.342355 2.709472,6.051884 6.051827,6.051827 3.342355,5.7e-5 6.051884,-2.709472 6.051827,-6.051827 5.7e-5,-3.342355 -2.709472,-6.051884 -6.051827,-6.051827 z m -2.033032,41.18062 -9.453729,14.338191 3.589365,17.589148 M 66.680475,87.030685 54.251573,75.579768 49.456632,57.283246 51.044637,28.750736 m 22.383588,-17.446031 -3.837269,8.714464 3.832499,2.195332 3.758899,-2.661377 -3.797713,-8.559405 -16.141186,10.673865 m -8.819677,6.11386 -28.995336,19.930595 m 3.291704,-2.304193 12.571916,4.902949 7.863414,-15.64631 16.594626,1.833611 7.260339,10.182985 12.282392,-8.386811"
+       sodipodi:nodetypes="cccccccccccccccccccccccccc" />
+  </g>
+</svg>
