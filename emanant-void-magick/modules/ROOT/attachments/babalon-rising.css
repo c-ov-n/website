@@ -1,0 +1,156 @@
+html {
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  width: 100%;
+  overflow: hidden;
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  left: 0;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+#tree-diagram {
+  height: 100vh;
+  width: 61.803399vh;
+  overflow: hidden;
+  float: left;
+}
+
+@media screen and (max-aspect-ratio: 1) {
+  #tree-diagram {
+    height: 61.803399dvw;
+    width: 100dvw;
+    float: none;
+  }
+}
+
+#content {
+  overflow-y: scroll;
+  position: relative;
+  height: 100%;
+}
+
+#content .description {
+  display: none;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+#content .description p img {
+  height: 1em;
+}
+
+#content.title-page .description.title-page {
+  display: block;
+}
+#content.evm-what .description.evm-what {
+  display: block;
+}
+#content.evm-why .description.evm-why {
+  display: block;
+}
+#content.evm-how .description.evm-how {
+  display: block;
+}
+#content.narrative-ontology .description.narrative-ontology {
+  display: block;
+}
+#content.emanation-0 .description.emanation-0 {
+  display: block;
+}
+#content.emanation-00 .description.emanation-00 {
+  display: block;
+}
+#content.emanation-000 .description.emanation-000 {
+  display: block;
+}
+#content.emanation-0-1 .description.emanation-0-1 {
+  display: block;
+}
+#content.emanation-0-1-element .description.emanation-0-1-element {
+  display: block;
+}
+#content.emanation-1-2 .description.emanation-1-2 {
+  display: block;
+}
+#content.emanation-1-2-fools-journey .description.emanation-1-2-fools-journey {
+  display: block;
+}
+#content.emanation-1-2-element .description.emanation-1-2-element {
+  display: block;
+}
+#content.emanation-2-3 .description.emanation-2-3 {
+  display: block;
+}
+#content.emanation-2-3-fools-journey .description.emanation-2-3-fools-journey {
+  display: block;
+}
+#content.emanation-2-3-element .description.emanation-2-3-element {
+  display: block;
+}
+#content.emanation-3-5 .description.emanation-3-5 {
+  display: block;
+}
+#content.emanation-3-5-element .description.emanation-3-5-element {
+  display: block;
+}
+#content.emanation-4-7 .description.emanation-4-7 {
+  display: block;
+}
+#content.emanation-4-7-element .description.emanation-4-7-element {
+  display: block;
+}
+#content.emanation-5-11 .description.emanation-5-11 {
+  display: block;
+}
+#content.emanation-5-11-flip .description.emanation-5-11-flip {
+  display: block;
+}
+#content.emanation-5-11-element .description.emanation-5-11-element {
+  display: block;
+}
+#content.emanation-6-13 .description.emanation-6-13 {
+  display: block;
+}
+#content.emanation-6-13-fools-journey .description.emanation-6-13-fools-journey {
+  display: block;
+}
+#content.emanation-7-17 .description.emanation-7-17 {
+  display: block;
+}
+#content.emanation-8-19 .description.emanation-8-19 {
+  display: block;
+}
+#content.emanation-8-19-fools-journey .description.emanation-8-19-fools-journey {
+  display: block;
+}
+#content.emanation-9-23 .description.emanation-9-23 {
+  display: block;
+}
+#content.emanation-9-23-uncross .description.emanation-9-23-uncross {
+  display: block;
+}
+#content.emanation-10-29 .description.emanation-10-29 {
+  display: block;
+}
+#content.emanation-11-31 .description.emanation-11-31 {
+  display: block;
+}
+#content.emanation-11-31-fools-journey .description.emanation-11-31-fools-journey {
+  display: block;
+}
+#content.emanation-11-31-explore .description.emanation-11-31-explore {
+  display: block;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: sans-serif;
+}
